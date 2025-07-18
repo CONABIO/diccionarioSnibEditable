@@ -263,6 +263,7 @@
       <note>Ejemplo de nota 2</note>
       <note>Ejemplo de nota 3</note>
       <note>Ejemplo nota 6</note>
+      <note>Ejemplo de nota 7</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
