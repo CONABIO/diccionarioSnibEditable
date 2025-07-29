@@ -28,6 +28,7 @@
       <note>Nota de ejemplo</note>
       <note>NOTE 1</note>
       <note>NOTE 2</note>
+      <note>NOTE 3</note>
     </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
@@ -51,6 +52,8 @@
       <campo>longitud</campo>
       <campo>latitud</campo>
       <campo>datum</campo>
+      <campo>estadomapa</campo>
+      <campo>mt24claveestadomapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
