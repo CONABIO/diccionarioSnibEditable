@@ -45,6 +45,7 @@
     </ejemplar>
     <campos>
       <campo>region</campo>
+      <campo>latitud</campo>
     </campos>
   </snibTerm>
   <snibTerm>
