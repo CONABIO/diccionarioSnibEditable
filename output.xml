@@ -23,6 +23,10 @@
     <description>País, estado y municipio o su división política equivalente, registrados para el ejemplar por el recolector u observador.</description>
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
+      <note>Nota de ejemplo</note>
+    </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
     </dataRules>
@@ -34,11 +38,14 @@
       <rule>Si no se cuenta con el dato de alguna de las regiones, se indica como “NO DISPONIBLE”.</rule>
       <rule>En el caso de que el sitio de recolecta u observación del ejemplar se ubique en más de una región, los valores se separan con una coma seguida de un espacio.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
-      <note/>
-    </notes>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
+    <campos>
+      <campo>region</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <fieldName>Localidad de recolecta u observación</fieldName>
@@ -1346,9 +1353,19 @@
       <rule>Terrestre</rule>
       <rule>Salino</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <syntaxRules>
+      <rule>Cuando hay más de un ambiente reportado para un taxón, se separa con “; ” seguido de un espacio y posteriormente otro ambiente.</rule>
+    </syntaxRules>
+    <campos>
+      <campo>ambiente</campo>
+      <campo>especievalida</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>88367ecff54aea6cafdc94a0281d225f</key>
+      <key>1ed93ff116dedf342b61564b03165c38</key>
+      <key>58c748abaeab72f3ad5f3041fc76d5bc</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <fieldName>Nombre común</fieldName>
