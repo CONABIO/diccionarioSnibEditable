@@ -27,11 +27,9 @@
       <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
       <note>Nota de ejemplo</note>
       <note>NOTE 1</note>
-      <note>NOTE 2</note>
-      <note>NOTE 3</note>
     </notes>
     <dataRules>
-      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
+      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.<subregla>sub regla 1</subregla></rule>
     </dataRules>
     <syntaxRules>
       <rule>Los nombres de los países están escritos en español</rule>
@@ -48,12 +46,6 @@
     </ejemplar>
     <campos>
       <campo>region</campo>
-      <campo>localidad</campo>
-      <campo>longitud</campo>
-      <campo>latitud</campo>
-      <campo>datum</campo>
-      <campo>estadomapa</campo>
-      <campo>mt24claveestadomapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
