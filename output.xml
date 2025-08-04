@@ -27,7 +27,7 @@
       <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
       <note>Nota de ejemplo</note>
       <note>NOTE 1</note>
-      <note>Notas23</note>
+      <note>Notas2</note>
     </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.<subregla>sub regla 1</subregla></rule>
