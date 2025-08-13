@@ -1747,6 +1747,9 @@ NO DISPONIBLE</subregla></rule>
     <description>Indica si el ejemplar proviene de un evento de recolecta, observación o de un reporte.</description>
     <datatype>enum</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note>Más información del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</note>
+    </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por:</rule>
       <rule>HumanObservation</rule>
@@ -1759,13 +1762,18 @@ NO DISPONIBLE</subregla></rule>
       <rule>LivingSpecimen</rule>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
       <rule>El mapeo realizado a los datos originales para su equivalencia en Darwin Core es el siguiente:</rule>
-      <rule/>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes>
-      <note>Más información del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</note>
-    </notes>
+    <campos>
+      <campo>generovalido</campo>
+      <campo>especievalida</campo>
+      <campo>procedenciaejemplar</campo>
+    </campos>
+    <ejemplar>
+      <key>0f2143a0b6ffbd2b30f7915a32579bf5</key>
+      <key>cc23aee436466dfe9314f2323bb42c49</key>
+      <key>214d7661ad759fc508b182b911bd7f1d</key>
+      <key>06a3cc6319cc7583799b89c3afb1a84c</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <fieldName>Determinador del ejemplar</fieldName>
