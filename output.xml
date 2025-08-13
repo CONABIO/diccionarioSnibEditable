@@ -895,8 +895,7 @@
     </notes>
     <dataRules>
       <rule>Los valores vacío y NO DISPONIBLE significan que no se cuenta con la información taxonómica suficiente para asignar el grupo biológico.</rule>
-      <rule>El dominio de los valores permitidos está dado por: &#13;
-Bacterias &#13;
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Bacterias &#13;
 Cromistas&#13;
 Virus  &#13;
 Plantas &#13;
@@ -908,8 +907,13 @@ Reptiles&#13;
 Aves &#13;
 Mamíferos &#13;
 Protozoarios &#13;
-NO DISPONIBLE</rule>
+NO DISPONIBLE</subregla></rule>
     </dataRules>
+    <ejemplar>
+      <key>32c0e373f3a6079d52b986d6dc6f7c28</key>
+      <key>0b4f4a96fa618e601ab4f5702547bd42</key>
+      <key>078c9a7513caa1efb3404ba45ae35a1d</key>
+    </ejemplar>
     <campos>
       <campo>grupobio</campo>
       <campo>reino</campo>
@@ -917,11 +921,6 @@ NO DISPONIBLE</rule>
       <campo>clase</campo>
       <campo>orden</campo>
     </campos>
-    <ejemplar>
-      <key>32c0e373f3a6079d52b986d6dc6f7c28</key>
-      <key>0b4f4a96fa618e601ab4f5702547bd42</key>
-      <key>078c9a7513caa1efb3404ba45ae35a1d</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <fieldName>Subgrupo biológico</fieldName>
