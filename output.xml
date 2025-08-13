@@ -895,9 +895,7 @@
     </notes>
     <dataRules>
       <rule>Los valores vacío y NO DISPONIBLE significan que no se cuenta con la información taxonómica suficiente para asignar el grupo biológico.</rule>
-      <rule>El dominio de los valores permitidos está dado por:<subregla>Bacterias &#13;
-Cromistas&#13;
-Virus  &#13;
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Bacterias</subregla><subregla>Cromistas</subregla><subregla>Virus  &#13;
 Plantas &#13;
 Hongos&#13;
 Invertebrados &#13;
