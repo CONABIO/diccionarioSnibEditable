@@ -216,17 +216,25 @@
     <description>Nombre del país donde se ubica la localidad en la que el ejemplar fue recolectado u observado.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
+      <note>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</note>
+      <note>&lt;div&gt;&#13;
+&#13;
+&lt;span&gt;Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/&lt;/span&gt;&#13;
+&lt;br /&gt;&lt;/div&gt;</note>
+    </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
-      <note>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</note>
-    </notes>
+    <campos>
+      <campo>localidad</campo>
+      <campo>longitud</campo>
+      <campo>latitud</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <fieldName>País asignado</fieldName>
