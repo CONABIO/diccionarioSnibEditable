@@ -229,36 +229,38 @@
     <description>Nombre del país donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política -incluyendo la zona económica exclusiva- utilizados para la validación geográfica realizada por la CONABIO.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules>
-      <rule>El dato está escrito en mayúscula y sin utilizar acentos.</rule>
-      <rule>El nombre del país está escrito en español.</rule>
-    </syntaxRules>
-    <infoRules/>
     <notes>
       <note>Campo resultado del proceso de sobreposición de las coordenadas geográficas con mapas de división política actuales, incluyendo la zona económica exclusiva, realizado en CONABIO, los mapas utilizados son:</note>
       <note>México</note>
       <note>INEGI. 2022.División política municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estadística y Geografía. México.</note>
       <note>URL: http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</note>
-      <note/>
       <note>Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. 'Zona Económica Exclusiva de México'. Límite Nacional 1:250000. Modificado de Instituto Nacional de Estadística, Geografía e Informática (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fernández-Equiarte, A., Gallegos-García, A., Zavala-H, J. y otros (1990). 'Zona Económica Exclusiva de México'. Extraído de Hipsometría y Batimetría, I.1.1. Atlas Nacional de México. Vol. I. Escala 1:4000000. Instituto de Geografía, UNAM. México.</note>
       <note>URL: http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</note>
-      <note/>
       <note>Centroamérica</note>
       <note>CONABIO. 2020. Limites administrativos Centroamérica. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México. México.</note>
       <note>URL:  http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</note>
-      <note/>
       <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.</note>
       <note>URL:  http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
-      <note/>
       <note>Estados Unidos de América, Colombia y el Caribe</note>
       <note>CONABIO. 2019. Mapa de validación por divisiones políticas para los sitios terrestres de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.</note>
       <note>URL:  http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</note>
-      <note/>
       <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.</note>
       <note>URL:  http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
-      <note/>
     </notes>
+    <dataRules>
+      <rule>Si el ejemplar no tiene coordenada geográfica no se asigna valor.</rule>
+      <rule>Si el ejemplar tiene coordenada geográfica:<subregla>Se asigna el mismo país del campo país original cuando la coordenada se ubica dentro de los límites&#13;
+del país registrado para el ejemplar o a una distancia menor a 2 km del límite.</subregla><subregla>Se asigna el país donde se ubica la coordenada geográfica cuando está afuera, a más de 2 km del&#13;
+límite, del país registrado para el ejemplar. En este caso el dato es diferente al del campo país original.</subregla><subregla>No se asigna valor, si se ubican en otro país o en aguas internacionales.</subregla><subregla>Se asigna el país donde se ubica la coordenada geográfica cuando el ejemplar no tiene registrado&#13;
+un dato de país en el campo país original.</subregla></rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>El dato está escrito en mayúscula y sin utilizar acentos.</rule>
+      <rule>El nombre del país está escrito en español.</rule>
+    </syntaxRules>
+    <campos>
+      <campo>region</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <fieldName>Estado</fieldName>
