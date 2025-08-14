@@ -1720,7 +1720,7 @@ NO DISPONIBLE</subregla></rule>
     <fieldName>Número de catálogo</fieldName>
     <fieldid>numcatalogo</fieldid>
     <dwcField>catalogNumber</dwcField>
-    <description>Identificador único del ejemplar en la colección biológica, se le asigna cuando se incorpora a esta.</description>
+    <description>Identificador único del ejemplar en la colección biológica, se le asigna cuando se incorpora a ésta.</description>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
@@ -1728,9 +1728,15 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor NO APLICA significa que el ejemplar proviene de una observación.</rule>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>numcatalogo</campo>
+    </campos>
+    <ejemplar>
+      <key>a6bc9bd1d84108f7849475f5fcea7af0</key>
+      <key>fbf1faef36b8c118181454c567b16828</key>
+      <key>00031da218bbb9861456f96cc57882df</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <fieldName>Número de recolecta</fieldName>
