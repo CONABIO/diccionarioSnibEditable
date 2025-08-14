@@ -31,6 +31,10 @@
     <encoding>UTF-8</encoding>
     <notes>
       <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
+      <note>&lt;div&gt;&#13;
+&#13;
+&lt;span&gt;Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.&lt;/span&gt;&#13;
+&lt;br /&gt;&lt;/div&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
