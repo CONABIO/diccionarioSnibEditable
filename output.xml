@@ -1772,17 +1772,16 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
       <rule>El mapeo realizado a los datos originales para su equivalencia en Darwin Core es el siguiente:</rule>
     </dataRules>
-    <campos>
-      <campo>generovalido</campo>
-      <campo>especievalida</campo>
-      <campo>procedenciaejemplar</campo>
-    </campos>
     <ejemplar>
       <key>0f2143a0b6ffbd2b30f7915a32579bf5</key>
       <key>cc23aee436466dfe9314f2323bb42c49</key>
       <key>214d7661ad759fc508b182b911bd7f1d</key>
       <key>06a3cc6319cc7583799b89c3afb1a84c</key>
     </ejemplar>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>procedenciaejemplar</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <fieldName>Determinador del ejemplar</fieldName>
