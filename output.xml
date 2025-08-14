@@ -25,9 +25,6 @@
     <encoding>UTF-8</encoding>
     <notes>
       <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
-      <note>Nota de ejemplo</note>
-      <note>NOTE 1</note>
-      <note>ejemplo</note>
     </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.<subregla>sub regla 1</subregla></rule>
@@ -47,8 +44,9 @@
     </ejemplar>
     <campos>
       <campo>region</campo>
-      <campo>longitud</campo>
-      <campo>latitud</campo>
+      <campo>paisoriginal</campo>
+      <campo>estadooriginal</campo>
+      <campo>municipiooriginal</campo>
     </campos>
   </snibTerm>
   <snibTerm>
