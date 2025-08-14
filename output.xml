@@ -1750,9 +1750,15 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor NO APLICA significa que el ejemplar no proviene de un evento de colecta.</rule>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>numcolecta</campo>
+    </campos>
+    <ejemplar>
+      <key>a6bc9bd1d84108f7849475f5fcea7af0</key>
+      <key>fbf1faef36b8c118181454c567b16828</key>
+      <key>d657dfd6e49ebac83307d5706a9ae2e7</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <fieldName>Procedencia del ejemplar</fieldName>
