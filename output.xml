@@ -1889,7 +1889,19 @@ NO DISPONIBLE</subregla></rule>
     <infoRules>
       <rule>El valor NO APLICA significa que el dato no es aplicable para el registro, ya que se trata de un ejemplar con procedencia observado o que no pertenece a alguna institución.</rule>
     </infoRules>
-    <notes/>
+    <campos>
+      <campo>coleccion</campo>
+      <campo>institucion</campo>
+      <campo>paiscoleccion</campo>
+      <campo>procedenciaejemplar</campo>
+    </campos>
+    <ejemplar>
+      <key>00127f10e66f2a6551d24c93c3c8299a</key>
+      <key>00085ef9fba35390d54546c003790517</key>
+      <key>542f9bc786d1933bd65f02779ee00a11</key>
+      <key>0014b0693bc686d93bf5ad55bfdee7ce</key>
+      <key>0024074001db941d06dba433fb36622d</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
