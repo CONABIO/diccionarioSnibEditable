@@ -2282,15 +2282,16 @@ NO DISPONIBLE</subregla></rule>
       <rule>Para los proyectos apoyados por la CONABIO la fuente está conformada por una o dos letras mayúsculas y tres números.</rule>
       <rule>En proyectos no apoyados por la CONABIO el dato corresponde a claves que permiten identificar la fuente de la información.</rule>
     </syntaxRules>
-    <campos>
-      <campo>fuenteoriginal</campo>
-      <campo>formadecitar</campo>
-    </campos>
     <ejemplar>
       <key>27f71bf7fe8827a301956f7cc5e72082</key>
       <key>00000542ffe016e66a6defb8977d1e32</key>
       <key>23ca79caa3b1539a3d43d44423e356ae</key>
     </ejemplar>
+    <campos>
+      <campo>proyecto</campo>
+      <campo>fuenteoriginal</campo>
+      <campo>formadecitar</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Metadatos y Administración SNIB</category>
