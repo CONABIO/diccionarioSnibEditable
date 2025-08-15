@@ -2021,10 +2021,18 @@ NO DISPONIBLE</subregla></rule>
     <encoding>UTF-8</encoding>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue capturado o que el ejemplar no es de tipo nomenclatural.</rule>
+      <rule>El valor NO DISPONIBLE significa que se desconoce si el ejemplar corresponde a un tipo.</rule>
+      <rule>El valor NO APLICA significa que el ejemplar no corresponde con algún tipo nomenclatural.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>tipo</campo>
+    </campos>
+    <ejemplar>
+      <key>000046b3d0b4274ae04179b56b6a1d7e</key>
+      <key>000000fce20896c0d5c13b5475d24717</key>
+      <key>00011648c48eac3c02170e328dd94e40</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <fieldName>Tipo de vegetación</fieldName>
