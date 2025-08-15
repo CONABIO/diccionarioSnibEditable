@@ -318,7 +318,6 @@ un dato de país en el campo país original.</subregla></rule>
       <note>Ejemplo de nota 2</note>
       <note>Ejemplo de nota 3</note>
       <note>Ejemplo nota 6</note>
-      <note>Ejemplo de nota 77</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
