@@ -2300,7 +2300,7 @@ NO DISPONIBLE</subregla></rule>
     </ejemplar>
     <campos>
       <campo>proyecto</campo>
-      <campo>fuenteoriginal</campo>
+      <campo>fuente</campo>
       <campo>formadecitar</campo>
     </campos>
   </snibTerm>
