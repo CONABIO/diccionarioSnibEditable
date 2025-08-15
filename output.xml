@@ -1692,10 +1692,29 @@ NO DISPONIBLE</subregla></rule>
     <description>Siglas y nombre de la colección que resguarda al ejemplar.</description>
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <dataRules>
+      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>Se escriben las siglas de la colección y/o el nombre de la colección, separadas por un espacio.</rule>
+      <rule>El dato se estandariza como está registrada la colección científica en el catálogo de instituciones y colecciones de la CONABIO.</rule>
+    </syntaxRules>
+    <infoRules>
+      <rule>El valor NO APLICA significa que el dato no es aplicable para el registro, ya que se trata de un ejemplar con procedencia observado o que no pertenece a alguna colección.</rule>
+    </infoRules>
+    <campos>
+      <campo>coleccion</campo>
+      <campo>institucion</campo>
+      <campo>paiscoleccion</campo>
+      <campo>procedenciaejemplar</campo>
+    </campos>
+    <ejemplar>
+      <key>23402a66acef5221225c450c9f2e46d2</key>
+      <key>6199aeca6523f586eaa06247f67537ca</key>
+      <key>01556c193c911035a63aaeca05f0e953</key>
+      <key>000143b94829f4d66a1ce59fe5241868</key>
+      <key>0007d95ecec39083d8f50bf6474530be</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
