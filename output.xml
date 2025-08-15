@@ -1828,14 +1828,14 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>Las observaciones se separan con punto y un espacio.</rule>
     </syntaxRules>
-    <campos>
-      <campo>obsusoinfo</campo>
-    </campos>
     <ejemplar>
       <key>004d70c27f5e03c9d115fff7e44d0222</key>
       <key>05b22b6a4eef8d99850bbc54379db67f</key>
-      <key>05b2f80522b7110c16c68d812ccdc59b</key>
+      <key>000189d4e8cec3401a33cad583de06c3</key>
     </ejemplar>
+    <campos>
+      <campo>obsusoinfo</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
