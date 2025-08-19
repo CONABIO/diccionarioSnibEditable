@@ -33,6 +33,12 @@
     <description>País, estado y municipio o su división política equivalente, registrados para el ejemplar por el recolector u observador.</description>
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>HOLA <strong>comom&nbsp;</strong></p>
+<p><strong>estas&nbsp;</strong></p>
+<p><strong>bien&nbsp;</strong></p>
+<p><strong><a href="Respaldo.php">http://172.16.3.63/diccionarioEditable2/diccionarioEditable/Respaldo.php</a>&nbsp;</strong></p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
     </dataRules>
