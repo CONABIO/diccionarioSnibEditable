@@ -34,15 +34,11 @@
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
-      <note>&lt;div&gt;&#13;
-&#13;
-&lt;span&gt;Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.&lt;/span&gt;&#13;
-&lt;br /&gt;&lt;/div&gt;</note>
-      <note>&lt;div&gt;&#13;
-&#13;
-&lt;span&gt;Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.&lt;/span&gt;&#13;
-&lt;br /&gt;&lt;/div&gt;</note>
+      <note>&lt;p&gt;Campo resultado del proceso de limpieza, estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO.&lt;/p&gt;&#13;
+&lt;p&gt;&lt;strong&gt;Prueba Leonardo&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</note>
+      <note>&lt;div&gt;Campo resultado del proceso de limpieza, estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO. &lt;/div&gt;</note>
+      <note>&lt;div&gt;Campo resultado del proceso de limpieza, estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO. &lt;/div&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
