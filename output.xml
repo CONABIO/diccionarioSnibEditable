@@ -236,7 +236,10 @@
       <note><![CDATA[<p>Campo disponible solo en la descarga de ejemplares del SNIB MX en</p>
 <p>&nbsp;</p>
 <p>&nbsp;<strong>https://www.snib.mx/ejemplares/descarga/</strong></p>]]></note>
-      <note><![CDATA[<div>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/ </div>]]></note>
+      <note><![CDATA[<div>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</div>]]></note>
+      <note><![CDATA[<p><strong>Leonardo</strong></p>
+<p>&nbsp;</p>
+<p><em>PRUEBA</em></p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
