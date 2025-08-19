@@ -34,12 +34,12 @@
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>
-<p><strong>Prueba Leonardo</strong></p>
-<p><em>Leo</em></p>
-<p>&nbsp;</p>]]></note>
-      <note><![CDATA[<div>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</div>]]></note>
-      <note><![CDATA[<div>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</div>]]></note>
+      <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.&#13;
+Prueba Leonardo 2025&#13;
+Leo&#13;
+ </note>
+      <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
+      <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
     </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
