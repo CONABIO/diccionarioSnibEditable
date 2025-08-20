@@ -1888,8 +1888,8 @@ NO DISPONIBLE</subregla></rule>
       <key>00002f178fd5678a182d70810ac8ad3a</key>
     </ejemplar>
     <campos>
-      <campo>coleccion</campo>
       <campo>institucion</campo>
+      <campo>coleccion</campo>
       <campo>paiscoleccion</campo>
       <campo>procedenciaejemplar</campo>
     </campos>
