@@ -39,9 +39,7 @@
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>test JM</p>]]></note>
-      <note><![CDATA[<p>test</p>]]></note>
-      <note><![CDATA[<p>eJEMPLOOOO</p>]]></note>
+      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
