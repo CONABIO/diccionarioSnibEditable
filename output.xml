@@ -44,7 +44,7 @@
       <note><![CDATA[<p>eJEMPLOOOO</p>]]></note>
     </notes>
     <dataRules>
-      <rule>1. El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
+      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Los nombres de los países están escritos en español</rule>
