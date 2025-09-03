@@ -329,10 +329,8 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (55)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>Ejemplo de nota</note>
-      <note>Ejemplo de nota 2</note>
-      <note>Ejemplo de nota 3</note>
-      <note>Ejemplo nota 6</note>
+      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
+      <note><![CDATA[<p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
