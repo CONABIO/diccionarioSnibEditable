@@ -2128,10 +2128,10 @@ NO DISPONIBLE</subregla></rule>
     <datatype>enum</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>Más información del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</note>
+      <note><![CDATA[<p>M&aacute;s informaci&oacute;n del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</p>]]></note>
     </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Sub Regla de ejemplo</subregla></rule>
       <rule>HumanObservation</rule>
       <rule>PreservedSpecimen</rule>
       <rule>FossilSpecimen</rule>
