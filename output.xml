@@ -11,9 +11,9 @@ con la licencia LibreusoMX de datos.gob.mx</licenciaUso>
 Información sobre Biodiversidad, versión 2024-12 México, Disponible en:&#13;
 http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeoportal-202412.pdf</formaDeCitar>
     <creador>
-      <nombre></nombre>
-      <sitioWeb></sitioWeb>
-      <portalSNIB></portalSNIB>
+      <nombre/>
+      <sitioWeb/>
+      <portalSNIB/>
     </creador>
   </metadata>
   <snibTerm>
@@ -2081,10 +2081,9 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>ejemplarfosil</after>
     </orden>
-    <fieldName>País donde se localiza la colección</fieldName>
     <fieldid>paiscoleccion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>País donde se localiza la colección o la institución que avala el registro observado o reportado.</description>
+    <description>País donde se localiza la colección de resguardo del ejemplar.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
@@ -2094,8 +2093,19 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>El dato se escribe utilizando mayúsculas y sin acentos.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>coleccion</campo>
+      <campo>institucion</campo>
+      <campo>paiscoleccion</campo>
+      <campo>procedenciaejemplar</campo>
+    </campos>
+    <ejemplar>
+      <key>000b6dadf1d989dee83e953af57055a4</key>
+      <key>000189c5a7c7885a7bdac3a0607eb326</key>
+      <key>0002ad4c106987e3da98b530c2a52ce0</key>
+      <key>05a26f5257b3c726632cab3064717901</key>
+      <key>f2ab98c692a8e9a93c64545cfdff865e</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
