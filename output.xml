@@ -5,8 +5,11 @@
     <ultimaFechaActualizacion>2025-07-03</ultimaFechaActualizacion>
     <version>2024-12</version>
     <abstracto>El Sistema Nacional de Información sobre Biodiversidad (SNIB), a través del geoportal de CONABIO y su propia página web, ofrece acceso público a datos sobre ejemplares biológicos provenientes de proyectos financiados, desarrollados o integrados por la CONABIO. Este documento detalla los campos de datos seleccionados para el geoportal, priorizando los más relevantes según su uso y valor. También se incluyen campos adicionales disponibles solo en la página del SNIB. La información ha sido revisada por CONABIO para estandarizarla y mejorar su calidad. Se explica la relación con el estándar Darwin Core y se proporciona la estructura de la base de datos y la sentencia SQL correspondiente en los anexos.</abstracto>
-    <licenciaUso>Este documento se publica y distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional compatible con la licencia LibreusoMX de datos.gob.mx</licenciaUso>
-    <formaDeCitar>CONABIO. 2025. Diccionario de datos. Ejemplares publicados en el Geoportal y el sitio del Sistema Nacional de Información sobre Biodiversidad, versión 2024-12 México, Disponible en: http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeoportal-202412.pdf</formaDeCitar>
+    <licenciaUso>Este documento se publica y distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional compatible&#13;
+con la licencia LibreusoMX de datos.gob.mx</licenciaUso>
+    <formaDeCitar>CONABIO. 2025. Diccionario de datos. Ejemplares publicados en el Geoportal y el sitio del Sistema Nacional de&#13;
+Información sobre Biodiversidad, versión 2024-12 México, Disponible en:&#13;
+http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeoportal-202412.pdf</formaDeCitar>
     <creador>
       <nombre></nombre>
       <sitioWeb></sitioWeb>
@@ -16,7 +19,7 @@
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <after>Ejemploalinicio</after>
+      <first/>
     </orden>
     <fieldid>idejemplar</fieldid>
     <dwcField>occurrenceID</dwcField>
@@ -24,11 +27,11 @@
     <datatype>varchar (32)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Dado que este identificador se genera para el ingreso del registro al SNIB, este no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p>
-<p>Prueba de edici&oacute;n</p>]]></note>
+      <note><![CDATA[<p>Dado que este identificador se genera para el ingreso del registro al SNIB, este no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p>]]></note>
+      <note><![CDATA[<p><strong>Es una nota de ejemplo&nbsp;</strong></p>]]></note>
     </notes>
     <dataRules>
-      <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
+      <rule>Este valor se preserva para los ejemplares registrados en el SNIB.<subregla>dasdasd</subregla></rule>
     </dataRules>
     <ejemplar>
       <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
@@ -36,7 +39,7 @@
       <key>0019412b313d863ca6b9636a52811b46</key>
     </ejemplar>
     <campos>
-      <campo>especievalida</campo>
+      <campo>urlejemplar</campo>
     </campos>
   </snibTerm>
   <snibTerm>
@@ -44,13 +47,16 @@
     <orden>
       <first/>
     </orden>
+    <fieldName>Región de recolecta u observación</fieldName>
     <fieldid>region</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>País, estado y municipio o su división política equivalente, registrados para el ejemplar por el recolector u observador.</description>
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO</p>]]></note>
+      <note>test JM</note>
+      <note>test</note>
+      <note>eJEMPLOOOO</note>
     </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
@@ -63,9 +69,6 @@
       <rule>Si no se cuenta con el dato de alguna de las regiones, se indica como “NO DISPONIBLE”.</rule>
       <rule>En el caso de que el sitio de recolecta u observación del ejemplar se ubique en más de una región, los valores se separan con una coma seguida de un espacio.</rule>
     </syntaxRules>
-    <infoRules>
-      <rule>Prueba de nueva regla de Información</rule>
-    </infoRules>
     <ejemplar>
       <key>0379d08e54c2b543e303a8fc4667ffe8</key>
       <key>127d21638cc105ce290844e6abb7e870</key>
@@ -81,7 +84,7 @@
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>municipiooriginal</after>
+      <after>ejemplodespuesde</after>
     </orden>
     <fieldName>Localidad de recolecta u observación</fieldName>
     <fieldid>localidad</fieldid>
@@ -268,8 +271,14 @@
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Campo disponible solo en la descarga de ejemplares del SNIB MX en: &nbsp;<strong>https://www.snib.mx/ejemplares/descarga/</strong></p>]]></note>
+      <note>&lt;p&gt;Campo resultado del proceso de limpieza, estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO.&lt;/p&gt;</note>
+      <note>&lt;p&gt;Campo disponible solo en la descarga de ejemplares del SNIB MX en&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;strong&gt;https://www.snib.mx/ejemplares/descarga/&lt;/strong&gt;&lt;/p&gt;</note>
+      <note>&lt;div&gt;Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/&lt;/div&gt;</note>
+      <note>&lt;p&gt;&lt;strong&gt;Leonardo&lt;/strong&gt;&lt;/p&gt;&#13;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;&#13;
+&lt;p&gt;&lt;em&gt;PRUEBA&lt;/em&gt;&lt;/p&gt;</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
@@ -277,15 +286,16 @@
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
+    <campos>
+      <campo>localidad</campo>
+      <campo>longitud</campo>
+      <campo>latitud</campo>
+    </campos>
     <ejemplar>
       <key>0379d08e54c2b543e303a8fc4667ffe8</key>
       <key>127d21638cc105ce290844e6abb7e870</key>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
     </ejemplar>
-    <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-    </campos>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
@@ -299,19 +309,22 @@
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, incluyendo la zona econ&oacute;mica exclusiva, realizado en CONABIO, los mapas utilizados son:</p>]]></note>
-      <note><![CDATA[<p>M&eacute;xico</p>
-<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico. URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
-<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico. URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
-<p>&nbsp;</p>]]></note>
-      <note><![CDATA[<p>Centroam&eacute;rica</p>
-<p>CONABIO. 2020. Limites administrativos Centroam&eacute;rica. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico. M&eacute;xico. URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
-<p>CONABIO. 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico. URL:&nbsp; <a href="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</a></p>
-<p>&nbsp;</p>]]></note>
-      <note><![CDATA[<p>Estados Unidos de Am&eacute;rica, Colombia y el Caribe</p>
-<p>CONABIO. 2019. Mapa de validaci&oacute;n por divisiones pol&iacute;ticas para los sitios terrestres de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico. URL:&nbsp; <a href="http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</a></p>
-<p>CONABIO. 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico. URL:&nbsp; <a href="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</a></p>
-<p>&nbsp;</p>]]></note>
+      <note>Campo resultado del proceso de sobreposición de las coordenadas geográficas con mapas de división política actuales, incluyendo la zona económica exclusiva, realizado en CONABIO, los mapas utilizados son:</note>
+      <note>México&#13;
+INEGI. 2022.División política municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estadística y Geografía. México.&#13;
+URL: http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</note>
+      <note>Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. 2011. 'Zona Económica Exclusiva de México'. Límite Nacional 1:250000. Modificado de Instituto Nacional de Estadística, Geografía e Informática (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fernández-Equiarte, A., Gallegos-García, A., Zavala-H, J. y otros (1990). 'Zona Económica Exclusiva de México'. Extraído de Hipsometría y Batimetría, I.1.1. Atlas Nacional de México. Vol. I. Escala 1:4000000. Instituto de Geografía, UNAM. México.&#13;
+URL: http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</note>
+      <note>Centroamérica&#13;
+CONABIO. 2020. Limites administrativos Centroamérica. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México. México.&#13;
+URL:  http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</note>
+      <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.&#13;
+URL:  http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
+      <note>Estados Unidos de América, Colombia y el Caribe&#13;
+CONABIO. 2019. Mapa de validación por divisiones políticas para los sitios terrestres de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.&#13;
+URL:  http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</note>
+      <note>CONABIO. 2019. Mapa de validación en la Zona económica exclusiva para los sitios marinos de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.&#13;
+URL:  http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</note>
     </notes>
     <dataRules>
       <rule>Si el ejemplar no tiene coordenada geográfica no se asigna valor.</rule>
@@ -340,8 +353,10 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (55)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
+      <note>Ejemplo de nota</note>
+      <note>Ejemplo de nota 2</note>
+      <note>Ejemplo de nota 3</note>
+      <note>Ejemplo nota 6</note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
@@ -507,7 +522,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <after>estadooriginal</after>
+      <after>EJEMPLO</after>
     </orden>
     <fieldName>Municipio</fieldName>
     <fieldid>municipiooriginal</fieldid>
@@ -670,7 +685,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
     <orden>
-      <last/>
+      <after>ejemploalfinal</after>
     </orden>
     <fieldName>Incertidumbre geográfica</fieldName>
     <fieldid>incertidumbrexy</fieldid>
@@ -1332,7 +1347,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <after>estatustax</after>
+      <after>TEST</after>
     </orden>
     <fieldName>Referencia taxonómica</fieldName>
     <fieldid>reftax</fieldid>
@@ -1965,6 +1980,10 @@ NO DISPONIBLE</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <orden>
+      <last/>
+    </orden>
     <fieldName>Observaciones del uso de la información</fieldName>
     <fieldid>obsusoinfo</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -1989,7 +2008,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <last/>
+      <after>Ejemploalfinal</after>
     </orden>
     <fieldName>Colección</fieldName>
     <fieldid>coleccion</fieldid>
@@ -2143,9 +2162,10 @@ NO DISPONIBLE</subregla></rule>
     <encoding>UTF-8</encoding>
     <notes>
       <note><![CDATA[<p>M&aacute;s informaci&oacute;n del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</p>]]></note>
+      <note><![CDATA[<p><strong>Nota de ejemplo</strong></p>]]></note>
     </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:<subregla>Sub Regla de ejemplo</subregla></rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Esto es un ejemplo</subregla><subregla>Ejemplo para borrar</subregla><subregla>EJEMPLO</subregla></rule>
       <rule>HumanObservation</rule>
       <rule>PreservedSpecimen</rule>
       <rule>FossilSpecimen</rule>
@@ -2164,8 +2184,8 @@ NO DISPONIBLE</subregla></rule>
       <key>06a3cc6319cc7583799b89c3afb1a84c</key>
     </ejemplar>
     <campos>
-      <campo>especievalida</campo>
-      <campo>procedenciaejemplar</campo>
+      <campo>localidad</campo>
+      <campo>longitud</campo>
     </campos>
   </snibTerm>
   <snibTerm>
@@ -2185,8 +2205,10 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>El dato está escrito con mayúsculas y minúsculas según corresponda.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
@@ -2218,15 +2240,16 @@ NO DISPONIBLE</subregla></rule>
     <dwcField>Sin equivalencia</dwcField>
     <description>Indica el mes en que se realizó la determinación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
-    <encoding/>
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el mes de la determinación del ejemplar, no se capturó el dato o el valor no es válido para un mes del año.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato mm.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
@@ -2304,13 +2327,14 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>El dato está escrito con mayúsculas y minúsculas según corresponda.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>localidad</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <after>colector</after>
+      <after>Ejemplodespuesde</after>
     </orden>
     <fieldName>Año de recolecta</fieldName>
     <fieldid>aniocolecta</fieldid>
@@ -2421,6 +2445,10 @@ NO DISPONIBLE</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <orden>
+      <last/>
+    </orden>
     <fieldName>Tipo de vegetación</fieldName>
     <fieldid>tipovegetacion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -2458,7 +2486,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>licenciauso</after>
     </orden>
@@ -2483,7 +2511,7 @@ NO DISPONIBLE</subregla></rule>
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>formadecitar</after>
     </orden>
@@ -2509,7 +2537,7 @@ NO DISPONIBLE</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>geoportal</after>
     </orden>
@@ -2525,7 +2553,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>fuente</after>
     </orden>
@@ -2570,7 +2598,7 @@ NO DISPONIBLE</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>urlorigen</after>
     </orden>
@@ -2586,7 +2614,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>urlejemplar</after>
     </orden>
@@ -2602,7 +2630,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>proyecto</after>
     </orden>
@@ -2618,7 +2646,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <first/>
     </orden>
@@ -2640,7 +2668,7 @@ NO DISPONIBLE</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <last/>
     </orden>
@@ -2656,7 +2684,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Metadatos y Administración SNIB</category>
+    <category>Otros</category>
     <orden>
       <after>urlproyecto</after>
     </orden>
@@ -2674,20 +2702,126 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
+    <category>Taxonomía</category>
+    <fieldName>Ejemplo de al final</fieldName>
+    <fieldid>alfinal</fieldid>
+    <dwcField>alfinal</dwcField>
+    <description>Ejemplo de al final</description>
+    <datatype>Boolean</datatype>
+    <campos>
+      <campo>localidad</campo>
+      <campo>longitud</campo>
+    </campos>
+    <dataRules>
+      <rule>Ejemplo de al final</rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>Ejemplo de al final</rule>
+    </syntaxRules>
+    <infoRules>
+      <rule>Ejemplo de al final</rule>
+    </infoRules>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica del ejemplar</category>
+    <orden>
+      <after>estadooriginal</after>
+    </orden>
+    <fieldName>EJEMPLO</fieldName>
+    <fieldid>EJEMPLO</fieldid>
+    <dwcField>EJEMPLO</dwcField>
+    <description>EJEMPLO</description>
+    <datatype>String</datatype>
+  </snibTerm>
+  <snibTerm>
+    <category>Taxonomía</category>
+    <orden>
+      <after>estatustax</after>
+    </orden>
+    <fieldName>TEST</fieldName>
+    <fieldid>TEST</fieldid>
+    <dwcField>TEST</dwcField>
+    <description>TEST</description>
+    <datatype>String</datatype>
+  </snibTerm>
+  <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <first/>
+      <after>colector</after>
     </orden>
-    <fieldName>Ejemplo al inicio</fieldName>
-    <fieldid>Ejemploalinicio</fieldid>
-    <dwcField>Ejemplo al inicio</dwcField>
-    <description>Ejemplo al inicio</description>
+    <fieldName>Ejemplo despues de</fieldName>
+    <fieldid>Ejemplodespuesde</fieldid>
+    <dwcField>Ejemplo despues de</dwcField>
+    <description>Ejemplo despues de</description>
     <datatype>String</datatype>
     <campos>
       <campo>region</campo>
       <campo>localidad</campo>
-      <campo>longitud</campo>
-      <campo>latitud</campo>
+    </campos>
+    <ejemplar>
+      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
+      <key>00a1abce2041ef96e76fbb84171efd02</key>
+      <key>0019412b313d863ca6b9636a52811b46</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Datos del Ejemplar/Observación</category>
+    <orden>
+      <last/>
+    </orden>
+    <fieldid>Ejemploalfinal</fieldid>
+    <dwcField>Ejemplo al final</dwcField>
+    <description>Ejemplo al final</description>
+    <datatype>String</datatype>
+    <notes>
+      <note><![CDATA[<p>Nota de ejemplo</p>]]></note>
+    </notes>
+    <dataRules>
+      <rule>Ejemplo de regla<subregla>Ejemplo de subregla</subregla></rule>
+    </dataRules>
+    <ejemplar>
+      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
+      <key>00a1abce2041ef96e76fbb84171efd02</key>
+      <key>0019412b313d863ca6b9636a52811b46</key>
+    </ejemplar>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
+    </campos>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica del ejemplar</category>
+    <orden>
+      <after>municipiooriginal</after>
+    </orden>
+    <fieldName>ejemplo despues de </fieldName>
+    <fieldid>ejemplodespuesde</fieldid>
+    <dwcField>ejemplo despues de </dwcField>
+    <description>ejemplo despues de </description>
+    <datatype>String</datatype>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
+      <key>00a1abce2041ef96e76fbb84171efd02</key>
+      <key>0019412b313d863ca6b9636a52811b46</key>
+    </ejemplar>
+  </snibTerm>
+  <snibTerm>
+    <category>Información geográfica del ejemplar</category>
+    <orden>
+      <last/>
+    </orden>
+    <fieldName>ejemplo al final</fieldName>
+    <fieldid>ejemploalfinal</fieldid>
+    <dwcField>ejemplo al final</dwcField>
+    <description>ejemplo al final</description>
+    <datatype>Integer</datatype>
+    <campos>
+      <campo>region</campo>
+      <campo>localidad</campo>
     </campos>
     <ejemplar>
       <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
