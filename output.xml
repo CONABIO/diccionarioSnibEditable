@@ -3,7 +3,7 @@
   <metadata>
     <titulo>Especímenes publicados en el geoportal y el sitio del Sistema Nacional de Información sobre Biodiversidad</titulo>
     <ultimaFechaActualizacion>2025-07-03</ultimaFechaActualizacion>
-    <version>2024-12 </version>
+    <version>2024-12</version>
     <abstracto>El Sistema Nacional de Información sobre Biodiversidad (SNIB), a través del geoportal de CONABIO y su propia página web, ofrece acceso público a datos sobre ejemplares biológicos provenientes de proyectos financiados, desarrollados o integrados por la CONABIO. Este documento detalla los campos de datos seleccionados para el geoportal, priorizando los más relevantes según su uso y valor. También se incluyen campos adicionales disponibles solo en la página del SNIB. La información ha sido revisada por CONABIO para estandarizarla y mejorar su calidad. Se explica la relación con el estándar Darwin Core y se proporciona la estructura de la base de datos y la sentencia SQL correspondiente en los anexos.</abstracto>
     <licenciaUso>Este documento se publica y distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional compatible&#13;
 con la licencia LibreusoMX de datos.gob.mx</licenciaUso>
@@ -11,9 +11,9 @@ con la licencia LibreusoMX de datos.gob.mx</licenciaUso>
 Información sobre Biodiversidad, versión 2024-12 México, Disponible en:&#13;
 http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeoportal-202412.pdf</formaDeCitar>
     <creador>
-      <nombre/>
-      <sitioWeb/>
-      <portalSNIB/>
+      <nombre></nombre>
+      <sitioWeb></sitioWeb>
+      <portalSNIB></portalSNIB>
     </creador>
   </metadata>
   <snibTerm>
