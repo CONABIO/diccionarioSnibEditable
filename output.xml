@@ -21,6 +21,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <first/>
     </orden>
+    <fieldName>Identificador del ejemplar</fieldName>
     <fieldid>idejemplar</fieldid>
     <dwcField>occurrenceID</dwcField>
     <description>Clave generada por la CONABIO que identifica de manera única al ejemplar. Se asigna en el momento en que el ejemplar se integra al SNIB.</description>
