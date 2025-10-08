@@ -1,1 +1,1 @@
-procedenciaejemplar|Datos del Ejemplar/Observación
+coleccion|Datos del Ejemplar/Observación
