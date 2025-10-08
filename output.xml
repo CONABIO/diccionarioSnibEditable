@@ -19,7 +19,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
   <snibTerm>
     <category>Datos del Ejemplar/Observación</category>
     <orden>
-      <after>test</after>
+      <first/>
     </orden>
     <fieldName>Identificador del ejemplar</fieldName>
     <fieldid>idejemplar</fieldid>
@@ -2813,24 +2813,6 @@ NO DISPONIBLE</subregla></rule>
     <campos>
       <campo>region</campo>
       <campo>localidad</campo>
-    </campos>
-    <ejemplar>
-      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
-      <key>00a1abce2041ef96e76fbb84171efd02</key>
-      <key>0019412b313d863ca6b9636a52811b46</key>
-    </ejemplar>
-  </snibTerm>
-  <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
-    <orden>
-      <first/>
-    </orden>
-    <fieldName>test</fieldName>
-    <fieldid>test</fieldid>
-    <dwcField>defasfc</dwcField>
-    <description>asdada</description>
-    <campos>
-      <campo>region</campo>
     </campos>
     <ejemplar>
       <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
