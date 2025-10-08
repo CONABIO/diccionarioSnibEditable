@@ -2165,7 +2165,7 @@ NO DISPONIBLE</subregla></rule>
     <orden>
       <after>idejemplar</after>
     </orden>
-    <fieldName>Procedencia del ejemplar<fieldName>
+    <fieldName>Procedencia del ejemplar</fieldName>
     <fieldid>procedenciaejemplar</fieldid>
     <dwcField>basisOfRecord</dwcField>
     <description>Indica si el ejemplar proviene de un evento de recolecta, observación o de un reporte.</description>
