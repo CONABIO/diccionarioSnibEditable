@@ -2788,7 +2788,7 @@ NO DISPONIBLE</subregla></rule>
       <note><![CDATA[<p>Nota de ejemplo</p>]]></note>
     </notes>
     <dataRules>
-      <rule>Ejemplo de regla<subregla>Ejemplo de subregla</subregla></rule>
+      <rule>Ejemplo de regla</rule>
     </dataRules>
     <ejemplar>
       <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
