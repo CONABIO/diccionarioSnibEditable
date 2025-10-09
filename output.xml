@@ -1348,7 +1348,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Taxonomía</category>
     <orden>
-      <after>TEST</after>
+      <after>estatustax</after>
     </orden>
     <fieldName>Referencia taxonómica</fieldName>
     <fieldid>reftax</fieldid>
@@ -2711,37 +2711,5 @@ NO DISPONIBLE</subregla></rule>
     </syntaxRules>
     <infoRules/>
     <notes/>
-  </snibTerm>
-  <snibTerm>
-    <category>Taxonomía</category>
-    <fieldName>Ejemplo de al final</fieldName>
-    <fieldid>alfinal</fieldid>
-    <dwcField>alfinal</dwcField>
-    <description>Ejemplo de al final</description>
-    <datatype>Boolean</datatype>
-    <campos>
-      <campo>localidad</campo>
-      <campo>longitud</campo>
-    </campos>
-    <dataRules>
-      <rule>Ejemplo de al final</rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>Ejemplo de al final</rule>
-    </syntaxRules>
-    <infoRules>
-      <rule>Ejemplo de al final</rule>
-    </infoRules>
-  </snibTerm>
-  <snibTerm>
-    <category>Taxonomía</category>
-    <orden>
-      <after>estatustax</after>
-    </orden>
-    <fieldName>TEST</fieldName>
-    <fieldid>TEST</fieldid>
-    <dwcField>TEST</dwcField>
-    <description>TEST</description>
-    <datatype>String</datatype>
   </snibTerm>
 </snibDictionary>
