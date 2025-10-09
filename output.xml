@@ -1606,33 +1606,6 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
     <orden>
-      <after>ambiente</after>
-    </orden>
-    <fieldName>Endemismo</fieldName>
-    <fieldid>endemismo</fieldid>
-    <dwcField>Sin equivalencia</dwcField>
-    <description>Indica si el taxón tiene una distribución en México considerada como endémica, cuasiendémica o semiendémica, es decir, es originaria de un área geográfica limitada y solo está presente de manera natural en el país.</description>
-    <datatype>enum</datatype>
-    <encoding>UTF-8</encoding>
-    <dataRules>
-      <rule>El dominio de los valores permitido está dado por:</rule>
-      <rule>Endémica</rule>
-      <rule>Semiendémica</rule>
-      <rule>Cuasiendémica</rule>
-      <rule>El valor Endémica significa que corresponde a un taxón endémico.</rule>
-      <rule>El valor Semiendémica significa: especies cuya población completa se distribuye únicamente en México durante cierta época del año.</rule>
-      <rule>El valor Cuasiendémica significa: especies que tienen áreas de distribución que se extienden ligeramente fuera de México hacia algún país vecino (&lt; 35,000 km2), debido a la continuidad de los hábitats.</rule>
-      <rule>El valor vacío significa que no se ha revisado si el taxón se considera o no como endémico en México.</rule>
-    </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes>
-      <note>En los Catálogos de Autoridades Taxonómicas de la CONABIO, hemos marcado (de manera no exhaustiva) especies endémicas de plantas y animales con base en las referencias especializadas citadas en los Catálogos de Autoridades Taxonómicas.</note>
-    </notes>
-  </snibTerm>
-  <snibTerm>
-    <category>Atributos Biológicos y Ecológicos</category>
-    <orden>
       <last/>
     </orden>
     <fieldName>Taxón extinto</fieldName>
@@ -2715,7 +2688,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
     <orden>
-      <after>endemismo</after>
+      <after>ambiente</after>
     </orden>
     <fieldName>Ejemplo</fieldName>
     <fieldid>Ejemplo</fieldid>
