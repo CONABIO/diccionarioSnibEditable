@@ -1851,7 +1851,7 @@ NO DISPONIBLE</subregla></rule>
   <snibTerm>
     <category>Atributos Biológicos y Ecológicos</category>
     <orden>
-      <after>endemismo</after>
+      <after>Ejemplo</after>
     </orden>
     <fieldName>Especie exótica o exótica invasora</fieldName>
     <fieldid>exoticainvasora</fieldid>
@@ -2711,5 +2711,24 @@ NO DISPONIBLE</subregla></rule>
     </syntaxRules>
     <infoRules/>
     <notes/>
+  </snibTerm>
+  <snibTerm>
+    <category>Atributos Biológicos y Ecológicos</category>
+    <orden>
+      <after>endemismo</after>
+    </orden>
+    <fieldName>Ejemplo</fieldName>
+    <fieldid>Ejemplo</fieldid>
+    <dwcField>Ejemplo</dwcField>
+    <description>Ejemplo</description>
+    <datatype>String</datatype>
+    <campos>
+      <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>01f81b26eeec7b113c2a4205ac1b6b2b</key>
+      <key>00a1abce2041ef96e76fbb84171efd02</key>
+      <key>0019412b313d863ca6b9636a52811b46</key>
+    </ejemplar>
   </snibTerm>
 </snibDictionary>
