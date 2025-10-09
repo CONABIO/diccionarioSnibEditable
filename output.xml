@@ -2712,22 +2712,4 @@ NO DISPONIBLE</subregla></rule>
     <infoRules/>
     <notes/>
   </snibTerm>
-  <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
-    <orden>
-      <after>tipo</after>
-    </orden>
-    <fieldName>ejemplo</fieldName>
-    <fieldid>test</fieldid>
-    <dwcField>czc</dwcField>
-    <description>csdsdc</description>
-    <campos>
-      <campo>region</campo>
-    </campos>
-    <ejemplar>
-      <key>23402a66acef5221225c450c9f2e46d2</key>
-      <key>6199aeca6523f586eaa06247f67537ca</key>
-      <key>000143b94829f4d66a1ce59fe5241868</key>
-    </ejemplar>
-  </snibTerm>
 </snibDictionary>
