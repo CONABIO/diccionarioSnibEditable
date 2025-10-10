@@ -10,10 +10,11 @@ con la licencia LibreusoMX de datos.gob.mx</licenciaUso>
     <formaDeCitar>CONABIO. 2025. Diccionario de datos. Ejemplares publicados en el Geoportal y el sitio del Sistema Nacional de&#13;
 Información sobre Biodiversidad, versión 2024-12 México, Disponible en:&#13;
 http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeoportal-202412.pdf</formaDeCitar>
+    <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
     <creador>
-      <nombre/>
-      <sitioWeb/>
-      <portalSNIB/>
+      <nombre></nombre>
+      <sitioWeb></sitioWeb>
+      <portalSNIB></portalSNIB>
     </creador>
   </metadata>
   <snibTerm>
@@ -720,7 +721,7 @@ un dato de país en el campo país original.</subregla></rule>
     <fieldid>altitudmapa</fieldid>
     <dwcField>minimunElevationInMeters</dwcField>
     <description>Altitud donde se ubica la coordenada geográfica, es obtenida del modelo de elevación ASTER GDEM2. Tipo de dato: smallint (6)</description>
-    <datatype>Descripción: Altitud donde se ubica la coordenada geográfica, es obtenida del modelo de elevación ASTER GDEM2. Tipo de dato: smallint (6)</datatype>
+    <datatype>smallint (6)</datatype>
     <encoding/>
     <dataRules>
       <rule>El valor nulo significa que el ejemplar no tiene coordenadas geográficas; las coordenadas asociadas al ejemplar se ubican fuera del área que cubre el modelo digital de elevación o, dicho modelo no tiene el dato de altitud.</rule>
