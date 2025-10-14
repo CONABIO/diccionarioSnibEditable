@@ -13,9 +13,9 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante el cual se puede crear la estructura de la tabla del geoportal.</anexo2>
     <creador>
-      <nombre></nombre>
-      <sitioWeb></sitioWeb>
-      <portalSNIB></portalSNIB>
+      <nombre/>
+      <sitioWeb/>
+      <portalSNIB/>
     </creador>
   </metadata>
   <snibTerm>
@@ -2972,14 +2972,18 @@ NO DISPONIBLE</subregla></rule>
     </ordenTabla>
     <fieldName>URL del proyecto</fieldName>
     <fieldid>urlproyecto</fieldid>
-    <dwcField>Sin equivalencia https://dwc.tdwg.org/terms/</dwcField>
+    <dwcField>Sin equivalencia</dwcField>
     <description>Dirección de internet donde se puede consultar la información del proyecto.</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>urlproyecto</campo>
+    </campos>
+    <ejemplar>
+      <key>000000ac63c0559238194a1f80546a92</key>
+      <key>000000fce20896c0d5c13b5475d24717</key>
+      <key>0000010278ed24a49835a2272d40ff11</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
