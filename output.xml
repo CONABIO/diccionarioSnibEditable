@@ -2441,7 +2441,6 @@ NO DISPONIBLE</subregla></rule>
     <encoding>UTF-8</encoding>
     <notes>
       <note><![CDATA[<p>M&aacute;s informaci&oacute;n del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</p>]]></note>
-      <note><![CDATA[<p><strong>Nota de ejemplo</strong></p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por:</rule>
