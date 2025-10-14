@@ -1,1 +1,1 @@
-paisoriginal|Información geográfica del ejemplar
+estadooriginal|Información geográfica del ejemplar

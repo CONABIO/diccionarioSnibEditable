@@ -360,12 +360,6 @@ un dato de país en el campo país original.</subregla></rule>
     <description>Nombre del estado o división política equivalente, en la que el ejemplar fue recolectado u observado.</description>
     <datatype>varchar (55)</datatype>
     <encoding>UTF-8</encoding>
-    <notes>
-      <note>Ejemplo de nota</note>
-      <note>Ejemplo de nota 2</note>
-      <note>Ejemplo de nota 3</note>
-      <note>Ejemplo nota 6</note>
-    </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
@@ -373,10 +367,6 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>regla sintaxis</rule>
       <rule>Es el Nombre del INEGI</rule>
     </syntaxRules>
-    <infoRules>
-      <rule>aaaaa</rule>
-      <rule>aaaaaaaaaaaas</rule>
-    </infoRules>
     <ejemplar>
       <key>00000542ffe016e66a6defb8977d1e32</key>
       <key>000004f34d007e5c2e396a153b264aaf</key>
