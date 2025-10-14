@@ -554,14 +554,14 @@ un dato de país en el campo país original.</subregla></rule>
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
-    <campos>
-      <campo>region</campo>
-    </campos>
     <ejemplar>
       <key>00000542ffe016e66a6defb8977d1e32</key>
       <key>000004f34d007e5c2e396a153b264aaf</key>
       <key>000003bed399a8385e59baf7c371267f</key>
     </ejemplar>
+    <campos>
+      <campo>region</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
