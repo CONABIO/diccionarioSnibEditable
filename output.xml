@@ -37,7 +37,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>Los nombres de los países están escritos en español</rule>
+      <rule>Los nombres de los países están escritos en español.</rule>
       <rule>Los datos están escritos en mayúsculas y sin utilizar acentos.</rule>
       <rule>Este campo se conforma con la concatenación de los valores de los campos país, estado y municipio.</rule>
       <rule>Cada dato de la división política se separa con una diagonal entre espacios “ / “ .</rule>
