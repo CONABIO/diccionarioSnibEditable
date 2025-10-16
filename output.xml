@@ -13,9 +13,9 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante el cual se puede crear la estructura de la tabla del geoportal.</anexo2>
     <creador>
-      <nombre></nombre>
-      <sitioWeb></sitioWeb>
-      <portalSNIB></portalSNIB>
+      <nombre/>
+      <sitioWeb/>
+      <portalSNIB/>
     </creador>
   </metadata>
   <snibTerm>
@@ -217,21 +217,11 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <description>Resultado de la validación geográfica realizada por la CONABIO considerando la división política, esta se realiza hasta en cuatro niveles país/estado/municipio/localidad.</description>
     <datatype>varchar (200)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Para los ejemplares que resultaron no v&aacute;lidos a nivel de municipio, en el campo Observaciones del uso de la informaci&oacute;n se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</p>]]></note>
+    </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:</rule>
-      <rule>Válido localidad</rule>
-      <rule>Válido municipio o Válido estado o Válido país más el año del mapa utilizado y si se incluyó tolerancia en la validación considerando una distancia máxima de 2 km del límite.</rule>
-      <rule>Válido estado. No procesado municipio</rule>
-      <rule>Válido estado. No válido municipio</rule>
-      <rule>Válido país. No procesado estado y municipio</rule>
-      <rule>Válido país. No aplica validación de estado y municipio</rule>
-      <rule>Válido país. No válido estado y municipio</rule>
-      <rule>Válido país. No válido estado y no procesado municipio</rule>
-      <rule>No válido país. No procesado estado y municipio</rule>
-      <rule>No válido país y estado. No procesado municipio</rule>
-      <rule>No válido país, estado y municipio</rule>
-      <rule>No procesado</rule>
-      <rule>No aplica validación de país</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>a. Válido localidad</subregla><subregla>b. Válido municipio o Válido estado o Válido país más el año del mapa utilizado y si se incluyó tolerancia en la validación considerando una distancia máxima de 2 km del límite.</subregla><subregla>c. Válido estado. No procesado municipio</subregla><subregla>d. Válido estado. No válido municipio</subregla><subregla>e. Válido país. No procesado estado y municipio</subregla><subregla>f. Válido país. No aplica validación de estado y municipio</subregla><subregla>g. Válido país. No válido estado y municipio</subregla><subregla>h. Válido país. No válido estado y no procesado municipio</subregla><subregla>i. No válido país. No procesado estado y municipio</subregla><subregla>j. No válido país y estado. No procesado municipio</subregla><subregla>k. No válido país, estado y municipio</subregla><subregla>l. No procesado</subregla><subregla>m. No aplica validación de país</subregla></rule>
       <rule>El valor Válido localidad significa que el ejemplar tiene coordenadas que se ubican en las referencias indicadas en la localidad.</rule>
       <rule>El valor Válido municipio significa que el ejemplar tiene coordenadas válidas a nivel de país, estado y municipio que se ubican en el país, estado y municipio registrados en el campo región.</rule>
       <rule>El valor Válido estado. No procesado municipio significa que el ejemplar tiene coordenadas válidas a nivel de país y estado, sin embargo, no se realizó la validación a nivel de municipio debido a que no se tiene el dato, no corresponde a un municipio, el municipio no corresponde al estado o a que es de países distintos a México. En este caso la coordenada se ubica en el país y estado registrados en el campo región.</rule>
@@ -250,10 +240,14 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <syntaxRules>
       <rule>El dato contiene el resultado de la validación geográfica “Válido” seguido del nivel (“país, “estado”, “municipio” y/o “localidad”) a continuación presenta el año del, mapa de división política municipal utilizado y si se usó tolerancia de 2 Km en la validación {2020 | 2020 con tolerancia 2018 | 2018 con tolerancia | 2016 | 2016 con tolerancia | 2015 | 2015 con tolerancia | 2010 | 2010 con tolerancia | 2005 | 2005 con tolerancia | 2000 | 2000 con tolerancia | 1995 | 1995 con tolerancia | 1995ig | 1995ig con tolerancia | 1990 | 1990 con tolerancia }. Finalmente se indica el detalle del nivel de validación “No procesado municipio”, “No válido municipio”, “No procesado estado y municipio”, “No aplica validación de estado y municipio”, “No válido estado y municipio“, “No válido estado y no procesado municipio” o “No aplica validación de país”.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Para los ejemplares que resultaron no válidos a nivel de municipio, en el campo Observaciones del uso de la información se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</note>
-    </notes>
+    <campos>
+      <campo>localidad</campo>
+    </campos>
+    <ejemplar>
+      <key>000000fce20896c0d5c13b5475d24717</key>
+      <key>0000010278ed24a49835a2272d40ff11</key>
+      <key>00000103afb44e8217c0021acab57d9d</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
