@@ -219,6 +219,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <encoding>UTF-8</encoding>
     <notes>
       <note><![CDATA[<p>Para los ejemplares que resultaron no v&aacute;lidos a nivel de municipio, en el campo Observaciones del uso de la informaci&oacute;n se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</p>]]></note>
+      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por:<subregla>Válido localidad</subregla><subregla>Válido municipio o Válido estado o Válido país más el año del mapa utilizado y si se incluyó tolerancia en la validación considerando una distancia máxima de 2 km del límite.</subregla><subregla>Válido estado. No procesado municipio</subregla><subregla>Válido estado. No válido municipio</subregla><subregla>Válido país. No procesado estado y municipio</subregla><subregla>Válido país. No aplica validación de estado y municipio</subregla><subregla>Válido país. No válido estado y municipio</subregla><subregla>Válido país. No válido estado y no procesado municipio</subregla><subregla>No válido país. No procesado estado y municipio</subregla><subregla>No válido país y estado. No procesado municipio</subregla><subregla>No válido país, estado y municipio</subregla><subregla>No procesado</subregla><subregla>No aplica validación de país</subregla></rule>
