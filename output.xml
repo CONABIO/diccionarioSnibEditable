@@ -3034,7 +3034,7 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (32)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Dado que este identificador se genera para el ingreso del registro al SNIB, este no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p>]]></note>
+      <note><![CDATA[<p>Dado que este identificador se genera para el ingreso del registro al SNIB, &eacute;ste no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p>]]></note>
     </notes>
     <dataRules>
       <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
