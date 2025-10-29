@@ -13,9 +13,9 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla del geoportal.</anexo2>
     <creador>
-      <nombre></nombre>
-      <sitioWeb></sitioWeb>
-      <portalSNIB></portalSNIB>
+      <nombre/>
+      <sitioWeb/>
+      <portalSNIB/>
     </creador>
   </metadata>
   <snibTerm>
@@ -1169,12 +1169,29 @@ NO DISPONIBLE</subregla></rule>
     <description>Nombre utilizado para agrupar taxones con características biológicas similares. Puede incluir nombres genéricos o el nombre común de la especie y de los taxones en categorías taxonómicas superiores a la de especie.</description>
     <datatype>varchar (250)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
     <notes>
-      <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
+      <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
     </notes>
+    <dataRules>
+      <rule>El valor NO DISPONIBLE significa que no se cuenta con la información taxonómica suficiente para asignar el subgrupo biológico.</rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>Los valores se separan por una coma ",".</rule>
+    </syntaxRules>
+    <infoRules>
+      <rule>Se agrega el valor "como", el no descarta que puedan existir otros subgrupos similares no mencionados.</rule>
+      <rule>En los grupos de invertebrados, peces y plantas, el subgrupo cuentan con dos puntos ":" que separan un subgrupo mayor de uno menor, como insectos, peces cartilaginosos y sin mandíbula y, plantas con flores y sin flores, respectivamente.</rule>
+    </infoRules>
+    <campos>
+      <campo>subgrupobio</campo>
+      <campo>grupobio</campo>
+      <campo>nombrevalidocatscat</campo>
+    </campos>
+    <ejemplar>
+      <key>23857089eb7aecb74bfaafe1d2ea71cc</key>
+      <key>35fe377b07470a94585f45795310ea2d</key>
+      <key>62f55de4ceee2d6ddbdb95d6327f4648</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
