@@ -1179,12 +1179,13 @@ NO DISPONIBLE</subregla></rule>
       <rule>Los valores se separan por una coma ",".</rule>
     </syntaxRules>
     <infoRules>
-      <rule>Se agrega el valor "como", para descartar que puedan existir otros subgrupos similares no mencionados.</rule>
+      <rule>El valor "como", es incluyente a otros subgrupos similares no mencionados.</rule>
       <rule>En los grupos de invertebrados, peces y plantas, el subgrupo cuentan con dos puntos ":" que separan un subgrupo mayor de uno menor, como insectos, peces cartilaginosos y sin mandíbula y, plantas con flores y sin flores, respectivamente.</rule>
     </infoRules>
     <ejemplar>
       <key>23857089eb7aecb74bfaafe1d2ea71cc</key>
       <key>8e2ef616ba375bf0dac3f6c9eca948b7</key>
+      <key>455d40e73ac576ea3ab57d609a7f7c68</key>
       <key>62f55de4ceee2d6ddbdb95d6327f4648</key>
     </ejemplar>
     <campos>
