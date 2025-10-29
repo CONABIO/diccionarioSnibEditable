@@ -2221,7 +2221,7 @@ NO DISPONIBLE</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <last/>
       <first/>
@@ -2261,7 +2261,7 @@ NO DISPONIBLE</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>procedenciaejemplar</after>
     </orden>
@@ -2301,7 +2301,7 @@ NO DISPONIBLE</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>ejemplarfosil</after>
     </orden>
@@ -2326,7 +2326,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>institucion</after>
     </orden>
@@ -2356,7 +2356,7 @@ NO DISPONIBLE</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>numcatalogo</after>
     </orden>
@@ -2386,7 +2386,7 @@ NO DISPONIBLE</subregla></rule>
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>idejemplar</after>
     </orden>
@@ -2428,7 +2428,7 @@ NO DISPONIBLE</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>fechacolecta</after>
     </orden>
@@ -2454,7 +2454,7 @@ NO DISPONIBLE</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>determinador</after>
     </orden>
@@ -2478,7 +2478,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>aniodeterminacion</after>
     </orden>
@@ -2503,7 +2503,7 @@ NO DISPONIBLE</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>mesdeterminacion</after>
     </orden>
@@ -2527,7 +2527,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>diadeterminacion</after>
     </orden>
@@ -2574,7 +2574,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>numcolecta</after>
     </orden>
@@ -2599,7 +2599,7 @@ NO DISPONIBLE</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>colector</after>
     </orden>
@@ -2625,7 +2625,7 @@ NO DISPONIBLE</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>aniocolecta</after>
     </orden>
@@ -2651,7 +2651,7 @@ NO DISPONIBLE</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>mescolecta</after>
     </orden>
@@ -2677,7 +2677,7 @@ NO DISPONIBLE</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>diacolecta</after>
     </orden>
@@ -2704,7 +2704,7 @@ NO DISPONIBLE</subregla></rule>
     </notes>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>fechadeterminacion</after>
     </orden>
@@ -2732,7 +2732,7 @@ NO DISPONIBLE</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
     </orden>
     <fieldName>Tipo de vegetación</fieldName>
@@ -2749,7 +2749,7 @@ NO DISPONIBLE</subregla></rule>
     <notes/>
   </snibTerm>
   <snibTerm>
-    <category>Datos del Ejemplar/Observación</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <after>tipo</after>
     </orden>
