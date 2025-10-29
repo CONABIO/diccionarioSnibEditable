@@ -255,7 +255,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <orden>
       <after>region</after>
     </orden>
-    <download>true</download>
+    <download>false</download>
     <ordenTabla>
       <after>geovalidacion</after>
     </ordenTabla>
