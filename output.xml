@@ -339,7 +339,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>paisoriginal</after>
     </orden>
-    <download>true</download>
+    <download>false</download>
     <ordenTabla>
       <after>paismapa</after>
     </ordenTabla>
