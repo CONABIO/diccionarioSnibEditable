@@ -1173,25 +1173,25 @@ NO DISPONIBLE</subregla></rule>
       <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
     </notes>
     <dataRules>
-      <rule>El valor NO DISPONIBLE significa que no se cuenta con la información taxonómica suficiente para asignar el subgrupo biológico.</rule>
+      <rule>El valor NO DISPONIBLE significa que no se cuenta con la información taxonómica suficiente para asignar el subgrupo biológico. Por lo anterior, no existen valores vacíos o nulos.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Los valores se separan por una coma ",".</rule>
     </syntaxRules>
     <infoRules>
-      <rule>Se agrega el valor "como", el no descarta que puedan existir otros subgrupos similares no mencionados.</rule>
+      <rule>Se agrega el valor "como", para descartar que puedan existir otros subgrupos similares no mencionados.</rule>
       <rule>En los grupos de invertebrados, peces y plantas, el subgrupo cuentan con dos puntos ":" que separan un subgrupo mayor de uno menor, como insectos, peces cartilaginosos y sin mandíbula y, plantas con flores y sin flores, respectivamente.</rule>
     </infoRules>
-    <campos>
-      <campo>subgrupobio</campo>
-      <campo>grupobio</campo>
-      <campo>nombrevalidocatscat</campo>
-    </campos>
     <ejemplar>
       <key>23857089eb7aecb74bfaafe1d2ea71cc</key>
-      <key>35fe377b07470a94585f45795310ea2d</key>
+      <key>8e2ef616ba375bf0dac3f6c9eca948b7</key>
       <key>62f55de4ceee2d6ddbdb95d6327f4648</key>
     </ejemplar>
+    <campos>
+      <campo>grupobio</campo>
+      <campo>subgrupobio</campo>
+      <campo>nombrevalidocatscat</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
