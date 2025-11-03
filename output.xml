@@ -1052,7 +1052,7 @@ un dato de país en el campo país original.</subregla></rule>
     <orden>
       <after>cuencahidrograficamapa</after>
     </orden>
-    <download>false</download>
+    <download>true</download>
     <ordenTabla>
       <after>regionmarinamapa</after>
     </ordenTabla>
