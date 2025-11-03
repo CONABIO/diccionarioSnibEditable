@@ -2977,10 +2977,10 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       <after>urlejemplar</after>
     </ordenTabla>
-    <fieldName>Descargable desde el Geoportal</fieldName>
+    <fieldName>Descargable desde el geoportal</fieldName>
     <fieldid>geoportal</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>Indica si el registro está disponible para su descarga desde el Geoportal de la CONABIO.</description>
+    <description>Indica si el registro está disponible para su descarga desde el geoportal de la CONABIO.</description>
     <datatype>tinyint (1)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
