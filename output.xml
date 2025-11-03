@@ -1903,7 +1903,7 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       <after>nombrecomun</after>
     </ordenTabla>
-    <fieldName>Identificador del Nombre</fieldName>
+    <fieldName>Identificador del nombre</fieldName>
     <fieldid>idnombrecat</fieldid>
     <dwcField>scientificNameID</dwcField>
     <description>Identificador del nombre del ejemplar en el catálogo de autoridades taxonómicas de la CONABIO. Corresponde al identificador de la Especie (binomio, trinomio, etc.)</description>
@@ -1923,7 +1923,7 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       <after>idnombrecat</after>
     </ordenTabla>
-    <fieldName>Identificador del Nombre válido</fieldName>
+    <fieldName>Identificador del nombre válido</fieldName>
     <fieldid>idnombrecatvalido</fieldid>
     <dwcField>acceptedNameUsageID</dwcField>
     <description>Identificador del nombre válido en el catálogo de autoridades taxonómicas de la CONABIO.</description>
