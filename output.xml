@@ -2081,7 +2081,7 @@ NO DISPONIBLE</subregla></rule>
     <ordenTabla>
       <after>exoticainvasora</after>
     </ordenTabla>
-    <fieldName>Categoría de riesgo según NOM-059-SEMARNAT </fieldName>
+    <fieldName>Categoría de riesgo según la NOM-059-SEMARNAT </fieldName>
     <fieldid>nom059</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Indica la categoría de riesgo conforme a la NOM-059-SEMARNAT de la especie o la infraespecie.</description>
