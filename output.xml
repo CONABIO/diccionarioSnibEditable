@@ -1022,7 +1022,7 @@ un dato de país en el campo país original.</subregla></rule>
     <ordenTabla>
       <after>anp</after>
     </ordenTabla>
-    <fieldName>Región marina </fieldName>
+    <fieldName>Regiones marinas</fieldName>
     <fieldid>regionmarinamapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Región marina donde se ubica la coordenada geográfica.</description>
