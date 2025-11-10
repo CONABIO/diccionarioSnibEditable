@@ -1214,10 +1214,10 @@ NO DISPONIBLE</subregla></rule>
       <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p>]]></note>
     </notes>
     <dataRules>
-      <rule>1.El valor vacío significa que el reino no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o no fue proporcionado en las bases de datos originales.</rule>
+      <rule>El valor vacío significa que el reino no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o no fue proporcionado en las bases de datos originales.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>1. El dato se escribe con la primera letra en mayúscula.</rule>
+      <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
     <ejemplar>
       <key>9d0d3a25a1407348776fef1ded21612d</key>
