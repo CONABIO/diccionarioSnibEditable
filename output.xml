@@ -1209,15 +1209,28 @@ NO DISPONIBLE</subregla></rule>
     <description>Nombre del reino en el que se ubica el ejemplar.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
+    <notes>
+      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p>]]></note>
+      <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p>]]></note>
+    </notes>
+    <dataRules>
+      <rule>1.El valor vacío significa que el reino no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o no fue proporcionado en las bases de datos originales.</rule>
+    </dataRules>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Se puede ver el nombre tal cual lo escribió el proveedor de datos, utilizando el campo URLEjemplar .</note>
-      <note>La CONABIO realizó limpieza y homologación de este campo mediante la corrección de errores de escritura y de datos que no corresponden con el campo.</note>
-    </notes>
+    <campos>
+      <campo>reino</campo>
+      <campo>especie</campo>
+    </campos>
+    <ejemplar>
+      <key>2ecbf4665277a1dea36fd89db27bbd92</key>
+      <key>3052fc4b51ed96c9bd3ca84bb1ae999d</key>
+      <key>1e87bb906e13b803b2c2cd4e1e8c6ee6</key>
+      <key>06347a337404b8b08d239862c5513331</key>
+      <key>0847af7076542f353ae77b4385304951</key>
+      <key>efc26ce975ef8e7990a2c322756d5d8b</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
