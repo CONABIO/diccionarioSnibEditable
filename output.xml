@@ -1217,20 +1217,20 @@ NO DISPONIBLE</subregla></rule>
       <rule>1.El valor vacío significa que el reino no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o no fue proporcionado en las bases de datos originales.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>El dato se escribe con la primera letra en mayúscula.</rule>
+      <rule>1. El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
+    <ejemplar>
+      <key>9d0d3a25a1407348776fef1ded21612d</key>
+      <key>52d10bdc0d40458387f818ba4df2a44f</key>
+      <key>e89628c76f8c3fb36adc1716a5d369ca</key>
+      <key>a4f93dbea452dc2ce2c2b5a030445892</key>
+      <key>baab50f171144e494210a82237160e60</key>
+      <key>a5fe14c3c493065f7133a96e3570e476</key>
+    </ejemplar>
     <campos>
       <campo>reino</campo>
       <campo>especie</campo>
     </campos>
-    <ejemplar>
-      <key>2ecbf4665277a1dea36fd89db27bbd92</key>
-      <key>3052fc4b51ed96c9bd3ca84bb1ae999d</key>
-      <key>1e87bb906e13b803b2c2cd4e1e8c6ee6</key>
-      <key>06347a337404b8b08d239862c5513331</key>
-      <key>0847af7076542f353ae77b4385304951</key>
-      <key>efc26ce975ef8e7990a2c322756d5d8b</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
