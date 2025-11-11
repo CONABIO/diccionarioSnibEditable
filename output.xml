@@ -1290,16 +1290,38 @@ NO DISPONIBLE</subregla></rule>
     <description>Nombre de la clase en la que se ubica el ejemplar.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
+    <notes>
+      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p>]]></note>
+      <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p>]]></note>
+      <note><![CDATA[<p>La equivalencia en Darwin Core tambi&eacute;n puede ser class, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de class que lo asignamos al campo clase v&aacute;lida.</p>]]></note>
+    </notes>
+    <dataRules>
+      <rule>El valor vacío significa que el nombre de la clase no fue proporcionado en las bases de datos originales.</rule>
+      <rule>Cuando la clase no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o referencias bibliográficas especializadas con las que cuenta la CONABIO para realizar la limpieza, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
+      <rule>El dato No asignado significa que el sistema de clasificación de referencia utilizado en los catálogos de autoridades taxonómicas u otras fuentes de validación utilizadas, no consideran esta categoría taxonómica.</rule>
+    </dataRules>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Se puede ver el nombre tal cual lo escribió el proveedor de datos, utilizando el campo URLEjemplar .</note>
-      <note>La CONABIO realizó limpieza y homologación de este campo mediante la corrección de errores de escritura y de datos que no corresponden con el campo.</note>
-      <note>La equivalencia en Darwin Core también puede ser class, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (válidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de class que lo asignamos al campo clase válida.</note>
-    </notes>
+    <campos>
+      <campo>clase</campo>
+      <campo>especie</campo>
+    </campos>
+    <ejemplar>
+      <key>6b05878d66afcebdc0fb1180bf4f6ed4</key>
+      <key>08254be3bfe06c058c578be30d515bc7</key>
+      <key>0008f582439bd002a14a1898eb8eecdd</key>
+      <key>a4f93dbea452dc2ce2c2b5a030445892</key>
+      <key>089358604705ab4c93c5a27ae5c4ecf6</key>
+      <key>241c9de4f2dc6b1cb4276a544ff547b2</key>
+      <key>dc930c405edb5e291db83d2b8fd8a59b</key>
+      <key>512a145d4e1cd87c03c1d6aacab16dc7</key>
+      <key>015d493c5ee78e6d1a0141f00404cf37</key>
+      <key>09d4079c0a7f104f64e183845b2ed89a</key>
+      <key>9d0d3a25a1407348776fef1ded21612d</key>
+      <key>7de457774a02e5060d733ac2674b3ca0</key>
+      <key>143b24f732967b5b70327156fd12dc2f</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
