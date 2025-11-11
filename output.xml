@@ -1351,10 +1351,6 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <campos>
-      <campo>orden</campo>
-      <campo>especie</campo>
-    </campos>
     <ejemplar>
       <key>9d0d3a25a1407348776fef1ded21612d</key>
       <key>08254be3bfe06c058c578be30d515bc7</key>
@@ -1368,8 +1364,12 @@ NO DISPONIBLE</subregla></rule>
       <key>241c9de4f2dc6b1cb4276a544ff547b2</key>
       <key>dc930c405edb5e291db83d2b8fd8a59b</key>
       <key>512a145d4e1cd87c03c1d6aacab16dc7</key>
-      <key>685fa021d109df25d789e9f8adb246f9</key>
+      <key>dfbd267f9c8d2a5fb93b9131da28067a</key>
     </ejemplar>
+    <campos>
+      <campo>orden</campo>
+      <campo>especie</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
