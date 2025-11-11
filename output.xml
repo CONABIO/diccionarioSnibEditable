@@ -1260,20 +1260,20 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
+    <ejemplar>
+      <key>9d0d3a25a1407348776fef1ded21612d</key>
+      <key>089358604705ab4c93c5a27ae5c4ecf6</key>
+      <key>7de457774a02e5060d733ac2674b3ca0</key>
+      <key>09d4079c0a7f104f64e183845b2ed89a</key>
+      <key>a4f93dbea452dc2ce2c2b5a030445892</key>
+      <key>241c9de4f2dc6b1cb4276a544ff547b2</key>
+      <key>dc930c405edb5e291db83d2b8fd8a59b</key>
+      <key>0f751865290ad8e756aabba876ad17ba</key>
+    </ejemplar>
     <campos>
       <campo>phylumdivision</campo>
       <campo>especie</campo>
     </campos>
-    <ejemplar>
-      <key>9d0d3a25a1407348776fef1ded21612d</key>
-      <key>f471c7016b5734de239a5665383a500e</key>
-      <key>52d10bdc0d40458387f818ba4df2a44f</key>
-      <key>e89628c76f8c3fb36adc1716a5d369ca</key>
-      <key>a4f93dbea452dc2ce2c2b5a030445892</key>
-      <key>baab50f171144e494210a82237160e60</key>
-      <key>af4751fcf75ce973555741672b96e8b5</key>
-      <key>599e87a5259c308a38eebd123aa6ff77</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
