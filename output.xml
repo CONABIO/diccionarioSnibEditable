@@ -1247,16 +1247,33 @@ NO DISPONIBLE</subregla></rule>
     <description>Nombre del phylum o división en el que se ubica el ejemplar.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
+    <notes>
+      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p>]]></note>
+      <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p>]]></note>
+      <note><![CDATA[<p>La equivalencia en Darwin Core puede ser phylum, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de phylum que lo asignamos al campo phylumdivisionv&aacute;lido.</p>]]></note>
+    </notes>
+    <dataRules>
+      <rule>El valor vacío significa que el phylum o división no fue proporcionado en las bases de datos originales.</rule>
+      <rule>Cuando la división o phylum no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o referencias bibliográficas especializadas con las que cuenta la CONABIO, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
+      <rule>El dato No asignado significa que el sistema de clasificación de referencia utilizado para realizar la limpieza al campo no considera esta categoría taxonómica.</rule>
+    </dataRules>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Se puede ver el nombre tal cual lo escribió el proveedor de datos, utilizando el campo URLEjemplar .</note>
-      <note>La CONABIO realizó limpieza y homologación de este campo mediante la corrección de errores de escritura y de datos que no corresponden con el campo.</note>
-      <note>La equivalencia en Darwin Core puede ser phylum, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (válidos), indicamos este campo sin equivalencia con Darwin Core en lugar de phylum que lo asignamos al campo phylumdivisionválido.</note>
-    </notes>
+    <campos>
+      <campo>phylumdivision</campo>
+      <campo>especie</campo>
+    </campos>
+    <ejemplar>
+      <key>9d0d3a25a1407348776fef1ded21612d</key>
+      <key>f471c7016b5734de239a5665383a500e</key>
+      <key>52d10bdc0d40458387f818ba4df2a44f</key>
+      <key>e89628c76f8c3fb36adc1716a5d369ca</key>
+      <key>a4f93dbea452dc2ce2c2b5a030445892</key>
+      <key>baab50f171144e494210a82237160e60</key>
+      <key>af4751fcf75ce973555741672b96e8b5</key>
+      <key>599e87a5259c308a38eebd123aa6ff77</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
