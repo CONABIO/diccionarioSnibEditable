@@ -1481,14 +1481,32 @@ NO DISPONIBLE</subregla></rule>
     <description>Nombre científico de la especie (binomio, trinomio, etc.) al que se determinó el ejemplar.</description>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
     <notes>
-      <note>Se puede ver el nombre tal cual lo escribió el proveedor de datos, utilizando el campo URLEjemplar.</note>
-      <note>La CONABIO realizó limpieza de este campo mediante la corrección de escritura y de datos que no corresponden con el campo.</note>
-      <note>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripción de scientificName en Darwin Core, por ejemplo, no se incluye el autor y año de descripción.</note>
+      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p>]]></note>
+      <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza de este campo mediante la correcci&oacute;n de escritura y de datos que no corresponden con el campo.</p>]]></note>
+      <note><![CDATA[<p>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripci&oacute;n de scientificName en Darwin Core, por ejemplo, no se incluye el autor y a&ntilde;o de descripci&oacute;n.</p>]]></note>
     </notes>
+    <dataRules>
+      <rule>Cuando la especie no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o referencias bibliográficas especializadas con las que cuenta la CONABIO, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
+      <rule>El valor vacío significa que el taxón al que está determinado el ejemplar corresponde a un nivel superior de especie.</rule>
+    </dataRules>
+    <campos>
+      <campo>especie</campo>
+      <campo>genero</campo>
+    </campos>
+    <ejemplar>
+      <key>9d0d3a25a1407348776fef1ded21612d</key>
+      <key>08254be3bfe06c058c578be30d515bc7</key>
+      <key>015d493c5ee78e6d1a0141f00404cf37</key>
+      <key>6e8115d8bbd3b755e81e6c7e9bf4e655</key>
+      <key>089358604705ab4c93c5a27ae5c4ecf6</key>
+      <key>0008f582439bd002a14a1898eb8eecdd</key>
+      <key>7de457774a02e5060d733ac2674b3ca0</key>
+      <key>09d4079c0a7f104f64e183845b2ed89a</key>
+      <key>a4f93dbea452dc2ce2c2b5a030445892</key>
+      <key>241c9de4f2dc6b1cb4276a544ff547b2</key>
+      <key>dc930c405edb5e291db83d2b8fd8a59b</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
