@@ -1555,10 +1555,24 @@ NO DISPONIBLE</subregla></rule>
     <description>Nombre de la categoría taxonómica subordinada a una categoría infraespecífica.</description>
     <datatype>varchar (50).</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <dataRules>
+      <rule>El valor vacío significa que la categoría subinfraespecífica se desconoce o que el taxón está determinado a una categoría superior.</rule>
+      <rule>El dato es obligatorio cuando el nombre científico corresponde a una subinfraespecífica (tetranomio).</rule>
+      <rule>Cuando la subinfraespecie no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o referencias bibliográficas especializadas con las que cuenta la CONABIO, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>subvariedad</subregla><subregla>subforma</subregla><subregla>raza</subregla><subregla>forma</subregla><subregla>subraza</subregla><subregla>híbrido</subregla><subregla>convariedad</subregla></rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>El valor se captura en minúsculas.</rule>
+    </syntaxRules>
+    <campos>
+      <campo>categoriainfraespecie2</campo>
+      <campo>especie</campo>
+    </campos>
+    <ejemplar>
+      <key>005ede28dd2d6737137f5b8cca39e838</key>
+      <key>a59a78a91f786f4a0c2a84f2dc2ca257</key>
+      <key>051a93f391640adc14b08febb5fe5a8c</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
