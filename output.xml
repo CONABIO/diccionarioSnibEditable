@@ -1536,8 +1536,8 @@ NO DISPONIBLE</subregla></rule>
       <key>11df5be4c3d869da8e1d0f39c8492bb8</key>
     </ejemplar>
     <campos>
-      <campo>especie</campo>
       <campo>categoriainfraespecie</campo>
+      <campo>especie</campo>
     </campos>
   </snibTerm>
   <snibTerm>
