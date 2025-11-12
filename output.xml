@@ -1523,10 +1523,22 @@ NO DISPONIBLE</subregla></rule>
     <description>Nombre de la categoría taxonómica infraespecífica.</description>
     <datatype>varchar (50).</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <dataRules>
+      <rule>El valor vacío significa que la categoría infraespecífica no fue proporcionada o que el taxón está determinado a una categoría superior.</rule>
+      <rule>El dato es obligatorio cuando el nombre científico corresponde a una infraespecie (trinomio).</rule>
+      <rule>Cuando la infraespecie no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o referencias bibliográficas especializadas con las que cuenta la CONABIO, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
+      <rule>El dominio de los valores permitidos está dado principalmente por:<subregla>subespecie</subregla></rule>
+    </dataRules>
+    <campos>
+      <campo>categoriainfraespecie</campo>
+      <campo>especie</campo>
+    </campos>
+    <ejemplar>
+      <key>27b226d1dbb015574118b9bc3042a024</key>
+      <key>a9297db7913f5289279ff6c461bef4e8</key>
+      <key>deb661512d88052ccb8d6e60c94e60e7</key>
+      <key>11df5be4c3d869da8e1d0f39c8492bb8</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
