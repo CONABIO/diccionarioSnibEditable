@@ -1661,9 +1661,21 @@ NO DISPONIBLE</subregla></rule>
     <dataRules>
       <rule>El valor vacío significa que no se cuenta con la información del catálogo de autoridad, listado o diccionario que respalda el nombre del taxón o que el ejemplar corresponde a un taxón que no se ha descrito formalmente.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <syntaxRules>
+      <rule>El autor se escribe en su forma abreviada utilizando mayúsculas y minúsculas en nombres propios, mayúsculas en siglas o acrónimos de bases de datos en línea.</rule>
+      <rule>Se usa “ &amp;amp; “ entre espacios en blanco para concatenar al último autor.</rule>
+      <rule>El año se escribe en cuatro dígitos y precedido por “, “.</rule>
+    </syntaxRules>
+    <campos>
+      <campo>reftax</campo>
+      <campo>especie</campo>
+    </campos>
+    <ejemplar>
+      <key>9d0d3a25a1407348776fef1ded21612d</key>
+      <key>241c9de4f2dc6b1cb4276a544ff547b2</key>
+      <key>015d493c5ee78e6d1a0141f00404cf37</key>
+      <key>089358604705ab4c93c5a27ae5c4ecf6</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
