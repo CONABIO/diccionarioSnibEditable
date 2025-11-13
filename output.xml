@@ -1630,19 +1630,18 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor NO APLICA significa que la especie no se han descrito formalmente.</rule>
       <rule>El valor vacío significa que el taxón al que está determinado el ejemplar corresponde a un nivel superior de especie o que no se encontró en algún catálogo o fuente de información para validarlo.</rule>
     </dataRules>
-    <campos>
-      <campo>estatustax</campo>
-      <campo>especie</campo>
-      <campo>autor</campo>
-      <campo>grupobio</campo>
-    </campos>
     <ejemplar>
       <key>9d0d3a25a1407348776fef1ded21612d</key>
       <key>dc930c405edb5e291db83d2b8fd8a59b</key>
       <key>015d493c5ee78e6d1a0141f00404cf37</key>
       <key>64a567415f7db34047b25def8689e5ef</key>
-      <key>012291a4b4e5831c2391b6b379e845e1</key>
+      <key>5a93307737968e12c82bfd3700a74577</key>
     </ejemplar>
+    <campos>
+      <campo>estatustax</campo>
+      <campo>especie</campo>
+      <campo>autor</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
