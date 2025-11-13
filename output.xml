@@ -1620,17 +1620,29 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (20)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>válido</subregla><subregla>aceptado</subregla><subregla>sinónimo</subregla><subregla>No resuelto</subregla><subregla>NO DISPONIBLE</subregla><subregla>NO APLICA</subregla></rule>
+      <rule>El valor válido significa que es el nombre correcto o actualmente en uso, de acuerdo con el catálogo o listado de referencia para taxones considerados en el Código Internacional de Nomenclatura Zoológica.</rule>
       <rule>El valor aceptado significa que es el nombre correcto, o actualmente en uso, de acuerdo con el catálogo o listado de referencia para taxones considerados en el Código Internacional de Nomenclatura de algas, hongos y plantas.</rule>
       <rule>El valor sinónimo significa que es uno de dos o más nombres de la misma categoría usados para indicar el mismo taxón, de acuerdo con los catálogos de autoridades taxonómicas de la CONABIO o referencia utilizada.</rule>
       <rule>El valor No resuelto significa que el estatus del nombre se encuentra en discusión entre los especialistas del grupo taxonómico.</rule>
       <rule>Cuando la especie no se encuentran en los catálogos de autoridades taxonómicas de la CONABIO o referencias bibliográficas especializadas con las que cuenta la CONABIO, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
+      <rule>El valor NO DISPONIBLE significa que se desconoce el estatus del taxón.</rule>
       <rule>El valor NO APLICA significa que la especie no se han descrito formalmente.</rule>
       <rule>El valor vacío significa que el taxón al que está determinado el ejemplar corresponde a un nivel superior de especie o que no se encontró en algún catálogo o fuente de información para validarlo.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>estatustax</campo>
+      <campo>especie</campo>
+      <campo>autor</campo>
+      <campo>grupobio</campo>
+    </campos>
+    <ejemplar>
+      <key>9d0d3a25a1407348776fef1ded21612d</key>
+      <key>dc930c405edb5e291db83d2b8fd8a59b</key>
+      <key>015d493c5ee78e6d1a0141f00404cf37</key>
+      <key>64a567415f7db34047b25def8689e5ef</key>
+      <key>012291a4b4e5831c2391b6b379e845e1</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
