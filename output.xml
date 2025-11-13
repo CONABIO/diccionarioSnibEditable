@@ -1592,9 +1592,17 @@ NO DISPONIBLE</subregla></rule>
     <dataRules>
       <rule>El valor vacío significa que el nombre al que está determinado el ejemplar corresponde a un nivel superior de especie o que no se encontró en algún catálogo o fuente de información, o que se desconoce el autor de la especie.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>autor</campo>
+      <campo>especie</campo>
+    </campos>
+    <ejemplar>
+      <key>9d0d3a25a1407348776fef1ded21612d</key>
+      <key>015d493c5ee78e6d1a0141f00404cf37</key>
+      <key>089358604705ab4c93c5a27ae5c4ecf6</key>
+      <key>dc930c405edb5e291db83d2b8fd8a59b</key>
+      <key>7de457774a02e5060d733ac2674b3ca0</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
