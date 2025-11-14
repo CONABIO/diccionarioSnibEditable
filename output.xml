@@ -1698,8 +1698,18 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>reinovalido</campo>
+      <campo>especievalida</campo>
+    </campos>
+    <ejemplar>
+      <key>9d0d3a25a1407348776fef1ded21612d</key>
+      <key>dc930c405edb5e291db83d2b8fd8a59b</key>
+      <key>7de457774a02e5060d733ac2674b3ca0</key>
+      <key>09d4079c0a7f104f64e183845b2ed89a</key>
+      <key>241c9de4f2dc6b1cb4276a544ff547b2</key>
+      <key>a4f93dbea452dc2ce2c2b5a030445892</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
