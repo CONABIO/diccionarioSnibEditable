@@ -2291,15 +2291,18 @@ NO DISPONIBLE</subregla></rule>
     <description>Identificador del nombre válido en el catálogo de autoridades taxonómicas de la CONABIO.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
+    <ejemplar>
+      <key>9d0d3a25a1407348776fef1ded21612d</key>
+      <key>015d493c5ee78e6d1a0141f00404cf37</key>
+      <key>09d4079c0a7f104f64e183845b2ed89a</key>
+      <key>f4506b107c750023754d866f2966cb18</key>
+    </ejemplar>
     <campos>
       <campo>idnombrecat</campo>
+      <campo>especie</campo>
       <campo>idnombrecatvalido</campo>
+      <campo>especievalida</campo>
     </campos>
-    <ejemplar>
-      <key>015d493c5ee78e6d1a0141f00404cf37</key>
-      <key>f4506b107c750023754d866f2966cb18</key>
-      <key>515866421c97e38d3b822d1e6414bdb9</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
