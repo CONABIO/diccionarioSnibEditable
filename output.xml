@@ -2266,15 +2266,15 @@ NO DISPONIBLE</subregla></rule>
     <description>Identificador del nombre del ejemplar en el catálogo de autoridades taxonómicas de la CONABIO. Corresponde al identificador de la Especie (binomio, trinomio, etc.)</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
+    <ejemplar>
+      <key>9d0d3a25a1407348776fef1ded21612d</key>
+      <key>015d493c5ee78e6d1a0141f00404cf37</key>
+      <key>09d4079c0a7f104f64e183845b2ed89a</key>
+    </ejemplar>
     <campos>
       <campo>idnombrecat</campo>
       <campo>especie</campo>
     </campos>
-    <ejemplar>
-      <key>9d0d3a25a1407348776fef1ded21612d</key>
-      <key>7de457774a02e5060d733ac2674b3ca0</key>
-      <key>09d4079c0a7f104f64e183845b2ed89a</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
