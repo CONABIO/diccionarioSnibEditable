@@ -2299,8 +2299,6 @@ NO DISPONIBLE</subregla></rule>
       <key>f4506b107c750023754d866f2966cb18</key>
     </ejemplar>
     <campos>
-      <campo>idnombrecat</campo>
-      <campo>especie</campo>
       <campo>idnombrecatvalido</campo>
       <campo>especievalida</campo>
     </campos>
