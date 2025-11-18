@@ -1977,10 +1977,24 @@ NO DISPONIBLE</subregla></rule>
     <description>Nombre de la categoría taxonómica infraespecífica del nombre válido.</description>
     <datatype>varchar (50).</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <dataRules>
+      <rule>El valor vacío significa que el nombre corresponde a una especie o a alguna categoría taxonómica superior.</rule>
+      <rule>La categoría taxonómica es obligatoria cuando el nombre válido corresponde a un trinomio.</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>subespecie</subregla><subregla>variedad</subregla><subregla>forma</subregla><subregla>raza</subregla></rule>
+    </dataRules>
+    <syntaxRules>
+      <rule>El valor se captura en minúsculas.</rule>
+    </syntaxRules>
+    <campos>
+      <campo>categoriainfraespecievalida</campo>
+      <campo>especievalida</campo>
+    </campos>
+    <ejemplar>
+      <key>7a8b1c8acc4b882a5fd1e1babe936cb3</key>
+      <key>b9fdbb69d2cc44d94b74f93c4d3948a8</key>
+      <key>272e7a9af6892df72a5422b073a3c217</key>
+      <key>03efee46088ce4f6979ff111d41360a1</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
