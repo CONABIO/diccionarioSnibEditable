@@ -2239,6 +2239,9 @@ NO DISPONIBLE</subregla></rule>
     <description>Nombres comunes reconocidos para el taxón en los catálogos de autoridades taxonómicas de la CONABIO.</description>
     <datatype>text</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>En la CONABIO hemos decidido dar preferencia a los datos de nombre com&uacute;n clasificados en idioma espa&ntilde;ol (tipificados as&iacute; desde la base de datos origen). Pueden existir nombres comunes en otras lenguas.</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor vacío significa que no se cuenta con información de nombre común para el taxón.</rule>
       <rule>Si no existe nombre común en los catálogos de autoridades taxonómicas de la CONABIO se presenta el dato proporcionado en las bases de datos originales cuando este exista.</rule>
@@ -2246,10 +2249,16 @@ NO DISPONIBLE</subregla></rule>
     <syntaxRules>
       <rule>Cuando el taxón tiene más de un nombre común, se separa con “, ” seguido de un espacio y posteriormente otro nombre común.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>En la CONABIO hemos decidido dar preferencia a los datos de nombre común clasificados en idioma español (tipificados así desde la base de datos origen). Pueden existir nombres comunes en otras lenguas.</note>
-    </notes>
+    <campos>
+      <campo>nombrecomun</campo>
+      <campo>especievalida</campo>
+    </campos>
+    <ejemplar>
+      <key>9b5eb0b6886bf6f4d2dfa8faf9cb13f3</key>
+      <key>7ddb217ad42448a535ba5d1c7e4244e6</key>
+      <key>81e98f8761a27dbc725ae8757da0004e</key>
+      <key>620397398d553bea0d483baf270fa6a2</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
