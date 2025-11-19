@@ -2204,25 +2204,24 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>Dulceacuícola</rule>
-      <rule>Marino</rule>
-      <rule>Salobre</rule>
-      <rule>Terrestre</rule>
-      <rule>Salino</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Dulceacuícola</subregla><subregla>Marino</subregla><subregla>Salobre</subregla><subregla>Terrestre</subregla><subregla>Salino</subregla></rule>
+      <rule>Combinación de los valores anteriores</rule>
     </dataRules>
     <syntaxRules>
       <rule>Cuando hay más de un ambiente reportado para un taxón, se separa con “; ” seguido de un espacio y posteriormente otro ambiente.</rule>
     </syntaxRules>
+    <ejemplar>
+      <key>feab1e833e8953c2685ccef075226b87</key>
+      <key>0d39cefea0c07adcce5808590f261eb8</key>
+      <key>1ed93ff116dedf342b61564b03165c38</key>
+      <key>0ce7730206db8b92f0c0d065c6fd78e4</key>
+      <key>2859e562d504dbce077eb45261602b6b</key>
+      <key>b22bd3738624825288b74e8f070f67bd</key>
+    </ejemplar>
     <campos>
       <campo>ambiente</campo>
       <campo>especievalida</campo>
     </campos>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>88367ecff54aea6cafdc94a0281d225f</key>
-      <key>1ed93ff116dedf342b61564b03165c38</key>
-      <key>58c748abaeab72f3ad5f3041fc76d5bc</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
