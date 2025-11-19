@@ -2439,23 +2439,29 @@ NO DISPONIBLE</subregla></rule>
     <description>Indica si una especie está catalogada como exótica, exótica invasora o criptogénica de México.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n acerca de la lista de especies invasoras y ex&oacute;ticas invasoras v&eacute;ase:</p>
+<p>CONABIO. 2023. Sistema de informaci&oacute;n sobre especies invasoras <a href="https://www.biodiversidad.gob.mx/especies/Invasoras">https://www.biodiversidad.gob.mx/especies/Invasoras</a>.Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Cd. de M&eacute;xico.</p>
+<p>&nbsp;</p>]]></note>
+    </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:</rule>
-      <rule>Exótica</rule>
-      <rule>Exótica-Invasora</rule>
-      <rule>Criptogénica</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Exótica</subregla><subregla>Exótica-Invasora</subregla><subregla>Criptogénica</subregla><subregla>Criptogénica-Invasora</subregla></rule>
       <rule>El valor Exótica hace referencia a un taxón (especie, subespecie u otro) que se encuentra fuera de su área natural de distribución (pasada o presente), o con dispersión potencial fuera del área de distribución, en la que se encuentra naturalmente en sitios a los que no podría llegar sin la intervención directa o indirecta del ser humano); incluye cualquier parte del organismo, gameto o propágulo que pueda sobrevivir y posteriormente reproducirse.</rule>
       <rule>El valor Exótica-Invasora hace referencia a un taxón (especie, subespecie u otro) que se ha sometido a un Análisis de Riesgo de Invasividad y el resultado la clasifica como invasora</rule>
       <rule>El valor Criptogénica hace referencia a un taxón (especie, subespecie u otro) con historia biogeográfica desconocida y que por lo tanto no puede reconocerse claramente si es o no nativa. Los taxones que se pueden reconocer claramente como exóticos (ya sea por medio de evidencia paleontológica, arqueológica, histórica, biogeográfica, genética, etc.) aunque su origen geográfico sea desconocido no son especies criptogénicas.</rule>
       <rule>El valor Criptogénica-Invasora hace referencia a un taxón (especie, subespecie u otro) con historia biogeográfica desconocida y que por lo tanto no puede reconocerse claramente si es o no nativa y que se ha sometido a un Análisis de Riesgo de Invasividad y el resultado la clasifica como invasora.</rule>
       <rule>El valor vacío significa que la especie no es exótica ni invasora o no se le ha reconocido como tal.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes>
-      <note>Para más información acerca de la lista de especies invasoras y exóticas invasoras véase:</note>
-      <note>CONABIO. 2023. Sistema de información sobre especies invasoras https://www.biodiversidad.gob.mx/especies/Invasoras .Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Cd. de México.</note>
-    </notes>
+    <campos>
+      <campo>exoticainvasora</campo>
+      <campo>especievalida</campo>
+    </campos>
+    <ejemplar>
+      <key>271225c63b4948a4b590ae1a36b248c1</key>
+      <key>c813b279d7e01cd95593a5b4786eb463</key>
+      <key>42f5252816eed473ffcb2455eac430b5</key>
+      <key>1f0abe1ac12a80d61aea741d69260224</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
