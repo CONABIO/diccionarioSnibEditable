@@ -2185,16 +2185,23 @@ NO DISPONIBLE</subregla></rule>
     <datatype>enum</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El dominio de los valores permitido está dado por:</rule>
-      <rule>SI</rule>
-      <rule>NO</rule>
+      <rule>El dominio de los valores permitido está dado por:<subregla>SI</subregla><subregla>NO</subregla></rule>
       <rule>El valor SI significa que corresponde a taxón extinto, con base en referencias bibliográficas.</rule>
       <rule>El valor NO significa que no corresponde a un taxón extinto, con base en referencias bibliográficas.</rule>
       <rule>El valor vacío significa que se desconoce o no se ha revisado si el taxón es o no un taxón extinto.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>taxonextinto</campo>
+      <campo>grupobio</campo>
+      <campo>especievalida</campo>
+    </campos>
+    <ejemplar>
+      <key>2f0af87a7c7b6422279ce08529c6f0a8</key>
+      <key>be561590874dd36a5754da251d2bc41e</key>
+      <key>9796b5e0a57f38a17a4e0dde258ce67c</key>
+      <key>29956bb1d5b6cfe396b8f62beef175a8</key>
+      <key>dd03d2f9b90080038f68724669d6bf4c</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
