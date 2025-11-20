@@ -2592,17 +2592,20 @@ NO DISPONIBLE</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por:<subregla>Migratoria de invierno (MI)</subregla><subregla>Residente (R)</subregla><subregla>Migratoria de verano (MV)</subregla><subregla>Transitoria (T)</subregla><subregla>Oceánica (O)</subregla><subregla>Accidental (A)</subregla></rule>
       <rule>El valor vacío significa que la especie no tiene clasificación de su residencia o que no se trata de un ave.</rule>
     </dataRules>
-    <campos>
-      <campo>categoriaresidenciaaves</campo>
-      <campo>especievalida</campo>
-    </campos>
+    <syntaxRules>
+      <rule>Cuando el taxón tiene más de un tipo de residencia, se separa con “, ” seguido de un espacio y posteriormente otro.</rule>
+    </syntaxRules>
     <ejemplar>
-      <key>ee852de34a6ca203d84d318a591155c9</key>
+      <key>f94468e9473846b23dee710283253427</key>
       <key>1b9db270482825c0c17a2c9f3ba29fcf</key>
-      <key>5b8c98b0902790304c0daf611c335b3c</key>
+      <key>893cde8aeb0e979f5f5731a2c1708d36</key>
       <key>996aef8315cca9613d169809bffd7562</key>
       <key>073414809fa4de8e877b8ce0d4260994</key>
     </ejemplar>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>categoriaresidenciaaves</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
