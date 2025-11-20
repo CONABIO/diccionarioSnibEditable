@@ -2585,15 +2585,24 @@ NO DISPONIBLE</subregla></rule>
     <description>Indica el tipo de residencia de las especies de aves respecto al sitio y a la temporada del año.</description>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Algunas especies pueden contener m&aacute;s de una categor&iacute;a de residencia. Las categor&iacute;as de residencia de aves, son las usadas por NABCI URL: <a href="https://www.biodiversidad.gob.mx/media/1/ciencia-ciudadana/documentos/Lista_actualizada_aos_2019.pdf">https://www.biodiversidad.gob.mx/media/1/ciencia-ciudadana/documentos/Lista_actualizada_aos_2019.pdf</a>&nbsp;</p>]]></note>
+    </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Migratoria de invierno (MI)</subregla><subregla>Residente (R)</subregla><subregla>Migratoria de verano (MV)</subregla><subregla>Transitoria (T)</subregla><subregla>Oceánica (O)</subregla><subregla>Accidental (A)</subregla></rule>
       <rule>El valor vacío significa que la especie no tiene clasificación de su residencia o que no se trata de un ave.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes>
-      <note>Algunas especies pueden contener más de una categoría de residencia. Las categorías de residencia de aves, son las  usadas por NABCI URL: https://www.biodiversidad.gob.mx/media/1/ciencia-ciudadana/documentos/Lista_actualizada_aos_2019.pdf</note>
-    </notes>
+    <campos>
+      <campo>categoriaresidenciaaves</campo>
+      <campo>especievalida</campo>
+    </campos>
+    <ejemplar>
+      <key>ee852de34a6ca203d84d318a591155c9</key>
+      <key>1b9db270482825c0c17a2c9f3ba29fcf</key>
+      <key>5b8c98b0902790304c0daf611c335b3c</key>
+      <key>996aef8315cca9613d169809bffd7562</key>
+      <key>073414809fa4de8e877b8ce0d4260994</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
