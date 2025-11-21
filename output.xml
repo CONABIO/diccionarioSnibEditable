@@ -2394,21 +2394,30 @@ NO DISPONIBLE</subregla></rule>
     <description>Especies utilizadas para representar a otras especies o aspectos significativos del ambiente para conseguir un objetivo determinado de conservación.</description>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Se hereda la misma categor&iacute;a de prioridad a todos los taxones inferiores de la especie, a menos que este tenga su propia categor&iacute;a de prioridad.</p>]]></note>
+      <note><![CDATA[<p>PRIORITARIAS DOF 2014: SEMARNAT 2014. ACUERDO por el que se da a conocer la lista de especies y poblaciones prioritarias para la conservaci&oacute;n. Diario Oficial de la Federaci&oacute;n, mi&eacute;rcoles 5 de marzo de 2014, 2-15 p. <a href="http://dof.gob.mx/nota_detalle.php?codigo=5334865&amp;fecha=05/03/2014">http://dof.gob.mx/nota_detalle.php?codigo=5334865&amp;fecha=05/03/2014</a>&nbsp;</p>]]></note>
+      <note><![CDATA[<p>S&aacute;nchez, O., Ayala, B., Valera, A., Koleff, P., Cruz, L., de la Cruz, E., Caso, M. &amp; Santos del Prado, K. (Eds.). 2012a. Propuesta de lista de especies prioritarias para la conservaci&oacute;n en M&eacute;xico. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad, Comisi&oacute;n Nacional de &Aacute;reas Naturales Protegidas, Instituto Nacional de Ecolog&iacute;a, Direcci&oacute;n General de Vida Silvestre, Procuradur&iacute;a Federal de Protecci&oacute;n al Ambiente. M&eacute;xico, D. F. 24 pp.</p>]]></note>
+    </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:</rule>
-      <rule>DOF 2014</rule>
-      <rule>CONABIO 2012</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>DOF 2014</subregla><subregla>CONABIO 2012</subregla></rule>
       <rule>El valor DOF 2014 significa que es una especie incluida en el listado del acuerdo por el que se da a conocer la lista de especies y poblaciones prioritarias para la conservación, publicado en el Diario Oficial de la Federación el 5 de marzo del 2014.</rule>
       <rule>El valor CONABIO 2012 significa que es una especie considerada en la Ley General de Pesca, Acuacultura Sustentable o en la Ley General de Desarrollo forestal Sustentable y que la CONABIO determinó como especie prioritaria.</rule>
       <rule>El valor vacío significa que la especie no es considerada como prioritaria.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes>
-      <note>Se hereda la misma categoría de prioridad a todos los taxones inferiores de la especie, a menos que este tenga su propia categoría de prioridad.</note>
-      <note>PRIORITARIAS DOF 2014: SEMARNAT 2014. ACUERDO por el que se da a conocer la lista de especies y poblaciones prioritarias para la conservación. Diario Oficial de la Federación, miércoles 5 de marzo de 2014, 2-15 p. http://dof.gob.mx/nota_detalle.php?codigo=5334865&amp;fecha=05/03/2014</note>
-      <note>Sánchez, O., Ayala, B., Valera, A., Koleff, P., Cruz, L., de la Cruz, E., Caso, M. &amp; Santos del Prado, K. (Eds.). 2012a. Propuesta de lista de especies prioritarias para la conservación en México. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad, Comisión Nacional de Áreas Naturales Protegidas, Instituto Nacional de Ecología, Dirección General de Vida Silvestre, Procuraduría Federal de Protección al Ambiente. México, D. F. 24 pp.</note>
-    </notes>
+    <campos>
+      <campo>prioritaria</campo>
+      <campo>nivelprioridad</campo>
+      <campo>especievalida</campo>
+    </campos>
+    <ejemplar>
+      <key>009aebf0cec6e2b65b7c66abfefaa0b9</key>
+      <key>0004290465de6d782162133e5d1d79c2</key>
+      <key>01a3969728bcde6a474b33ab3b62f082</key>
+      <key>000722893cda1ce459163e4a2b4044e1</key>
+      <key>0045b67863b1d1f28888acc6fb18ab2b</key>
+      <key>04fa8a7aa9d0c7a9c4c600bbef0d093a</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
