@@ -2435,9 +2435,8 @@ NO DISPONIBLE</subregla></rule>
     <datatype>enum</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>El nivel de prioridad se asigna a los taxones designados en el Diario Oficial o en la CONABIO y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un nivel de prioridad propio.</p>]]></note>
-      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n acerca de la lista de especies prioritarias v&eacute;ase:</p>
-<p>PRIORITARIAS DOF 2014: SEMARNAT 2014. Acuerdo por el que se da a conocer la lista de especies y poblaciones prioritarias para la conservaci&oacute;n. Diario Oficial de la Federaci&oacute;n, mi&eacute;rcoles 5 de marzo de 2014, 2-15 p. <a href="http://dof.gob.mx/nota_detalle.php?codigo=5334865&amp;fecha=05/03/2014">http://dof.gob.mx/nota_detalle.php?codigo=5334865&amp;fecha=05/03/2014</a>&nbsp;</p>]]></note>
+      <note><![CDATA[<p>El nivel de prioridad se asigna a los taxones designados en el Diario Oficial o en la CONABIO y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un nivel de prioridad propio. Para m&aacute;s informaci&oacute;n acerca de la lista de especies prioritarias v&eacute;ase:</p>]]></note>
+      <note><![CDATA[<p>PRIORITARIAS DOF 2014: SEMARNAT 2014. Acuerdo por el que se da a conocer la lista de especies y poblaciones prioritarias para la conservaci&oacute;n. Diario Oficial de la Federaci&oacute;n, mi&eacute;rcoles 5 de marzo de 2014, 2-15 p.&nbsp;<a href="http://dof.gob.mx/nota_detalle.php?codigo=5334865&amp;fecha=05/03/2014">http://dof.gob.mx/nota_detalle.php?codigo=5334865&amp;fecha=05/03/2014</a>&nbsp;</p>]]></note>
       <note><![CDATA[<p>S&aacute;nchez, O., Ayala, B., Valera, A., Koleff, P., Cruz, L., de la Cruz, E., Caso, M. &amp; Santos del Prado, K. (Eds.). 2012a. Propuesta de lista de especies prioritarias para la conservaci&oacute;n en M&eacute;xico. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad, Comisi&oacute;n Nacional de &Aacute;reas Naturales Protegidas, Instituto Nacional de Ecolog&iacute;a, Direcci&oacute;n General de Vida Silvestre, Procuradur&iacute;a Federal de Protecci&oacute;n al Ambiente. M&eacute;xico, D. F. 24 pp.</p>]]></note>
     </notes>
     <dataRules>
@@ -2447,16 +2446,16 @@ NO DISPONIBLE</subregla></rule>
       <rule>El valor Menor significa que tiene 14 – 6 puntos obtenidos. Con base en las evaluaciones enviadas por los especialistas.</rule>
       <rule>El valor vacío significa que la especie no es considerada como prioritaria.</rule>
     </dataRules>
-    <campos>
-      <campo>nivelprioridad</campo>
-      <campo>prioritaria</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>009aebf0cec6e2b65b7c66abfefaa0b9</key>
       <key>0045b67863b1d1f28888acc6fb18ab2b</key>
       <key>04fa8a7aa9d0c7a9c4c600bbef0d093a</key>
     </ejemplar>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>prioritaria</campo>
+      <campo>nivelprioridad</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
