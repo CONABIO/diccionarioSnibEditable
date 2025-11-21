@@ -1129,29 +1129,17 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
     <dataRules>
       <rule>Los valores vacío y NO DISPONIBLE significan que no se cuenta con la información taxonómica suficiente para asignar el grupo biológico.</rule>
-      <rule>El dominio de los valores permitidos está dado por:<subregla>Bacterias</subregla><subregla>Cromistas</subregla><subregla>Virus  &#13;
-Plantas &#13;
-Hongos&#13;
-Invertebrados &#13;
-Peces&#13;
-Anfibios &#13;
-Reptiles&#13;
-Aves &#13;
-Mamíferos &#13;
-Protozoarios &#13;
-NO DISPONIBLE</subregla></rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Bacterias</subregla><subregla>Cromistas</subregla><subregla>Virus</subregla><subregla>Plantas</subregla><subregla>Hongos</subregla><subregla>Invertebrados</subregla><subregla>Peces</subregla><subregla>Anfibios</subregla><subregla>Reptiles</subregla><subregla>Aves</subregla><subregla>Mamíferos</subregla><subregla>Protozoarios</subregla><subregla>NO DISPONIBLE</subregla></rule>
     </dataRules>
     <ejemplar>
-      <key>32c0e373f3a6079d52b986d6dc6f7c28</key>
-      <key>0b4f4a96fa618e601ab4f5702547bd42</key>
-      <key>078c9a7513caa1efb3404ba45ae35a1d</key>
+      <key>de9909e82ab0c7498d43d9a6ce825f19</key>
+      <key>5271a5835a70716862d48ee53213fa68</key>
+      <key>a0ec9e3b75a0c5550cfce882ab3ee8fa</key>
     </ejemplar>
     <campos>
       <campo>grupobio</campo>
-      <campo>reino</campo>
-      <campo>phylumdivision</campo>
-      <campo>clase</campo>
-      <campo>orden</campo>
+      <campo>especie</campo>
+      <campo>especievalida</campo>
     </campos>
   </snibTerm>
   <snibTerm>
