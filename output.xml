@@ -2499,24 +2499,25 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (512)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>La categor&iacute;a de riesgo se asigna a los taxones designados en la NORMA y a todos sus taxones subordinados. Para m&aacute;s informaci&oacute;n acerca de la lista de especies protegidas v&eacute;ase:</p>]]></note>
-      <note><![CDATA[<p>SEMARNAT. 2019. MODIFICACI&Oacute;N del Anexo Normativo III, Lista de especies en riesgo de la Norma Oficial Mexicana NOM-059-SEMARNAT-2010, Protecci&oacute;n ambiental-Especies nativas de M&eacute;xico de flora y fauna silvestres. -Categor&iacute;as de riesgo y especificaciones para su inclusi&oacute;n, exclusi&oacute;n o cambio-Lista de especies en riesgo, publicada el 30 de diciembre de 2010. Diario Oficial de la Federaci&oacute;n. jueves 14 de noviembre de 2019, 1-101 p.</p>]]></note>
-      <note><![CDATA[<p>URL https://www.dof.gob.mx/nota_detalle.php?codigo=5578808&amp;fecha=14/11/2019</p>]]></note>
+      <note><![CDATA[<p>La categor&iacute;a de riesgo se asigna a los taxones designados en la NORMA y a todos sus taxones subordinados.</p>]]></note>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n acerca de la lista de especies protegidas v&eacute;ase:</p>
+<p>SEMARNAT. 2019. MODIFICACI&Oacute;N del Anexo Normativo III, Lista de especies en riesgo de la Norma Oficial Mexicana NOM-059-SEMARNAT-2010, Protecci&oacute;n ambiental-Especies nativas de M&eacute;xico de flora y fauna silvestres. -Categor&iacute;as de riesgo y especificaciones para su inclusi&oacute;n, exclusi&oacute;n o cambio-Lista de especies en riesgo, publicada el 30 de diciembre de 2010. Diario Oficial de la Federaci&oacute;n. jueves 14 de noviembre de 2019, 1-101 p.</p>
+<p>URL <a href="https://www.dof.gob.mx/nota_detalle.php?codigo=5578808&amp;fecha=14/11/2019">https://www.dof.gob.mx/nota_detalle.php?codigo=5578808&amp;fecha=14/11/2019</a>&nbsp;</p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por:<subregla>Amenazada (A)</subregla><subregla>Sujeta a protección especial (Pr)</subregla><subregla>En peligro de extinción (P)</subregla><subregla>Probablemente extinta en el medio silvestre (E)</subregla></rule>
       <rule>El valor vacío significa que la especie no está considerada dentro de las categorías de riesgo de la NOM-059-SEMARNAT-2010.</rule>
     </dataRules>
-    <campos>
-      <campo>nom059</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>01ea31d207f69c7cbb149f97a14d019d</key>
       <key>0193262a5f4d87247c2c29837c02da35</key>
       <key>527ddd72a2009a5ac10d0b83159c0255</key>
       <key>099eb01c53442d154d2d08833b4b5d26</key>
     </ejemplar>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>nom059</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
