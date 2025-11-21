@@ -2582,27 +2582,28 @@ NO DISPONIBLE</subregla></rule>
     <description>Indica el estado de conservación de la especie conforme a la lista roja de la Unión Internacional para la Conservación de la Naturaleza (IUCN).</description>
     <datatype>varchar(1024)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>El estado de conservaci&oacute;n se asigna a los taxones considerados en la lista roja IUCN para M&eacute;xico y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un estado de conservaci&oacute;n propio. Para m&aacute;s informaci&oacute;n acerca de los estados de conservaci&oacute;n de las especies:</p>]]></note>
+      <note><![CDATA[<p>IUCN. 2025. The IUCN Red List of Threatened Species. Version 2025-1. <a href="https://www.iucnredlist.org">https://www.iucnredlist.org</a>. Downloaded on 04 April 2025</p>]]></note>
+    </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:</rule>
-      <rule>Extinto (EX)</rule>
-      <rule>Extinto en estado silvestre (EW)</rule>
-      <rule>En peligro crítico (CR)</rule>
-      <rule>En peligro (EN)</rule>
-      <rule>Vulnerable (VU)</rule>
-      <rule>Casi amenazado (NT)</rule>
-      <rule>Preocupación menor (LC)</rule>
-      <rule>Dependiente de conservación (CD)</rule>
-      <rule>Datos insuficientes (DD)</rule>
-      <rule>No evaluado (NE)</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Extinto (EX)</subregla><subregla>Extinto en estado silvestre (EW)</subregla><subregla>En peligro crítico (CR)</subregla><subregla>En peligro (EN)</subregla><subregla>Vulnerable (VU)</subregla><subregla>Casi amenazado (NT)</subregla><subregla>Preocupación menor (LC)</subregla><subregla>Dependiente de conservación (CD)</subregla><subregla>Datos insuficientes (DD)</subregla><subregla>No evaluado (NE)</subregla></rule>
       <rule>El valor vacío significa que la especie no está considerada en la lista de la IUCN.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes>
-      <note>El estado de conservación se asigna a los taxones considerados en la lista roja IUCN para México y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un estado de conservación propio.</note>
-      <note>Para más información acerca de los estados de conservación de las especies:</note>
-      <note>IUCN. 2024. The IUCN Red List of Threatened Species. Version 2024-1 https://www.iucnredlist.org Downloaded on 12 July 2024</note>
-    </notes>
+    <campos>
+      <campo>iucn</campo>
+      <campo>especievalida</campo>
+    </campos>
+    <ejemplar>
+      <key>318d6ba91bd9cbda1485531eceb7c96f</key>
+      <key>57b0e4e3b8c69ae0d5c9a085d2cc9de8</key>
+      <key>22faa1f08ebef33cccfd0b522ba0e09f</key>
+      <key>8160120bbf3c0c3e4e7c961b8f8e80d9</key>
+      <key>10265d41fd201dd2cc5879941059ffa4</key>
+      <key>0b7384ed8c1e0e468b317652895d6174</key>
+      <key>dc10bf8c3f396c7771c1af240d69d43a</key>
+      <key>79132519adbff3075d7e07ca9c9cf7cc</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
