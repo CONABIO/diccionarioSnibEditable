@@ -2548,9 +2548,8 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar(512)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>El grado de protecci&oacute;n se asigna a los taxones designados en la CITES con distribuci&oacute;n en M&eacute;xico y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un grado de protecci&oacute;n propio.</p>]]></note>
-      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n acerca de los ap&eacute;ndices CITES:</p>
-<p>UNEP-WCMC (Comps.). 2022. The Checklist of CITES Species Website. CITES Secretariat, Geneva, Switzerland. Compiled by UNEP-WCMC, Cambridge, UK. Available at: <a href="http://checklist.cites.org">http://checklist.cites.org</a>. [Accessed 01/2023]&nbsp;</p>]]></note>
+      <note><![CDATA[<p>El grado de protecci&oacute;n se asigna a los taxones designados en la CITES con distribuci&oacute;n en M&eacute;xico y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un grado de protecci&oacute;n propio. Para m&aacute;s informaci&oacute;n acerca de los ap&eacute;ndices CITES:</p>]]></note>
+      <note><![CDATA[<p>UNEP-WCMC (Comps.). 2022. The Checklist of CITES Species Website. CITES Secretariat, Geneva, Switzerland. Compiled by UNEP-WCMC, Cambridge, UK. Available at:&nbsp;<a href="http://checklist.cites.org">http://checklist.cites.org</a>. [Accessed 01/2023]&nbsp;</p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por:<subregla>Apéndice I</subregla><subregla>Apéndice II</subregla><subregla>Apéndice III</subregla></rule>
@@ -2559,15 +2558,15 @@ NO DISPONIBLE</subregla></rule>
       <rule>En el valor Apéndice II se incluyen especies que no están en peligro de extinción, pero cuyo comercio debe controlarse para evitar una utilización incompatible con su supervivencia.</rule>
       <rule>En el valor Apéndice III se incluyen las especies que están protegidas al menos en un país, el cual ha solicitado la asistencia de otras Partes en la CITES para controlar su comercio.</rule>
     </dataRules>
-    <campos>
-      <campo>cites</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>0003fecf1d881fc57c625200daddd9b6</key>
       <key>29d36bf839fd23159e93e08268410276</key>
       <key>8d1da7b5ff77c8c71b55b69dfaba9ca0</key>
     </ejemplar>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>cites</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
