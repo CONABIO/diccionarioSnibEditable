@@ -2512,9 +2512,8 @@ NO DISPONIBLE</subregla></rule>
     <datatype>varchar (512)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>La categor&iacute;a de riesgo se asigna a los taxones designados en la NORMA y a todos sus taxones subordinados.</p>]]></note>
-      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n acerca de la lista de especies protegidas v&eacute;ase:</p>
-<p>SEMARNAT. 2019. MODIFICACI&Oacute;N del Anexo Normativo III, Lista de especies en riesgo de la Norma Oficial Mexicana NOM-059-SEMARNAT-2010, Protecci&oacute;n ambiental-Especies nativas de M&eacute;xico de flora y fauna silvestres. -Categor&iacute;as de riesgo y especificaciones para su inclusi&oacute;n, exclusi&oacute;n o cambio-Lista de especies en riesgo, publicada el 30 de diciembre de 2010. Diario Oficial de la Federaci&oacute;n. jueves 14 de noviembre de 2019, 1-101 p.</p>
+      <note><![CDATA[<p>La categor&iacute;a de riesgo se asigna a los taxones designados en la NORMA y a todos sus taxones subordinados. Para m&aacute;s informaci&oacute;n acerca de la lista de especies protegidas v&eacute;ase:</p>]]></note>
+      <note><![CDATA[<p>SEMARNAT. 2019. MODIFICACI&Oacute;N del Anexo Normativo III, Lista de especies en riesgo de la Norma Oficial Mexicana NOM-059-SEMARNAT-2010, Protecci&oacute;n ambiental-Especies nativas de M&eacute;xico de flora y fauna silvestres. -Categor&iacute;as de riesgo y especificaciones para su inclusi&oacute;n, exclusi&oacute;n o cambio-Lista de especies en riesgo, publicada el 30 de diciembre de 2010. Diario Oficial de la Federaci&oacute;n. jueves 14 de noviembre de 2019, 1-101 p.</p>
 <p>URL <a href="https://www.dof.gob.mx/nota_detalle.php?codigo=5578808&amp;fecha=14/11/2019">https://www.dof.gob.mx/nota_detalle.php?codigo=5578808&amp;fecha=14/11/2019</a>&nbsp;</p>]]></note>
     </notes>
     <dataRules>
