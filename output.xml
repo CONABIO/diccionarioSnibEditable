@@ -1152,6 +1152,8 @@ un dato de país en el campo país original.</subregla></rule>
       <campo>phylumdivision</campo>
       <campo>clase</campo>
       <campo>orden</campo>
+      <campo>familia</campo>
+      <campo>genero</campo>
     </campos>
   </snibTerm>
   <snibTerm>
