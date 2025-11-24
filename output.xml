@@ -1484,18 +1484,14 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar.</p>]]></note>
+      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo&nbsp; <a href="../diccionarioSNIB/#term-urlejemplar">URLEjemplar</a>.</p>]]></note>
       <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza de este campo mediante la correcci&oacute;n de escritura y de datos que no corresponden con el campo.</p>]]></note>
       <note><![CDATA[<p>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripci&oacute;n de scientificName en Darwin Core, por ejemplo, no se incluye el autor y a&ntilde;o de descripci&oacute;n.</p>]]></note>
     </notes>
     <dataRules>
-      <rule>Cuando la especie no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o referencias bibliográficas especializadas con las que cuenta la CONABIO, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
+      <rule>Cuando la especie no se encuentra en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL), en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
       <rule>El valor vacío significa que el taxón al que está determinado el ejemplar corresponde a un nivel superior de especie.</rule>
     </dataRules>
-    <campos>
-      <campo>especie</campo>
-      <campo>genero</campo>
-    </campos>
     <ejemplar>
       <key>9d0d3a25a1407348776fef1ded21612d</key>
       <key>08254be3bfe06c058c578be30d515bc7</key>
@@ -1509,6 +1505,10 @@ un dato de país en el campo país original.</subregla></rule>
       <key>241c9de4f2dc6b1cb4276a544ff547b2</key>
       <key>dc930c405edb5e291db83d2b8fd8a59b</key>
     </ejemplar>
+    <campos>
+      <campo>genero</campo>
+      <campo>especie</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
