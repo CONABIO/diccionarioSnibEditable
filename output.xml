@@ -1618,16 +1618,16 @@ un dato de país en el campo país original.</subregla></rule>
     <fieldName>Estatus taxonómico</fieldName>
     <fieldid>estatustax</fieldid>
     <dwcField>taxonomicStatus</dwcField>
-    <description>Estatus taxonómico de la especie (binomio, trinomio, etc.) dependiendo a que nivel se encuentre determinado el ejemplar y de acuerdo con los catálogos de autoridades taxonómicas de la CONABIO o de otras referencias especializadas.</description>
+    <description>Estatus taxonómico de la especie (binomio, trinomio, etc.) dependiendo a que nivel se encuentre determinado el ejemplar y de acuerdo con el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL).</description>
     <datatype>varchar (20)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por:<subregla>válido</subregla><subregla>aceptado</subregla><subregla>sinónimo</subregla><subregla>No resuelto</subregla><subregla>NO DISPONIBLE</subregla><subregla>NO APLICA</subregla></rule>
-      <rule>El valor válido significa que es el nombre correcto o actualmente en uso, de acuerdo con el catálogo o listado de referencia para taxones considerados en el Código Internacional de Nomenclatura Zoológica.</rule>
-      <rule>El valor aceptado significa que es el nombre correcto, o actualmente en uso, de acuerdo con el catálogo o listado de referencia para taxones considerados en el Código Internacional de Nomenclatura de algas, hongos y plantas.</rule>
-      <rule>El valor sinónimo significa que es uno de dos o más nombres de la misma categoría usados para indicar el mismo taxón, de acuerdo con los catálogos de autoridades taxonómicas de la CONABIO o referencia utilizada.</rule>
+      <rule>El valor válido significa que es el nombre correcto o actualmente en uso, de acuerdo con el CAT o con COL para taxones considerados en el Código Internacional de Nomenclatura Zoológica.</rule>
+      <rule>El valor aceptado significa que es el nombre correcto, o actualmente en uso, de acuerdo con el CAT o con COL para taxones considerados en el Código Internacional de Nomenclatura de algas, hongos y plantas.</rule>
+      <rule>El valor sinónimo significa que es uno de dos o más nombres de la misma categoría usados para indicar el mismo taxón, de acuerdo con el CAT o con COL.</rule>
       <rule>El valor No resuelto significa que el estatus del nombre se encuentra en discusión entre los especialistas del grupo taxonómico.</rule>
-      <rule>Cuando la especie no se encuentran en los catálogos de autoridades taxonómicas de la CONABIO o referencias bibliográficas especializadas con las que cuenta la CONABIO, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
+      <rule>Cuando la especie no se encuentra en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL), en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
       <rule>El valor NO DISPONIBLE significa que se desconoce el estatus del taxón.</rule>
       <rule>El valor NO APLICA significa que la especie no se han descrito formalmente.</rule>
       <rule>El valor vacío significa que el taxón al que está determinado el ejemplar corresponde a un nivel superior de especie o que no se encontró en algún catálogo o fuente de información para validarlo.</rule>
@@ -1640,9 +1640,9 @@ un dato de país en el campo país original.</subregla></rule>
       <key>067caf7270c953604311dc03f3b42e34</key>
     </ejemplar>
     <campos>
-      <campo>estatustax</campo>
       <campo>especie</campo>
       <campo>autor</campo>
+      <campo>estatustax</campo>
     </campos>
   </snibTerm>
   <snibTerm>
