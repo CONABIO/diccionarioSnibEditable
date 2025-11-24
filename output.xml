@@ -1148,7 +1148,10 @@ un dato de país en el campo país original.</subregla></rule>
     </ejemplar>
     <campos>
       <campo>grupobio</campo>
-      <campo>especie</campo>
+      <campo>reino</campo>
+      <campo>phylumdivision</campo>
+      <campo>clase</campo>
+      <campo>orden</campo>
     </campos>
   </snibTerm>
   <snibTerm>
