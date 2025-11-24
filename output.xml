@@ -1389,9 +1389,9 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo urlejemplar.</p>]]></note>
+      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo&nbsp; <a href="../diccionarioSNIB/#term-urlejemplar">urlejemplar</a>.</p>]]></note>
       <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores ortogr&aacute;ficos, as&iacute; como la estandarizaci&oacute;n a sistemas de clasificaci&oacute;n reconocidos por la comunidad cient&iacute;fica.</p>]]></note>
-      <note><![CDATA[<p>La equivalencia en Darwin Core puede ser family, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de family que lo asignamos al campo familia v&aacute;lida.</p>]]></note>
+      <note><![CDATA[<p>La equivalencia en Darwin Core puede ser family, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de family que lo asignamos al campo <a href="../diccionarioSNIB/#term-familiavalida">familiavalida</a>.</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el nombre de la familia no fue proporcionado en las bases de datos originales.</rule>
@@ -1401,10 +1401,6 @@ un dato de país en el campo país original.</subregla></rule>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <campos>
-      <campo>familia</campo>
-      <campo>especie</campo>
-    </campos>
     <ejemplar>
       <key>9d0d3a25a1407348776fef1ded21612d</key>
       <key>08254be3bfe06c058c578be30d515bc7</key>
@@ -1420,6 +1416,10 @@ un dato de país en el campo país original.</subregla></rule>
       <key>512a145d4e1cd87c03c1d6aacab16dc7</key>
       <key>dfbd267f9c8d2a5fb93b9131da28067a</key>
     </ejemplar>
+    <campos>
+      <campo>familia</campo>
+      <campo>especie</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
