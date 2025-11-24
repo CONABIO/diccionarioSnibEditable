@@ -1341,9 +1341,9 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo URLEjemplar .</p>]]></note>
+      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo <a href="../diccionarioSNIB/#term-urlejemplar">URLEjemplar</a> .</p>]]></note>
       <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p>]]></note>
-      <note><![CDATA[<p>La equivalencia en Darwin Core puede ser order, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de order que lo asignamos al campo orden v&aacute;lido.</p>]]></note>
+      <note><![CDATA[<p>La equivalencia en Darwin Core puede ser order, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos este campo sin equivalencia con Darwin Core en lugar de order que lo asignamos al campo <a href="../diccionarioSNIB/#term-ordenvalido">ordenvalido</a>.</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el nombre del orden no fue proporcionado en las bases de datos originales.</rule>
