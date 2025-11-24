@@ -1528,7 +1528,7 @@ un dato de país en el campo país original.</subregla></rule>
     <dataRules>
       <rule>El valor vacío significa que la categoría infraespecífica no fue proporcionada o que el taxón está determinado a una categoría superior.</rule>
       <rule>El dato es obligatorio cuando el nombre científico corresponde a una infraespecie (trinomio).</rule>
-      <rule>Cuando la infraespecie no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o referencias bibliográficas especializadas con las que cuenta la CONABIO, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
+      <rule>Cuando la infraespecie no se encuentra en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL), en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
       <rule>El dominio de los valores permitidos está dado principalmente por:<subregla>subespecie</subregla><subregla>variedad</subregla><subregla>forma</subregla><subregla>raza</subregla><subregla>estirpe</subregla><subregla>cultivar</subregla><subregla>grupo</subregla><subregla>híbrido</subregla><subregla>convariedad o convar.</subregla><subregla>serovar</subregla></rule>
     </dataRules>
     <ejemplar>
@@ -1538,8 +1538,8 @@ un dato de país en el campo país original.</subregla></rule>
       <key>11df5be4c3d869da8e1d0f39c8492bb8</key>
     </ejemplar>
     <campos>
-      <campo>categoriainfraespecie</campo>
       <campo>especie</campo>
+      <campo>categoriainfraespecie</campo>
     </campos>
   </snibTerm>
   <snibTerm>
