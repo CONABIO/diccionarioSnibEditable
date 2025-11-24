@@ -1389,14 +1389,14 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo&nbsp; <a href="../diccionarioSNIB/#term-urlejemplar">urlejemplar</a>.</p>]]></note>
+      <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo&nbsp; <a href="../diccionarioSNIB/#term-urlejemplar">URLejemplar</a>.</p>]]></note>
       <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores ortogr&aacute;ficos, as&iacute; como la estandarizaci&oacute;n a sistemas de clasificaci&oacute;n reconocidos por la comunidad cient&iacute;fica.</p>]]></note>
       <note><![CDATA[<p>La equivalencia en Darwin Core puede ser family, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de family que lo asignamos al campo <a href="../diccionarioSNIB/#term-familiavalida">familiavalida</a>.</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el nombre de la familia no fue proporcionado en las bases de datos originales.</rule>
-      <rule>Cuando la familia no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO, o referencias bibliográficas especializadas con las que cuenta la CONABIO para realizar la limpieza, en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
-      <rule>El dato No asignado significa que el sistema de clasificación de referencia utilizado para realizar la limpieza al campo, no considera esta categoría taxonómica.</rule>
+      <rule>Cuando la familia no se encuentra een el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL), en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
+      <rule>El dato No asignado significa que el sistema de clasificación de referencia utilizado en el CAT o en COL, no consideran esta categoría taxonómica.</rule>
     </dataRules>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
