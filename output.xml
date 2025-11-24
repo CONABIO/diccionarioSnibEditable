@@ -1257,7 +1257,7 @@ un dato de país en el campo país original.</subregla></rule>
     <dataRules>
       <rule>El valor vacío significa que el phylum o división no fue proporcionado en las bases de datos originales.</rule>
       <rule>Cuando la división o phylum no se encuentra en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL), en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
-      <rule>El dato No asignado significa que el sistema de clasificación de referencia utilizado para realizar la limpieza al campo no considera esta categoría taxonómica.</rule>
+      <rule>El dato No asignado significa que el sistema de clasificación de referencia utilizado en el CAT o COL, no consideran esta categoría taxonómica.</rule>
     </dataRules>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
