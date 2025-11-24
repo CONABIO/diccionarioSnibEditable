@@ -1439,7 +1439,7 @@ un dato de país en el campo país original.</subregla></rule>
     <notes>
       <note><![CDATA[<p>Se puede ver el nombre tal cual lo escribi&oacute; el proveedor de datos, utilizando el campo&nbsp; <a href="../diccionarioSNIB/#term-urlejemplar">URLEjemplar</a>.</p>]]></note>
       <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p>]]></note>
-      <note><![CDATA[<p>La equivalencia en Darwin Core tambi&eacute;n puede ser genus, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de genus que lo asignamos al campo <a href="../diccionarioSNIB/#term-generovalido">generovalido</a>.</p>]]></note>
+      <note><![CDATA[<p>La equivalencia en Darwin Core tambi&eacute;n puede ser genus, pero en la CONABIO hemos decidido privilegiar los datos actualmente en uso (v&aacute;lidos), indicamos en este campo sin equivalencia con Darwin Core en lugar de genus que lo asignamos al campo&nbsp;<a href="../diccionarioSNIB/#term-generovalido">generovalido</a>.</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el nombre del género no fue proporcionado en las bases de datos originales.</rule>
