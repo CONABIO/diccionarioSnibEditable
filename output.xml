@@ -1216,7 +1216,7 @@ un dato de país en el campo país original.</subregla></rule>
       <note><![CDATA[<p>La CONABIO realiz&oacute; limpieza y homologaci&oacute;n de este campo mediante la correcci&oacute;n de errores de escritura y de datos que no corresponden con el campo.</p>]]></note>
     </notes>
     <dataRules>
-      <rule>El valor vacío significa que el reino no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o no fue proporcionado en las bases de datos originales.</rule>
+      <rule>El valor vacío significa que el reino no se encuentra en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o no fue proporcionado en las bases de datos originales.</rule>
     </dataRules>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
