@@ -1657,15 +1657,15 @@ un dato de país en el campo país original.</subregla></rule>
     <fieldName>Referencia taxonómica</fieldName>
     <fieldid>reftax</fieldid>
     <dwcField>nameAccordingTo</dwcField>
-    <description>Autor(es) y año de publicación del catálogo de autoridad, listado, diccionario, o de otras referencias especializadas usadas por la CONABIO para validar la especie (binomio, trinomio, etc.).</description>
+    <description>Autor(es) y año de publicación de avuerdo con el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o con el Catálogo de la Vida (COL) para validar la especie (binomio, trinomio, etc.).</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor vacío significa que no se cuenta con la información del catálogo de autoridad, listado o diccionario que respalda el nombre del taxón o que el ejemplar corresponde a un taxón que no se ha descrito formalmente.</rule>
+      <rule>El valor vacío significa que no se cuenta con la información de la referencia que respalda el nombre del taxón o que el ejemplar corresponde a un taxón que no se ha descrito formalmente.</rule>
     </dataRules>
     <syntaxRules>
       <rule>El autor se escribe en su forma abreviada utilizando mayúsculas y minúsculas en nombres propios, mayúsculas en siglas o acrónimos de bases de datos en línea.</rule>
-      <rule>Se usa “ &amp; “ entre espacios en blanco para concatenar al último autor.</rule>
+      <rule>Se usa “ &amp;amp; “ entre espacios en blanco para concatenar al último autor.</rule>
       <rule>El año se escribe en cuatro dígitos y precedido por “, “.</rule>
     </syntaxRules>
     <ejemplar>
@@ -1675,8 +1675,8 @@ un dato de país en el campo país original.</subregla></rule>
       <key>089358604705ab4c93c5a27ae5c4ecf6</key>
     </ejemplar>
     <campos>
-      <campo>reftax</campo>
       <campo>especie</campo>
+      <campo>reftax</campo>
     </campos>
   </snibTerm>
   <snibTerm>
