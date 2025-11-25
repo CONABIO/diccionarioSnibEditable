@@ -2160,7 +2160,7 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitido está dado por:<subregla>Endémica</subregla><subregla>Semiendémica</subregla><subregla>Cuasiendémica</subregla></rule>
       <rule>El valor Endémica significa que corresponde a un taxón endémico.</rule>
       <rule>El valor Semiendémica significa: especies cuya población completa se distribuye únicamente en México durante cierta época del año.</rule>
-      <rule>El valor Cuasiendémica significa: especies que tienen áreas de distribución que se extienden ligeramente fuera de México hacia algún país vecino (&amp;lt;35,000 km2), debido a la continuidad de los hábitats.</rule>
+      <rule>El valor Cuasiendémica significa: especies que tienen áreas de distribución que se extienden ligeramente fuera de México hacia algún país vecino (&lt;35,000 km2), debido a la continuidad de los hábitats.</rule>
       <rule>El valor vacío significa que no se ha revisado si el taxón se considera o no como endémico en México.</rule>
     </dataRules>
     <ejemplar>
