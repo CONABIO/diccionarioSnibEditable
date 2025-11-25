@@ -2118,25 +2118,25 @@ un dato de país en el campo país original.</subregla></rule>
     <fieldName>Taxón validado</fieldName>
     <fieldid>taxonvalidado</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>Indica si el nombre al que se determinó el ejemplar se pudo validar con los catálogos de autoridades taxonómicas de la CONABIO o con otras referencias especializadas.</description>
+    <description>Indica si el nombre al que se determinó el ejemplar se pudo validar con el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o con el Catálogo de la Vida (COL).</description>
     <datatype>varchar (2)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor SI significa que el nombre se pudo validar con los catálogos de autoridades taxonómicas de la CONABIO o con otras referencias especializadas.</rule>
+      <rule>El valor SI significa que el nombre se pudo validar con el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o con el Catálogo de la Vida (COL).</rule>
       <rule>El valor NO significa que el taxón no ha sido validado por la CONABIO.</rule>
     </dataRules>
-    <campos>
-      <campo>taxonvalidado</campo>
-      <campo>orden</campo>
-      <campo>familia</campo>
-      <campo>especie</campo>
-    </campos>
     <ejemplar>
       <key>7de457774a02e5060d733ac2674b3ca0</key>
       <key>09d4079c0a7f104f64e183845b2ed89a</key>
       <key>229b447ebef16da73c0db042bd865816</key>
       <key>cac708336f34cfd95d61105cc307226b</key>
     </ejemplar>
+    <campos>
+      <campo>orden</campo>
+      <campo>familia</campo>
+      <campo>especie</campo>
+      <campo>taxonvalidado</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
