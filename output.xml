@@ -2294,7 +2294,7 @@ un dato de país en el campo país original.</subregla></rule>
     <fieldName>Identificador del nombre</fieldName>
     <fieldid>idnombrecat</fieldid>
     <dwcField>scientificNameID</dwcField>
-    <description>Identificador del nombre del ejemplar en el catálogo de autoridades taxonómicas de la CONABIO. Corresponde al identificador de la Especie (binomio, trinomio, etc.)</description>
+    <description>Identificador del nombre del ejemplar en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO. Corresponde al identificador de la Especie (binomio, trinomio, etc.)</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <ejemplar>
