@@ -2320,7 +2320,7 @@ un dato de país en el campo país original.</subregla></rule>
     <fieldName>Identificador del nombre válido</fieldName>
     <fieldid>idnombrecatvalido</fieldid>
     <dwcField>acceptedNameUsageID</dwcField>
-    <description>Identificador del nombre válido en el catálogo de autoridades taxonómicas de la CONABIO.</description>
+    <description>Identificador del nombre válido el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <ejemplar>
