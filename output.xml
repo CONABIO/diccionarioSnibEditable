@@ -1630,7 +1630,7 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>Cuando la especie no se encuentra en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL), en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
       <rule>El valor NO DISPONIBLE significa que se desconoce el estatus del taxón.</rule>
       <rule>El valor NO APLICA significa que la especie no se han descrito formalmente.</rule>
-      <rule>El valor vacío significa que el taxón al que está determinado el ejemplar corresponde a un nivel superior de especie o que no se encontró en algún catálogo o fuente de información para validarlo.</rule>
+      <rule>El valor vacío significa que el taxón al que está determinado el ejemplar corresponde a un nivel superior de especie o que no se encontró en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL) para validarlo.</rule>
     </dataRules>
     <ejemplar>
       <key>9d0d3a25a1407348776fef1ded21612d</key>
