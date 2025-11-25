@@ -1809,7 +1809,7 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor vacío significa que el taxón al que está determinado el ejemplar no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO, en las referencias bibliográficas especializadas con las que cuenta la CONABIO o que el estatus del taxón original (especie) es no resuelto.</rule>
+      <rule>El valor vacío significa que el taxón al que está determinado el ejemplar no se encuentra en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL), o que el estatus del taxón original (familia, género, especie) es no resuelto.</rule>
       <rule>El dato No asignado significa que el sistema de clasificación de referencia utilizado en el CAT o en COL, no consideran esta categoría taxonómica.</rule>
     </dataRules>
     <syntaxRules>
