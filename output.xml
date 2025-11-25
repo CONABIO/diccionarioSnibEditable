@@ -1933,7 +1933,7 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>El campo <a href="../diccionarioSNIB/#term-reftaxvalido">reftaxvalido</a>, indica que referencia us&oacute; la CONABIO para asignar el nombre cient&iacute;fico v&aacute;lido.</p>]]></note>
+      <note><![CDATA[<p>El campo&nbsp; <a href="../diccionarioSNIB/#term-reftaxvalido">reftaxvalido</a>, indica que referencia us&oacute; la CONABIO para asignar el nombre cient&iacute;fico v&aacute;lido.</p>]]></note>
       <note><![CDATA[<p>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripci&oacute;n de acceptedNameUsage en Darwin Core, por ejemplo, no se incluye el nombre y a&ntilde;o de la autoridad del nombre.</p>]]></note>
     </notes>
     <dataRules>
