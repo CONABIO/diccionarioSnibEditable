@@ -2083,28 +2083,28 @@ un dato de país en el campo país original.</subregla></rule>
     <fieldName>Referencia taxonómica del nombre válido</fieldName>
     <fieldid>reftaxvalido</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>Autor(es) y año de publicación del catálogo de autoridad, listado o diccionario o de otras referencias especializadas usadas por la CONABIO que respaldan el nombre científico válido del taxón (especie).</description>
+    <description>Autor(es) y año de publicación de la referencia bibliográfica usada por la CONABIO que respalda el nombre científico válido del taxón (especie válida).</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor ND significa que no se cuenta con la referencia del catálogo de autoridad, listado o diccionario.</rule>
-      <rule>El valor vacío significa que el nombre al que está determinado el ejemplar corresponde a un nivel superior de especie, que el estatus del taxón original (especie) es no resuelto, no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO o en las referencias bibliográficas especializadas con las que cuenta la CONABIO.</rule>
+      <rule>El valor ND significa que no se cuenta con la referencia.</rule>
+      <rule>El valor vacío significa que el nombre del taxón al que está determinado el ejemplar corresponde a un nivel superior de especie, que el estatus del taxón original (especie) es no resuelto, o que no se encontró en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL) para validarlo.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>Se incluyen los apellidos de todos los autores o de catálogos en línea utilizando mayúsculas y minúsculas en nombres propios.</rule>
+      <rule>Se incluye el apellido o apellidos de todos los autores utilizando mayúsculas y minúsculas; para siglas o acrónimos de bases de datos en línea se usan mayúsculas.</rule>
       <rule>Se utiliza “ &amp;amp; ” entre espacios en blanco para concatenar al último autor.</rule>
       <rule>El año se escribe en cuatro dígitos, precedido por “, “.</rule>
     </syntaxRules>
-    <campos>
-      <campo>reftaxvalido</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>9d0d3a25a1407348776fef1ded21612d</key>
       <key>241c9de4f2dc6b1cb4276a544ff547b2</key>
       <key>015d493c5ee78e6d1a0141f00404cf37</key>
       <key>089358604705ab4c93c5a27ae5c4ecf6</key>
     </ejemplar>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>reftaxvalido</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
