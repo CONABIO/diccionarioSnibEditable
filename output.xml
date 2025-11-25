@@ -2092,7 +2092,7 @@ un dato de país en el campo país original.</subregla></rule>
     </dataRules>
     <syntaxRules>
       <rule>Se incluye el apellido o apellidos de todos los autores utilizando mayúsculas y minúsculas; para siglas o acrónimos de bases de datos en línea se usan mayúsculas.</rule>
-      <rule>Se utiliza “ &amp;amp; ” entre espacios en blanco para concatenar al último autor.</rule>
+      <rule>Se utiliza “ &amp; ” entre espacios en blanco para concatenar al último autor.</rule>
       <rule>El año se escribe en cuatro dígitos, precedido por “, “.</rule>
     </syntaxRules>
     <ejemplar>
