@@ -2258,7 +2258,7 @@ un dato de país en el campo país original.</subregla></rule>
     <fieldName>Nombre común</fieldName>
     <fieldid>nombrecomun</fieldid>
     <dwcField>vernacularName</dwcField>
-    <description>Nombres comunes reconocidos para el taxón en los catálogos de autoridades taxonómicas de la CONABIO.</description>
+    <description>Nombres comunes reconocidos para el taxón el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO.</description>
     <datatype>text</datatype>
     <encoding>UTF-8</encoding>
     <notes>
@@ -2266,21 +2266,21 @@ un dato de país en el campo país original.</subregla></rule>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que no se cuenta con información de nombre común para el taxón.</rule>
-      <rule>Si no existe nombre común en los catálogos de autoridades taxonómicas de la CONABIO se presenta el dato proporcionado en las bases de datos originales cuando este exista.</rule>
+      <rule>Si no existe nombre común en el CAT de la CONABIO se presenta el dato proporcionado en las bases de datos originales cuando este exista.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Cuando el taxón tiene más de un nombre común, se separa con “, ” seguido de un espacio y posteriormente otro nombre común.</rule>
     </syntaxRules>
-    <campos>
-      <campo>nombrecomun</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>9b5eb0b6886bf6f4d2dfa8faf9cb13f3</key>
       <key>7ddb217ad42448a535ba5d1c7e4244e6</key>
       <key>81e98f8761a27dbc725ae8757da0004e</key>
       <key>620397398d553bea0d483baf270fa6a2</key>
     </ejemplar>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>nombrecomun</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
