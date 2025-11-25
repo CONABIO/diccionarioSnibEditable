@@ -2051,9 +2051,9 @@ un dato de país en el campo país original.</subregla></rule>
     </dataRules>
     <syntaxRules>
       <rule>El autor se escribe iniciando con mayúsculas.</rule>
-      <rule>Se utiliza “ &amp;amp; ” entre espacios en blanco para concatenar al último autor.</rule>
+      <rule>Se utiliza “ &amp; ” entre espacios en blanco para concatenar al último autor.</rule>
       <rule>El año se escribe en cuatro dígitos, precedido por “, “.</rule>
-      <rule>Para grupos botánicos cada nombre de autor está abreviado de acuerdo con el estándar de Brummitt &amp;amp;amp;amp; Powell (1992) y sus actualizaciones en el International Plant Names Index. En la mayoría de los casos se incluye el año.</rule>
+      <rule>Para grupos botánicos cada nombre de autor está abreviado de acuerdo con el estándar de Brummitt &amp; Powell (1992) y sus actualizaciones en el International Plant Names Index. En la mayoría de los casos se incluye el año.</rule>
       <rule>Para grupos zoológicos la forma de citar el autor o autores es de acuerdo con la recomendación enunciada en el artículo 51 del CINZ (2000).</rule>
     </syntaxRules>
     <infoRules>
