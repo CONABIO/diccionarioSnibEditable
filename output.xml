@@ -2482,7 +2482,7 @@ un dato de país en el campo país original.</subregla></rule>
     <encoding>UTF-8</encoding>
     <notes>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n acerca de la lista de especies invasoras y ex&oacute;ticas invasoras v&eacute;ase:</p>
-<p>CONABIO. 2023. Sistema de informaci&oacute;n sobre especies invasoras <a href="https://www.biodiversidad.gob.mx/especies/Invasoras">https://www.biodiversidad.gob.mx/especies/Invasoras</a>.Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Cd. de M&eacute;xico.</p>
+<p>CONABIO. 2023. Sistema de informaci&oacute;n sobre especies invasoras&nbsp; <a href="https://www.biodiversidad.gob.mx/especies/Invasoras">https://www.biodiversidad.gob.mx/especies/Invasoras</a>.Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Cd. de M&eacute;xico.</p>
 <p>&nbsp;</p>]]></note>
     </notes>
     <dataRules>
@@ -2493,16 +2493,16 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El valor Criptogénica-Invasora hace referencia a un taxón (especie, subespecie u otro) con historia biogeográfica desconocida y que por lo tanto no puede reconocerse claramente si es o no nativa y que se ha sometido a un Análisis de Riesgo de Invasividad y el resultado la clasifica como invasora.</rule>
       <rule>El valor vacío significa que la especie no es exótica ni invasora o no se le ha reconocido como tal.</rule>
     </dataRules>
-    <campos>
-      <campo>exoticainvasora</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>271225c63b4948a4b590ae1a36b248c1</key>
       <key>c813b279d7e01cd95593a5b4786eb463</key>
       <key>42f5252816eed473ffcb2455eac430b5</key>
       <key>1f0abe1ac12a80d61aea741d69260224</key>
     </ejemplar>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>exoticainvasora</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
