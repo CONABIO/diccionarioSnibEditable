@@ -2154,19 +2154,15 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>enum</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>En los Cat&aacute;logos de Autoridades Taxon&oacute;micas de la CONABIO, hemos marcado (de manera no exhaustiva) especies end&eacute;micas de plantas y animales con base en las referencias especializadas citadas en los Cat&aacute;logos de Autoridades Taxon&oacute;micas.</p>]]></note>
+      <note><![CDATA[<p>En el Cat&aacute;logo Taxon&oacute;mico de la Biota en M&eacute;xico (CAT) de la CONABIO, hemos marcado (de manera no exhaustiva) especies end&eacute;micas de plantas y animales con base en las referencias especializadas citadas en el CAT.</p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitido está dado por:<subregla>Endémica</subregla><subregla>Semiendémica</subregla><subregla>Cuasiendémica</subregla></rule>
       <rule>El valor Endémica significa que corresponde a un taxón endémico.</rule>
       <rule>El valor Semiendémica significa: especies cuya población completa se distribuye únicamente en México durante cierta época del año.</rule>
-      <rule>El valor Cuasiendémica significa: especies que tienen áreas de distribución que se extienden ligeramente fuera de México hacia algún país vecino (&amp;lt; 35,000 km2), debido a la continuidad de los hábitats.</rule>
+      <rule>El valor Cuasiendémica significa: especies que tienen áreas de distribución que se extienden ligeramente fuera de México hacia algún país vecino (&amp;amp;lt; 35,000 km2), debido a la continuidad de los hábitats.</rule>
       <rule>El valor vacío significa que no se ha revisado si el taxón se considera o no como endémico en México.</rule>
     </dataRules>
-    <campos>
-      <campo>endemismo</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>8b39e6b9c90f9469049aa71c15a2a764</key>
       <key>0dc43abb8425e5c28c16f52d2776f991</key>
@@ -2176,6 +2172,10 @@ un dato de país en el campo país original.</subregla></rule>
       <key>00cbc2c3bbd87e8395a832813122b04f</key>
       <key>1c472cb54bd2a3cce0b8b8981be6a36e</key>
     </ejemplar>
+    <campos>
+      <campo>endemismo</campo>
+      <campo>especievalida</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
