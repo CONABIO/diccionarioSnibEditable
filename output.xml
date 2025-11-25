@@ -1691,19 +1691,15 @@ un dato de país en el campo país original.</subregla></rule>
     <fieldName>Reino válido</fieldName>
     <fieldid>reinovalido</fieldid>
     <dwcField>kingdom</dwcField>
-    <description>Nombre del Reino en el que se ubica el nombre válido (aceptado) del ejemplar de acuerdo con los catálogos de autoridades taxonómicas de la CONABIO o con otras referencias especializadas.</description>
+    <description>Nombre del Reino en el que se ubica el nombre válido (aceptado) del ejemplar de acuerdo con el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o con el Catálogo de la Vida (COL).</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor vacío significa que el taxón al que está determinado el ejemplar no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO, en las referencias bibliográficas especializadas con las que cuenta la CONABIO, o que el estatus del taxón original (familia, género, especie) es no resuelto.</rule>
+      <rule>El valor vacío significa que el taxón al que está determinado el ejemplar no se encuentra en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL), o que el estatus del taxón original (familia, género, especie) es no resuelto.</rule>
     </dataRules>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <campos>
-      <campo>reinovalido</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>9d0d3a25a1407348776fef1ded21612d</key>
       <key>dc930c405edb5e291db83d2b8fd8a59b</key>
@@ -1712,6 +1708,10 @@ un dato de país en el campo país original.</subregla></rule>
       <key>241c9de4f2dc6b1cb4276a544ff547b2</key>
       <key>a4f93dbea452dc2ce2c2b5a030445892</key>
     </ejemplar>
+    <campos>
+      <campo>reinovalido</campo>
+      <campo>especievalida</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
