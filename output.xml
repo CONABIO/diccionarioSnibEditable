@@ -1929,24 +1929,20 @@ un dato de país en el campo país original.</subregla></rule>
     <fieldName>Especie válida</fieldName>
     <fieldid>especievalida</fieldid>
     <dwcField>acceptedNameUsage</dwcField>
-    <description>Nombre válido (aceptado) de la especie (binomio, trinomio, etc.) de acuerdo con los catálogos de autoridades taxonómicas de la CONABIO o con otras referencias especializadas.</description>
+    <description>Nombre válido/aceptado de la especie (binomio, trinomio, etc.) de acuerdo con en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL).</description>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>El campo referencia taxon&oacute;mica del nombre v&aacute;lido, indica que referencia us&oacute; la CONABIO para asignar el nombre cient&iacute;fico v&aacute;lido.</p>]]></note>
+      <note><![CDATA[<p>El campo <a href="../diccionarioSNIB/#term-reftaxvalido">reftaxvalido</a>, indica que referencia us&oacute; la CONABIO para asignar el nombre cient&iacute;fico v&aacute;lido.</p>]]></note>
       <note><![CDATA[<p>Se debe observar la regla de sintaxis 1, para apreciar las diferencias con respecto a la descripci&oacute;n de acceptedNameUsage en Darwin Core, por ejemplo, no se incluye el nombre y a&ntilde;o de la autoridad del nombre.</p>]]></note>
     </notes>
     <dataRules>
-      <rule>El valor vacío significa que el taxón al que está determinado el ejemplar no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO, en las referencias bibliográficas especializadas con las que cuenta la CONABIO o que el estatus de la especie es no resuelto.</rule>
+      <rule>El valor vacío significa que el taxón al que está determinado el ejemplar no se encuentra en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL), o que el estatus del taxón original (especie) es no resuelto.</rule>
     </dataRules>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
       <rule>El dato se conforma del género válido, seguido del subgénero válido (si existe) entre paréntesis, posteriormente se incluye el epíteto específico válido y finalmente el epíteto infraespecífico válido (si existe).</rule>
     </syntaxRules>
-    <campos>
-      <campo>especievalida</campo>
-      <campo>generovalido</campo>
-    </campos>
     <ejemplar>
       <key>9d0d3a25a1407348776fef1ded21612d</key>
       <key>08254be3bfe06c058c578be30d515bc7</key>
@@ -1960,6 +1956,10 @@ un dato de país en el campo país original.</subregla></rule>
       <key>dc930c405edb5e291db83d2b8fd8a59b</key>
       <key>512a145d4e1cd87c03c1d6aacab16dc7</key>
     </ejemplar>
+    <campos>
+      <campo>generovalido</campo>
+      <campo>especievalida</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
