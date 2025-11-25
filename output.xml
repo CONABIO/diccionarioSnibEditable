@@ -1657,7 +1657,7 @@ un dato de país en el campo país original.</subregla></rule>
     <fieldName>Referencia taxonómica</fieldName>
     <fieldid>reftax</fieldid>
     <dwcField>nameAccordingTo</dwcField>
-    <description>Autor(es) y año de publicación de avuerdo con el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o con el Catálogo de la Vida (COL) para validar la especie (binomio, trinomio, etc.).</description>
+    <description>Autor(es) y año de publicación de la referencia bibliográfica usada por la CONABIO para validar la especie (binomio, trinomio, etc.).</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
@@ -1665,7 +1665,7 @@ un dato de país en el campo país original.</subregla></rule>
     </dataRules>
     <syntaxRules>
       <rule>El autor se escribe en su forma abreviada utilizando mayúsculas y minúsculas en nombres propios, mayúsculas en siglas o acrónimos de bases de datos en línea.</rule>
-      <rule>Se usa “ &amp;amp; “ entre espacios en blanco para concatenar al último autor.</rule>
+      <rule>Se usa “ &amp;amp;amp; “ entre espacios en blanco para concatenar al último autor.</rule>
       <rule>El año se escribe en cuatro dígitos y precedido por “, “.</rule>
     </syntaxRules>
     <ejemplar>
