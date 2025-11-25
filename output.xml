@@ -1763,20 +1763,16 @@ un dato de país en el campo país original.</subregla></rule>
     <fieldName>Clase válida</fieldName>
     <fieldid>clasevalida</fieldid>
     <dwcField>class</dwcField>
-    <description>Nombre de la clase en la que se ubica el nombre válido (aceptado) del ejemplar de acuerdo con los catálogos de autoridades taxonómicas de la CONABIO o con otras referencias especializadas.</description>
+    <description>Nombre de la clase en la que se ubica el nombre válido (aceptado) del ejemplar de acuerdo con el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o con el Catálogo de la Vida (COL).</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor vacío significa que el taxón al que está determinado el ejemplar no se encuentra en los catálogos de autoridades taxonómicas de la CONABIO, en las referencias bibliográficas especializadas con las que cuenta la CONABIO o que el estatus de la especie es no resuelto.</rule>
-      <rule>El valor No asignado significa que el sistema de clasificación de referencia utilizado para realizar la limpieza al campo no considera esta categoría taxonómica.</rule>
+      <rule>El valor vacío significa que el taxón al que está determinado el ejemplar no se encuentra en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL), o que el estatus del taxón original (familia, género, especie) es no resuelto.</rule>
+      <rule>El dato No asignado significa que el sistema de clasificación de referencia utilizado en el CAT o en COL, no consideran esta categoría taxonómica.</rule>
     </dataRules>
     <syntaxRules>
       <rule>El dato se escribe con la primera letra en mayúscula.</rule>
     </syntaxRules>
-    <campos>
-      <campo>clasevalida</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>9d0d3a25a1407348776fef1ded21612d</key>
       <key>08254be3bfe06c058c578be30d515bc7</key>
@@ -1792,6 +1788,10 @@ un dato de país en el campo país original.</subregla></rule>
       <key>512a145d4e1cd87c03c1d6aacab16dc7</key>
       <key>7a915c495f4b5f2b81eede0180880b0d</key>
     </ejemplar>
+    <campos>
+      <campo>clasevalida</campo>
+      <campo>especievalida</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
