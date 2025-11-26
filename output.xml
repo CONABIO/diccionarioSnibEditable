@@ -30,8 +30,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>idejemplar</after></ordenTabla>
+      <after>idejemplar</after>
+    </ordenTabla>
     <fieldName>Región de recolecta u observación</fieldName>
     <fieldid>region</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -70,8 +70,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>region</after></ordenTabla>
+      <after>region</after>
+    </ordenTabla>
     <fieldName>Localidad de recolecta u observación</fieldName>
     <fieldid>localidad</fieldid>
     <dwcField>locality</dwcField>
@@ -94,8 +94,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      
-    <after>localidad</after></ordenTabla>
+      <after>localidad</after>
+    </ordenTabla>
     <fieldName>Longitud</fieldName>
     <fieldid>longitud</fieldid>
     <dwcField>decimalLongitude</dwcField>
@@ -2885,7 +2885,7 @@ un dato de país en el campo país original.</subregla></rule>
     <category>Datos del ejemplar/observación</category>
     <orden>
       <prev>obsusoinfo</prev>
-      <next>test</next>
+      <next>numcatalogo</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -2953,7 +2953,7 @@ un dato de país en el campo país original.</subregla></rule>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
     <orden>
-      <prev>test</prev>
+      <prev>institucion</prev>
       <next>numcolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -3754,36 +3754,4 @@ un dato de país en el campo país original.</subregla></rule>
       <campo>urlejemplar</campo>
     </campos>
   </snibTerm>
-  <snibTerm>
-    <category>Datos del ejemplar/observación</category>
-    <orden>
-      <prev>institucion</prev>
-      <next>numcatalogo</next>
-    </orden>
-    <fieldName>test</fieldName>
-    <fieldid>test</fieldid>
-    <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
-    <notes>
-      <note><![CDATA[<p>hola&nbsp;<strong>hola&nbsp;</strong></p>
-<p>hola</p>]]></note>
-    </notes>
-    <dataRules>
-      <rule>d<subregla>d</subregla></rule>
-    </dataRules>
-    <syntaxRules>
-      <rule>s<subregla>s</subregla></rule>
-    </syntaxRules>
-    <infoRules>
-      <rule>w<subregla>w</subregla></rule>
-    </infoRules>
-    <campos>
-      <campo>longitud</campo>
-    </campos>
-    <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
-    </ejemplar>
-  <ordenTabla><after>version</after></ordenTabla></snibTerm>
 </snibDictionary>
