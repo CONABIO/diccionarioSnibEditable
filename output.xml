@@ -3654,7 +3654,7 @@ un dato de país en el campo país original.</subregla></rule>
       <prev/>
       <next>proyecto</next>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>urlejemplar</after>
@@ -3665,16 +3665,22 @@ un dato de país en el campo país original.</subregla></rule>
     <description>Indica si el registro está disponible para su descarga desde el geoportal de la CONABIO.</description>
     <datatype>tinyint (1)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Geoportal de la CONABIO en http://geoportal.conabio.gob.mx/</p>]]></note>
+      <note><![CDATA[<p>Disponible s&oacute;lo en la descarga de ejemplares del SNIB en https://www.snib.mx/ejemplares/descarga/.</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor 1 significa que el registro sí es descargable desde el Geoportal.</rule>
       <rule>El valor 0 significa que el registro no es descargable desde el Geoportal.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes>
-      <note>Geoportal de la CONABIO en http://geoportal.conabio.gob.mx/</note>
-      <note>Disponible sólo en la descarga de ejemplares del SNIB en https://www.snib.mx/ejemplares/descarga/.</note>
-    </notes>
+    <campos>
+      <campo>geoportal</campo>
+    </campos>
+    <ejemplar>
+      <key>0022fe8485f353231cd8b723bb89c806</key>
+      <key>002d0295326a07053b72981d6d8d6079</key>
+      <key>002e91a862a088f95eb381bb958e53bc</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
