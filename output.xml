@@ -1426,7 +1426,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>familia</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>faslse</downloadSnib>
     <ordenTabla>
       <after>clase</after>
     </ordenTabla>
