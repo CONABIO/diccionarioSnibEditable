@@ -2210,7 +2210,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>autorvalido</after>
     </ordenTabla>
