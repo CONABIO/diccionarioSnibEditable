@@ -1291,7 +1291,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>phylumdivision</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>idnombrecat</after>
     </ordenTabla>
