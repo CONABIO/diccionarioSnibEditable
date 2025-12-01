@@ -31,7 +31,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>numcolecta</after></ordenTabla>
+    <after>institucion</after></ordenTabla>
     <fieldName>Región de recolecta u observación</fieldName>
     <fieldid>region</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -2849,8 +2849,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>obsusoinfo</after>
-    </ordenTabla>
+      
+    <after>numcolecta</after></ordenTabla>
     <fieldName>Colección</fieldName>
     <fieldid>coleccion</fieldid>
     <dwcField>collectionCode</dwcField>
@@ -2932,8 +2932,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>institucion</after>
-    </ordenTabla>
+      
+    <after>obsusoinfo</after></ordenTabla>
     <fieldName>País donde se localiza la colección</fieldName>
     <fieldid>paiscoleccion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
