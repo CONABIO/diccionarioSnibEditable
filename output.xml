@@ -2281,7 +2281,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>exoticainvasora</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
+    <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>validacionambiente</after>
     </ordenTabla>
