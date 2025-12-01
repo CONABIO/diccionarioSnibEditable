@@ -3237,7 +3237,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>aniocolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>aniodeterminacion</after>
     </ordenTabla>
@@ -3264,7 +3264,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>mescolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mescolecta</after>
     </ordenTabla>
@@ -3292,7 +3292,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>diacolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>diacolecta</after>
     </ordenTabla>
@@ -3320,7 +3320,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>fechacolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>colector</after>
     </ordenTabla>
