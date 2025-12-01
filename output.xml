@@ -374,6 +374,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>municipiooriginal</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
+    <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>paismapa</after>
     </ordenTabla>
