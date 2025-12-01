@@ -3377,7 +3377,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>ejemplarfosil</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>aniocolecta</after>
     </ordenTabla>
