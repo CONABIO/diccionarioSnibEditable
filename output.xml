@@ -3455,7 +3455,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>urlejemplar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
+    <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>ejemplarfosil</after>
     </ordenTabla>
