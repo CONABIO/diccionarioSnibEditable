@@ -314,8 +314,8 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>paisoriginal</after>
-    </ordenTabla>
+      
+    <after>estadooriginal</after></ordenTabla>
     <fieldName>País asignado</fieldName>
     <fieldid>paismapa</fieldid>
     <dwcField>Incluido en country</dwcField>
@@ -377,7 +377,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>geoportal</after></ordenTabla>
+    <after>municipiooriginal</after></ordenTabla>
     <fieldName>Estado</fieldName>
     <fieldid>estadooriginal</fieldid>
     <dwcField>Incluido en stateProvince</dwcField>
@@ -454,7 +454,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       
-    <after>municipiooriginal</after></ordenTabla>
+    <after>paismapa</after></ordenTabla>
     <fieldName>Clave estatal asignada</fieldName>
     <fieldid>claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -568,7 +568,7 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       
-    <after>paismapa</after></ordenTabla>
+    <after>paisoriginal</after></ordenTabla>
     <fieldName>Municipio</fieldName>
     <fieldid>municipiooriginal</fieldid>
     <dwcField>Incluido en county</dwcField>
