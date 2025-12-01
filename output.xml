@@ -3264,7 +3264,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>mescolecta</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
+    <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>mescolecta</after>
     </ordenTabla>
