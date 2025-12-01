@@ -3717,7 +3717,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>urlorigen</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
+    <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>obsusoinfo</after>
     </ordenTabla>
