@@ -1097,7 +1097,7 @@ un dato de país en el campo país original.</subregla></rule>
       <prev>vegetacionserenanalcms</prev>
       <next>ecorregionterrestremapa</next>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>version</after>
@@ -1133,7 +1133,7 @@ un dato de país en el campo país original.</subregla></rule>
       <prev>regionmarinamapa</prev>
       <next/>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>regionmarinamapa</after>
@@ -1165,7 +1165,7 @@ un dato de país en el campo país original.</subregla></rule>
       <prev>anp</prev>
       <next>usvserieI</next>
     </orden>
-    <downloadGeoportal>true</downloadGeoportal>
+    <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>ecorregionterrestremapa</after>
