@@ -2483,7 +2483,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>categoriaresidenciaaves</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>categoriaresidenciaaves</after>
     </ordenTabla>
@@ -2494,20 +2494,20 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>&lt;p&gt;Para m&amp;aacute;s informaci&amp;oacute;n ver:&lt;/p&gt;
-&lt;p&gt;Davidse, G., Sousa S&amp;aacute;nchez, M., Knapp, S. &amp;amp; Chiang Cabrera, F. 1994 - 2020. Life Form. Fl. Mesoamer. In: Davidse, G., Sousa S&amp;aacute;nchez, M., Knapp, S. &amp;amp; Chiang Cabrera, F. (Eds.). Versi&amp;oacute;n online. Disponible en: &lt;a href="http://www.tropicos.org/ProjectAdvSearch.aspx?projectid=3&amp;amp;langid=66"&gt;http://www.tropicos.org/ProjectAdvSearch.aspx?projectid=3&amp;amp;langid=66&lt;/a&gt;&amp;nbsp;&lt;/p&gt;</note>
-      <note>&lt;p&gt;Davidse, G., Sousa S&amp;aacute;nchez, M. &amp;amp; Chater, A. O. 1994. Fl. Mesoamer. Alismataceae a Cyperaceae. In: Davidse, G., Sousa S&amp;aacute;nchez, M. &amp;amp; Chater, A. O. (Eds.). 6: i&amp;ndash;xvi, 1&amp;ndash;543. Universidad Nacional Aut&amp;oacute;noma de M&amp;eacute;xico, M&amp;eacute;xico, D. F.&lt;/p&gt;</note>
-      <note>&lt;p&gt;Davidse, G. D., Sousa S&amp;aacute;nchez, M., Knapp, S. &amp;amp; Chiang Cabrera, F. (Eds.). 1996-onwards. Descripci&amp;oacute;n de familias y claves gen&amp;eacute;ricas. In: Davidse, G., Sousa S&amp;aacute;nchez, M., Knapp, S. &amp;amp; Chiang Cabrera, F. (Eds.). Fl. Mesoamer. Versi&amp;oacute;n online. Disponible en: &lt;a href="http://www.tropicos.org/ProjectAdvSearch"&gt;http://www.tropicos.org/ProjectAdvSearch&lt;/a&gt; Versi&amp;oacute;n online (consultada a partir de 2015).&lt;/p&gt;</note>
-      <note>&lt;p&gt;Gual D&amp;iacute;az, M., Rend&amp;oacute;n Correa A. &amp;amp; Mariaca M&amp;eacute;ndez, R. 2020. Especies vegetales con uso combustible por comunidades rurales mexicanas. Etnobiolog&amp;iacute;a. 18 vol 3: 113-135&lt;/p&gt;</note>
-      <note>&lt;p&gt;Gual, D. M. &amp;amp; Rend&amp;oacute;n, C. A. 2019. Sistema de Informaci&amp;oacute;n de los Usos y Manejo de la Biodiversidad Mexicana (Fase I &amp;Aacute;rboles). Base de datos Nomencl&amp;aacute;tor de las Especies Arb&amp;oacute;reas de M&amp;eacute;xico. Proyecto 10161. Comisi&amp;oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO). M&amp;eacute;xico&lt;/p&gt;</note>
-      <note>&lt;p&gt;H&amp;aacute;gsater, E. Soto-Arenas, M. A., Salazar, G., Jim&amp;eacute;nez-Machorro, R., L&amp;oacute;pez-Rosas, M. A. &amp;amp; Dressler, R. L. 2015. Las Orqu&amp;iacute;deas de M&amp;eacute;xico, 2a. reimpresi&amp;oacute;n. Instituto Chino&amp;iacute;n A. C. M&amp;eacute;xico&lt;/p&gt;</note>
-      <note>&lt;p&gt;Ibarra-Manr&amp;iacute;quez, G., Rend&amp;oacute;n-Sandoval, F. J., Cornejo-Tenorio, G. &amp;amp; Carrillo-Reyes, P. 2015. Lianas of Mexico. Bot. Sci. 93 (3): 365-417.&lt;/p&gt;</note>
-      <note>&lt;p&gt;POWO. 2019-2024 (onwards). Plants of the World Online. Facilitated by the Royal Botanic Gardens, Kew. Published on the Internet; &lt;a href="http://www.plantsoftheworldonline.org/"&gt;http://www.plantsoftheworldonline.org/&lt;/a&gt;&amp;nbsp;&lt;/p&gt;</note>
-      <note>&lt;p&gt;Pruski, J. F. &amp;amp; Robinson, H. 2018. Asteraceae. Fl. Mesoamer. In: Davidse, G. D., Sousa, M., Knapp, S. &amp;amp; Chiang, F. (Eds.). 5(2): i-xix, 1-608. Missouri Botanical Garden, St. Louis.&lt;/p&gt;</note>
-      <note>&lt;p&gt;Ricker, M., Cal&amp;oacute;nico, J., Castillo-Santiago, M. A., Galicia, A., Kleinn, C., Mart&amp;iacute;nez-Salas, E. M., Mondrag&amp;oacute;n, E., Mora, M. A., Ramos, L. J., Ramos, C. H. &amp;amp; Villela, S. A. 2022. Mexico&amp;rsquo;s Forest Diversity: Common Tree Species and Proposed Forest-Vegetation Provinces. Forests. 13, 1598&lt;/p&gt;</note>
-      <note>&lt;p&gt;Ricker, M., Hern&amp;aacute;ndez, H. M., Sousa, M. &amp;amp; Ochoterena, H. 2013. Revista Mex. Biodivers. Especies arb&amp;oacute;reas y arborescentes de M&amp;eacute;xico: Asteraceae, Leguminosae y Rubiaceae. 84: 439-470.&lt;/p&gt;</note>
-      <note>&lt;p&gt;Stevens, W. D., Ulloa Ulloa, C., Pool, A. &amp;amp; Montiel Jarqu&amp;iacute;n, O. M. 2001 (en adelante). Flora de Nicaragua. Flora de Nicaragua. Base de datos Online.&lt;/p&gt;</note>
-      <note>&lt;p&gt;Villase&amp;ntilde;or, J. L., Ortiz, E., Alvarado, L., Mora, M. y G. Segura. 2013. La flora arb&amp;oacute;rea de M&amp;eacute;xico. Universidad Nacional Aut&amp;oacute;noma de M&amp;eacute;xico. Instituto de Biolog&amp;iacute;a. Informe final SNIB-CONABIO, proyecto JE012. M&amp;eacute;xico, D. F. &lt;a href="http://www.conabio.gob.mx/institucion/proyectos/resultados/InfJE012.pdf"&gt;http://www.conabio.gob.mx/institucion/proyectos/resultados/InfJE012.pdf&lt;/a&gt;&amp;nbsp;&lt;/p&gt;</note>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n ver:</p>
+<p>Davidse, G., Sousa S&aacute;nchez, M., Knapp, S. &amp; Chiang Cabrera, F. 1994 - 2020. Life Form. Fl. Mesoamer. In: Davidse, G., Sousa S&aacute;nchez, M., Knapp, S. &amp; Chiang Cabrera, F. (Eds.). Versi&oacute;n online. Disponible en: <a href="http://www.tropicos.org/ProjectAdvSearch.aspx?projectid=3&amp;langid=66">http://www.tropicos.org/ProjectAdvSearch.aspx?projectid=3&amp;langid=66</a>&nbsp;</p>]]></note>
+      <note><![CDATA[<p>Davidse, G., Sousa S&aacute;nchez, M. &amp; Chater, A. O. 1994. Fl. Mesoamer. Alismataceae a Cyperaceae. In: Davidse, G., Sousa S&aacute;nchez, M. &amp; Chater, A. O. (Eds.). 6: i&ndash;xvi, 1&ndash;543. Universidad Nacional Aut&oacute;noma de M&eacute;xico, M&eacute;xico, D. F.</p>]]></note>
+      <note><![CDATA[<p>Davidse, G. D., Sousa S&aacute;nchez, M., Knapp, S. &amp; Chiang Cabrera, F. (Eds.). 1996-onwards. Descripci&oacute;n de familias y claves gen&eacute;ricas. In: Davidse, G., Sousa S&aacute;nchez, M., Knapp, S. &amp; Chiang Cabrera, F. (Eds.). Fl. Mesoamer. Versi&oacute;n online. Disponible en: <a href="http://www.tropicos.org/ProjectAdvSearch">http://www.tropicos.org/ProjectAdvSearch</a> Versi&oacute;n online (consultada a partir de 2015).</p>]]></note>
+      <note><![CDATA[<p>Gual D&iacute;az, M., Rend&oacute;n Correa A. &amp; Mariaca M&eacute;ndez, R. 2020. Especies vegetales con uso combustible por comunidades rurales mexicanas. Etnobiolog&iacute;a. 18 vol 3: 113-135</p>]]></note>
+      <note><![CDATA[<p>Gual, D. M. &amp; Rend&oacute;n, C. A. 2019. Sistema de Informaci&oacute;n de los Usos y Manejo de la Biodiversidad Mexicana (Fase I &Aacute;rboles). Base de datos Nomencl&aacute;tor de las Especies Arb&oacute;reas de M&eacute;xico. Proyecto 10161. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO). M&eacute;xico</p>]]></note>
+      <note><![CDATA[<p>H&aacute;gsater, E. Soto-Arenas, M. A., Salazar, G., Jim&eacute;nez-Machorro, R., L&oacute;pez-Rosas, M. A. &amp; Dressler, R. L. 2015. Las Orqu&iacute;deas de M&eacute;xico, 2a. reimpresi&oacute;n. Instituto Chino&iacute;n A. C. M&eacute;xico</p>]]></note>
+      <note><![CDATA[<p>Ibarra-Manr&iacute;quez, G., Rend&oacute;n-Sandoval, F. J., Cornejo-Tenorio, G. &amp; Carrillo-Reyes, P. 2015. Lianas of Mexico. Bot. Sci. 93 (3): 365-417.</p>]]></note>
+      <note><![CDATA[<p>POWO. 2019-2024 (onwards). Plants of the World Online. Facilitated by the Royal Botanic Gardens, Kew. Published on the Internet; <a href="http://www.plantsoftheworldonline.org/">http://www.plantsoftheworldonline.org/</a>&nbsp;</p>]]></note>
+      <note><![CDATA[<p>Pruski, J. F. &amp; Robinson, H. 2018. Asteraceae. Fl. Mesoamer. In: Davidse, G. D., Sousa, M., Knapp, S. &amp; Chiang, F. (Eds.). 5(2): i-xix, 1-608. Missouri Botanical Garden, St. Louis.</p>]]></note>
+      <note><![CDATA[<p>Ricker, M., Cal&oacute;nico, J., Castillo-Santiago, M. A., Galicia, A., Kleinn, C., Mart&iacute;nez-Salas, E. M., Mondrag&oacute;n, E., Mora, M. A., Ramos, L. J., Ramos, C. H. &amp; Villela, S. A. 2022. Mexico&rsquo;s Forest Diversity: Common Tree Species and Proposed Forest-Vegetation Provinces. Forests. 13, 1598</p>]]></note>
+      <note><![CDATA[<p>Ricker, M., Hern&aacute;ndez, H. M., Sousa, M. &amp; Ochoterena, H. 2013. Revista Mex. Biodivers. Especies arb&oacute;reas y arborescentes de M&eacute;xico: Asteraceae, Leguminosae y Rubiaceae. 84: 439-470.</p>]]></note>
+      <note><![CDATA[<p>Stevens, W. D., Ulloa Ulloa, C., Pool, A. &amp; Montiel Jarqu&iacute;n, O. M. 2001 (en adelante). Flora de Nicaragua. Flora de Nicaragua. Base de datos Online.</p>]]></note>
+      <note><![CDATA[<p>Villase&ntilde;or, J. L., Ortiz, E., Alvarado, L., Mora, M. y G. Segura. 2013. La flora arb&oacute;rea de M&eacute;xico. Universidad Nacional Aut&oacute;noma de M&eacute;xico. Instituto de Biolog&iacute;a. Informe final SNIB-CONABIO, proyecto JE012. M&eacute;xico, D. F. <a href="http://www.conabio.gob.mx/institucion/proyectos/resultados/InfJE012.pdf">http://www.conabio.gob.mx/institucion/proyectos/resultados/InfJE012.pdf</a>&nbsp;</p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por los siguientes datos o combinaciones de estos:<subregla>Árbol</subregla><subregla>Arborescente</subregla><subregla>Arbusto</subregla><subregla>Bambú</subregla><subregla>Bejuco</subregla><subregla>Columnar</subregla><subregla>Epífita</subregla><subregla>Epilíptica</subregla><subregla>Geófita</subregla><subregla>Hierba (anual, bianual o perenne)</subregla><subregla>Liana</subregla><subregla>Palma (cespitosa o solitaria)</subregla><subregla>Parásita</subregla><subregla>Rastrera</subregla><subregla>Rosetófila</subregla><subregla>Suculenta</subregla><subregla>Sufrútice</subregla><subregla>Taloide</subregla><subregla>Trepadora</subregla></rule>
@@ -2516,10 +2516,6 @@ un dato de país en el campo país original.</subregla></rule>
     <syntaxRules>
       <rule>Cuando el taxón tiene más de una forma de crecimiento, se separa con “,” seguido de un espacio y posteriormente otra forma.</rule>
     </syntaxRules>
-    <campos>
-      <campo>formadecrecimiento</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>0736480b850bc36d7840bf40ef2f7127</key>
       <key>64b439e635b71ac73831e0b67604b111</key>
@@ -2530,6 +2526,10 @@ un dato de país en el campo país original.</subregla></rule>
       <key>ed03bbb55814985bbdd64ccd3bbe417a</key>
       <key>00e6b673e332b1999506d724b29f8195</key>
     </ejemplar>
+    <campos>
+      <campo>formadecrecimiento</campo>
+      <campo>especievalida</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Estatus de conservación y riesgo</category>
