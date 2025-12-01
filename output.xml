@@ -2395,7 +2395,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>taxonextinto</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>reftaxvalido</after>
     </ordenTabla>
