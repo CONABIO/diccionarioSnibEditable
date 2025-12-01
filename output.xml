@@ -3540,7 +3540,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>formadecitar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
+    <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>formadecitar</after>
     </ordenTabla>
