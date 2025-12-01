@@ -2821,7 +2821,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>institucion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>urlorigen</after>
     </ordenTabla>
@@ -3455,7 +3455,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>urlejemplar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>ejemplarfosil</after>
     </ordenTabla>
@@ -3518,7 +3518,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>urlproyecto</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>proyecto</after>
     </ordenTabla>
@@ -3540,7 +3540,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>formadecitar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>formadecitar</after>
     </ordenTabla>
@@ -3591,7 +3591,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>version</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>licenciauso</after>
     </ordenTabla>
@@ -3717,7 +3717,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>urlorigen</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>obsusoinfo</after>
     </ordenTabla>
