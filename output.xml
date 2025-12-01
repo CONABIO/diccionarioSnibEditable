@@ -750,7 +750,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
+    <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>mt24nombremunicipiomapa</after>
     </ordenTabla>
