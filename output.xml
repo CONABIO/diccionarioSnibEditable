@@ -28,7 +28,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
       <next>paisoriginal</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>nivelprioridad</after>
     </ordenTabla>
@@ -2586,7 +2586,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>iucn</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>endemismo</after>
     </ordenTabla>
