@@ -2821,7 +2821,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>institucion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
+    <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>urlorigen</after>
     </ordenTabla>
