@@ -1013,14 +1013,14 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie VII del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
+    <ejemplar>
+      <key>0b1c6e18a6c5d0d0a6820820bd5d16ab</key>
+      <key>69b4a2b95407dea3379469355903e442</key>
+      <key>87713ada3d127673878d018f87f369f0</key>
+    </ejemplar>
     <campos>
       <campo>usvserieVII</campo>
     </campos>
-    <ejemplar>
-      <key>16da92dbf789d2fdf875d5ac3e6e9ed5</key>
-      <key>2d0dc3d7e62fd8133b28aa64d012e231</key>
-      <key>49134cfa15f016d4406635810e6d322a</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
