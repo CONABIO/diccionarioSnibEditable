@@ -2316,7 +2316,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>endemismo</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>fuente</after>
     </ordenTabla>
@@ -2332,11 +2332,6 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El valor NO significa que no corresponde a un taxón extinto, con base en referencias bibliográficas.</rule>
       <rule>El valor vacío significa que se desconoce o no se ha revisado si el taxón es o no un taxón extinto.</rule>
     </dataRules>
-    <campos>
-      <campo>taxonextinto</campo>
-      <campo>grupobio</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>2f0af87a7c7b6422279ce08529c6f0a8</key>
       <key>be561590874dd36a5754da251d2bc41e</key>
@@ -2344,6 +2339,11 @@ un dato de país en el campo país original.</subregla></rule>
       <key>29956bb1d5b6cfe396b8f62beef175a8</key>
       <key>dd03d2f9b90080038f68724669d6bf4c</key>
     </ejemplar>
+    <campos>
+      <campo>grupobio</campo>
+      <campo>especievalida</campo>
+      <campo>taxonextinto</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
