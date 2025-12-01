@@ -2586,7 +2586,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>iucn</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
+    <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>endemismo</after>
     </ordenTabla>
