@@ -1958,8 +1958,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>ordenvalido</after>
-    </ordenTabla>
+      
+    <after>subgrupobio</after></ordenTabla>
     <fieldName>Familia válida</fieldName>
     <fieldid>familiavalida</fieldid>
     <dwcField>family</dwcField>
@@ -2090,8 +2090,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after>especievalida</after>
-    </ordenTabla>
+      
+    <after>ordenvalido</after></ordenTabla>
     <fieldName>Categoría infraespecífica del nombre válido</fieldName>
     <fieldid>categoriainfraespecievalida</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -3736,7 +3736,7 @@ un dato de país en el campo país original.</subregla></rule>
     </orden>
     <ordenTabla>
       
-    <after>subgrupobio</after></ordenTabla>
+    <after>especievalida</after></ordenTabla>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <fieldName>Identificador del ejemplar</fieldName>
