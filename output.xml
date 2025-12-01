@@ -2936,7 +2936,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>procedenciaejemplar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>institucion</after>
     </ordenTabla>
@@ -3071,7 +3071,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>aniodeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>procedenciaejemplar</after>
     </ordenTabla>
@@ -3099,7 +3099,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>mesdeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mesdeterminacion</after>
     </ordenTabla>
@@ -3125,7 +3125,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>diadeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>diadeterminacion</after>
     </ordenTabla>
@@ -3152,7 +3152,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>fechadeterminacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>fechadeterminacion</after>
     </ordenTabla>
@@ -3178,7 +3178,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>tipo</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>determinador</after>
     </ordenTabla>
