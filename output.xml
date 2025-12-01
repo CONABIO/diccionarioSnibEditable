@@ -449,7 +449,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>estadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>paismapa</after>
     </ordenTabla>
@@ -488,7 +488,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>clavemunicipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mt24claveestadomapa</after>
     </ordenTabla>
@@ -524,7 +524,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>mt24nombreestadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>claveestadomapa</after>
     </ordenTabla>
@@ -636,7 +636,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>municipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mt24nombreestadomapa</after>
     </ordenTabla>
@@ -677,7 +677,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>altitudmapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mt24clavemunicipiomapa</after>
     </ordenTabla>
@@ -711,7 +711,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>mt24nombremunicipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>clavemunicipiomapa</after>
     </ordenTabla>
@@ -750,7 +750,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mt24nombremunicipiomapa</after>
     </ordenTabla>
