@@ -815,7 +815,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>usvserieII</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>altitudmapa</after>
     </ordenTabla>
@@ -845,7 +845,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>usvserieIII</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>usvserieI</after>
     </ordenTabla>
@@ -875,7 +875,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>usvserieIV</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>usvserieII</after>
     </ordenTabla>
@@ -905,7 +905,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>usvserieV</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>usvserieIII</after>
     </ordenTabla>
@@ -935,7 +935,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>usvserieVI</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>usvserieIV</after>
     </ordenTabla>
@@ -964,7 +964,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>usvserieVII</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>usvserieV</after>
     </ordenTabla>
