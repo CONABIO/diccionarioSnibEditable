@@ -3205,7 +3205,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>categoriainfraespecie</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>false</downloadSnib>
+    <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>especie</after>
     </ordenTabla>
