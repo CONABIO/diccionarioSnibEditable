@@ -1721,7 +1721,7 @@ un dato de país en el campo país original.</subregla></rule>
       <next>reftax</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
-    <downloadSnib>true</downloadSnib>
+    <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>autor</after>
     </ordenTabla>
