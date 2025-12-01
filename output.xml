@@ -376,8 +376,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after></after>
-    </ordenTabla>
+      
+    <after>geoportal</after></ordenTabla>
     <fieldName>Estado</fieldName>
     <fieldid>estadooriginal</fieldid>
     <dwcField>Incluido en stateProvince</dwcField>
@@ -453,8 +453,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
-      <after>paismapa</after>
-    </ordenTabla>
+      
+    <after>municipiooriginal</after></ordenTabla>
     <fieldName>Clave estatal asignada</fieldName>
     <fieldid>claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
@@ -567,8 +567,8 @@ un dato de país en el campo país original.</subregla></rule>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
-      <after></after>
-    </ordenTabla>
+      
+    <after>paismapa</after></ordenTabla>
     <fieldName>Municipio</fieldName>
     <fieldid>municipiooriginal</fieldid>
     <dwcField>Incluido en county</dwcField>
