@@ -14,7 +14,7 @@ Información sobre Biodiversidad, versión 2024-12 México, Disponible en:&#13;
 &#13;
 http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeoportal-202412.pdf</formaDeCitar>
     <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
-    <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla del geoportal.</anexo2>
+    <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla de descarga del geoportal y de la tabla de descarga del snib.mx.</anexo2>
     <creador>
       <nombre/>
       <sitioWeb/>
