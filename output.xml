@@ -479,7 +479,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado en CONABIO, los mapas utilizados son:</p>
 <p>M&eacute;xico:</p>
 <p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
-<p>URL:&nbsp; <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
+<p>URL:&nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
 <p>Centroam&eacute;rica:</p>
 <p>CONABIO. 2020. Limites administrativos Centroam&eacute;rica. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico. M&eacute;xico.</p>
 <p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
@@ -499,15 +499,15 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <infoRules>
       <rule>La clave del estado corresponde con el estado asignado en el campo estado del mapa.</rule>
     </infoRules>
-    <campos>
-      <campo>claveestadomapa</campo>
-      <campo>estadomapa</campo>
-    </campos>
     <ejemplar>
       <key>3b2fcf40b7fbdb88abc78cb3da89388a</key>
       <key>db310bccaf9ab8c125b755b2d13761e9</key>
       <key>94b054c1af9083bf771df95fdd9b5dd1</key>
     </ejemplar>
+    <campos>
+      <campo>claveestadomapa</campo>
+      <campo>estadomapa</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
