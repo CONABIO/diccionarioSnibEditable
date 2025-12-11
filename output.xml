@@ -47,7 +47,7 @@ http://www.snib.mx/ejemplares/docs/CONABIO-SNIB-DiccionarioDatosEjemplaresGeopor
       <rule>Este campo se conforma con la concatenación de los valores de los campos país, estado y municipio.</rule>
       <rule>Cada dato de la división política se separa con una diagonal entre espacios “ / “ .</rule>
       <rule>Si no se cuenta con el dato de alguna de las regiones, se indica como “NO DISPONIBLE”.</rule>
-      <rule>En el caso de que el sitio de recolecta u observación del ejemplar se ubique en más de una región, los valores se separan con una coma seguida de un espacio.</rule>
+      <rule>En el caso de que el sitio de recolecta u observación del ejemplar se ubique en más de una región, los valores se separan con un pipe seguido de un espacio.</rule>
     </syntaxRules>
     <ejemplar>
       <key>0379d08e54c2b543e303a8fc4667ffe8</key>
