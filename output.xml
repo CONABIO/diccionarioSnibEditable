@@ -700,6 +700,19 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Clave del municipio o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
     <datatype>varchar (10)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado por la CONABIO.</p>
+<p>Los mapas utilizados son:</p>
+<p><strong>M&eacute;xico:</strong></p>
+<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
+<p><strong>Centroam&eacute;rica:</strong></p>
+<p>CONABIO. 2020. Limites administrativos Centroam&eacute;rica. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico. M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
+<p><strong>Estados Unidos de Am&eacute;rica, Colombia y el Caribe:</strong></p>
+<p>CONABIO., 2019. Mapa de validaci&oacute;n por divisiones pol&iacute;ticas para los sitios terrestres de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
+<p>URL: http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</p>]]></note>
+    </notes>
     <dataRules>
       <rule>Si el ejemplar no tiene coordenada geográfica no se asigna valor.</rule>
       <rule>Si el ejemplar tiene coordenada geográfica, se asigna la clave del municipio o división política equivalente conforme a las reglas de asignación del campo municipio del mapa.</rule>
@@ -711,18 +724,15 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <infoRules>
       <rule>La clave del municipio corresponde con el municipio asignado en el campo municipiomapa.</rule>
     </infoRules>
-    <notes>
-      <note>Los mapas utilizados son:</note>
-      <note>México</note>
-      <note>INEGI. 2022.División política municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estadística y Geografía. México.</note>
-      <note>URL: http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</note>
-      <note>Centroamérica</note>
-      <note>CONABIO. 2020. Limites administrativos Centroamérica. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México. México.</note>
-      <note>URL:  http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</note>
-      <note>El Caribe, Colombia y Estados Unidos de América</note>
-      <note>CONABIO., 2019. Mapa de validación por divisiones políticas para los sitios terrestres de Estados Unidos de América, Centroamérica, Caribe y Colombia. edición: 1. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de México, México.</note>
-      <note>URL: http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</note>
-    </notes>
+    <campos>
+      <campo>clavemunicipiomapa</campo>
+      <campo>municipiomapa</campo>
+    </campos>
+    <ejemplar>
+      <key>3b2fcf40b7fbdb88abc78cb3da89388a</key>
+      <key>db310bccaf9ab8c125b755b2d13761e9</key>
+      <key>94b054c1af9083bf771df95fdd9b5dd1</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
