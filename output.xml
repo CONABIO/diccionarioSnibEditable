@@ -577,7 +577,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>varchar (10)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado en CONABIO, los mapas utilizados son:</p>
+      <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales,&nbsp;realizado por la CONABIO.</p>
+<p>Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
 <p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
 <p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
