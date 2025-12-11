@@ -762,26 +762,28 @@ un dato de país en el campo país original.</subregla></rule>
     <dwcField>coordinateUncertaintyInMeters</dwcField>
     <description>Valor de incertidumbre de las coordenadas geográficas.</description>
     <datatype>int (11)</datatype>
-    <encoding/>
+    <notes>
+      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n de la incertidumbre del m&eacute;todo punto-radio, v&eacute;ase:&nbsp;</p>
+<p>CONABIO. 2008. Georreferenciaci&oacute;n de localidades de Colecciones Biol&oacute;gicas. Manual de Procedimientos. M&eacute;xico. 177 p&aacute;gs.</p>
+<p>URL: <a href="http://www.conabio.gob.mx/informacion/geo_espanol/doctos/Manual%20Georref_Vr1.pdf">http://www.conabio.gob.mx/informacion/geo_espanol/doctos/Manual%20Georref_Vr1.pdf</a></p>
+<p>CONABIO. 2021. Gu&iacute;a de georreferenciaci&oacute;n de localidades de colecciones biol&oacute;gicas. M&eacute;xico. 51 p&aacute;gs.</p>
+<p>URL: <a href="https://www.biodiversidad.gob.mx/media/1/conabio/documentos/proyectos/guia_georreferenciacion_2021_WEBc.pdf">https://www.biodiversidad.gob.mx/media/1/conabio/documentos/proyectos/guia_georreferenciacion_2021_WEBc.pdf</a></p>
+<p>Wieczorek, J. Q Guo and Hijmans. R.J. (2004). The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science. Vol. 18, no. 8.</p>
+<p>URL: https://www.tandfonline.com/doi/abs/10.1080/13658810412331280211</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor nulo significa que no se tiene el dato de la incertidumbre o no tiene coordenadas geográficas.</rule>
-      <rule>El valor proviene de:</rule>
-      <rule>Las coordenadas originales que tienen un valor de incertidumbre.</rule>
-      <rule>El cálculo basado en el método punto-radio usado en la georreferenciación de localidades en la CONABIO.</rule>
-      <rule>Asignado por la CONABIO en el caso de desconocimiento del DATUM original o para las coordenadas generalizadas (sólo para ejemplares de México).</rule>
+      <rule>El valor proviene de:<subregla>Las coordenadas originales que tienen un valor de incertidumbre.</subregla><subregla>El cálculo basado en el método punto-radio usado en la georreferenciación de localidades en la CONABIO.</subregla><subregla>Asignado por la CONABIO en el caso de desconocimiento del DATUM original o para las coordenadas generalizadas (sólo para ejemplares de México).</subregla></rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes>
-      <note>Campo resultado del proceso de limpieza, estandarización y compleción realizado por la CONABIO.</note>
-      <note>Para más información de la incertidumbre del método punto-radio, véase:</note>
-      <note>CONABIO. 2008. Georreferenciación de localidades de Colecciones Biológicas. Manual de Procedimientos. México. 177 págs.</note>
-      <note>URL: http://www.conabio.gob.mx/informacion/geo_espanol/doctos/Manual%20Georref_Vr1.pdf</note>
-      <note>CONABIO. 2021. Guía de georreferenciación de localidades de colecciones biológicas. México. 51 págs.</note>
-      <note>URL: https://www.biodiversidad.gob.mx/media/1/conabio/documentos/proyectos/guia_georreferenciacion_2021_WEBc.pdf</note>
-      <note>Wieczorek, J. Q Guo and Hijmans. R.J. (2004). The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science. Vol. 18, no. 8.</note>
-      <note>URL: https://www.tandfonline.com/doi/abs/10.1080/13658810412331280211</note>
-    </notes>
+    <campos>
+      <campo>incertidumbreXY</campo>
+    </campos>
+    <ejemplar>
+      <key>3b2fcf40b7fbdb88abc78cb3da89388a</key>
+      <key>db310bccaf9ab8c125b755b2d13761e9</key>
+      <key>94b054c1af9083bf771df95fdd9b5dd1</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
