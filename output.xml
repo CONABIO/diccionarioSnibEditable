@@ -1358,12 +1358,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </syntaxRules>
     <infoRules>
       <rule>El valor "como", es incluyente a otros subgrupos similares no mencionados.</rule>
-      <rule>Cuando el subgrupo cuentan con dos puntos ":" es porque un subgrupo mayor separa a uno menor, como  insectos y no insectos dentro de los invertebrados.</rule>
+      <rule>Cuando el subgrupo cuentan con dos puntos ":" es porque un subgrupo mayor separa a uno menor, como  insectos y no insectos dentro del grupo de los invertebrados.</rule>
     </infoRules>
     <ejemplar>
       <key>1e23a6358a3648eeee877f6111a3254b</key>
-      <key>3c32a07912dae7a409e1379dcd013120</key>
-      <key>99c31acb4b6fa002059261b99b4b23a1</key>
       <key>b276118a44ff40e3eeb5d1bbbde47eea</key>
       <key>138e893e62f342c88493c071591da87c</key>
     </ejemplar>
