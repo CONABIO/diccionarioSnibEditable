@@ -14,9 +14,9 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México</formaDeCitar>
     <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla de descarga del geoportal y de la tabla de descarga del snib.mx.</anexo2>
     <creador>
-      <nombre></nombre>
-      <sitioWeb></sitioWeb>
-      <portalSNIB></portalSNIB>
+      <nombre/>
+      <sitioWeb/>
+      <portalSNIB/>
     </creador>
   </metadata>
   <snibTerm>
@@ -3840,7 +3840,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>varchar (32)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>&lt;p&gt;Dado que este identificador se genera para el ingreso del registro al SNIB, &amp;eacute;ste no corresponder&amp;aacute; al identificador del ejemplar en las fuentes originales de informaci&amp;oacute;n del SNIB.&lt;/p&gt;</note>
+      <note><![CDATA[<p>Dado que este identificador se genera para el ingreso del registro al SNIB, &eacute;ste no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB.</p>]]></note>
     </notes>
     <dataRules>
       <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
@@ -3851,7 +3851,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>0019412b313d863ca6b9636a52811b46</key>
     </ejemplar>
     <campos>
-      <campo>urlejemplar</campo>
+      <campo>nombrevalidocatscat</campo>
     </campos>
   </snibTerm>
 </snibDictionary>
