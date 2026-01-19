@@ -1361,9 +1361,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>Cuando el subgrupo cuentan con dos puntos ":" es porque un subgrupo mayor separa a uno menor, como  insectos y no insectos dentro del grupo de los invertebrados.</rule>
     </infoRules>
     <ejemplar>
-      <key>1e23a6358a3648eeee877f6111a3254b</key>
+      <key>a5383d009f4960ff61adae7cfada01b4</key>
       <key>005674b4898738a17ba00bcb114de252</key>
       <key>138e893e62f342c88493c071591da87c</key>
+      <key>f71f50427d9147c893e4b8e6c1ddc3b4</key>
     </ejemplar>
     <campos>
       <campo>grupobio</campo>
