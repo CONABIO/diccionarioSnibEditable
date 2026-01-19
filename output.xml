@@ -1348,7 +1348,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>varchar (250)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>&lt;p&gt;Campo resultado del proceso de estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO.&lt;/p&gt;</note>
+      <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que no se cuenta con la información taxonómica suficiente para asignar el subgrupo biológico. Por lo anterior, no existen valores vacíos o nulos.</rule>
@@ -1358,13 +1358,12 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </syntaxRules>
     <infoRules>
       <rule>El valor "como", es incluyente a otros subgrupos similares no mencionados.</rule>
-      <rule>En los grupos de invertebrados, peces y plantas, el subgrupo cuentan con dos puntos ":" que separan un subgrupo mayor de uno menor, como insectos, peces cartilaginosos y sin mandíbula y, plantas con flores y sin flores, respectivamente.</rule>
+      <rule>En los grupos de invertebrados, peces y plantas, el subgrupo cuentan con dos puntos ":" que separan un subgrupo mayor de uno menor, como insectos; peces cartilaginosos y sin mandíbula y, plantas sin flores y con flores, respectivamente.</rule>
     </infoRules>
     <ejemplar>
-      <key>25ceac081aec178514072f48880e4689</key>
-      <key>04d8a85a9f787dd83b619ceea554b86c</key>
-      <key>455d40e73ac576ea3ab57d609a7f7c68</key>
-      <key>1333fbbef8499663f04096713c80ccef</key>
+      <key>1e23a6358a3648eeee877f6111a3254b</key>
+      <key>3c32a07912dae7a409e1379dcd013120</key>
+      <key>99c31acb4b6fa002059261b99b4b23a1</key>
     </ejemplar>
     <campos>
       <campo>grupobio</campo>
