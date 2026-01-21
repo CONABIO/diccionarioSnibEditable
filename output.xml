@@ -3177,15 +3177,15 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <syntaxRules>
       <rule>El dato está escrito con mayúsculas y minúsculas según corresponda.</rule>
     </syntaxRules>
-    <campos>
-      <campo>determinador</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
-      <key>13cf31f7d4b4804bcb95d614dae4745a</key>
+      <key>1de1a8c4f826230187b53677c7335759</key>
       <key>00043b6f6676b98a5607d606890d8743</key>
       <key>5dea254a4ffd05bfc86ac9b3d1427e9c</key>
     </ejemplar>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>determinador</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
