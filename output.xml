@@ -2926,9 +2926,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>Las observaciones se separan con punto y un espacio.</rule>
     </syntaxRules>
     <ejemplar>
-      <key>004d70c27f5e03c9d115fff7e44d0222</key>
-      <key>05b22b6a4eef8d99850bbc54379db67f</key>
-      <key>000189d4e8cec3401a33cad583de06c3</key>
+      <key>005da89eacfc0f89c4525569384f767e</key>
+      <key>0015d98faa96228f95506054e35b69b0</key>
+      <key>0e332a1e14087b0fdf11779ca147ea5f</key>
     </ejemplar>
     <campos>
       <campo>obsusoinfo</campo>
