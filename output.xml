@@ -3369,8 +3369,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>086b1f119eb5579ffe9db25a61509497</key>
     </ejemplar>
     <campos>
-      <campo>especievalida</campo>
       <campo>colector</campo>
+      <campo>especievalida</campo>
     </campos>
   </snibTerm>
   <snibTerm>
