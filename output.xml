@@ -3458,17 +3458,25 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <dwcField>day</dwcField>
     <description>Indica el día del evento de recolecta u observación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
-    <encoding/>
+    <notes>
+      <note><![CDATA[<p>Si el evento de recolecta o de observaci&oacute;n se llev&oacute; a cabo en un rango de fechas, en este campo se especifica solo el d&iacute;a inicial de recolecta u observaci&oacute;n.</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el día de recolecta, no se capturó o el dato capturado no es válido respecto al mes de la recolecta.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato dd.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Si el evento de recolecta o de observación se llevó a cabo en un rango de fechas, en este campo se especifica solo el día inicial de recolecta u observación.</note>
-    </notes>
+    <campos>
+      <campo>diacolecta</campo>
+      <campo>fechacolecta</campo>
+      <campo>especievalida</campo>
+    </campos>
+    <ejemplar>
+      <key>2619dde5bcb45d8360bf62807ee59cb8</key>
+      <key>3c020744f7453cffda8825dcabd5b9ef</key>
+      <key>e9bdeb6c42451c0c36b2798c2b61d9d5</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
