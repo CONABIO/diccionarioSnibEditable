@@ -3495,6 +3495,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Es la fecha del evento de recolecta u observación del ejemplar.</description>
     <datatype>varchar (10)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Si el evento de recolecta o de observaci&oacute;n se llev&oacute; a cabo en un rango de fechas, en este campo se especifica solo la fecha inicial de recolecta u observaci&oacute;n.</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor vacío significa que no se cuenta con una fecha de recolecta o no se capturó al menos el dato del año.</rule>
     </dataRules>
@@ -3502,10 +3505,14 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>Se concatenan los campos aniocolecta, mescolecta y diacolecta separados por un guion, sin considerar los valores 99.</rule>
       <rule>Se muestra con el formato aaaa-mm-dd.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Si el evento de recolecta o de observación se llevó a cabo en un rango de fechas, en este campo se especifica solo la fecha inicial de recolecta u observación.</note>
-    </notes>
+    <campos>
+      <campo>fechacolecta</campo>
+    </campos>
+    <ejemplar>
+      <key>2619dde5bcb45d8360bf62807ee59cb8</key>
+      <key>3c020744f7453cffda8825dcabd5b9ef</key>
+      <key>e9bdeb6c42451c0c36b2798c2b61d9d5</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
