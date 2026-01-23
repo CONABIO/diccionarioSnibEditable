@@ -3402,8 +3402,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
     <campos>
       <campo>especievalida</campo>
-      <campo>fechacolecta</campo>
       <campo>aniocolecta</campo>
+      <campo>fechacolecta</campo>
     </campos>
   </snibTerm>
   <snibTerm>
