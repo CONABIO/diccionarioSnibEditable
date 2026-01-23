@@ -3068,15 +3068,14 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </dataRules>
     <ejemplar>
       <key>a6bc9bd1d84108f7849475f5fcea7af0</key>
-      <key>c07ce4a91a3f6e8c7ffa702b795b1188</key>
       <key>d0ce22dd6e2c1af5e2fe295446982a17</key>
       <key>fbf1faef36b8c118181454c567b16828</key>
       <key>d657dfd6e49ebac83307d5706a9ae2e7</key>
     </ejemplar>
     <campos>
-      <campo>numcatalogo</campo>
       <campo>grupobio</campo>
       <campo>especievalida</campo>
+      <campo>numcatalogo</campo>
     </campos>
   </snibTerm>
   <snibTerm>
