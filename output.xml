@@ -3505,14 +3505,15 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>Se concatenan los campos aniocolecta, mescolecta y diacolecta separados por un guion, sin considerar los valores 99.</rule>
       <rule>Se muestra con el formato aaaa-mm-dd.</rule>
     </syntaxRules>
-    <campos>
-      <campo>fechacolecta</campo>
-    </campos>
     <ejemplar>
       <key>2619dde5bcb45d8360bf62807ee59cb8</key>
       <key>3c020744f7453cffda8825dcabd5b9ef</key>
       <key>e9bdeb6c42451c0c36b2798c2b61d9d5</key>
     </ejemplar>
+    <campos>
+      <campo>fechacolecta</campo>
+      <campo>especievalida</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
