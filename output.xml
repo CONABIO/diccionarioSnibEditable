@@ -718,7 +718,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
 <p><strong>Centroam&eacute;rica:</strong></p>
 <p>CONABIO. 2020. Limites administrativos Centroam&eacute;rica. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico. M&eacute;xico.</p>
 <p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto">http://geoportal.conabio.gob.mx/#!l=centroamegw:1@m=mixto</a></p>
-<p><strong>Estados Unidos de Am&eacute;rica, Colombia y el Caribe:</strong></p>
+<p><strong>Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
 <p>CONABIO., 2019. Mapa de validaci&oacute;n por divisiones pol&iacute;ticas para los sitios terrestres de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
 <p>URL: http://geoportal.conabio.gob.mx/#!l=vdpsf1gw:1@m=mixto</p>]]></note>
     </notes>
@@ -733,15 +733,15 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <infoRules>
       <rule>La clave del municipio corresponde con el municipio asignado en el campo municipiomapa.</rule>
     </infoRules>
-    <campos>
-      <campo>clavemunicipiomapa</campo>
-      <campo>municipiomapa</campo>
-    </campos>
     <ejemplar>
       <key>3b2fcf40b7fbdb88abc78cb3da89388a</key>
       <key>db310bccaf9ab8c125b755b2d13761e9</key>
       <key>94b054c1af9083bf771df95fdd9b5dd1</key>
     </ejemplar>
+    <campos>
+      <campo>clavemunicipiomapa</campo>
+      <campo>municipiomapa</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
