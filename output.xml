@@ -3431,16 +3431,16 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <syntaxRules>
       <rule>Se muestra con el formato mm.</rule>
     </syntaxRules>
-    <campos>
-      <campo>mescolecta</campo>
-      <campo>fechacolecta</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>2619dde5bcb45d8360bf62807ee59cb8</key>
-      <key>54e4a98d30c0defb27fb6a0f6cd191e7</key>
+      <key>3c020744f7453cffda8825dcabd5b9ef</key>
       <key>e9bdeb6c42451c0c36b2798c2b61d9d5</key>
     </ejemplar>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>fechacolecta</campo>
+      <campo>mescolecta</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
