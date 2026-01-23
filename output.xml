@@ -2969,7 +2969,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </dataRules>
     <syntaxRules>
       <rule>Se escriben las siglas de la colección y/o el nombre de la colección, separadas por un espacio.</rule>
-      <rule>El dato se estandariza como está registrada la colección científica en el catálogo de instituciones y colecciones de la CONABIO.</rule>
+      <rule>El dato se estandariza como está registrada la colección en el catálogo de instituciones y colecciones de la CONABIO.</rule>
     </syntaxRules>
     <infoRules>
       <rule>El valor NO APLICA significa que el dato no es aplicable para el registro, ya que se trata de un ejemplar con procedencia observado o que no pertenece a alguna colección.</rule>
