@@ -3376,25 +3376,23 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <dwcField>year</dwcField>
     <description>Indica el año del evento de recolecta u observación del ejemplar.</description>
     <datatype>smallint (6)</datatype>
-    <notes>
-      <note><![CDATA[<p>Cuando la recolecta se llev&oacute; a cabo en un rango de fechas, en este campo se especifica s&oacute;lo el a&ntilde;o inicial de recolecta.</p>]]></note>
-    </notes>
     <dataRules>
-      <rule>El valor 9999 significa que no se cuenta con el año de recolecta o el dato capturado no es válido para un año.</rule>
+      <rule>El valor nulo significa que no se cuenta con el año de recolecta o el dato capturado no es válido para un año.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato aaaa.</rule>
     </syntaxRules>
-    <campos>
-      <campo>aniocolecta</campo>
-      <campo>fechacolecta</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>49dab367a68cc271225bde6602ac11b6</key>
       <key>dbdac98d4ea6d18f30871f11be927fc1</key>
+      <key>e9bdeb6c42451c0c36b2798c2b61d9d5</key>
       <key>0000f4ee5acea15215006bc5630d922b</key>
     </ejemplar>
+    <campos>
+      <campo>especievalida</campo>
+      <campo>fechacolecta</campo>
+      <campo>aniocolecta</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
