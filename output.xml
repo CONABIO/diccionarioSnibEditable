@@ -3422,17 +3422,25 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <dwcField>month</dwcField>
     <description>Indica el mes del evento de recolecta u observación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
-    <encoding/>
+    <notes>
+      <note><![CDATA[<p>Cuando la recolecta se llev&oacute; a cabo en un rango de fechas, en este campo se especifica solo el mes inicial de recolecta.</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el mes de recolecta, no se capturó o el dato capturado no es válido para un mes del año.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato mm.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Cuando la recolecta se llevó a cabo en un rango de fechas, en este campo se especifica solo el mes inicial de recolecta.</note>
-    </notes>
+    <campos>
+      <campo>mescolecta</campo>
+      <campo>fechacolecta</campo>
+      <campo>especievalida</campo>
+    </campos>
+    <ejemplar>
+      <key>2619dde5bcb45d8360bf62807ee59cb8</key>
+      <key>54e4a98d30c0defb27fb6a0f6cd191e7</key>
+      <key>e9bdeb6c42451c0c36b2798c2b61d9d5</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
