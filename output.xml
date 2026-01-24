@@ -1175,6 +1175,15 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Especifica la jurisdicción y nombre del área natural protegida (ANP) donde se ubica la coordenada geográfica registrada para el ejemplar.</description>
     <datatype>varchar (250)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n de las ANP de M&eacute;xico, v&eacute;ase:</p>
+<p>CONABIO 2020. &Aacute;reas Naturales Protegidas Estatales, Municipales, Ejidales, Comunitarias y Privadas de M&eacute;xico 2020. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. M&eacute;xico.</p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=anpest20gw:1">http://geoportal.conabio.gob.mx/#!l=anpest20gw:1</a></p>
+<p>CONANP. 2024. &Aacute;reas Naturales Protegidas Federales de M&eacute;xico, septiembre 2024, Comisi&oacute;n Nacional de &Aacute;reas Naturales Protegidas. Ciudad de M&eacute;xico, M&eacute;xico.</p>
+<p>URL: http://geoportal.conabio.gob.mx/#!l=anpsp2024gw:1@m=mixto</p>]]></note>
+      <note><![CDATA[<p>Para las ANP de otros pa&iacute;ses v&eacute;ase:</p>
+<p>UNEP-WCMC y UICN. 2024, Protected Planet: The World Database on Protected Areas (WDPA) [Online], octubre de 2024, Cambridge, UK: UNEP-WCMC y UICN. URL: https://www.protectedplanet.net/en</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor vacío significa que el ejemplar está ubicado a más de 5 km de alguna ANP o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
       <rule>Cuando el ejemplar se ubica dentro de un área que corresponde a varias ANP, se le asignaron todas.</rule>
@@ -1184,19 +1193,18 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El valor se conforma por la jurisdicción del ANP “Internacional“, “International”, “Nacional“, “National”, “Federal“, “Estatal”, “Regional“, “Municipal”, ”Estatal y Municipal”, “Ejidal”, “Privado” y “Comunitaria“, seguido de comilla angular derecha y un espacio “» ”, posteriormente el nombre y al final se puede presentar la distancia a la ANP más cercana.</rule>
       <rule>Cuando la coordenada registrada para el ejemplar se ubica en más de un ANP  se concatena aplicando la regla 1 separando cada ANP con un pipe  “|” con un espacio antes y después.</rule>
       <rule>Se incluye entre llaves “{ }” la distancia en kilómetros a la que se encuentra la coordenada de la ANP.</rule>
-      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
+      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
       <rule>Las ANP que se comparten en más de un país se diferencian en el nombre por la abreviación del país alfa-2 de la ISO 3166.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Para más información de las ANP de México, véase:</note>
-      <note>CONABIO 2020. Áreas Naturales Protegidas Estatales, Municipales, Ejidales, Comunitarias y Privadas de México 2020. Comisión Nacional para el Conocimiento y Uso de la Biodiversidad. México.</note>
-      <note>URL: http://geoportal.conabio.gob.mx/#!l=anpest20gw:1</note>
-      <note>CONANP. 2024. Áreas Naturales Protegidas Federales de México, septiembre 2024,  Comisión Nacional de Áreas Naturales Protegidas. Ciudad de México, México.</note>
-      <note>URL:  http://geoportal.conabio.gob.mx/#!l=anpsp2024gw:1@m=mixto</note>
-      <note>Para las ANP de otros países véase:</note>
-      <note>UNEP-WCMC y UICN. 2024, Protected Planet:  The World Database on Protected Areas (WDPA) [Online], octubre de 2024, Cambridge, UK: UNEP-WCMC y UICN. URL: https://www.protectedplanet.net/en</note>
-    </notes>
+    <campos>
+      <campo>region</campo>
+      <campo>anp</campo>
+    </campos>
+    <ejemplar>
+      <key>3b2fcf40b7fbdb88abc78cb3da89388a</key>
+      <key>db310bccaf9ab8c125b755b2d13761e9</key>
+      <key>94b054c1af9083bf771df95fdd9b5dd1</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
