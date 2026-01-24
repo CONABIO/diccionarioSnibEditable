@@ -1283,6 +1283,13 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Cuenca hidrográfica donde se ubica la coordenada geográfica.</description>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>
+<p>&nbsp;</p>]]></note>
+      <note><![CDATA[<p>Instituto Nacional de Estad&iacute;stica Geograf&iacute;a e Inform&aacute;tica (INEGI), Instituto Nacional de Ecolog&iacute;a (INE), Comisi&oacute;n Nacional de Agua (CONAGUA), (2007). 'Mapa de Cuencas Hidrogr&aacute;ficas de M&eacute;xico, 2007'. Escala 1:250000, elaborada por Priego A.G., Isunza E., Luna N. y P&eacute;rez J.L. M&eacute;xico, D.F.</p>
+<p>URL: http://www.conabio.gob.mx/informacion/gis/?vns=gis_root/hidro/chidro/cue250k_07gw</p>]]></note>
+      <note><![CDATA[<p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
       <rule>El dominio de los valores está dado por las cuencas hidrográficas, según el mapa de Cuencas Hidrográficas de México 2007.</rule>
@@ -1291,13 +1298,15 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El dato está escrito en mayúsculas y minúsculas y con acentos.</rule>
       <rule>El valor se conforma por el código de la cuenca, seguido del nombre separando con una coma.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Cita: Instituto Nacional de Estadística Geografía e Informática (INEGI), Instituto Nacional de Ecología (INE), Comisión Nacional de Agua (CONAGUA), (2007). 'Mapa de Cuencas Hidrográficas de México, 2007'. Escala 1:250000, elaborada por Priego A.G., Isunza E., Luna N. y Pérez J.L. México, D.F.</note>
-      <note>URL: http://www.conabio.gob.mx/informacion/gis/?vns=gis_root/hidro/chidro/cue250k_07gw</note>
-      <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
-      <note>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</note>
-    </notes>
+    <campos>
+      <campo>region</campo>
+      <campo>cuenca</campo>
+    </campos>
+    <ejemplar>
+      <key>3b2fcf40b7fbdb88abc78cb3da89388a</key>
+      <key>db310bccaf9ab8c125b755b2d13761e9</key>
+      <key>94b054c1af9083bf771df95fdd9b5dd1</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
