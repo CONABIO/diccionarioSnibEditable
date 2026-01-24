@@ -3014,7 +3014,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El dato se estandariza como está registrado en el catálogo de instituciones y colecciones de la CONABIO.</rule>
     </syntaxRules>
     <infoRules>
-      <rule>El valor NO APLICA significa que el dato no es aplicable para el registro, ya que se trata de un ejemplar con procedencia observado o que no pertenece a alguna institución.</rule>
+      <rule>El valor NO APLICA significa que el dato no es aplicable para el registro, ya que se trata de un ejemplar que no pertenece a alguna institución.</rule>
     </infoRules>
     <ejemplar>
       <key>00127f10e66f2a6551d24c93c3c8299a</key>
