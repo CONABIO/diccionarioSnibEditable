@@ -897,17 +897,23 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <dwcField>minimunElevationInMeters</dwcField>
     <description>Altitud donde se ubica la coordenada geográfica, es obtenida del modelo de elevación ASTER GDEM2. Tipo de dato: smallint (6)</description>
     <datatype>smallint (6)</datatype>
-    <encoding/>
+    <notes>
+      <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n acerca del modelo de elevaci&oacute;n v&eacute;ase:</p>
+<p>ASTER GDEM2. 2011. Modelo Digital de Elevaci&oacute;n Global ASTER Versi&oacute;n 2, escala 1:50000 (celda de 30x30 m). The Ministry of Economy, Trade and Industry of Japan (METI)- The National Aeronautics and Space Administration (NASA). Procesado en la CONABIO M&eacute;xico. (Consultado el 2011-08-31 URL: http://www.jspacesystems.or.jp/ersdac/GDEM/E/)</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor nulo significa que el ejemplar no tiene coordenadas geográficas; las coordenadas asociadas al ejemplar se ubican fuera del área que cubre el modelo digital de elevación o, dicho modelo no tiene el dato de altitud.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes>
-      <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
-      <note>Para más información acerca del modelo de elevación véase:</note>
-      <note>ASTER GDEM2. 2011. Modelo Digital de Elevación Global ASTER Versión 2, escala 1:50000 (celda de 30x30 m). The Ministry of Economy, Trade and Industry of Japan (METI)- The National Aeronautics and Space Administration (NASA). Procesado en la CONABIO México. (Consultado el 2011-08-31 URL: http://www.jspacesystems.or.jp/ersdac/GDEM/E/)</note>
-    </notes>
+    <campos>
+      <campo>region</campo>
+      <campo>altitudmapa</campo>
+    </campos>
+    <ejemplar>
+      <key>3b2fcf40b7fbdb88abc78cb3da89388a</key>
+      <key>db310bccaf9ab8c125b755b2d13761e9</key>
+      <key>94b054c1af9083bf771df95fdd9b5dd1</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
