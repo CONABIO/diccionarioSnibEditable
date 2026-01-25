@@ -932,18 +932,25 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Especifica el tipo de vegetación y uso del suelo donde se ubica la coordenada geográfica de acuerdo con el mapa de la serie I del INE-INEGI.</description>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre el uso de suelo y vegetaci&oacute;n serie I v&eacute;ase:</p>
+<p>INE - INEGI. 1997. Uso del suelo y vegetaci&oacute;n (INEGI-INE), serie I. Escala 1:250000. Instituto Nacional de Ecolog&iacute;a - Direcci&oacute;n de Ordenamiento Ecol&oacute;gico General e Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica. Digitalizaci&oacute;n de las cartas de uso del suelo y vegetaci&oacute;n elaboradas por INEGI entre los a&ntilde;os 1980-1991 con base en fotograf&iacute;as a&eacute;reas de 1968-1986. M&eacute;xico D. F.</p>
+<p>URL: http://geoportal.conabio.gob.mx/#!l=usv250kcs1agw:1@m=mixto</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso del suelo y vegetación serie I del INE-INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes>
-      <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
-      <note>Para más información sobre el uso de suelo y vegetación serie I véase:</note>
-      <note>INE - INEGI. 1997. Uso del suelo y vegetación (INEGI-INE), serie I. Escala 1:250000. Instituto Nacional de Ecología - Dirección de Ordenamiento Ecológico General e Instituto Nacional de Estadística, Geografía e Informática. Digitalización de las cartas de uso del suelo y vegetación elaboradas por INEGI entre los años 1980-1991 con base en fotografías aéreas de 1968-1986. México D. F.</note>
-      <note>URL: http://geoportal.conabio.gob.mx/#!l=usv250kcs1agw:1@m=mixto</note>
-    </notes>
+    <campos>
+      <campo>region</campo>
+      <campo>usvserieI</campo>
+    </campos>
+    <ejemplar>
+      <key>3b2fcf40b7fbdb88abc78cb3da89388a</key>
+      <key>db310bccaf9ab8c125b755b2d13761e9</key>
+      <key>94b054c1af9083bf771df95fdd9b5dd1</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
