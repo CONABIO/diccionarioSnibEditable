@@ -1293,7 +1293,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <encoding>UTF-8</encoding>
     <notes>
       <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Instituto Nacional de Estad&iacute;stica Geograf&iacute;a e Inform&aacute;tica (INEGI), Instituto Nacional de Ecolog&iacute;a (INE), Comisi&oacute;n Nacional de Agua (CONAGUA), (2007). 'Mapa de Cuencas Hidrogr&aacute;ficas de M&eacute;xico, 2007'. Escala 1:250000, elaborada por Priego A.G., Isunza E., Luna N. y P&eacute;rez J.L. M&eacute;xico, D.F.</p>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n de las Cuencas hidrogr&aacute;ficas de M&eacute;xico, v&eacute;ase:</p>
+<p>Instituto Nacional de Estad&iacute;stica Geograf&iacute;a e Inform&aacute;tica (INEGI), Instituto Nacional de Ecolog&iacute;a (INE), Comisi&oacute;n Nacional de Agua (CONAGUA), (2007). 'Mapa de Cuencas Hidrogr&aacute;ficas de M&eacute;xico, 2007'. Escala 1:250000, elaborada por Priego A.G., Isunza E., Luna N. y P&eacute;rez J.L. M&eacute;xico, D.F.</p>
 <p>URL: http://www.conabio.gob.mx/informacion/gis/?vns=gis_root/hidro/chidro/cue250k_07gw</p>]]></note>
       <note><![CDATA[<p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
     </notes>
