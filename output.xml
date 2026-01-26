@@ -3243,11 +3243,13 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>4cddc58e6f8db7045d66194052e3a980</key>
       <key>d5082c8c5e0d173c8edd0aea12a5d4b2</key>
       <key>e6fbaeb47bfbcf5fabb6176f2812b48d</key>
+      <key>3f3260e405063ed000d0b73ea87a9b00</key>
     </ejemplar>
     <campos>
       <campo>procedenciaejemplar</campo>
       <campo>grupobio</campo>
       <campo>especievalida</campo>
+      <campo>nombrecomun</campo>
     </campos>
   </snibTerm>
   <snibTerm>
