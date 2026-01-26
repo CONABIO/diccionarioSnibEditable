@@ -3937,14 +3937,15 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El valor 1 significa que el registro sí es descargable desde el Geoportal.</rule>
       <rule>El valor 0 significa que el registro no es descargable desde el Geoportal.</rule>
     </dataRules>
-    <campos>
-      <campo>geoportal</campo>
-    </campos>
     <ejemplar>
       <key>0022fe8485f353231cd8b723bb89c806</key>
       <key>002d0295326a07053b72981d6d8d6079</key>
       <key>002e91a862a088f95eb381bb958e53bc</key>
     </ejemplar>
+    <campos>
+      <campo>geoportal</campo>
+      <campo>especievalida</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
