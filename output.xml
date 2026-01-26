@@ -3404,18 +3404,18 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El valor vacío significa que no se cuenta con la fecha de la determinación del ejemplar o no se capturó el dato.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>Se concatenan los campos aniodeterminacion, mesdeterminacion y diadeterminacion separados por un guion, sin considerar los valores 99.</rule>
+      <rule>Se concatenan los campos aniodeterminacion, mesdeterminacion y diadeterminacion separados por un guion.</rule>
       <rule>Se muestra con el formato aaaa-mm-dd.</rule>
     </syntaxRules>
-    <campos>
-      <campo>fechadeterminacion</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>2b5b9fa9e85c654090490eec1b6f7131</key>
       <key>f3188533366a7c26e49ea5f56df8ac60</key>
       <key>e744f8655270bdf567ff8bdd49ccd70e</key>
     </ejemplar>
+    <campos>
+      <campo>fechadeterminacion</campo>
+      <campo>especievalida</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
