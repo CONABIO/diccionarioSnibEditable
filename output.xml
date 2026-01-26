@@ -3331,7 +3331,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldName>Mes de la determinación</fieldName>
     <fieldid>mesdeterminacion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>Indica el mes en que se realizó la determinación del ejemplar.</description>
+    <description>Mes en que se realizó la determinación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el mes de la determinación del ejemplar, no se capturó el dato o el valor no es válido para un mes del año.</rule>
@@ -3340,9 +3340,15 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>Se muestra con el formato mm.</rule>
     </syntaxRules>
     <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
+      <campo>mesdeterminacion</campo>
+      <campo>fechadeterminacion</campo>
+      <campo>especievalida</campo>
     </campos>
+    <ejemplar>
+      <key>2619dde5bcb45d8360bf62807ee59cb8</key>
+      <key>3c020744f7453cffda8825dcabd5b9ef</key>
+      <key>e9bdeb6c42451c0c36b2798c2b61d9d5</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
