@@ -3476,7 +3476,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldName>Año de recolecta</fieldName>
     <fieldid>aniocolecta</fieldid>
     <dwcField>year</dwcField>
-    <description>Indica el año del evento de recolecta u observación del ejemplar.</description>
+    <description>Año del evento de recolecta u observación del ejemplar.</description>
     <datatype>smallint (6)</datatype>
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el año de recolecta o el dato capturado no es válido para un año.</rule>
