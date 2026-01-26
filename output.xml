@@ -3235,15 +3235,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <note><![CDATA[<p>M&aacute;s informaci&oacute;n del dominio de valores se encuentra en http://rs.tdwg.org/dwc/terms.htm#basisOfRecord</p>]]></note>
     </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por: &#13;
-a. HumanObservation&#13;
-b. PreservedSpecimen&#13;
-c. FossilSpecimen, &#13;
-d. MaterialCitation, &#13;
-e. Occurrence, &#13;
-f. MaterialSample&#13;
-g. MachineObservation&#13;
-h. LivingSpecimen</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>HumanObservation</subregla><subregla>PreservedSpecimen</subregla><subregla>FossilSpecimen</subregla><subregla>MaterialCitation</subregla><subregla>Occurrence</subregla><subregla>MaterialSample</subregla><subregla>MachineObservation</subregla><subregla>LivingSpecimen</subregla></rule>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
       <rule>El mapeo realizado a los datos originales para su equivalencia en Darwin Core es el siguiente:<subregla>Observado = HumanObservation</subregla><subregla>Colectado = PreservedSpecimen</subregla><subregla>Reportado = MaterialCitation</subregla></rule>
     </dataRules>
