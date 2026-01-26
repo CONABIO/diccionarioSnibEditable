@@ -3276,7 +3276,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>varchar (512)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original</rule>
+      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
     <syntaxRules>
       <rule>El dato está escrito con mayúsculas y minúsculas según corresponda.</rule>
@@ -3287,8 +3287,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>4f9ee01f60aae41d8e352e3dbad9e2c6</key>
     </ejemplar>
     <campos>
-      <campo>especievalida</campo>
       <campo>determinador</campo>
+      <campo>especievalida</campo>
     </campos>
   </snibTerm>
   <snibTerm>
