@@ -3611,7 +3611,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El valor vacío significa que no se cuenta con una fecha de recolecta o no se capturó al menos el dato del año.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>Se concatenan los campos aniocolecta, mescolecta y diacolecta separados por un guion, sin considerar los valores 99.</rule>
+      <rule>Se concatenan los campos aniocolecta, mescolecta y diacolecta separados por un guion.</rule>
       <rule>Se muestra con el formato aaaa-mm-dd.</rule>
     </syntaxRules>
     <ejemplar>
