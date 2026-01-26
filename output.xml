@@ -3364,17 +3364,24 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldName>Día de la determinación</fieldName>
     <fieldid>diadeterminacion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>Indica el día que se realizó la determinación del ejemplar.</description>
+    <description>Día en que se realizó la determinación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
-    <encoding/>
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el día de la determinación del ejemplar, no se capturó el dato o el valor capturado es no válido respecto al mes de la determinación.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se muestra con el formato dd.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>diadeterminacion</campo>
+      <campo>fechadeterminacion</campo>
+      <campo>especievalida</campo>
+    </campos>
+    <ejemplar>
+      <key>2b5b9fa9e85c654090490eec1b6f7131</key>
+      <key>f3188533366a7c26e49ea5f56df8ac60</key>
+      <key>e744f8655270bdf567ff8bdd49ccd70e</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
