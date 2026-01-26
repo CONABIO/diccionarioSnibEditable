@@ -3581,7 +3581,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldName>Fecha de recolecta</fieldName>
     <fieldid>fechacolecta</fieldid>
     <dwcField>eventDate</dwcField>
-    <description>Es la fecha del evento de recolecta u observación del ejemplar.</description>
+    <description>Fecha del evento de recolecta u observación del ejemplar.</description>
     <datatype>varchar (10)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
