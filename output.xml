@@ -3133,7 +3133,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldName>País donde se localiza la colección</fieldName>
     <fieldid>paiscoleccion</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>País donde se localiza la colección que resguarda el registro del ejemplar.</description>
+    <description>País donde se localiza la colección que resguarda el ejemplar.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
@@ -3144,12 +3144,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <syntaxRules>
       <rule>El dato se escribe utilizando mayúsculas y sin acentos.</rule>
     </syntaxRules>
-    <campos>
-      <campo>coleccion</campo>
-      <campo>paiscoleccion</campo>
-      <campo>institucion</campo>
-      <campo>procedenciaejemplar</campo>
-    </campos>
     <ejemplar>
       <key>000b6dadf1d989dee83e953af57055a4</key>
       <key>000189c5a7c7885a7bdac3a0607eb326</key>
@@ -3157,6 +3151,12 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>05a26f5257b3c726632cab3064717901</key>
       <key>f2ab98c692a8e9a93c64545cfdff865e</key>
     </ejemplar>
+    <campos>
+      <campo>coleccion</campo>
+      <campo>paiscoleccion</campo>
+      <campo>institucion</campo>
+      <campo>procedenciaejemplar</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
