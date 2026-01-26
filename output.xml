@@ -3696,17 +3696,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El valor NO significa que el ejemplar revisado no corresponde a un fósil.</rule>
       <rule>El valor vacío significa que no se tiene la certeza de que el ejemplar corresponde a un fósil.</rule>
     </dataRules>
-    <campos>
-      <campo>ejemplarfosil</campo>
-      <campo>grupobio</campo>
-      <campo>genero</campo>
-      <campo>especie</campo>
-    </campos>
     <ejemplar>
       <key>d5082c8c5e0d173c8edd0aea12a5d4b2</key>
       <key>0cc02bfa3b68b5cf5628ef5e73d8145d</key>
       <key>08f6efb5860eb984ca17ac7ca645ec7b</key>
+      <key>2636046156d53cfdcf37b2e9c194d13c</key>
     </ejemplar>
+    <campos>
+      <campo>ejemplarfosil</campo>
+      <campo>grupobio</campo>
+      <campo>especie</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
