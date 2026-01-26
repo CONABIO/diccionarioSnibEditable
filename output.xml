@@ -3545,7 +3545,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldName>Día de recolecta</fieldName>
     <fieldid>diacolecta</fieldid>
     <dwcField>day</dwcField>
-    <description>Indica el día del evento de recolecta u observación del ejemplar.</description>
+    <description>Día del evento de recolecta u observación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
     <notes>
       <note><![CDATA[<p>Si el evento de recolecta o de observaci&oacute;n se llev&oacute; a cabo en un rango de fechas, en este campo se especifica solo el d&iacute;a inicial de recolecta u observaci&oacute;n.</p>]]></note>
