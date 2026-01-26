@@ -3339,16 +3339,16 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <syntaxRules>
       <rule>Se muestra con el formato mm.</rule>
     </syntaxRules>
+    <ejemplar>
+      <key>2b5b9fa9e85c654090490eec1b6f7131</key>
+      <key>f3188533366a7c26e49ea5f56df8ac60</key>
+      <key>e744f8655270bdf567ff8bdd49ccd70e</key>
+    </ejemplar>
     <campos>
       <campo>mesdeterminacion</campo>
       <campo>fechadeterminacion</campo>
       <campo>especievalida</campo>
     </campos>
-    <ejemplar>
-      <key>2619dde5bcb45d8360bf62807ee59cb8</key>
-      <key>3c020744f7453cffda8825dcabd5b9ef</key>
-      <key>e9bdeb6c42451c0c36b2798c2b61d9d5</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
