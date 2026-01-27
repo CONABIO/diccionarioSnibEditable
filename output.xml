@@ -7,7 +7,7 @@
     <abstracto>El Sistema Nacional de Información sobre Biodiversidad (SNIB), a través del geoportal de CONABIO http://www.conabio.gob.mx/informacion/gis/ y su propia página web https://snib.mx/ , proporciona acceso público a datos sobre ejemplares biológicos provenientes de proyectos financiados, desarrollados o integrados por la CONABIO. Este documento detalla los campos de datos seleccionados para el geoportal, priorizando los más relevantes según su uso y valor. También se incluyen campos  disponibles solo en la página del SNIB. La información ha sido revisada por CONABIO para estandarizarla y mejorar su calidad. Se explica la relación con el estándar Darwin Core y se proporciona la estructura de la base de datos y la sentencia SQL correspondiente en los anexos.</abstracto>
     <licenciaUso>Este documento se publica y distribuye bajo una licencia Creative Commons Atribución 4.0 Internacional CC-BY compatible&#13;
 &#13;
-con la licencia LibreusoMX de datos.gob.mx</licenciaUso>
+con la licencia Libre Uso MX</licenciaUso>
     <formaDeCitar>CONABIO. 2026. Diccionario de datos. Información de especímenes publicados en el Geoportal y en el Sistema Nacional de&#13;
 &#13;
 Información sobre Biodiversidad (SNIB), versión 2025-12 México</formaDeCitar>
