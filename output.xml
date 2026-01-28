@@ -1218,22 +1218,23 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <encoding>UTF-8</encoding>
     <notes>
       <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre cobertura de suelo y vegetaci&oacute;n v&eacute;ase:Blanco, P. D., Colditz, R. R., L&oacute;pez, G., Hardtke, L. A., Llamas, R. M., Mari, N. A., Barrena Arroyo, V. (2013). A land cover map of Latin America and the Caribbean in the framework of the SERENA project. Remote Sensing of Environment, 132, 13&ndash;31.</p>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre cobertura de suelo y vegetaci&oacute;n v&eacute;ase:</p>
+<p>Blanco, P. D., Colditz, R. R., L&oacute;pez, G., Hardtke, L. A., Llamas, R. M., Mari, N. A., Barrena Arroyo, V. (2013). A land cover map of Latin America and the Caribbean in the framework of the SERENA project. Remote Sensing of Environment, 132, 13&ndash;31.</p>
 <p>URL: https://www.biodiversidad.gob.mx/monitoreo/cobertura-suelo/baja-resolucion/SERENA</p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por la cobertura de suelo, según el mapa de SERENA.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
-    <campos>
-      <campo>region</campo>
-      <campo>vegetacionserenanalcms</campo>
-    </campos>
     <ejemplar>
       <key>0b1c6e18a6c5d0d0a6820820bd5d16ab</key>
       <key>69b4a2b95407dea3379469355903e442</key>
       <key>87713ada3d127673878d018f87f369f0</key>
     </ejemplar>
+    <campos>
+      <campo>region</campo>
+      <campo>vegetacionserenanalcms</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
