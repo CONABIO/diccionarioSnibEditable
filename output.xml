@@ -1302,6 +1302,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Región marina donde se ubica la coordenada geográfica.</description>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre cobertura de suelo y vegetaci&oacute;n v&eacute;ase:</p>]]></note>
+      <note><![CDATA[<p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor vacío significa que las coordenadas de los ejemplares no se ubican en alguna región marina dentro de la zona económica exclusiva de México, Centroamérica, Colombia, El Caribe, Estados Unidos de América, o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
       <rule>El dominio de los valores está dado por:</rule>
@@ -1315,11 +1320,15 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
-      <note>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</note>
-    </notes>
+    <campos>
+      <campo>region</campo>
+      <campo>regionmarinamapa</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
