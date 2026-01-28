@@ -299,10 +299,12 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <key>0379d08e54c2b543e303a8fc4667ffe8</key>
       <key>127d21638cc105ce290844e6abb7e870</key>
       <key>096c765542c6bb8f65d0abfd102e9af0</key>
+      <key>bc9377c20bbc24ce985ef4c4e7b8cbbc</key>
     </ejemplar>
     <campos>
       <campo>paisoriginal</campo>
-      <campo>paismapa</campo>
+      <campo>estadooriginal</campo>
+      <campo>municipiooriginal</campo>
       <campo>localidad</campo>
     </campos>
   </snibTerm>
