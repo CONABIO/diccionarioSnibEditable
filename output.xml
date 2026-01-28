@@ -33,7 +33,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <fieldName>Región de recolecta u observación</fieldName>
     <fieldid>region</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>País, estado y municipio o su división política equivalente, registrados para el ejemplar por el recolector u observador.</description>
+    <description>País, estado y municipio o su división política original equivalente, registrados para el ejemplar por el recolector u observador.</description>
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
