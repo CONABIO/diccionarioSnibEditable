@@ -1345,6 +1345,13 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Ecorregión terretre donde se ubica la coordenada geográfica.</description>
     <datatype>varchar (200)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre las Ecorregiones Terrestres v&eacute;ase:</p>
+<p>Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI) -Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) - Instituto Nacional de Ecolog&iacute;a (INE). (2008). 'Ecorregiones Terrestres de M&eacute;xico'. Escala 1:1000000. M&eacute;xico. De forma abreviada puede citarse as&iacute;: INEGI, CONABIO e INE. 2008. 'Ecorregiones terrestres de M&eacute;xico'. Escala 1:1000000. M&eacute;xico.</p>
+<p>URL: http://www.conabio.gob.mx/informacion/gis/?vns=gis_root/region/biotic/ecort08gw</p>]]></note>
+      <note><![CDATA[<p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
+    </notes>
     <dataRules>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa de ecorregiones terrestre de México o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
       <rule>El dominio de los valores permitidos está dado por las ecorregiones terrestres, según el mapa de Ecorregiones terrestres de México 2008.</rule>
@@ -1352,13 +1359,15 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y minúsculas y sin acentos.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes>
-      <note>Cita: Instituto Nacional de Estadística, Geografía e Informática (INEGI) -Comisión Nacional para el Conocimiento y Uso de la Biodiversidad (CONABIO) - Instituto Nacional de Ecología (INE). (2008). 'Ecorregiones Terrestres de México'. Escala 1:1000000. México. De forma abreviada puede citarse así: INEGI, CONABIO e INE. 2008. 'Ecorregiones terrestres de México'. Escala 1:1000000. México.</note>
-      <note>URL: http://www.conabio.gob.mx/informacion/gis/?vns=gis_root/region/biotic/ecort08gw</note>
-      <note>Campo resultado del proceso de estandarización y compleción realizado por la CONABIO.</note>
-      <note>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</note>
-    </notes>
+    <campos>
+      <campo>region</campo>
+      <campo>ecorregion</campo>
+    </campos>
+    <ejemplar>
+      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
+      <key>127d21638cc105ce290844e6abb7e870</key>
+      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
