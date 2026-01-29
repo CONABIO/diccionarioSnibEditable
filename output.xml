@@ -384,8 +384,8 @@ un dato de país en el campo país original.</subregla></rule>
     <datatype>varchar (55)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>&lt;p&gt;Campo resultado del proceso de limpieza, estandarizaci&amp;oacute;n y compleci&amp;oacute;n realizado por la CONABIO&lt;/p&gt;</note>
-      <note>&lt;p&gt;Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/&lt;/p&gt;</note>
+      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO</p>]]></note>
+      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
@@ -397,15 +397,15 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>El campo puede contener valores que no corresponden a un estado o división política equivalente.</rule>
     </infoRules>
     <ejemplar>
-      <key>00000542ffe016e66a6defb8977d1e32</key>
-      <key>000004f34d007e5c2e396a153b264aaf</key>
-      <key>000003bed399a8385e59baf7c371267f</key>
+      <key>bc9377c20bbc24ce985ef4c4e7b8cbbc</key>
+      <key>3eff5e1231a1960f30bfbe6d32eef1f1</key>
+      <key>026aecd38043e4d00effbb98365cadf8</key>
+      <key>81aa987c65ef7c873df11f2b7c8ed8a0</key>
     </ejemplar>
     <campos>
-      <campo>region</campo>
-      <campo>localidad</campo>
-      <campo>longitud</campo>
-      <campo>paismapa</campo>
+      <campo>estadooriginal</campo>
+      <campo>municipiooriginal</campo>
+      <campo>paisoriginal</campo>
     </campos>
   </snibTerm>
   <snibTerm>
