@@ -81,17 +81,18 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
+    <ejemplar>
+      <key>51212213e6a86c3aba53df6ffc9f7750</key>
+      <key>0dae4e0c03c01615135d15bdba1b522c</key>
+      <key>81aa987c65ef7c873df11f2b7c8ed8a0</key>
+      <key>3eff5e1231a1960f30bfbe6d32eef1f1</key>
+    </ejemplar>
     <campos>
       <campo>localidad</campo>
       <campo>paisoriginal</campo>
       <campo>estadooriginal</campo>
       <campo>municipiooriginal</campo>
     </campos>
-    <ejemplar>
-      <key>51212213e6a86c3aba53df6ffc9f7750</key>
-      <key>0dae4e0c03c01615135d15bdba1b522c</key>
-      <key>81aa987c65ef7c873df11f2b7c8ed8a0</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
