@@ -164,12 +164,11 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <rule>Para el sur del ecuador terrestre el dato es negativo (por ejemplo, Argentina).</rule>
     </infoRules>
     <ejemplar>
-      <key>33df1edd8356ee7093deae39f323928a</key>
-      <key>35384a5b19566c36133a5be19ce9a6c9</key>
-      <key>1e681ab0f796b63c5dd5f0f9856b5d9f</key>
-      <key>1931d37b096cc2b95139f0151908327d</key>
       <key>33bb9337b6040b8d2b5e41d1d53100a2</key>
       <key>9197122bd76a7dc066742f9e484779b2</key>
+      <key>1e681ab0f796b63c5dd5f0f9856b5d9f</key>
+      <key>1931d37b096cc2b95139f0151908327d</key>
+      <key>35384a5b19566c36133a5be19ce9a6c9</key>
     </ejemplar>
     <campos>
       <campo>latitud</campo>
