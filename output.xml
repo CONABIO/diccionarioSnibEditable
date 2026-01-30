@@ -215,18 +215,21 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y corresponde a las siglas en inglés World Geodetic System.</rule>
     </syntaxRules>
+    <ejemplar>
+      <key>33bb9337b6040b8d2b5e41d1d53100a2</key>
+      <key>9197122bd76a7dc066742f9e484779b2</key>
+      <key>1e681ab0f796b63c5dd5f0f9856b5d9f</key>
+      <key>1931d37b096cc2b95139f0151908327d</key>
+      <key>74a1986f7ec121ef7a71b7ba5ad700c1</key>
+      <key>74a1fbb33a8eae7e038afa316e8bdab8</key>
+      <key>c41de431933e0556fa3599ae2965895b</key>
+    </ejemplar>
     <campos>
       <campo>datum</campo>
       <campo>latitud</campo>
       <campo>longitud</campo>
       <campo>paisoriginal</campo>
     </campos>
-    <ejemplar>
-      <key>33bb9337b6040b8d2b5e41d1d53100a2</key>
-      <key>9197122bd76a7dc066742f9e484779b2</key>
-      <key>1e681ab0f796b63c5dd5f0f9856b5d9f</key>
-      <key>1931d37b096cc2b95139f0151908327d</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Validación de la información geográfica</category>
