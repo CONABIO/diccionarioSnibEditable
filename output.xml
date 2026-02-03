@@ -407,9 +407,12 @@ un dato de país en el campo país original.</subregla></rule>
       <key>3b2fcf40b7fbdb88abc78cb3da89388a</key>
       <key>db310bccaf9ab8c125b755b2d13761e9</key>
       <key>94b054c1af9083bf771df95fdd9b5dd1</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+      <key>09f933df3498699b921e0d63273bf1bd</key>
     </ejemplar>
     <campos>
       <campo>region</campo>
+      <campo>paismapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
