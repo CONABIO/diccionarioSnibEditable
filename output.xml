@@ -555,10 +555,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>La clave del estado corresponde con el estado asignado en el campo estado del mapa.</rule>
     </infoRules>
     <ejemplar>
-      <key>db310bccaf9ab8c125b755b2d13761e9</key>
       <key>94b054c1af9083bf771df95fdd9b5dd1</key>
-      <key>d2d26f3bc8a7741448336dd76c61086a</key>
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
+      <key>81aa987c65ef7c873df11f2b7c8ed8a0</key>
+      <key>09f933df3498699b921e0d63273bf1bd</key>
     </ejemplar>
     <campos>
       <campo>claveestadomapa</campo>
