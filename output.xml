@@ -4030,7 +4030,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>tinyint (1)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Geoportal de la CONABIO en http://geoportal.conabio.gob.mx/</p>]]></note>
+      <note><![CDATA[<p>Geoportal de la CONABIO en <a href="http://geoportal.conabio.gob.mx/">http://geoportal.conabio.gob.mx/</a></p>]]></note>
       <note><![CDATA[<p>Disponible s&oacute;lo en la descarga de ejemplares del SNIB en https://www.snib.mx/ejemplares/descarga/.</p>]]></note>
     </notes>
     <dataRules>
