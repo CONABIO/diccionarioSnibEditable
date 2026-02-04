@@ -4155,11 +4155,20 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <dwcField>modified</dwcField>
     <description>Fecha de última actualización de los datos en la base de datos de la CONABIO.</description>
     <datatype>date</datatype>
-    <encoding/>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <syntaxRules>
+      <rule>Se muestra con el formato aaaa-mm-dd.</rule>
+    </syntaxRules>
+    <infoRules>
+      <rule>Esta fecha será actualizada en cada registro que tenga cambios relevantes (que cambien el sentido de la información).</rule>
+    </infoRules>
+    <campos>
+      <campo>ultimafechaactualizacion</campo>
+    </campos>
+    <ejemplar>
+      <key>000000ac63c0559238194a1f80546a92</key>
+      <key>000005c209a1552b39303a3a02cfc6cb</key>
+      <key>0000073f4a82147ec8f81605d350ed4f</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
