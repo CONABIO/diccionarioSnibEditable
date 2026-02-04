@@ -1,1 +1,1 @@
-usvserieVI|Información geográfica por ubicación de la coordenada
+paiscoleccion|Datos del ejemplar/observación
