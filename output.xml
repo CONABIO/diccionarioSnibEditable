@@ -4076,7 +4076,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>•	El valor vacío significa que el ejemplar no se encuentra en la página del SNIB</rule>
+      <rule>•	El valor vacío significa que el ejemplar no se encuentra en la página del SNIB.</rule>
     </dataRules>
     <ejemplar>
       <key>000000ac63c0559238194a1f80546a92</key>
