@@ -3689,7 +3689,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Mes del evento de recolecta u observación del ejemplar.</description>
     <datatype>tinyint (4)</datatype>
     <notes>
-      <note><![CDATA[<p>Cuando la recolecta se llev&oacute; a cabo en un rango de fechas, en este campo se especifica solo el mes inicial de recolecta.</p>]]></note>
+      <note><![CDATA[<p>Cuando el evento de recolecta u observaci&oacute;n se realiz&oacute; en un periodo, el valor corresponde al mes inicial de la recolecta u observaci&oacute;n.</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor nulo significa que no se cuenta con el mes de recolecta, no se capturó o el dato capturado no es válido para un mes del año.</rule>
