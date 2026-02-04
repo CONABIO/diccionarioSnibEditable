@@ -4037,14 +4037,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Dirección de internet donde se puede consultar la información del proyecto.</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
+    <dataRules>
+      <rule>El valor vacío significa que el proyecto no fue financiado por la CONABIO o que no se encuentra registrado en el sistema de proyectos de la CONABIO.</rule>
+    </dataRules>
+    <ejemplar>
+      <key>00000542ffe016e66a6defb8977d1e32</key>
+      <key>0000157e07c33a1eb6f62f681f8280ee</key>
+      <key>0000289f3cc3afc332fab7f581494bdc</key>
+    </ejemplar>
     <campos>
       <campo>urlproyecto</campo>
     </campos>
-    <ejemplar>
-      <key>000000ac63c0559238194a1f80546a92</key>
-      <key>000000fce20896c0d5c13b5475d24717</key>
-      <key>0000010278ed24a49835a2272d40ff11</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
