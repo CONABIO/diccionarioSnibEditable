@@ -602,13 +602,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El campo mt24nombreestadomapa puede tener un valor diferente al de estado del mapa.</rule>
     </infoRules>
     <ejemplar>
-      <key>94b054c1af9083bf771df95fdd9b5dd1</key>
-      <key>0dae4e0c03c01615135d15bdba1b522c</key>
-      <key>09f933df3498699b921e0d63273bf1bd</key>
+      <key>75fcc56929ab0c4f794773a367939e9f</key>
+      <key>deaf3b471b6cf8e8d6a0ac213c61a9fe</key>
+      <key>cc4e5a38f7e3856e34195bdc98250823</key>
+      <key>4f9038d98853c2acfcc7ba9e971c32ff</key>
+      <key>2c807910a270e2c980b2e0a40dc7b54a</key>
+      <key>bebfc34e202f8b0a31290f62248bc51c</key>
     </ejemplar>
     <campos>
-      <campo>mt24claveestadomapa</campo>
       <campo>mt24nombreestadomapa</campo>
+      <campo>mt24claveestadomapa</campo>
+      <campo>paismapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
