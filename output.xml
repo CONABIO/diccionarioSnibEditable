@@ -4177,14 +4177,14 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <syntaxRules>
       <rule>Se muestra con el formato aaaa-mm.</rule>
     </syntaxRules>
+    <ejemplar>
+      <key>000000ac63c0559238194a1f80546a92</key>
+      <key>000013351cffbb21bf168f96aec1037b</key>
+      <key>0000073f4a82147ec8f81605d350ed4f</key>
+    </ejemplar>
     <campos>
       <campo>version</campo>
     </campos>
-    <ejemplar>
-      <key>000000ac63c0559238194a1f80546a92</key>
-      <key>000005c209a1552b39303a3a02cfc6cb</key>
-      <key>0000073f4a82147ec8f81605d350ed4f</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
