@@ -3196,7 +3196,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <campos>
       <campo>coleccion</campo>
       <campo>institucion</campo>
-      <campo>paiscoleccion</campo>
       <campo>procedenciaejemplar</campo>
     </campos>
   </snibTerm>
