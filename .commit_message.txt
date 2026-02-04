@@ -1,1 +1,1 @@
-institucion|Datos del ejemplar/observación
+usvserieI|Información geográfica por ubicación de la coordenada
