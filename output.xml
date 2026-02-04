@@ -3257,11 +3257,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El valor NO APLICA significa que el dato no es aplicable para el registro, ya que se trata de un ejemplar que está resguardado en una colección privada o la colección no está asociada con alguna institución.</rule>
     </infoRules>
     <ejemplar>
-      <key>00127f10e66f2a6551d24c93c3c8299a</key>
-      <key>0047cd54938c470c7243581a3545bd18</key>
       <key>0014b0693bc686d93bf5ad55bfdee7ce</key>
       <key>0024074001db941d06dba433fb36622d</key>
       <key>00002f178fd5678a182d70810ac8ad3a</key>
+      <key>00127f10e66f2a6551d24c93c3c8299a</key>
+      <key>0047cd54938c470c7243581a3545bd18</key>
     </ejemplar>
     <campos>
       <campo>institucion</campo>
