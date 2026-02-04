@@ -3299,7 +3299,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldName>Número de catálogo</fieldName>
     <fieldid>numcatalogo</fieldid>
     <dwcField>catalogNumber</dwcField>
-    <description>Identificador único del ejemplar en la colección biológica, se le asigna cuando se incorpora a esta.</description>
+    <description>Identificador único del ejemplar en la colección biológica.</description>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
