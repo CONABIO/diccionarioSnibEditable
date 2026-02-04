@@ -4172,14 +4172,19 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldid>version</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Versión que corresponde a las decisiones de los procesos de revisión aplicados a los datos en la CONABIO, así como, la información de referencia (mapas, catálogos, etc.) que se utiliza para realizar dicha revisión al integrar al SNIB. Cada vez que se cambien estás decisiones afectando la revisión de los datos, se cambiará la versión y se publicará el documento de versión del SNIB que describe los nuevos procesos y referencias correspondientes a la versión citada en este campo.</description>
-    <datatype>varchar (7)</datatype>
+    <datatype>varchar (20)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
     <syntaxRules>
       <rule>Se muestra con el formato aaaa-mm.</rule>
     </syntaxRules>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>version</campo>
+    </campos>
+    <ejemplar>
+      <key>000000ac63c0559238194a1f80546a92</key>
+      <key>000005c209a1552b39303a3a02cfc6cb</key>
+      <key>0000073f4a82147ec8f81605d350ed4f</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
