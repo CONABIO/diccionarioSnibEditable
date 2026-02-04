@@ -4134,7 +4134,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>varchar (32)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Dado que este identificador se genera para el ingreso del registro al SNIB, &eacute;ste no corresponder&aacute; al identificador del ejemplar en las fuentes originales de informaci&oacute;n del SNIB. Sin embargo, tambi&eacute;n se almacena el Identificador de la fuente original.</p>]]></note>
+      <note><![CDATA[<p>Este identificador se genera para el ingreso del registro al SNIB.</p>]]></note>
     </notes>
     <dataRules>
       <rule>Este valor se preserva para los ejemplares registrados en el SNIB.</rule>
@@ -4145,7 +4145,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>0019412b313d863ca6b9636a52811b46</key>
     </ejemplar>
     <campos>
-      <campo>nombrevalidocatscat</campo>
+      <campo>especievalida</campo>
     </campos>
   </snibTerm>
 </snibDictionary>
