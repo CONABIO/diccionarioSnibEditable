@@ -3989,19 +3989,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Licencia de uso de la información del ejemplar.</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
+    <notes>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n acerca de los tipos de Licencias de uso v&eacute;ase:</p>]]></note>
+      <note><![CDATA[<p>https://creativecommons.org/licenses/?lang=es</p>]]></note>
+      <note><![CDATA[<p>https://creativecommons.org/publicdomain/zero/1.0/deed.es</p>]]></note>
+      <note><![CDATA[<p>https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES</p>]]></note>
+      <note><![CDATA[<p>https://creativecommons.org/licenses/by/4.0/deed.es</p>]]></note>
+    </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:</rule>
-      <rule>CC-BY</rule>
-      <rule>CC-BY-NC</rule>
-      <rule>CC-BY-NC-ND</rule>
-      <rule>CC-BY-NC-SA</rule>
-      <rule>CC-BY-ND</rule>
-      <rule>CC-BY-SA</rule>
-      <rule>CC0</rule>
-      <rule>CC0_1_0</rule>
-      <rule>CC_BY_4_0</rule>
-      <rule>CC_BY_NC_4_0</rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>NO DISPONIBLE</subregla><subregla>CC-BY</subregla><subregla>CC-BY-NC</subregla><subregla>CC-BY-NC-ND</subregla><subregla>CC-BY-NC-SA</subregla><subregla>CC-BY-ND</subregla><subregla>CC-BY-SA</subregla><subregla>CC0</subregla><subregla>CC0_1_0</subregla><subregla>CC_BY_4_0</subregla><subregla>CC_BY_NC_4_0</subregla></rule>
       <rule>El valor vacío, significa que de origen no se tiene el dato de licencia de uso.</rule>
+      <rule>NO DISPONIBLE, significa que de origen no se tiene el dato de licencia de uso</rule>
       <rule>CC-BY (Atribución), esta licencia permite a otros distribuir, mezclar, ajustar y construir a partir de su obra, incluso con fines comerciales, siempre que le sea reconocida la autoría de la creación original. Esta es la licencia más servicial de las ofrecidas. Recomendada para una máxima difusión y utilización de los materiales sujetos a la licencia.</rule>
       <rule>CC-BY-NC (Atribución-NoComercial), esta licencia permite a otros entremezclar, ajustar y construir a partir de su obra con fines no comerciales, y aunque en sus nuevas creaciones deban reconocerle su autoría y no puedan ser utilizadas de manera comercial, no tienen que estar bajo una licencia con los mismos términos.</rule>
       <rule>CC-BY-NC-ND (Atribución-NoComercial-SinDerivadas), esta licencia es la más restrictiva, permitiendo a otros solo descargar su obra y compartirla con otros siempre y cuando le den crédito, pero no permiten cambiarlas de forma alguna ni usarlas comercialmente.</rule>
@@ -4013,15 +4011,14 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>CC_BY_4_0 (Atribución 4.0 Internacional), esta licencia permite copiar y redistribuir el material en cualquier medio o formato, también remezclar, transformar y crear a partir del material, para cualquier propósito incluso comercialmente. Debe darse crédito a la obra de manera adecuada, proporcionando un enlace a la licencia, e indicando si se han realizado cambios. Puede hacerse en cualquier forma razonable, pero no de forma tal que sugiera que usted o su uso tienen el apoyo del autor. No se pueden aplicar términos legales ni medidas tecnológicas que restrinjan legalmente a otros hacer cualquier uso permitido por la licencia.</rule>
       <rule>CC_BY_NC_4_0 (Atribución-NoComercial 4.0 Internacional), esta licencia permite copiar y redistribuir el material en cualquier medio o formato. Remezclar, transformar y crear a partir del material. Se debe reconocer adecuadamente la autoría, proporcionar un enlace a la licencia e indicar si se han realizado cambios. Puede hacerse de cualquier manera razonable, pero no de una manera que sugiera que tiene el apoyo del autor o lo recibe por el uso que hace. No se puede utilizar el material para una finalidad comercial.</rule>
     </dataRules>
-    <syntaxRules/>
-    <infoRules/>
-    <notes>
-      <note>Para más información acerca de los tipos de Licencias de uso véase:</note>
-      <note>https://creativecommons.org/licenses/?lang=es</note>
-      <note>https://creativecommons.org/publicdomain/zero/1.0/deed.es</note>
-      <note>https://creativecommons.org/licenses/by-nc/4.0/deed.es_ES</note>
-      <note>https://creativecommons.org/licenses/by/4.0/deed.es</note>
-    </notes>
+    <campos>
+      <campo>licenciauso</campo>
+    </campos>
+    <ejemplar>
+      <key>000000ac63c0559238194a1f80546a92</key>
+      <key>0000010278ed24a49835a2272d40ff11</key>
+      <key>00000206cec311e91d11878146baa71f</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
