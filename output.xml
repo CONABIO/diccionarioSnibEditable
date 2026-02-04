@@ -4066,10 +4066,14 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Dirección de internet que permite consultar la información del ejemplar en su fuente original.</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <campos>
+      <campo>urlorigen</campo>
+    </campos>
+    <ejemplar>
+      <key>000000ac63c0559238194a1f80546a92</key>
+      <key>0000010278ed24a49835a2272d40ff11</key>
+      <key>000004f34d007e5c2e396a153b264aaf</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
