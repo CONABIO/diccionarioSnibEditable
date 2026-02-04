@@ -1338,13 +1338,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
     <ejemplar>
-      <key>0b1c6e18a6c5d0d0a6820820bd5d16ab</key>
-      <key>69b4a2b95407dea3379469355903e442</key>
-      <key>87713ada3d127673878d018f87f369f0</key>
+      <key>3cccc75e11959ea6889801cd888a6f3f</key>
+      <key>7b06ba3f05d7abf67fcadd5f937073ad</key>
+      <key>31c5812c2a53832bc054c4b87c9cc33c</key>
+      <key>bcd8f9dc49e31b1e73f7859f9d7ce0f9</key>
+      <key>1a6f28b5284cb6edd8df49adab7c38df</key>
     </ejemplar>
     <campos>
-      <campo>region</campo>
       <campo>vegetacionserenanalcms</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
+      <campo>paismapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
