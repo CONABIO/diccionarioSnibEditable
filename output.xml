@@ -1470,11 +1470,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El valor se conforma por el código de la cuenca, seguido del nombre separando con una coma.</rule>
     </syntaxRules>
     <ejemplar>
-      <key>3b2fcf40b7fbdb88abc78cb3da89388a</key>
-      <key>94b054c1af9083bf771df95fdd9b5dd1</key>
-      <key>09f933df3498699b921e0d63273bf1bd</key>
       <key>db310bccaf9ab8c125b755b2d13761e9</key>
       <key>51212213e6a86c3aba53df6ffc9f7750</key>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
     </ejemplar>
     <campos>
       <campo>region</campo>
