@@ -3151,18 +3151,18 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldName>Colección</fieldName>
     <fieldid>coleccion</fieldid>
     <dwcField>collectionCode</dwcField>
-    <description>Siglas y nombre de la colección que resguarda al ejemplar.</description>
+    <description>Siglas y nombre oficiales de la colección que resguarda al ejemplar.</description>
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
       <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>Se escriben las siglas de la colección y/o el nombre de la colección, separadas por un espacio.</rule>
-      <rule>El dato se estandariza como está registrada la colección en el catálogo de instituciones y colecciones de la CONABIO.</rule>
+      <rule>Se escriben las siglas y el nombre de la colección  separadas por un espacio.</rule>
+      <rule>Los valores se estandarizan de acuerdo con el catálogo de colecciones e instituciones de la CONABIO.</rule>
     </syntaxRules>
     <infoRules>
-      <rule>El valor NO APLICA significa que el dato no es aplicable para el registro, ya que se trata de un ejemplar con procedencia observado o que no pertenece a alguna colección.</rule>
+      <rule>El valor NO APLICA significa que el dato no es aplicable para el registro, ya que se trata de un ejemplar con procedencia observado o que no está resguardado en alguna colección.</rule>
     </infoRules>
     <ejemplar>
       <key>23402a66acef5221225c450c9f2e46d2</key>
