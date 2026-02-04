@@ -3192,7 +3192,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldName>Institución</fieldName>
     <fieldid>institucion</fieldid>
     <dwcField>institutionCode</dwcField>
-    <description>Siglas y nombre de la institución que custodia la colección científica, o que avala el registro de un ejemplar.</description>
+    <description>Siglas y nombre de la institución que custodia la colección científica, o que avala el registro de un ejemplar observado.</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
@@ -3204,7 +3204,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El dato se estandariza como está registrado en el catálogo de instituciones y colecciones de la CONABIO.</rule>
     </syntaxRules>
     <infoRules>
-      <rule>El valor NO APLICA significa que el dato no es aplicable para el registro, ya que se trata de un ejemplar que no pertenece a alguna institución.</rule>
+      <rule>El valor NO APLICA significa que el dato no es aplicable para el registro, ya que se trata de un ejemplar que está resguardado en una colección privada o la colección no está asociada con alguna institución.</rule>
     </infoRules>
     <ejemplar>
       <key>00127f10e66f2a6551d24c93c3c8299a</key>
