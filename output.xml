@@ -1435,15 +1435,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
-    <campos>
-      <campo>region</campo>
-      <campo>regionmarinamapa</campo>
-    </campos>
     <ejemplar>
-      <key>0379d08e54c2b543e303a8fc4667ffe8</key>
-      <key>127d21638cc105ce290844e6abb7e870</key>
-      <key>096c765542c6bb8f65d0abfd102e9af0</key>
+      <key>27c125c8191ba77847a9aec0d6280a84</key>
+      <key>a304bc66273a1eaf09bded808e27e4e7</key>
+      <key>989c0780beba678b063431aa1ee21804</key>
+      <key>15e09329471e2febb64741ce4a6a6b40</key>
     </ejemplar>
+    <campos>
+      <campo>regionmarinamapa</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
