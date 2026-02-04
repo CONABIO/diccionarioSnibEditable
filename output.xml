@@ -3258,9 +3258,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
-      <rule>El valor NO APLICA significa que el ejemplar proviene de una observación.</rule>
-      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
+      <rule>El valor del país se asigna conforme al catálogo de colecciones e instituciones de la CONABIO.</rule>
+      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original o la colección no está incluida en el catálogo de colecciones e instituciones de la CONABIO.</rule>
     </dataRules>
     <syntaxRules>
       <rule>El dato se escribe utilizando mayúsculas y sin acentos.</rule>
