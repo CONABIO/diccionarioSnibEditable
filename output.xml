@@ -1062,9 +1062,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>954d742965b595e4e361b9835001649c</key>
     </ejemplar>
     <campos>
-      <campo>region</campo>
       <campo>usvserieII</campo>
       <campo>usvserieI</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
     </campos>
   </snibTerm>
   <snibTerm>
