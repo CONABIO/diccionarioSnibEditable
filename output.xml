@@ -254,15 +254,15 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <rule>El valor No procesado significa que el ejemplar no se valida porque no se cuenta con el dato de ambiente del taxón, son aves no residentes o no tiene coordenadas geográficas.</rule>
       <rule>El valor No aplica significa que el ejemplar es fósil y no se aplicó la validación por ambiente.</rule>
     </dataRules>
-    <campos>
-      <campo>validacionambiente</campo>
-      <campo>geovalidacion</campo>
-    </campos>
     <ejemplar>
       <key>3b2fcf40b7fbdb88abc78cb3da89388a</key>
       <key>db310bccaf9ab8c125b755b2d13761e9</key>
       <key>94b054c1af9083bf771df95fdd9b5dd1</key>
     </ejemplar>
+    <campos>
+      <campo>validacionambiente</campo>
+      <campo>ambiente</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Validación de la información geográfica</category>
