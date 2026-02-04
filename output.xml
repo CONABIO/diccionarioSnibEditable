@@ -4078,9 +4078,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <dataRules>
       <rule>•	El valor vacío significa que el ejemplar no se encuentra en la página del SNIB</rule>
     </dataRules>
-    <campos>
-      <campo>urlejemplar</campo>
-    </campos>
     <ejemplar>
       <key>000000ac63c0559238194a1f80546a92</key>
       <key>0000010278ed24a49835a2272d40ff11</key>
@@ -4088,6 +4085,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>00000206cec311e91d11878146baa71f</key>
       <key>000004f34d007e5c2e396a153b264aaf</key>
     </ejemplar>
+    <campos>
+      <campo>urlejemplar</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
