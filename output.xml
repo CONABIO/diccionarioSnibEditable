@@ -3209,7 +3209,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldName>Institución</fieldName>
     <fieldid>institucion</fieldid>
     <dwcField>institutionCode</dwcField>
-    <description>Siglas y nombre de la institución que custodia la colección científica, o que avala el registro de un ejemplar observado.</description>
+    <description>Siglas y nombre de la institución que custodia la colección científica, o que avala el registro de un ejemplar (observado o reportado en literatura).</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
@@ -3217,7 +3217,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>Se escriben las siglas de la institución y/o el nombre de la institución, separadas por un espacio.</rule>
+      <rule>Se escriben las siglas de la institución y el nombre de la institución, separadas por un espacio.</rule>
       <rule>El dato se estandariza como está registrado en el catálogo de instituciones y colecciones de la CONABIO.</rule>
     </syntaxRules>
     <infoRules>
@@ -3231,9 +3231,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>00002f178fd5678a182d70810ac8ad3a</key>
     </ejemplar>
     <campos>
-      <campo>coleccion</campo>
       <campo>institucion</campo>
-      <campo>paiscoleccion</campo>
+      <campo>coleccion</campo>
       <campo>procedenciaejemplar</campo>
     </campos>
   </snibTerm>
