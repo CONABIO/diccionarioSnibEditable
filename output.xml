@@ -4075,10 +4075,19 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <description>Dirección de internet que permite consultar la información del ejemplar proporcionada en las bases de datos originales y la estandarizada por la CONABIO de tipo curatorial, taxonómica y geográfica.</description>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
-    <dataRules/>
-    <syntaxRules/>
-    <infoRules/>
-    <notes/>
+    <dataRules>
+      <rule>•	El valor vacío significa que el ejemplar no se encuentra en la página del SNIB</rule>
+    </dataRules>
+    <campos>
+      <campo>urlejemplar</campo>
+    </campos>
+    <ejemplar>
+      <key>000000ac63c0559238194a1f80546a92</key>
+      <key>0000010278ed24a49835a2272d40ff11</key>
+      <key>000001f9a13cc17545150880aa4cc51f</key>
+      <key>00000206cec311e91d11878146baa71f</key>
+      <key>000004f34d007e5c2e396a153b264aaf</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Otros</category>
