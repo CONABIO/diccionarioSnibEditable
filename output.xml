@@ -946,14 +946,16 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El valor nulo significa que no se tiene el dato de la incertidumbre o no tiene coordenadas geográficas.</rule>
       <rule>El valor proviene de:<subregla>Las coordenadas originales que tienen un valor de incertidumbre.</subregla><subregla>El cálculo basado en el método punto-radio usado en la georreferenciación de localidades en la CONABIO.</subregla><subregla>Asignado por la CONABIO en el caso de desconocimiento del DATUM original o para las coordenadas generalizadas (sólo para ejemplares de México).</subregla></rule>
     </dataRules>
-    <campos>
-      <campo>incertidumbreXY</campo>
-    </campos>
     <ejemplar>
       <key>3b2fcf40b7fbdb88abc78cb3da89388a</key>
       <key>db310bccaf9ab8c125b755b2d13761e9</key>
       <key>94b054c1af9083bf771df95fdd9b5dd1</key>
     </ejemplar>
+    <campos>
+      <campo>incertidumbreXY</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica por ubicación de la coordenada</category>
