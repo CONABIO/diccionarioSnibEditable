@@ -245,7 +245,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <fieldName>Validación de la ubicación respecto al ambiente</fieldName>
     <fieldid>validacionambiente</fieldid>
     <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
-    <description>Resultado de la comparación del ambiente conocido para el taxón asociado al ejemplar contra el ambiente de la ubicación de la coordenada del ejemplar.</description>
+    <description>Resultado de la revisión de la ubicación de la coordenada tomando en cuenta el ambiente conocido para el taxón asociado al ejemplar.</description>
     <datatype>varchar (100)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
@@ -267,6 +267,9 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </ejemplar>
     <campos>
       <campo>validacionambiente</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
+      <campo>especie</campo>
       <campo>ambiente</campo>
     </campos>
   </snibTerm>
