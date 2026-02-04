@@ -1186,12 +1186,14 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </dataRules>
     <ejemplar>
       <key>09f933df3498699b921e0d63273bf1bd</key>
-      <key>51212213e6a86c3aba53df6ffc9f7750</key>
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
       <key>81aa987c65ef7c873df11f2b7c8ed8a0</key>
       <key>3eff5e1231a1960f30bfbe6d32eef1f1</key>
       <key>c4f6623f9ef9c6a65767a675439a91dd</key>
       <key>954d742965b595e4e361b9835001649c</key>
+      <key>93a68495ec532421e6d89391f3994e7d</key>
+      <key>7981bd02a9846944fdef119acdb6aa9c</key>
+      <key>6dbd78b34523f0ffff46a4244fb7889f</key>
     </ejemplar>
     <campos>
       <campo>usvserieV</campo>
