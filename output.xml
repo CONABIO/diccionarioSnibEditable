@@ -255,9 +255,6 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <rule>El valor No aplica significa que el ejemplar es fósil y no se aplicó la validación por ambiente.</rule>
     </dataRules>
     <ejemplar>
-      <key>db310bccaf9ab8c125b755b2d13761e9</key>
-      <key>94b054c1af9083bf771df95fdd9b5dd1</key>
-      <key>e7c630897a95060bb9b54667780e468e</key>
       <key>03a0dcbdf933c07f1d3acbe195a2514f</key>
       <key>c4f6623f9ef9c6a65767a675439a91dd</key>
       <key>02cadca47ddf4f8280610d09c4aebfa7</key>
