@@ -661,6 +661,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <campos>
       <campo>mt24claveestadomapa</campo>
       <campo>mt24nombreestadomapa</campo>
+      <campo>paismapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
