@@ -287,7 +287,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <fieldName>Validación de la ubicación geográfica</fieldName>
     <fieldid>geovalidacion</fieldid>
     <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
-    <description>Resultado de la validación geográfica realizada por la CONABIO considerando la división política, esta se realiza hasta en cuatro niveles país/estado/municipio/localidad.</description>
+    <description>Resultado de la revisión de la ubicación de la coordenada geográfica, tomando en cuenta la región asignada al ejemplar y el mapa de divisiones políticas y de localidades, esta puede realizarse hasta en cuatro niveles país/estado/municipio/localidad.</description>
     <datatype>varchar (200)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
@@ -330,6 +330,13 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </ejemplar>
     <campos>
       <campo>geovalidacion</campo>
+      <campo>region</campo>
+      <campo>localidad</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
+      <campo>paismapa</campo>
+      <campo>estadomapa</campo>
+      <campo>municipiomapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
