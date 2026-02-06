@@ -478,7 +478,6 @@ un dato de país en el campo país original.</subregla></rule>
     <campos>
       <campo>estadooriginal</campo>
       <campo>municipiooriginal</campo>
-      <campo>paisoriginal</campo>
     </campos>
   </snibTerm>
   <snibTerm>
