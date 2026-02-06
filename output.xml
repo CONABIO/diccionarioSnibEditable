@@ -475,6 +475,7 @@ un dato de país en el campo país original.</subregla></rule>
     </ejemplar>
     <campos>
       <campo>estadooriginal</campo>
+      <campo>paisoriginal</campo>
     </campos>
   </snibTerm>
   <snibTerm>
