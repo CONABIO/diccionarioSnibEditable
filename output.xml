@@ -350,7 +350,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <ordenTabla>
       <after>geovalidacion</after>
     </ordenTabla>
-    <fieldName>País_</fieldName>
+    <fieldName>País</fieldName>
     <fieldid>paisoriginal</fieldid>
     <dwcField>Incluido en country</dwcField>
     <description>Nombre del país donde se ubica la localidad en la que el ejemplar fue recolectado u observado.</description>
