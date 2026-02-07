@@ -4209,7 +4209,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldid>version</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Versión que corresponde a las decisiones de los procesos de revisión aplicados a los datos en la CONABIO, así como, la información de referencia (mapas, catálogos, etc.) que se utiliza para realizar dicha revisión al integrar al SNIB. Cada vez que se cambien estás decisiones afectando la revisión de los datos, se cambiará la versión y se publicará el documento de versión del SNIB que describe los nuevos procesos y referencias correspondientes a la versión citada en este campo.</description>
-    <datatype>varchar (20)</datatype>
+    <datatype>varchar (7)</datatype>
     <encoding>UTF-8</encoding>
     <syntaxRules>
       <rule>Se muestra con el formato aaaa-mm.</rule>
