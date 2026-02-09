@@ -1461,13 +1461,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </notes>
     <dataRules>
       <rule>El valor vacío significa que las coordenadas de los ejemplares no se ubican en alguna región marina dentro de la zona económica exclusiva de México, Centroamérica, Colombia, El Caribe, Estados Unidos de América, o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
-      <rule>El dominio de los valores está dado por:</rule>
-      <rule>GOLFO DE CALIFORNIA</rule>
-      <rule>GOLFO DE MEXICO</rule>
-      <rule>MAR CARIBE</rule>
-      <rule>PACIFICO NOROESTE</rule>
-      <rule>PACIFICO TROPICAL</rule>
-      <rule>ATLANTICO NORTE</rule>
+      <rule>El dominio de los valores está dado por:<subregla>ATLANTICO NORTE</subregla><subregla>GOLFO DE CALIFORNIA</subregla><subregla>GOLFO DE MEXICO</subregla><subregla>MAR CARIBE</subregla><subregla>OCEANO ATLANTICO</subregla><subregla>OCEANO PACIFICO</subregla><subregla>PACIFICO NOROESTE</subregla><subregla>PACIFICO NORTE</subregla><subregla>PACIFICO TROPICAL</subregla></rule>
     </dataRules>
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
