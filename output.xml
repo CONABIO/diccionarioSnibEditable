@@ -2004,7 +2004,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El valor vacío significa que la categoría infraespecífica no fue proporcionada o que el taxón está determinado a una categoría superior.</rule>
       <rule>El dato es obligatorio cuando el nombre científico corresponde a una infraespecie (trinomio).</rule>
       <rule>Cuando la infraespecie no se encuentra en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL), en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
-      <rule>El dominio de los valores permitidos está dado principalmente por:<subregla>subespecie</subregla><subregla>variedad</subregla><subregla>forma</subregla><subregla>raza</subregla><subregla>estirpe</subregla><subregla>cultivar</subregla><subregla>grupo</subregla><subregla>híbrido</subregla><subregla>biovar</subregla><subregla>serovar</subregla><subregla>fagovar</subregla><subregla>infraespecie</subregla><subregla>infrahibrido</subregla><subregla>subespecie.variedad</subregla></rule>
+      <rule>El dominio de los valores permitidos está dado principalmente por:<subregla>subespecie</subregla><subregla>variedad</subregla><subregla>forma</subregla><subregla>raza</subregla><subregla>estirpe</subregla><subregla>cultivar</subregla><subregla>grupo</subregla><subregla>híbrido</subregla><subregla>biovar</subregla><subregla>serovar</subregla><subregla>fagovar</subregla><subregla>infraespecie</subregla><subregla>infrahibrido</subregla><subregla>subespecie.variedad</subregla><subregla>forma especie</subregla></rule>
     </dataRules>
     <ejemplar>
       <key>27b226d1dbb015574118b9bc3042a024</key>
