@@ -2513,17 +2513,17 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <dataRules>
       <rule>El valor vacío significa que el nombre corresponde a una infraespecie o a alguna categoría taxonómica superior.</rule>
       <rule>La categoría taxonómica es obligatoria cuando el nombre válido corresponde a un tetranomio.</rule>
-      <rule>El dominio de los valores permitidos está dado por:<subregla>raza</subregla><subregla>forma</subregla><subregla>subvariedad</subregla></rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>raza</subregla><subregla>forma</subregla></rule>
     </dataRules>
-    <campos>
-      <campo>categoriainfraespecie2valida</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>005ede28dd2d6737137f5b8cca39e838</key>
       <key>a59a78a91f786f4a0c2a84f2dc2ca257</key>
       <key>051a93f391640adc14b08febb5fe5a8c</key>
     </ejemplar>
+    <campos>
+      <campo>categoriainfraespecie2valida</campo>
+      <campo>especievalida</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Taxonomía</category>
