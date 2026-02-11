@@ -2103,11 +2103,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>varchar (20)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:<subregla>válido</subregla><subregla>aceptado</subregla><subregla>sinónimo</subregla><subregla>No resuelto</subregla><subregla>NO DISPONIBLE</subregla><subregla>NO APLICA</subregla></rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>válido</subregla><subregla>aceptado</subregla><subregla>sinónimo</subregla><subregla>NO DISPONIBLE</subregla><subregla>NO APLICA</subregla></rule>
       <rule>El valor válido significa que es el nombre correcto o actualmente en uso, de acuerdo con el CAT o con COL para taxones considerados en el Código Internacional de Nomenclatura Zoológica.</rule>
       <rule>El valor aceptado significa que es el nombre correcto, o actualmente en uso, de acuerdo con el CAT o con COL para taxones considerados en el Código Internacional de Nomenclatura de algas, hongos y plantas.</rule>
       <rule>El valor sinónimo significa que es uno de dos o más nombres de la misma categoría usados para indicar el mismo taxón, de acuerdo con el CAT o con COL.</rule>
-      <rule>El valor No resuelto significa que el estatus del nombre se encuentra en discusión entre los especialistas del grupo taxonómico.</rule>
       <rule>Cuando la especie no se encuentra en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO o en el Catálogo de la Vida (COL), en este campo se presenta el dato proporcionado en las bases de datos originales.</rule>
       <rule>El valor NO DISPONIBLE significa que se desconoce el estatus del taxón.</rule>
       <rule>El valor NO APLICA significa que la especie no se han descrito formalmente.</rule>
