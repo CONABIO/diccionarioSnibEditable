@@ -3123,17 +3123,13 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>varchar(1024)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>&lt;p&gt;El estado de conservaci&amp;oacute;n se asigna a los taxones considerados en la lista roja IUCN para M&amp;eacute;xico y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un estado de conservaci&amp;oacute;n propio. Para m&amp;aacute;s informaci&amp;oacute;n acerca de los estados de conservaci&amp;oacute;n de las especies:&lt;/p&gt;</note>
-      <note>&lt;p&gt;IUCN. 2025. The IUCN Red List of Threatened Species. Version 2025-1. &lt;a href="https://www.iucnredlist.org"&gt;https://www.iucnredlist.org&lt;/a&gt;. Downloaded on 04 April 2025&lt;/p&gt;</note>
+      <note><![CDATA[<p>El estado de conservaci&oacute;n se asigna a los taxones considerados en la lista roja IUCN para M&eacute;xico y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un estado de conservaci&oacute;n propio. Para m&aacute;s informaci&oacute;n acerca de los estados de conservaci&oacute;n de las especies:</p>]]></note>
+      <note><![CDATA[<p>IUCN. 2025. The IUCN Red List of Threatened Species. Version 2025-1. <a href="https://www.iucnredlist.org" target="_blank" rel="noopener">https://www.iucnredlist.org</a>. Downloaded on 04 April 2025</p>]]></note>
     </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:<subregla>Extinto (EX)</subregla><subregla>Extinto en estado silvestre (EW)</subregla><subregla>En peligro crítico (CR)</subregla><subregla>En peligro (EN)</subregla><subregla>Vulnerable (VU)</subregla><subregla>Casi amenazado (NT)</subregla><subregla>Preocupación menor (LC)</subregla><subregla>Dependiente de conservación (CD)</subregla><subregla>Datos insuficientes (DD)</subregla><subregla>No evaluado (NE)</subregla></rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Extinto (EX)</subregla><subregla>Extinto en estado silvestre (EW)</subregla><subregla>En peligro crítico (CR)</subregla><subregla>En peligro (EN)</subregla><subregla>Vulnerable (VU)</subregla><subregla>Casi amenazado (NT)</subregla><subregla>Preocupación menor (LC)</subregla><subregla>Dependiente de conservación (CD)</subregla><subregla>Datos insuficientes (DD)</subregla></rule>
       <rule>El valor vacío significa que la especie no está considerada en la lista de la IUCN.</rule>
     </dataRules>
-    <campos>
-      <campo>iucn</campo>
-      <campo>especievalida</campo>
-    </campos>
     <ejemplar>
       <key>318d6ba91bd9cbda1485531eceb7c96f</key>
       <key>57b0e4e3b8c69ae0d5c9a085d2cc9de8</key>
@@ -3144,6 +3140,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>dc10bf8c3f396c7771c1af240d69d43a</key>
       <key>79132519adbff3075d7e07ca9c9cf7cc</key>
     </ejemplar>
+    <campos>
+      <campo>iucn</campo>
+      <campo>especievalida</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Atributos biológicos y ecológicos</category>
