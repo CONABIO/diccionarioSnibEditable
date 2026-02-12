@@ -3085,11 +3085,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>varchar(512)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>&lt;p&gt;El grado de protecci&amp;oacute;n se asigna a los taxones designados en la CITES con distribuci&amp;oacute;n en M&amp;eacute;xico y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un grado de protecci&amp;oacute;n propio. Para m&amp;aacute;s informaci&amp;oacute;n acerca de los ap&amp;eacute;ndices CITES:&lt;/p&gt;</note>
-      <note>&lt;p&gt;UNEP-WCMC (Comps.). 2022. The Checklist of CITES Species Website. CITES Secretariat, Geneva, Switzerland. Compiled by UNEP-WCMC, Cambridge, UK. Available at:&amp;nbsp;&lt;a href="http://checklist.cites.org"&gt;http://checklist.cites.org&lt;/a&gt;. [Accessed 01/2023]&amp;nbsp;&lt;/p&gt;</note>
+      <note><![CDATA[<p>El grado de protecci&oacute;n se asigna a los taxones designados en la CITES con distribuci&oacute;n en M&eacute;xico y a todos sus taxones subordinados, siempre y cuando estos no cuenten con un grado de protecci&oacute;n propio. Para m&aacute;s informaci&oacute;n acerca de los ap&eacute;ndices CITES:</p>]]></note>
+      <note><![CDATA[<p>UNEP-WCMC (Comps.). 2022. The Checklist of CITES Species Website. CITES Secretariat, Geneva, Switzerland. Compiled by UNEP-WCMC, Cambridge, UK. Available at:&nbsp;<a href="http://checklist.cites.org" target="_blank" rel="noopener">http://checklist.cites.org</a>. [Accessed 01/2023]&nbsp;</p>]]></note>
     </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por:<subregla>Apéndice I</subregla><subregla>Apéndice II</subregla><subregla>Apéndice III</subregla></rule>
+      <rule>El dominio de los valores permitidos está dado por:<subregla>Apéndice I</subregla><subregla>Apéndice II</subregla><subregla>Apéndice III</subregla><subregla>CITES 2022</subregla></rule>
       <rule>El valor vacío significa que la especie no está considerada dentro de las especies protegidas.</rule>
       <rule>En el valor Apéndice I se incluyen todas las especies en peligro de extinción. El comercio en especímenes de esas especies se autoriza solamente bajo circunstancias excepcionales.</rule>
       <rule>En el valor Apéndice II se incluyen especies que no están en peligro de extinción, pero cuyo comercio debe controlarse para evitar una utilización incompatible con su supervivencia.</rule>
