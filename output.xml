@@ -4147,7 +4147,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>tinyint (1)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Geoportal de la CONABIO en&nbsp; <a href="http://geoportal.conabio.gob.mx/">http://geoportal.conabio.gob.mx/</a></p>]]></note>
+      <note><![CDATA[<p>Geoportal de la CONABIO en&nbsp; <a href="http://geoportal.conabio.gob.mx/" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/</a></p>]]></note>
       <note><![CDATA[<p>Disponible s&oacute;lo en la descarga de ejemplares del SNIB en https://www.snib.mx/ejemplares/descarga/.</p>]]></note>
     </notes>
     <dataRules>
@@ -4161,6 +4161,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
     <campos>
       <campo>geoportal</campo>
+      <campo>grupobio</campo>
       <campo>especievalida</campo>
     </campos>
   </snibTerm>
