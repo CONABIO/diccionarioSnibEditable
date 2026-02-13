@@ -3886,7 +3886,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <dataRules>
       <rule>El dominio de los valores permitido está dado por:<subregla>SI</subregla></rule>
       <rule>El valor SI significa que el ejemplar revisado corresponde a un fósil.</rule>
-      <rule>El valor vacío significa que no se tiene la certeza de que el ejemplar corresponde a un fósil.</rule>
+      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original o que no se tiene la certeza de que el ejemplar corresponde a un fósil.</rule>
     </dataRules>
     <ejemplar>
       <key>0cc02bfa3b68b5cf5628ef5e73d8145d</key>
