@@ -3471,6 +3471,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
     <campos>
       <campo>determinador</campo>
+      <campo>grupobio</campo>
       <campo>especievalida</campo>
     </campos>
   </snibTerm>
