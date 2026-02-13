@@ -3202,7 +3202,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <datatype>varchar (512)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor vacío significa que los datos no tienen observaciones para su uso.</rule>
+      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Las observaciones se separan con punto y un espacio.</rule>
