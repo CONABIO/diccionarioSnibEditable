@@ -79,7 +79,7 @@ CREATE TABLE `SnibGeoportal` (
 `numcatalogo` varchar(100) NOT NULL DEFAULT '',
 `numcolecta` varchar(100) NOT NULL DEFAULT '',
 `procedenciaejemplar`enum('','HumanObservation','PreservedSpecimen','FossilSpecimen','MaterialCitation','O
-ccurrence','MaterialSample','MachineObservation','LivingSpecimen') NOT NULL DEFAULT '',
+ccurrence','MaterialSample','MachineObservation','LivingSpecimen','MaterialEntity') NOT NULL DEFAULT '',
 `determinador` varchar(512) NOT NULL DEFAULT '',
 `fechadeterminacion` varchar(10) NOT NULL DEFAULT '',
 `diadeterminacion` tinyint(4) DEFAULT NULL,
@@ -107,7 +107,7 @@ ccurrence','MaterialSample','MachineObservation','LivingSpecimen') NOT NULL DEFA
 `especievalidabusqueda` varchar(100) NOT NULL,
 `comentarioscat` varchar(1024) NOT NULL,
 `comentarioscatvalido` varchar(1024) NOT NULL,
-`homonimosgenero` varchar(512) NOT NULL,
+`homonimosgenero` varchar(2048) NOT NULL,
 `homonimosespecie` text NOT NULL,
 `homonimosinfraespecie` varchar(255) NOT NULL,
 `homonimosgenerocatvalido` varchar(255) NOT NULL,
@@ -131,7 +131,7 @@ CREATE TABLE `SnibMX` (
   `fechacolecta` varchar(10) NOT NULL DEFAULT '' COMMENT 'Es la fecha del evento de recolecta u observación del ejemplar.',
   `aniocolecta` smallint(6) DEFAULT NULL COMMENT 'Año del evento de recolecta u observación del ejemplar.',
   `calificadordeterminacion` varchar(100) NOT NULL DEFAULT '' COMMENT 'Anotación acerca de la incertidumbre en la identificación taxonómica del ejemplar.',
-  `procedenciaejemplar` enum('','HumanObservation','PreservedSpecimen','FossilSpecimen','MaterialCitation','Occurrence','MaterialSample','MachineObservation','LivingSpecimen') NOT NULL DEFAULT '' COMMENT 'Indica si el ejemplar proviene de un evento de recolecta, observación o de un reporte.',
+  `procedenciaejemplar` enum('','HumanObservation','PreservedSpecimen','FossilSpecimen','MaterialCitation','Occurrence','MaterialSample','MachineObservation','LivingSpecimen','MaterialEntity') NOT NULL DEFAULT '' COMMENT 'Indica si el ejemplar proviene de un evento de recolecta, observación o de un reporte.',
   `ejemplarfosil` enum('','SI','NO') NOT NULL DEFAULT '' COMMENT 'Indica si el ejemplar es fósil.',
   `obsusoinfo` varchar(512) NOT NULL DEFAULT '' COMMENT 'Inconsistencias detectadas en los datos o información complementaria para el uso de los datos.',
   `formadecitar` text NOT NULL COMMENT 'Forma de citar los datos al hacer uso de estos o parte de los mismos.',
@@ -180,4 +180,5 @@ CREATE TABLE `SnibMX` (
   `cuencahidrograficamapa` varchar(100) NOT NULL DEFAULT '',
   `ecorregionterrestremapa` varchar(200) NOT NULL DEFAULT '',
   `geoportal` tinyint(1) DEFAULT NULL COMMENT 'Indica si la información del ejemplar esta publicada en el geoportal.'
+
 ) ENGINE=Aria DEFAULT CHARSET=utf8
