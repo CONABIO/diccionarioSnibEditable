@@ -1171,6 +1171,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie III del INEGI.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
+    <infoRules>
+      <rule>El valor solo existe para el país México.</rule>
+    </infoRules>
     <ejemplar>
       <key>09f933df3498699b921e0d63273bf1bd</key>
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
