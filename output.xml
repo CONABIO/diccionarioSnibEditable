@@ -287,11 +287,24 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <fieldName>Validación de la ubicación geográfica</fieldName>
     <fieldid>geovalidacion</fieldid>
     <dwcField>Incluido en georeferenceVerificationStatus</dwcField>
-    <description>Resultado de la revisión de la ubicación de la coordenada geográfica, tomando en cuenta la región asignada al ejemplar y el mapa de divisiones políticas y de localidades, esta puede realizarse hasta en cuatro niveles país/estado/municipio/localidad.</description>
+    <description>Resultado de la validación geográfica realizada por la CONABIO, considerando la ubicación de la coordenada geográfica, la región asignada al ejemplar y el mapa de divisiones políticas, incluyendo la ZEE y mapas de localidades, esta puede realizarse hasta en cuatro niveles país/estado/municipio/localidad.</description>
     <datatype>varchar (200)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Para los ejemplares que resultaron no v&aacute;lidos a nivel de municipio, en el campo Observaciones del uso de la informaci&oacute;n se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</p>]]></note>
+      <note><![CDATA[<p>Los mapas utilizados para la validaci&oacute;n geogr&aacute;fica de los ejemplares recolectados u observados en M&eacute;xico son:</p>
+<p>INEGI. 2022.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2022, escala 1:250000. Instituto Nacional de<br>Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto</a></p>
+<p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. (2011). Zona Econ&oacute;mica Exclusiva de<br>M&eacute;xico. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica<br>(INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros<br>(1990). 'Zona Econ&oacute;mica Exclusiva de M&eacute;xico'. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de<br>M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.<br>URL: http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</p>
+<p>INEGI. 2021.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2020, escala 1:2500000. Instituto Nacional de<br>Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun20gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun20gw:1@m=mixto</a></p>
+<p>INEGI. 2018. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 2018. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.</p>
+<p>URL: http://geoportal.conabio.gob.mx/#!l=muni_2018gw:1@m=mixto</p>
+<p>INEGI. 2016. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 2016. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_2016gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_2016gw:1@m=mixto</a></p>
+<p>INEGI. 2015. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 2015. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_2015gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_2015gw:1@m=mixto</a></p>
+<p>INEGI. 2010. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 2010. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_2010gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_2010gw:1@m=mixto</a></p>
+<p>INEGI. 2005. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 2005. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_2005gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_2005gw:1@m=mixto</a></p>
+<p>INEGI. 2000. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 2000. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_2000gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_2000gw:1@m=mixto</a></p>
+<p>CONABIO. 2000. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 1995. Comisi&oacute;n Nacional para el<br>Conocimiento y Uso de la Biodiversidad, Instituto de Geograf&iacute;a, Universidad Nacional Aut&oacute;noma de M&eacute;xico.<br>M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_ig1995gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_ig1995gw:1@m=mixto</a></p>
+<p>INEGI. 1995. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 1995. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.<br>URL: <a href="http://geoportal.conabio.gob.mx/#!l=muni_1995gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=muni_1995gw:1@m=mixto</a></p>
+<p>INEGI. 1990. Divisi&oacute;n pol&iacute;tica municipal, escala 1:250000. 1990. Instituto Nacional de Estad&iacute;stica<br>Geograf&iacute;a e Inform&aacute;tica. M&eacute;xico.<br>URL: http://geoportal.conabio.gob.mx/#!l=muni_1990gw:1@m=mixto</p>]]></note>
       <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
     </notes>
     <dataRules>
@@ -317,6 +330,9 @@ Sin coordenadas. Sin localidad</subregla></rule>
     <syntaxRules>
       <rule>El dato contiene el resultado de la validación geográfica “Válido localidad” o “Válido” seguido del nivel (“país, “estado”, “municipio”) a continuación presenta el año del mapa de división política municipal utilizado y si se usó tolerancia de 2 Km en la validación {2024 | 2024 con tolerancia, 2022 | 2022 con tolerancia, 2020 | 2020 con tolerancia, 2018 | 2018 con tolerancia, 2016 | 2016 con tolerancia, 2015 | 2015 con tolerancia, 2010 | 2010 con tolerancia, 2005 | 2005 con tolerancia, 2000 | 2000 con tolerancia, 1995 | 1995 con tolerancia | 1995ig | 1995ig con tolerancia | 1990 | 1990 con tolerancia }. Finalmente se indica el detalle del nivel de validación “No válido municipio”, “No procesado municipio”, “No válido estado y municipio” , “No procesado estado y municipio”, “No válido estado y no procesado municipio”, “No aplica validación de estado y municipio”, o “No aplica validación de país”.</rule>
     </syntaxRules>
+    <infoRules>
+      <rule>Los ejemplares que resultaron no válidos a nivel de municipio, en el campo Observaciones del uso de la información se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</rule>
+    </infoRules>
     <ejemplar>
       <key>000000fce20896c0d5c13b5475d24717</key>
       <key>0000010278ed24a49835a2272d40ff11</key>
@@ -340,6 +356,7 @@ Sin coordenadas. Sin localidad</subregla></rule>
       <campo>paismapa</campo>
       <campo>estadomapa</campo>
       <campo>municipiomapa</campo>
+      <campo>obsusoinfo</campo>
     </campos>
   </snibTerm>
   <snibTerm>
