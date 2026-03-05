@@ -1424,6 +1424,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <rule>El dominio de los valores permitidos está dado por la cobertura de suelo, según el mapa de SERENA.</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
+    <infoRules>
+      <rule>El valor sólo existe para Centroamérica, Colombia, El Caribe y Estados Unidos de América.</rule>
+    </infoRules>
     <ejemplar>
       <key>bcd8f9dc49e31b1e73f7859f9d7ce0f9</key>
       <key>1aa291ae5522e7d96292f50f0c4e953b</key>
