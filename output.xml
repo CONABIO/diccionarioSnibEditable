@@ -339,7 +339,8 @@ Sin coordenadas. Sin localidad</subregla></rule>
       <rule>El dato contiene el resultado de la validación geográfica “Válido localidad” o “Válido” seguido del nivel (“país, “estado”, “municipio”) a continuación presenta el año del mapa de división política municipal utilizado y si se usó tolerancia de 2 Km en la validación {2024 | 2024 con tolerancia, 2022 | 2022 con tolerancia, 2020 | 2020 con tolerancia, 2018 | 2018 con tolerancia, 2016 | 2016 con tolerancia, 2015 | 2015 con tolerancia, 2010 | 2010 con tolerancia, 2005 | 2005 con tolerancia, 2000 | 2000 con tolerancia, 1995 | 1995 con tolerancia | 1995ig | 1995ig con tolerancia | 1990 | 1990 con tolerancia }. Finalmente se indica el detalle del nivel de validación “No válido municipio”, “No procesado municipio”, “No válido estado y municipio” , “No procesado estado y municipio”, “No válido estado y no procesado municipio”, “No aplica validación de estado y municipio”, o “No aplica validación de país”.</rule>
     </syntaxRules>
     <infoRules>
-      <rule>Los ejemplares que resultaron no válidos a nivel de municipio, en el campo Observaciones del uso de la información se especifica la distancia de desfase respecto al municipio (campo municipiooriginal).</rule>
+      <rule>Los ejemplares que resultaron válidos a nivel de municipio pueden tener un nombre diferente en el estado y/o municipio asignado con respecto al estado y municipio asociado al ejemplar, debido a los cambios territoriales en la división política o a modificaciones de los nombres.</rule>
+      <rule>Los ejemplares que resultaron no válidos a nivel de municipio, en el campo Observaciones del uso de la información se especifica la distancia de desfase respecto al municipio asociado al ejemplar (campo municipiooriginal).</rule>
     </infoRules>
     <ejemplar>
       <key>000000fce20896c0d5c13b5475d24717</key>
