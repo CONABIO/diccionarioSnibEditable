@@ -3930,16 +3930,19 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </syntaxRules>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
+    <dataRules>
+      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
+    </dataRules>
+    <ejemplar>
+      <key>8e4ed07017df6ddd7f649082fe672826</key>
+      <key>9f64440cdad1c4431255884c433b6b8d</key>
+      <key>edf7c3ec77d70bdd2e5dce4508276c58</key>
+    </ejemplar>
     <campos>
       <campo>tipovegetacion</campo>
       <campo>grupobio</campo>
       <campo>especievalida</campo>
     </campos>
-    <ejemplar>
-      <key>8e4ed07017df6ddd7f649082fe672826</key>
-      <key>9f74a7f93617dfe743b89bd2fdb94731</key>
-      <key>edf7c3ec77d70bdd2e5dce4508276c58</key>
-    </ejemplar>
   </snibTerm>
   <snibTerm>
     <category>Datos del ejemplar/observación</category>
