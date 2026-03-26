@@ -116,7 +116,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </notes>
     <dataRules>
       <rule>El valor está en el intervalo de -180 a 180.</rule>
-      <rule>Cuando las coordenadas originales están en grados, minutos y segundos, se realiza una conversión a grados decimales; si se desconoce el valor de los segundos se asignan 30’’ para no sesgar el dato desconocido hacia los extremos (0 - 59).</rule>
+      <rule>Cuando las coordenadas originales están en grados, minutos y segundos o en sistema UTM, se realiza una conversión a grados decimales; si se desconoce el valor de los segundos se asignan 30’’ para no sesgar el dato desconocido hacia los extremos (0 - 59).</rule>
       <rule>Cuando las coordenadas originales están en un datum diferente a WGS84, se transforma a WGS84.</rule>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
@@ -128,18 +128,18 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <rule>Para el este del meridiano de Greenwich el dato es positivo (por ejemplo, Alemania).</rule>
       <rule>Para el oeste del meridiano de Greenwich el dato es negativo (por ejemplo, México).</rule>
     </infoRules>
-    <campos>
-      <campo>longitud</campo>
-      <campo>latitud</campo>
-      <campo>paisoriginal</campo>
-      <campo>estadooriginal</campo>
-    </campos>
     <ejemplar>
       <key>33bb9337b6040b8d2b5e41d1d53100a2</key>
       <key>9197122bd76a7dc066742f9e484779b2</key>
       <key>1e681ab0f796b63c5dd5f0f9856b5d9f</key>
       <key>1931d37b096cc2b95139f0151908327d</key>
     </ejemplar>
+    <campos>
+      <campo>longitud</campo>
+      <campo>latitud</campo>
+      <campo>paisoriginal</campo>
+      <campo>estadooriginal</campo>
+    </campos>
   </snibTerm>
   <snibTerm>
     <category>Información geográfica del ejemplar</category>
