@@ -734,7 +734,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <encoding>UTF-8</encoding>
     <notes>
       <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
+      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en <a href="../ejemplares/descarga/" target="_blank" rel="noopener">https://www.snib.mx/ejemplares/descarga/</a></p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato que no fue proporcionado en la base de datos original.</rule>
@@ -742,6 +742,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
+    <infoRules>
+      <rule>El campo puede contener valores que no corresponden a un municipio o división política equivalente.</rule>
+    </infoRules>
     <ejemplar>
       <key>bc9377c20bbc24ce985ef4c4e7b8cbbc</key>
       <key>3eff5e1231a1960f30bfbe6d32eef1f1</key>
