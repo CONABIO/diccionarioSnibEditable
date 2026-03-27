@@ -945,7 +945,7 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado en CONABIO. Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
 <p>INEGI. 2024.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2024, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun24gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw:1@m=mixto</a></p>
 <p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. (2011). Zona Econ&oacute;mica Exclusiva de M&eacute;xico. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). Zona Econ&oacute;mica Exclusiva de M&eacute;xico. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
 <p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
 <p><strong>Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
@@ -971,11 +971,11 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <key>bebfc34e202f8b0a31290f62248bc51c</key>
     </ejemplar>
     <campos>
-      <campo>mt24clavemunicipiomapa</campo>
-      <campo>mt24nombremunicipiomapa</campo>
+      <campo>paismapa</campo>
       <campo>mt24claveestadomapa</campo>
       <campo>mt24nombreestadomapa</campo>
-      <campo>paismapa</campo>
+      <campo>mt24clavemunicipiomapa</campo>
+      <campo>mt24nombremunicipiomapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
