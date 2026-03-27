@@ -1389,7 +1389,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre el uso de suelo y vegetaci&oacute;n serie VII v&eacute;ase:</p>
 <p>INEGI. 2021. Conjunto de Datos Vectoriales de Uso de Suelo y Vegetaci&oacute;n. Escala 1:250 000, Serie VII. Conjunto Nacional., escala: 1:250 000. edici&oacute;n: 1. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. Aguascalientes, M&eacute;xico.</p>
-<p>URL: http://geoportal.conabio.gob.mx/#!l=usv250s7gw:1,usv250s7gw:1@m=mixto</p>]]></note>
+<p>URL: &nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=usv250s7gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=usv250s7gw:1@m=mixto</a></p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie VII del INEGI.</rule>
@@ -1410,13 +1410,13 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <key>6dbd78b34523f0ffff46a4244fb7889f</key>
     </ejemplar>
     <campos>
-      <campo>usvserieVII</campo>
-      <campo>usvserieVI</campo>
-      <campo>usvserieV</campo>
-      <campo>usvserieIV</campo>
-      <campo>usvserieIII</campo>
-      <campo>usvserieII</campo>
       <campo>usvserieI</campo>
+      <campo>usvserieII</campo>
+      <campo>usvserieIII</campo>
+      <campo>usvserieIV</campo>
+      <campo>usvserieV</campo>
+      <campo>usvserieVI</campo>
+      <campo>usvserieVII</campo>
     </campos>
   </snibTerm>
   <snibTerm>
