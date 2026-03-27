@@ -1336,7 +1336,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre el uso de suelo y vegetaci&oacute;n serie VI v&eacute;ase:</p>
 <p>INEGI. 2016. Uso de suelo y vegetaci&oacute;n, escala 1:250000, serie VI (continuo nacional), escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
-<p>URL: http://geoportal.conabio.gob.mx/#!l=usv250s6gw:1@m=mixto</p>]]></note>
+<p>URL: &nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=usv250s6gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=usv250s6gw:1@m=mixto</a></p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie VI del INEGI.</rule>
@@ -1357,14 +1357,14 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <key>6dbd78b34523f0ffff46a4244fb7889f</key>
     </ejemplar>
     <campos>
-      <campo>usvserieVI</campo>
-      <campo>usvserieV</campo>
-      <campo>usvserieIV</campo>
-      <campo>usvserieIII</campo>
-      <campo>usvserieII</campo>
-      <campo>usvserieI</campo>
-      <campo>latitud</campo>
       <campo>longitud</campo>
+      <campo>latitud</campo>
+      <campo>usvserieI</campo>
+      <campo>usvserieII</campo>
+      <campo>usvserieIII</campo>
+      <campo>usvserieIV</campo>
+      <campo>usvserieV</campo>
+      <campo>usvserieVI</campo>
     </campos>
   </snibTerm>
   <snibTerm>
