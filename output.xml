@@ -1499,10 +1499,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <rule>Cuando el ejemplar se ubica a una distancia máxima de 5 km de una o varias ANP, se le asignó la más cercana.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>El valor se conforma por la jurisdicción del ANP “Internacional“, “International”, “Nacional“, “National”, “Federal“, “Estatal”, “Regional“, “Municipal”, ”Estatal y Municipal”, “Ejidal”, “Privado” y “Comunitaria“, seguido de comilla doble angular derecha y un espacio “» ”, después la categoría de manejo, seguido de comilla angular derecha y un espacio “› ”, posteriormente el nombre y al final se puede presentar la distancia a la ANP más cercana.</rule>
+      <rule>El valor se conforma por la jurisdicción del ANP “Internacional“, “International”, “Nacional“, “National”, “Federal“, “Estatal”, “Regional“, “Municipal”, ”Estatal y Municipal”, “Ejidal”, “Privado” y “Comunitaria“, seguido de comilla  angular derecha y un espacio “» ”, después la categoría de manejo, seguido de comilla angular simple de cierre y un espacio “› ”, posteriormente el nombre y al final se puede presentar la distancia a la ANP más cercana.</rule>
       <rule>Cuando la coordenada registrada para el ejemplar se ubica en más de un ANP  se concatena aplicando la regla 1 separando cada ANP con un pipe  “|” con un espacio antes y después.</rule>
       <rule>Se incluye entre llaves “{ }” la distancia en kilómetros a la que se encuentra la coordenada de la ANP.</rule>
-      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;amp;amp;amp;amp;amp;amp;amp;amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
+      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
       <rule>Las ANP que se comparten en más de un país se diferencian en el nombre por la abreviación del país alfa-2 de la ISO 3166.</rule>
     </syntaxRules>
     <ejemplar>
