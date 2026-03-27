@@ -1001,11 +1001,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n de la incertidumbre del m&eacute;todo punto-radio, v&eacute;ase:&nbsp;</p>
 <p>CONABIO. 2008. Georreferenciaci&oacute;n de localidades de Colecciones Biol&oacute;gicas. Manual de Procedimientos. M&eacute;xico. 177 p&aacute;gs.</p>
-<p>URL: <a href="http://www.conabio.gob.mx/informacion/geo_espanol/doctos/Manual%20Georref_Vr1.pdf">http://www.conabio.gob.mx/informacion/geo_espanol/doctos/Manual%20Georref_Vr1.pdf</a></p>
+<p>URL: <a href="http://www.conabio.gob.mx/informacion/geo_espanol/doctos/Manual%20Georref_Vr1.pdf" target="_blank" rel="noopener">http://www.conabio.gob.mx/informacion/geo_espanol/doctos/Manual%20Georref_Vr1.pdf</a></p>
 <p>CONABIO. 2021. Gu&iacute;a de georreferenciaci&oacute;n de localidades de colecciones biol&oacute;gicas. M&eacute;xico. 51 p&aacute;gs.</p>
-<p>URL: <a href="https://www.biodiversidad.gob.mx/media/1/conabio/documentos/proyectos/guia_georreferenciacion_2021_WEBc.pdf">https://www.biodiversidad.gob.mx/media/1/conabio/documentos/proyectos/guia_georreferenciacion_2021_WEBc.pdf</a></p>
+<p>URL: <a href="https://www.biodiversidad.gob.mx/media/1/conabio/documentos/proyectos/guia_georreferenciacion_2021_WEBc.pdf" target="_blank" rel="noopener">https://www.biodiversidad.gob.mx/media/1/conabio/documentos/proyectos/guia_georreferenciacion_2021_WEBc.pdf</a></p>
 <p>Wieczorek, J. Q Guo and Hijmans. R.J. (2004). The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science. Vol. 18, no. 8.</p>
-<p>URL: https://www.tandfonline.com/doi/abs/10.1080/13658810412331280211</p>]]></note>
+<p>URL: <a href="https://www.tandfonline.com/doi/abs/10.1080/13658810412331280211" target="_blank" rel="noopener">https://www.tandfonline.com/doi/abs/10.1080/13658810412331280211</a></p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor nulo significa que no se tiene el dato de la incertidumbre o no tiene coordenadas geográficas.</rule>
@@ -1019,9 +1019,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <key>2b6d826d90b42301b09b643509113b2e</key>
     </ejemplar>
     <campos>
-      <campo>incertidumbreXY</campo>
-      <campo>latitud</campo>
       <campo>longitud</campo>
+      <campo>latitud</campo>
+      <campo>incertidumbreXY</campo>
     </campos>
   </snibTerm>
   <snibTerm>
