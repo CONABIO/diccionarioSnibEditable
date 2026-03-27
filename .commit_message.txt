@@ -1,1 +1,1 @@
-estadomapa|Información geográfica
+altitudmapa|Información geográfica
