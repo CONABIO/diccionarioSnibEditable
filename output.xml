@@ -1441,7 +1441,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre cobertura de suelo y vegetaci&oacute;n v&eacute;ase:</p>
 <p>Blanco, P. D., Colditz, R. R., L&oacute;pez, G., Hardtke, L. A., Llamas, R. M., Mari, N. A., Barrena Arroyo, V. (2013). A land cover map of Latin America and the Caribbean in the framework of the SERENA project. Remote Sensing of Environment, 132, 13&ndash;31.</p>
-<p>URL: https://www.biodiversidad.gob.mx/monitoreo/cobertura-suelo/baja-resolucion/SERENA</p>]]></note>
+<p>URL: &nbsp;<a href="https://www.biodiversidad.gob.mx/monitoreo/cobertura-suelo/baja-resolucion/SERENA" target="_blank" rel="noopener">https://www.biodiversidad.gob.mx/monitoreo/cobertura-suelo/baja-resolucion/SERENA</a></p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por la cobertura de suelo, según el mapa de La Red Latinoamericana de Seguimiento y Estudio de los Recursos Naturales (SERENA).</rule>
@@ -1456,10 +1456,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <key>6b741face88c34faa8b60a99ffccdf53</key>
     </ejemplar>
     <campos>
-      <campo>vegetacionserenanalcms</campo>
-      <campo>latitud</campo>
       <campo>longitud</campo>
+      <campo>latitud</campo>
       <campo>paismapa</campo>
+      <campo>vegetacionserenanalcms</campo>
     </campos>
   </snibTerm>
   <snibTerm>
