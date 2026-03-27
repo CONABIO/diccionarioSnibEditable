@@ -1,1 +1,1 @@
-estadomapa|Información geográfica
+mt24nombremunicipiomapa|Información geográfica

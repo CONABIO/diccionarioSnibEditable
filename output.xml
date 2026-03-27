@@ -910,7 +910,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
 <p>&nbsp;</p>]]></note>
     </notes>
     <infoRules>
-      <rule>El campo mt24nombremunicipiomapa puede tener un valor diferente al de municipiomapa.</rule>
+      <rule>El campo mt24nombremunicipiomapa puede tener un valor diferente al de municipio validado (ID: municipiomapa).</rule>
     </infoRules>
     <ejemplar>
       <key>deaf3b471b6cf8e8d6a0ac213c61a9fe</key>
@@ -920,10 +920,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <key>bebfc34e202f8b0a31290f62248bc51c</key>
     </ejemplar>
     <campos>
-      <campo>mt24nombremunicipiomapa</campo>
-      <campo>mt24clavemunicipiomapa</campo>
-      <campo>mt24nombreestadomapa</campo>
       <campo>mt24claveestadomapa</campo>
+      <campo>mt24nombreestadomapa</campo>
+      <campo>mt24clavemunicipiomapa</campo>
+      <campo>mt24nombremunicipiomapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
