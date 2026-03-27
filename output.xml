@@ -219,7 +219,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <rule>El valor vacío significa que el ejemplar no tiene coordenadas geográficas o no están disponibles.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>El dato está escrito en mayúsculas y corresponde a las siglas en inglés World Geodetic System.</rule>
+      <rule>El dato está escrito en mayúsculas y corresponde a las siglas en inglés World Geodetic System 1984 o Sistema Geodésico Mundial 1984</rule>
     </syntaxRules>
     <ejemplar>
       <key>33bb9337b6040b8d2b5e41d1d53100a2</key>
@@ -231,9 +231,9 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <key>c41de431933e0556fa3599ae2965895b</key>
     </ejemplar>
     <campos>
-      <campo>datum</campo>
-      <campo>latitud</campo>
       <campo>longitud</campo>
+      <campo>latitud</campo>
+      <campo>datum</campo>
       <campo>paisoriginal</campo>
     </campos>
   </snibTerm>
