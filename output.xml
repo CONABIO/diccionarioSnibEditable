@@ -555,9 +555,9 @@ coordenada se ubica dentro de los límites del estado registrado para el ejempla
 menor a 2 km del límite. Excepto para aquellos ejemplares de México que tienen registrado un&#13;
 estado anterior al año 2024, se asigna el estado del mapa 2024.</subregla><subregla>Se asigna el estado -o división política equivalente- donde se ubica la coordenada geográfica cuando&#13;
 está fuera, a más de 2 km, del límite del estado registrado para el ejemplar. En este caso el dato es&#13;
-diferente al del campo estado (ID: estadooriginal).</subregla><subregla>No se asigna valor, si se ubican en la zona económica exclusiva del país registrado para el ejemplar,&#13;
-o en otro país o en aguas internacionales.</subregla><subregla>Se asigna el estado -o división política equivalente- donde se ubica la coordenada geográfica cuando&#13;
-el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estadooriginal).</subregla></rule>
+diferente al del campo estado (ID: estadooriginal).</subregla><subregla>Se asigna el estado -o división política equivalente- donde se ubica la coordenada geográfica cuando&#13;
+el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estadooriginal).</subregla><subregla>No se asigna valor, si se ubican en la zona económica exclusiva del país registrado para el ejemplar,&#13;
+o en otro país o en aguas internacionales.</subregla></rule>
     </dataRules>
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
