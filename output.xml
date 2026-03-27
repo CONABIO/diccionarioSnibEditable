@@ -16,9 +16,9 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <anexo3>Tabla que contiene todos los usos de suelo y vegetación de las series del INEGI (usvsI a usvsVII) para obtener un agrupado de los usos de suelo y vegetación. &#13;
  </anexo3>
     <creador>
-      <nombre></nombre>
-      <sitioWeb></sitioWeb>
-      <portalSNIB></portalSNIB>
+      <nombre/>
+      <sitioWeb/>
+      <portalSNIB/>
     </creador>
   </metadata>
   <snibTerm>
@@ -1095,7 +1095,7 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <rule>El valor solo existe para el país México.</rule>
       <rule>Para obtener un agrupado de los usos de suelo y vegetación despecov. Relacionar el campo despeveg con este campo. &#13;
 &#13;
-ver anexo 3 https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
+ver Anexo 3: Catálogo USV Agrupado  https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
     </infoRules>
     <ejemplar>
       <key>09f933df3498699b921e0d63273bf1bd</key>
