@@ -78,7 +78,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <fieldName>Localidad de recolecta u observación</fieldName>
     <fieldid>localidad</fieldid>
     <dwcField>locality</dwcField>
-    <description>Referencia geográfica que describe la ubicación del lugar de recolecta u observación.</description>
+    <description>Referencia geográfica textual que describe la ubicación del lugar de recolecta u observación.</description>
     <datatype>varchar (2048)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
