@@ -1539,7 +1539,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
     <encoding>UTF-8</encoding>
     <notes>
       <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre cobertura de suelo y vegetaci&oacute;n v&eacute;ase:</p>]]></note>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre las regiones marinas v&eacute;ase:&nbsp;</p>
+<p>&nbsp;</p>
+<p>CONABIO. 2017. Regiones marinas, modificado para el geoportal del SNIB. escala 1:250 000. edici&oacute;n: 1.<br>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
+<p>&nbsp;</p>]]></note>
       <note><![CDATA[<p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
     </notes>
     <dataRules>
@@ -1555,10 +1558,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <key>15e09329471e2febb64741ce4a6a6b40</key>
     </ejemplar>
     <campos>
-      <campo>regionmarinamapa</campo>
-      <campo>latitud</campo>
       <campo>longitud</campo>
+      <campo>latitud</campo>
       <campo>paismapa</campo>
+      <campo>regionmarinamapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
