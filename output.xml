@@ -662,7 +662,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <rule>El valor sólo se presenta para los ejemplares ubicados en la franja del mar territorial y zona contigua.</rule>
     </dataRules>
     <infoRules>
-      <rule>El campo mt24nombreestadomapa puede tener un valor diferente al de estado del mapa.</rule>
+      <rule>El campo mt24nombreestadomapa puede tener un valor diferente al de estado validado (ID: estadomapa).</rule>
     </infoRules>
     <ejemplar>
       <key>75fcc56929ab0c4f794773a367939e9f</key>
@@ -673,9 +673,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <key>bebfc34e202f8b0a31290f62248bc51c</key>
     </ejemplar>
     <campos>
-      <campo>mt24nombreestadomapa</campo>
-      <campo>mt24claveestadomapa</campo>
       <campo>paismapa</campo>
+      <campo>mt24claveestadomapa</campo>
+      <campo>mt24nombreestadomapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
