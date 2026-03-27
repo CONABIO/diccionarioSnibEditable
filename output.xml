@@ -1489,7 +1489,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
 <p>URL: &nbsp; <a href="http://geoportal.conabio.gob.mx/#!l=anpest25gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=anpest25gw:1@m=mixto</a></p>
 <p>&nbsp;</p>]]></note>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n de las &aacute;reas naturales protegidas de Centroam&eacute;rica, Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton vease:</p>
-<p>UNEP-WCMC and <span class="acronym-highlight">UICN</span> 2025. Protected Planet: The World Database on Protected Areas (<span class="acronym-highlight">WDPA</span>) [Online], october 2025, Cambridge, UK: UNEP-WCMC and UICN.</p>
+<p><br>UNEP-WCMC and UICN 2025. Protected Planet: The World Database on Protected Areas (WDPA) [Online], october 2025, Cambridge, UK: UNEP-WCMC and UICN.</p>
 <p>URL:&nbsp;<span class="TextRun SCXW121057435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW121057435 BCX0" data-ccp-charstyle="Hyperlink">&nbsp;<span class="TextRun Underlined SCXW121057435 BCX0" lang="EN-US" xml:lang="EN-US" data-contrast="none"><span class="NormalTextRun SCXW121057435 BCX0" data-ccp-charstyle="Hyperlink"><a href="https://www.protectedplanet.net/en" target="_blank" rel="noopener">https://www.protectedplanet.net/en</a></span></span></span></span></p>
 <p>&nbsp;</p>]]></note>
     </notes>
@@ -1502,7 +1502,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <rule>El valor se conforma por la jurisdicción del ANP “Internacional“, “International”, “Nacional“, “National”, “Federal“, “Estatal”, “Regional“, “Municipal”, ”Estatal y Municipal”, “Ejidal”, “Privado” y “Comunitaria“, seguido de comilla doble angular derecha y un espacio “» ”, después la categoría de manejo, seguido de comilla angular derecha y un espacio “› ”, posteriormente el nombre y al final se puede presentar la distancia a la ANP más cercana.</rule>
       <rule>Cuando la coordenada registrada para el ejemplar se ubica en más de un ANP  se concatena aplicando la regla 1 separando cada ANP con un pipe  “|” con un espacio antes y después.</rule>
       <rule>Se incluye entre llaves “{ }” la distancia en kilómetros a la que se encuentra la coordenada de la ANP.</rule>
-      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;amp;amp;amp;amp;amp;amp;amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
+      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;amp;amp;amp;amp;amp;amp;amp;amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
       <rule>Las ANP que se comparten en más de un país se diferencian en el nombre por la abreviación del país alfa-2 de la ISO 3166.</rule>
     </syntaxRules>
     <ejemplar>
