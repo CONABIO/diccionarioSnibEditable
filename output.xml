@@ -1194,6 +1194,7 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
     </dataRules>
     <infoRules>
       <rule>El valor solo existe para el país México.</rule>
+      <rule>Para obtener un agrupado de los usos de suelo y vegetación "despecov", ver el Anexo 3 y relacionar el campo "despeveg" con usvserieIII. https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
     </infoRules>
     <ejemplar>
       <key>09f933df3498699b921e0d63273bf1bd</key>
