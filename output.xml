@@ -1477,16 +1477,16 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
     <fieldName>Áreas naturales protegidas</fieldName>
     <fieldid>anp</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>Especifica la jurisdicción y nombre del área natural protegida (ANP) donde se ubica la coordenada geográfica registrada para el ejemplar.</description>
+    <description>Especifica la jurisdicción, la categoría de manejo y nombre del área natural protegida (ANP) donde se ubica la coordenada geográfica registrada para el ejemplar.</description>
     <datatype>varchar (250)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n de las &aacute;reas naturales protegidas de M&eacute;xico, v&eacute;ase:</p>
 <p><span class="acronym-highlight">CONANP 2025</span>. &Aacute;reas Naturales Protegidas Federales de M&eacute;xico, julio 2025, Comisi&oacute;n Nacional de &Aacute;reas Naturales Protegidas. Ciudad de M&eacute;xico, M&eacute;xico.</p>
-<p>URL: <span class="TextRun SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW13831329 BCX0">&nbsp;</span></span><a href="http://geoportal.conabio.gob.mx/#!l=anpsp20254gw:1@m=mixto" target="_blank" rel="noopener"><span class="TextRun Underlined SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW13831329 BCX0">http://geoportal.conabio.gob.mx/#!l=anpsp202</span></span><span class="TrackChangeTextInsertion TrackedChange SCXW13831329 BCX0"><span class="TextRun Underlined SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW13831329 BCX0">5</span></span></span><span class="TrackChangeTextDeletionMarker TrackedChange SCXW13831329 BCX0"><span class="TextRun Underlined SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun TrackChangeTextDeletion SCXW13831329 BCX0">4</span></span></span><span class="TextRun Underlined SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW13831329 BCX0">gw:1@m=mixto</span></span></a><span class="EOP SCXW13831329 BCX0" data-ccp-props="{&quot;335559739&quot;:0}">&nbsp;</span></p>
+<p>URL: <span class="TextRun SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW13831329 BCX0">&nbsp;</span></span><a href="http://geoportal.conabio.gob.mx/#!l=anpsp20254gw:1@m=mixto" target="_blank" rel="noopener"><span class="TextRun Underlined SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW13831329 BCX0">http://geoportal.conabio.gob.mx/#!l=anpjul2025gw</span></span><span class="TextRun Underlined SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW13831329 BCX0">:1@m=mixto</span></span></a><span class="EOP SCXW13831329 BCX0" data-ccp-props="{&quot;335559739&quot;:0}">&nbsp;</span></p>
 <p>&nbsp;</p>
 <p>CONABIO 2025. &Aacute;reas Naturales Protegidas Estatales, Municipales, Ejidales, Comunitarias y Privadas de M&eacute;xico 2025, edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=anpest20gw:1@m=mixto" target="_blank" rel="noreferrer noopener"><span class="TextRun Underlined SCXW42127131 BCX0" lang="ES-ES" xml:lang="ES-ES" data-contrast="auto"><span class="NormalTextRun SCXW42127131 BCX0">http://geoportal.conabio.gob.mx/#!l=anpest2</span></span><span class="TrackChangeTextInsertion TrackedChange SCXW42127131 BCX0"><span class="TextRun Underlined SCXW42127131 BCX0" lang="ES-ES" xml:lang="ES-ES" data-contrast="auto"><span class="NormalTextRun SCXW42127131 BCX0">5</span></span></span><span class="TrackChangeTextDeletionMarker TrackedChange SCXW42127131 BCX0"><span class="TextRun Underlined SCXW42127131 BCX0" lang="ES-ES" xml:lang="ES-ES" data-contrast="auto"><span class="NormalTextRun TrackChangeTextDeletion SCXW42127131 BCX0">0</span></span></span><span class="TextRun Underlined SCXW42127131 BCX0" lang="ES-ES" xml:lang="ES-ES" data-contrast="auto"><span class="NormalTextRun SCXW42127131 BCX0">gw:1</span></span><span class="TextRun Underlined SCXW42127131 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW42127131 BCX0">@m=mixto</span></span></a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=anpest20gw:1@m=mixto" target="_blank" rel="noreferrer noopener"><span class="TextRun Underlined SCXW42127131 BCX0" lang="ES-ES" xml:lang="ES-ES" data-contrast="auto"><span class="NormalTextRun SCXW42127131 BCX0">http://geoportal.conabio.gob.mx/#!l=anpest25gw</span></span><span class="TextRun Underlined SCXW42127131 BCX0" lang="ES-ES" xml:lang="ES-ES" data-contrast="auto"><span class="NormalTextRun SCXW42127131 BCX0">:1</span></span><span class="TextRun Underlined SCXW42127131 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW42127131 BCX0">@m=mixto</span></span></a></p>
 <p>&nbsp;</p>]]></note>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n de las &aacute;reas naturales protegidas de Centroam&eacute;rica, Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton vease:</p>
 <p>UNEP-WCMC and <span class="acronym-highlight">UICN</span> 2025. Protected Planet: The World Database on Protected Areas (<span class="acronym-highlight">WDPA</span>) [Online], october 2025, Cambridge, UK: UNEP-WCMC and UICN.</p>
@@ -1499,10 +1499,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <rule>Cuando el ejemplar se ubica a una distancia máxima de 5 km de una o varias ANP, se le asignó la más cercana.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>El valor se conforma por la jurisdicción del ANP “Internacional“, “International”, “Nacional“, “National”, “Federal“, “Estatal”, “Regional“, “Municipal”, ”Estatal y Municipal”, “Ejidal”, “Privado” y “Comunitaria“, seguido de comilla angular derecha y un espacio “» ”, posteriormente el nombre y al final se puede presentar la distancia a la ANP más cercana.</rule>
+      <rule>El valor se conforma por la jurisdicción del ANP “Internacional“, “International”, “Nacional“, “National”, “Federal“, “Estatal”, “Regional“, “Municipal”, ”Estatal y Municipal”, “Ejidal”, “Privado” y “Comunitaria“, seguido de comilla doble angular derecha y un espacio “» ”, después la categoría de manejo, seguido de comilla angular derecha y un espacio “› ”, posteriormente el nombre y al final se puede presentar la distancia a la ANP más cercana.</rule>
       <rule>Cuando la coordenada registrada para el ejemplar se ubica en más de un ANP  se concatena aplicando la regla 1 separando cada ANP con un pipe  “|” con un espacio antes y después.</rule>
       <rule>Se incluye entre llaves “{ }” la distancia en kilómetros a la que se encuentra la coordenada de la ANP.</rule>
-      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;amp;amp;amp;amp;amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
+      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;amp;amp;amp;amp;amp;amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
       <rule>Las ANP que se comparten en más de un país se diferencian en el nombre por la abreviación del país alfa-2 de la ISO 3166.</rule>
     </syntaxRules>
     <ejemplar>
@@ -1513,9 +1513,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <key>51212213e6a86c3aba53df6ffc9f7750</key>
     </ejemplar>
     <campos>
-      <campo>anp</campo>
-      <campo>latitud</campo>
       <campo>longitud</campo>
+      <campo>latitud</campo>
+      <campo>anp</campo>
     </campos>
   </snibTerm>
   <snibTerm>
