@@ -1481,7 +1481,7 @@ o en otro país o en aguas internacionales.</subregla></rule>
     <notes>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n de las &aacute;reas naturales protegidas de M&eacute;xico, v&eacute;ase:</p>
 <p>&nbsp;</p>
-<p><span class="acronym-highlight">CONANP 2025</span>. CONANP 2025. &Aacute;reas Naturales Protegidas Federales de M&eacute;xico, julio 2025, Comisi&oacute;n Nacional de &Aacute;reas Naturales Protegidas. Ciudad de M&eacute;xico, M&eacute;xico.</p>
+<p>CONANP 2025. &Aacute;reas Naturales Protegidas Federales de M&eacute;xico, julio 2025, Comisi&oacute;n Nacional de &Aacute;reas Naturales Protegidas. Ciudad de M&eacute;xico, M&eacute;xico.</p>
 <p>URL: <span class="TextRun SCXW13831329 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW13831329 BCX0">&nbsp; <a href="http://geoportal.conabio.gob.mx/#!l=anpjul2025gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=anpjul2025gw:1@m=mixto</a></span></span></p>
 <p>&nbsp;</p>
 <p>CONABIO 2025. &Aacute;reas Naturales Protegidas Estatales, Municipales, Ejidales, Comunitarias y Privadas de M&eacute;xico 2025, edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
@@ -1501,7 +1501,7 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <rule>El valor se conforma por la jurisdicción del ANP “Internacional“, “International”, “Nacional“, “National”, “Federal“, “Estatal”, “Regional“, “Municipal”, ”Estatal y Municipal”, “Ejidal”, “Privado” y “Comunitaria“, seguido de comilla  angular derecha y un espacio “» ”, después la categoría de manejo, seguido de comilla angular simple de cierre y un espacio “› ”, posteriormente el nombre y al final se puede presentar la distancia a la ANP más cercana.</rule>
       <rule>Cuando la coordenada registrada para el ejemplar se ubica en más de un ANP  se concatena aplicando la regla 1 separando cada ANP con un pipe  “|” con un espacio antes y después.</rule>
       <rule>Se incluye entre llaves “{ }” la distancia en kilómetros a la que se encuentra la coordenada de la ANP.</rule>
-      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
+      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
       <rule>Las ANP que se comparten en más de un país se diferencian en el nombre por la abreviación del país alfa-2 de la ISO 3166.</rule>
     </syntaxRules>
     <ejemplar>
