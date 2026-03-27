@@ -856,14 +856,14 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
     </notes>
     <dataRules>
       <rule>Si el ejemplar no tiene coordenada geográfica no se asigna valor.</rule>
-      <rule>Si el ejemplar tiene coordenada geográfica, se asigna la clave del municipio o división política equivalente conforme a las reglas de asignación del campo municipio del mapa.</rule>
+      <rule>Si el ejemplar tiene coordenada geográfica, se asigna la clave del municipio o división política equivalente conforme a las reglas de asignación del campo municipio validado (ID: municipiomapa).</rule>
     </dataRules>
     <syntaxRules>
       <rule>La clave se compone de cinco caracteres numéricos para México: los dos primeros corresponden a la clave del estado y los tres últimos a la clave del municipio.</rule>
       <rule>La clave se compone de nueve caracteres para países de Centroamérica, Caribe, Estados Unidos de América y Colombia. Los tres primeros corresponden a la clave ISO 3166-1 numérico del país, los siguientes dos al estado y los que siguen al municipio o división política equivalente.</rule>
     </syntaxRules>
     <infoRules>
-      <rule>La clave del municipio corresponde con el municipio asignado en el campo municipiomapa.</rule>
+      <rule>La clave del municipio corresponde con el municipio asignado en el campo municipio validado (ID: municipiomapa).</rule>
     </infoRules>
     <ejemplar>
       <key>db310bccaf9ab8c125b755b2d13761e9</key>
@@ -873,10 +873,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
     </ejemplar>
     <campos>
+      <campo>paismapa</campo>
+      <campo>estadomapa</campo>
       <campo>clavemunicipiomapa</campo>
       <campo>municipiomapa</campo>
-      <campo>estadomapa</campo>
-      <campo>paismapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
