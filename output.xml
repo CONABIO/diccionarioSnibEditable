@@ -698,12 +698,12 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <note><![CDATA[<p>Campo resultado del proceso de sobreposici&oacute;n de las coordenadas geogr&aacute;ficas con mapas de divisi&oacute;n pol&iacute;tica actuales, realizado por la CONABIO. Los mapas utilizados son:</p>
 <p><strong>M&eacute;xico:</strong></p>
 <p>INEGI. 2024.Divisi&oacute;n pol&iacute;tica municipal, 1:250000. 2024, escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
-<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun22gw@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw@m=mixto</a></p>
+<p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=mun24gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=mun24gw:1@m=mixto</a></p>
 <p>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. (2011). Zona Econ&oacute;mica Exclusiva de M&eacute;xico. L&iacute;mite Nacional 1:250000. Modificado de Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica (INEGI), Lugo-Hupb J., Vidal-Zepeda, R., Fern&aacute;ndez-Equiarte, A., Gallegos-Garc&iacute;a, A., Zavala-H, J. y otros (1990). Zona Econ&oacute;mica Exclusiva de M&eacute;xico. Extra&iacute;do de Hipsometr&iacute;a y Batimetr&iacute;a, I.1.1. Atlas Nacional de M&eacute;xico. Vol. I. Escala 1:4000000. Instituto de Geograf&iacute;a, UNAM. M&eacute;xico.</p>
 <p>URL: <a href="http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=contdv250_zeemgw:1@m=mixto</a></p>
 <p><strong>Colombia, El Caribe, Estados Unidos de Am&eacute;rica e Isla Clipperton:</strong></p>
 <p>CONABIO, 2019. Mapa de validaci&oacute;n en la Zona econ&oacute;mica exclusiva para los sitios marinos de Estados Unidos de Am&eacute;rica, Centroam&eacute;rica, Caribe y Colombia. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
-<p>URL: http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</p>]]></note>
+<p>URL: &nbsp; <a href="http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=vzeesf1gw:1@m=mixto</a></p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor sólo se presenta para los ejemplares ubicados en la franja del mar territorial y zona contigua.</rule>
@@ -724,9 +724,9 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <key>bebfc34e202f8b0a31290f62248bc51c</key>
     </ejemplar>
     <campos>
+      <campo>paismapa</campo>
       <campo>mt24claveestadomapa</campo>
       <campo>mt24nombreestadomapa</campo>
-      <campo>paismapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
@@ -803,7 +803,7 @@ o en otro país o en aguas internacionales.</subregla></rule>
     </notes>
     <dataRules>
       <rule>Si el ejemplar no tiene coordenada geográfica no se asigna valor</rule>
-      <rule>Si el ejemplar tiene coordenada geográfica<subregla>Se asigna el mismo municipio -o división política equivalente- del campo municipio original cuando la coordenada se ubica dentro de los límites del municipio registrado para el ejemplar o a una distancia menor a 2 km del límite. Excepto para aquellos ejemplares de México que tienen registrado un municipio anterior al año 2024, se asigna el municipio del mapa 2024.</subregla><subregla>Se asigna el municipio -o división política equivalente- donde se ubica la coordenada geográfica cuando está fuera, a más de 2km, del límite del municipio registrado para el ejemplar. En este caso el dato es diferente al del campo municipio (ID: municipiooriginal).</subregla><subregla>No se asigna valor, si se ubican en la zona económica  exclusiva del país registrado para el ejemplar, o en otro país o en aguas internacionales.</subregla><subregla>Se asigna el municipio -o división política equivalente- donde se ubica la coordenada geográfica cuando el ejemplar no tiene registrado un dato de municipio en el campo municipio (ID: municipiooriginal).</subregla></rule>
+      <rule>Si el ejemplar tiene coordenada geográfica<subregla>Se asigna el mismo municipio -o división política equivalente- del campo municipio original cuando la coordenada se ubica dentro de los límites del municipio registrado para el ejemplar o a una distancia menor a 2 km del límite. Excepto para aquellos ejemplares de México que tienen registrado un municipio anterior al año 2024, se asigna el municipio del mapa 2024.</subregla><subregla>Se asigna el municipio -o división política equivalente- donde se ubica la coordenada geográfica cuando está fuera, a más de 2km, del límite del municipio registrado para el ejemplar. En este caso el dato es diferente al del campo municipio (ID: municipiooriginal).</subregla><subregla>Se asigna el municipio -o división política equivalente- donde se ubica la coordenada geográfica cuando el ejemplar no tiene registrado un dato de municipio en el campo municipio (ID: municipiooriginal).</subregla><subregla>No se asigna valor, si se ubican en la zona económica  exclusiva del país registrado para el ejemplar, o en otro país o en aguas internacionales.</subregla></rule>
     </dataRules>
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
