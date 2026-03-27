@@ -13,6 +13,7 @@ con la Licencia Libre Uso MX.</licenciaUso>
 Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar>
     <anexo1>En la siguiente tabla se muestran los campos del SNIB incluidos para descarga en el geoportal y la página del SNIB de la CONABIO.</anexo1>
     <anexo2>En este anexo se proporciona la sentencia SQL para MySQL mediante la cual se puede crear la estructura de la tabla de descarga del geoportal y de la tabla de descarga del snib.mx.</anexo2>
+    <anexo3>Tabla de equivalencias de uso de suelo y vegetación de todas las series del INEGI</anexo3>
     <creador>
       <nombre/>
       <sitioWeb/>
@@ -20,9 +21,10 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </creador>
   </metadata>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
-      <prev/>
+      <prev></prev>
       <next>paisoriginal</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -62,7 +64,8 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>municipiooriginal</prev>
       <next>latitud</next>
@@ -96,7 +99,8 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>latitud</prev>
       <next>datum</next>
@@ -116,7 +120,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </notes>
     <dataRules>
       <rule>El valor está en el intervalo de -180 a 180.</rule>
-      <rule>Cuando las coordenadas originales están en grados, minutos y segundos o en sistema UTM, se realiza una conversión a grados decimales; si se desconoce el valor de los segundos se asignan 30’’ para no sesgar el dato desconocido hacia los extremos (0 - 59).</rule>
+      <rule>Cuando las coordenadas originales están en grados, minutos y segundos, se realiza una conversión a grados decimales; si se desconoce el valor de los segundos se asignan 30’’ para no sesgar el dato desconocido hacia los extremos (0 - 59).</rule>
       <rule>Cuando las coordenadas originales están en un datum diferente a WGS84, se transforma a WGS84.</rule>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
@@ -128,21 +132,22 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <rule>Para el este del meridiano de Greenwich el dato es positivo (por ejemplo, Alemania).</rule>
       <rule>Para el oeste del meridiano de Greenwich el dato es negativo (por ejemplo, México).</rule>
     </infoRules>
-    <ejemplar>
-      <key>33bb9337b6040b8d2b5e41d1d53100a2</key>
-      <key>9197122bd76a7dc066742f9e484779b2</key>
-      <key>1e681ab0f796b63c5dd5f0f9856b5d9f</key>
-      <key>1931d37b096cc2b95139f0151908327d</key>
-    </ejemplar>
     <campos>
       <campo>longitud</campo>
       <campo>latitud</campo>
       <campo>paisoriginal</campo>
       <campo>estadooriginal</campo>
     </campos>
+    <ejemplar>
+      <key>33bb9337b6040b8d2b5e41d1d53100a2</key>
+      <key>9197122bd76a7dc066742f9e484779b2</key>
+      <key>1e681ab0f796b63c5dd5f0f9856b5d9f</key>
+      <key>1931d37b096cc2b95139f0151908327d</key>
+    </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>localidad</prev>
       <next>longitud</next>
@@ -188,7 +193,8 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>longitud</prev>
       <next>incertidumbrexy</next>
@@ -213,7 +219,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <rule>El valor vacío significa que el ejemplar no tiene coordenadas geográficas o no están disponibles.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>El dato está escrito en mayúsculas y corresponde a las siglas en inglés World Geodetic System 1984 o Sistema Geodésico Mundial 1984.</rule>
+      <rule>El dato está escrito en mayúsculas y corresponde a las siglas en inglés World Geodetic System.</rule>
     </syntaxRules>
     <ejemplar>
       <key>33bb9337b6040b8d2b5e41d1d53100a2</key>
@@ -232,10 +238,11 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Validación de la información geográfica</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
       <prev>geovalidacion</prev>
-      <next/>
+      <next>paismapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -274,7 +281,8 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Validación de la información geográfica</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
       <prev/>
       <next>validacionambiente</next>
@@ -369,7 +377,8 @@ Sin coordenadas. Sin localidad</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>region</prev>
       <next>estadooriginal</next>
@@ -406,17 +415,18 @@ Sin coordenadas. Sin localidad</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev/>
-      <next>claveestadomapa</next>
+      <prev>validacionambiente</prev>
+      <next>estadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>estadooriginal</after>
     </ordenTabla>
-    <fieldName>País asignado</fieldName>
+    <fieldName>País validado</fieldName>
     <fieldid>paismapa</fieldid>
     <dwcField>Incluido en country</dwcField>
     <description>Nombre del país donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política -incluyendo la zona económica exclusiva- utilizados para la validación geográfica realizada por la CONABIO.</description>
@@ -467,7 +477,8 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>paisoriginal</prev>
       <next>municipiooriginal</next>
@@ -485,7 +496,7 @@ un dato de país en el campo país original.</subregla></rule>
     <encoding>UTF-8</encoding>
     <notes>
       <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO</p>]]></note>
-      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en <a href="../ejemplares/descarga/" target="_blank" rel="noopener">https://www.snib.mx/ejemplares/descarga/</a></p>]]></note>
+      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
@@ -508,17 +519,18 @@ un dato de país en el campo país original.</subregla></rule>
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>claveestadomapa</prev>
-      <next>mt24claveestadomapa</next>
+      <prev>paismapa</prev>
+      <next>claveestadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>latitud</after>
     </ordenTabla>
-    <fieldName>Estado asignado</fieldName>
+    <fieldName>Estado validado</fieldName>
     <fieldid>estadomapa</fieldid>
     <dwcField>Incluido en stateProvince</dwcField>
     <description>Nombre del estado o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
@@ -542,7 +554,7 @@ un dato de país en el campo país original.</subregla></rule>
       <rule>Si el ejemplar tiene coordenada geográfica:<subregla>Se asigna el mismo estado -o división política equivalente- del campo estado original cuando la&#13;
 coordenada se ubica dentro de los límites del estado registrado para el ejemplar o a una distancia&#13;
 menor a 2 km del límite. Excepto para aquellos ejemplares de México que tienen registrado un&#13;
-estado anterior al año 2024, se asigna el estado del mapa 2024.</subregla><subregla>Se asigna el estado -o división política equivalente- donde se ubica la coordenada geográfica cuando&#13;
+estado anterior al año 2022, se asigna el estado del mapa 2022.</subregla><subregla>Se asigna el estado -o división política equivalente- donde se ubica la coordenada geográfica cuando&#13;
 está fuera, a más de 2 km, del límite del estado registrado para el ejemplar. En este caso el dato es&#13;
 diferente al del campo estado original.</subregla><subregla>No se asigna valor, si se ubican en la zona económica exclusiva del país registrado para el ejemplar,&#13;
 o en otro país o en aguas internacionales.</subregla><subregla>Se asigna el estado -o división política equivalente- donde se ubica la coordenada geográfica cuando&#13;
@@ -564,17 +576,18 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>paismapa</prev>
-      <next>estadomapa</next>
+      <prev>estadomapa</prev>
+      <next>municipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>paismapa</after>
     </ordenTabla>
-    <fieldName>Clave estatal asignada</fieldName>
+    <fieldName>Clave estado validado</fieldName>
     <fieldid>claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Clave del estado o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
@@ -616,17 +629,18 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>mt24claveestadomapa</prev>
-      <next>clavemunicipiomapa</next>
+      <prev>clavemunicipiomapa</prev>
+      <next>mt24claveestadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mt24claveestadomapa</after>
     </ordenTabla>
-    <fieldName>Estado asignado como referencia para las ubicaciones en el mar</fieldName>
+    <fieldName>Estado como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombreestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Nombre del estado costero o división política equivalente, frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
@@ -664,17 +678,18 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>estadomapa</prev>
-      <next>mt24nombreestadomapa</next>
+      <prev>mt24nombreestadomapa</prev>
+      <next>mt24nombremunicipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>claveestadomapa</after>
     </ordenTabla>
-    <fieldName>Clave estatal asignada como referencia para las ubicaciones en el mar </fieldName>
+    <fieldName>Clave estatal por ubicación en el mar </fieldName>
     <fieldid>mt24claveestadomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Clave del estado costero o división política equivalente, frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
@@ -716,7 +731,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>estadooriginal</prev>
       <next>localidad</next>
@@ -729,12 +745,12 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <fieldName>Municipio</fieldName>
     <fieldid>municipiooriginal</fieldid>
     <dwcField>Incluido en county</dwcField>
-    <description>Nombre del municipio o división política equivalente en el que el ejemplar fue recolectado u observado.</description>
+    <description>Nombre del municipio en el que el ejemplar fue recolectado u observado.</description>
     <datatype>varchar (80)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
       <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
-      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en <a href="../ejemplares/descarga/" target="_blank" rel="noopener">https://www.snib.mx/ejemplares/descarga/</a></p>]]></note>
+      <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato que no fue proporcionado en la base de datos original.</rule>
@@ -742,9 +758,6 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     <syntaxRules>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
-    <infoRules>
-      <rule>El campo puede contener valores que no corresponden a un municipio o división política equivalente.</rule>
-    </infoRules>
     <ejemplar>
       <key>bc9377c20bbc24ce985ef4c4e7b8cbbc</key>
       <key>3eff5e1231a1960f30bfbe6d32eef1f1</key>
@@ -758,17 +771,18 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>clavemunicipiomapa</prev>
-      <next>mt24clavemunicipiomapa</next>
+      <prev>claveestadomapa</prev>
+      <next>clavemunicipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
     <ordenTabla>
       <after>estadomapa</after>
     </ordenTabla>
-    <fieldName>Municipio asignado</fieldName>
+    <fieldName>Municipio valido</fieldName>
     <fieldid>municipiomapa</fieldid>
     <dwcField>Incluido en county</dwcField>
     <description>Nombre del municipio o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
@@ -809,17 +823,18 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>mt24nombreestadomapa</prev>
-      <next>municipiomapa</next>
+      <prev>municipiomapa</prev>
+      <next>mt24nombreestadomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mt24nombreestadomapa</after>
     </ordenTabla>
-    <fieldName>Clave municipal asignada</fieldName>
+    <fieldName>Clave municipio validado</fieldName>
     <fieldid>clavemunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Clave del municipio o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
@@ -863,17 +878,18 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>mt24clavemunicipiomapa</prev>
-      <next>altitudmapa</next>
+      <prev>mt24claveestadomapa</prev>
+      <next>mt24clavemunicipiomapa</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>mt24clavemunicipiomapa</after>
     </ordenTabla>
-    <fieldName>Municipio asignado como referencia para las ubicaciones en el mar</fieldName>
+    <fieldName>Municipio como referencia para las ubicaciones en el mar</fieldName>
     <fieldid>mt24nombremunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Nombre del municipio o división política equivalente frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
@@ -909,17 +925,18 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Validación geográfica</subcategory>
     <orden>
-      <prev>municipiomapa</prev>
-      <next>mt24nombremunicipiomapa</next>
+      <prev>mt24nombremunicipiomapa</prev>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
     <ordenTabla>
       <after>clavemunicipiomapa</after>
     </ordenTabla>
-    <fieldName>Clave municipal asignada como referencia para las ubicaciones en el mar  </fieldName>
+    <fieldName>Clave municipal por ubicación en el mar </fieldName>
     <fieldid>mt24clavemunicipiomapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
     <description>Clave del municipio o división política equivalente frente al cual se extiende la franja de 24 millas náuticas (12 de mar territorial y 12 de la zona contigua), y que se asigna como referencia de ubicación de la coordenada geográfica registrada para el ejemplar.</description>
@@ -963,7 +980,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica del ejemplar</category>
+    <category>Información geográfica</category>
+    <subcategory>Geografía original</subcategory>
     <orden>
       <prev>datum</prev>
       <next/>
@@ -982,11 +1000,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
       <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n de la incertidumbre del m&eacute;todo punto-radio, v&eacute;ase:&nbsp;</p>
 <p>CONABIO. 2008. Georreferenciaci&oacute;n de localidades de Colecciones Biol&oacute;gicas. Manual de Procedimientos. M&eacute;xico. 177 p&aacute;gs.</p>
-<p>URL: <a href="http://www.conabio.gob.mx/informacion/geo_espanol/doctos/Manual%20Georref_Vr1.pdf" target="_blank" rel="noopener">http://www.conabio.gob.mx/informacion/geo_espanol/doctos/Manual%20Georref_Vr1.pdf</a></p>
+<p>URL: <a href="http://www.conabio.gob.mx/informacion/geo_espanol/doctos/Manual%20Georref_Vr1.pdf">http://www.conabio.gob.mx/informacion/geo_espanol/doctos/Manual%20Georref_Vr1.pdf</a></p>
 <p>CONABIO. 2021. Gu&iacute;a de georreferenciaci&oacute;n de localidades de colecciones biol&oacute;gicas. M&eacute;xico. 51 p&aacute;gs.</p>
-<p>URL: <a href="https://www.biodiversidad.gob.mx/media/1/conabio/documentos/proyectos/guia_georreferenciacion_2021_WEBc.pdf" target="_blank" rel="noopener">https://www.biodiversidad.gob.mx/media/1/conabio/documentos/proyectos/guia_georreferenciacion_2021_WEBc.pdf</a></p>
+<p>URL: <a href="https://www.biodiversidad.gob.mx/media/1/conabio/documentos/proyectos/guia_georreferenciacion_2021_WEBc.pdf">https://www.biodiversidad.gob.mx/media/1/conabio/documentos/proyectos/guia_georreferenciacion_2021_WEBc.pdf</a></p>
 <p>Wieczorek, J. Q Guo and Hijmans. R.J. (2004). The point-radius method for georeferencing locality descriptions and calculating associated uncertainty. International Journal of Geographical Information Science. Vol. 18, no. 8.</p>
-<p>URL: <a href="https://www.tandfonline.com/doi/abs/10.1080/13658810412331280211" target="_blank" rel="noopener">https://www.tandfonline.com/doi/abs/10.1080/13658810412331280211</a></p>]]></note>
+<p>URL: https://www.tandfonline.com/doi/abs/10.1080/13658810412331280211</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor nulo significa que no se tiene el dato de la incertidumbre o no tiene coordenadas geográficas.</rule>
@@ -1006,9 +1024,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
-      <prev>mt24nombremunicipiomapa</prev>
+      <prev/>
       <next>anp</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -1045,9 +1064,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
-      <prev>cuencahidrograficamapa</prev>
+      <prev>regionmarinamapa</prev>
       <next>usvserieII</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -1092,7 +1112,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieI</prev>
       <next>usvserieIII</next>
@@ -1140,7 +1161,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieII</prev>
       <next>usvserieIV</next>
@@ -1189,7 +1211,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieIII</prev>
       <next>usvserieV</next>
@@ -1239,7 +1262,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieIV</prev>
       <next>usvserieVI</next>
@@ -1290,7 +1314,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieV</prev>
       <next>usvserieVII</next>
@@ -1342,7 +1367,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieVI</prev>
       <next>vegetacionserenanalcms</next>
@@ -1393,10 +1419,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>usvserieVII</prev>
-      <next>regionmarinamapa</next>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -1435,7 +1462,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>altitudmapa</prev>
       <next>cuencahidrograficamapa</next>
@@ -1490,10 +1518,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
-      <prev>vegetacionserenanalcms</prev>
-      <next>ecorregionterrestremapa</next>
+      <prev>ecorregionterrestremapa</prev>
+      <next>usvserieI</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1531,10 +1560,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
-      <prev>regionmarinamapa</prev>
-      <next/>
+      <prev>cuencahidrograficamapa</prev>
+      <next>regionmarinamapa</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1576,10 +1606,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Información geográfica por ubicación de la coordenada</category>
+    <category>Información geográfica</category>
+    <subcategory>Información descriptiva complementaria</subcategory>
     <orden>
       <prev>anp</prev>
-      <next>usvserieI</next>
+      <next>ecorregionterrestremapa</next>
     </orden>
     <downloadGeoportal>false</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1622,7 +1653,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>taxonvalidado</prev>
       <next>subgrupobio</next>
@@ -1672,10 +1704,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>grupobio</prev>
-      <next>idnombrecat</next>
+      <next>reinovalido</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -1714,7 +1747,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>idnombrecat</prev>
       <next>phylumdivision</next>
@@ -1754,7 +1788,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>reino</prev>
       <next>clase</next>
@@ -1799,7 +1834,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>phylumdivision</prev>
       <next>orden</next>
@@ -1849,7 +1885,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>clase</prev>
       <next>familia</next>
@@ -1899,7 +1936,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>orden</prev>
       <next>genero</next>
@@ -1949,7 +1987,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>familia</prev>
       <next>especie</next>
@@ -1998,7 +2037,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>genero</prev>
       <next>calificadordeterminacion</next>
@@ -2042,7 +2082,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>calificadordeterminacion</prev>
       <next>categoriainfraespecie2</next>
@@ -2076,7 +2117,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>categoriainfraespecie</prev>
       <next>autor</next>
@@ -2112,7 +2154,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>categoriainfraespecie2</prev>
       <next>estatustax</next>
@@ -2144,7 +2187,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>autor</prev>
       <next>reftax</next>
@@ -2184,7 +2228,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía original</subcategory>
     <orden>
       <prev>estatustax</prev>
       <next>idnombrecatvalido</next>
@@ -2220,9 +2265,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev>idnombrecatvalido</prev>
+      <prev>subgrupobio</prev>
       <next>phylumdivisionvalido</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2256,7 +2302,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>reinovalido</prev>
       <next>clasevalida</next>
@@ -2296,7 +2343,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>phylumdivisionvalido</prev>
       <next>ordenvalido</next>
@@ -2340,7 +2388,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>clasevalida</prev>
       <next>familiavalida</next>
@@ -2384,7 +2433,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>ordenvalido</prev>
       <next>generovalido</next>
@@ -2428,7 +2478,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>familiavalida</prev>
       <next>especievalida</next>
@@ -2470,7 +2521,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>generovalido</prev>
       <next>categoriainfraespecievalida</next>
@@ -2516,7 +2568,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>especievalida</prev>
       <next>categoriainfraespecie2valida</next>
@@ -2552,7 +2605,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>categoriainfraespecievalida</prev>
       <next>autorvalido</next>
@@ -2584,7 +2638,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>categoriainfraespecie2valida</prev>
       <next>reftaxvalido</next>
@@ -2632,10 +2687,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev>autorvalido</prev>
-      <next/>
+      <next>nombrecomun</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2669,7 +2725,8 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
       <prev/>
       <next>grupobio</next>
@@ -2703,9 +2760,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
-      <prev>taxonextinto</prev>
+      <prev>ambiente</prev>
       <next>exoticainvasora</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2744,10 +2801,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
-      <prev>nombrecomun</prev>
-      <next>endemismo</next>
+      <prev>categoriaresidenciaaves</prev>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2780,10 +2837,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
-      <prev>exoticainvasora</prev>
-      <next>formadecrecimiento</next>
+      <prev/>
+      <next>endemismo</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2817,10 +2874,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev/>
-      <next>taxonextinto</next>
+      <prev>reftaxvalido</prev>
+      <next>idnombrecat</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2855,10 +2913,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev>subgrupobio</prev>
-      <next>reino</next>
+      <prev>nombrecomun</prev>
+      <next>idnombrecatvalido</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2883,10 +2942,11 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Información taxonómica</category>
+    <subcategory>Taxonomía válida</subcategory>
     <orden>
-      <prev>reftax</prev>
-      <next>reinovalido</next>
+      <prev>idnombrecat</prev>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -2911,9 +2971,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
-      <prev>ambiente</prev>
+      <prev>exoticainvasora</prev>
       <next>categoriaresidenciaaves</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
@@ -2966,7 +3026,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>cites</prev>
       <next>nivelprioridad</next>
@@ -3008,7 +3068,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>prioritaria</prev>
       <next>iucn</next>
@@ -3048,10 +3108,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>endemismo</prev>
-      <next>ambiente</next>
+      <next>formadecrecimiento</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3089,7 +3149,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev/>
       <next>cites</next>
@@ -3126,7 +3186,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>nom059</prev>
       <next>prioritaria</next>
@@ -3164,7 +3224,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Estatus de conservación y riesgo</category>
+    <category>Categoría de protección</category>
     <orden>
       <prev>nivelprioridad</prev>
       <next/>
@@ -3204,7 +3264,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Atributos biológicos y ecológicos</category>
+    <category>Origen, distribución, rasgos funcionales</category>
     <orden>
       <prev>formadecrecimiento</prev>
       <next/>
@@ -3243,10 +3303,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Datos del ejemplar/observación</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>coleccion</prev>
-      <next>institucion</next>
+      <prev/>
+      <next>formadecitar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -3670,7 +3730,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Taxonomía</category>
+    <category>Datos del ejemplar/observación</category>
     <orden>
       <prev>especie</prev>
       <next>categoriainfraespecie</next>
@@ -3979,10 +4039,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev>geoportal</prev>
-      <next>urlejemplar</next>
+      <next>fuente</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4010,10 +4070,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>urlejemplar</prev>
-      <next>licenciauso</next>
+      <prev>proyecto</prev>
+      <next>urlejemplar</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4042,10 +4102,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>licenciauso</prev>
-      <next>urlproyecto</next>
+      <prev>obsusoinfo</prev>
+      <next>licenciauso</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4069,10 +4129,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>fuente</prev>
-      <next>formadecitar</next>
+      <prev>formadecitar</prev>
+      <next>version</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4116,10 +4176,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>formadecitar</prev>
-      <next>version</next>
+      <prev>urlorigen</prev>
+      <next/>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4145,10 +4205,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>version</prev>
-      <next>ultimafechaactualizacion</next>
+      <prev>urlejemplar</prev>
+      <next>urlproyecto</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4171,10 +4231,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>proyecto</prev>
-      <next>fuente</next>
+      <prev>fuente</prev>
+      <next>urlorigen</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>false</downloadSnib>
@@ -4200,7 +4260,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
       <prev/>
       <next>proyecto</next>
@@ -4236,10 +4296,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </campos>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>urlorigen</prev>
-      <next/>
+      <prev>version</prev>
+      <next>geoportal</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
@@ -4267,10 +4327,10 @@ el ejemplar no tiene registrado un dato de estado en el campo estado original.</
     </ejemplar>
   </snibTerm>
   <snibTerm>
-    <category>Otros</category>
+    <category>Datos del recurso</category>
     <orden>
-      <prev>urlproyecto</prev>
-      <next>urlorigen</next>
+      <prev>licenciauso</prev>
+      <next>ultimafechaactualizacion</next>
     </orden>
     <downloadGeoportal>true</downloadGeoportal>
     <downloadSnib>true</downloadSnib>
