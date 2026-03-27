@@ -1093,7 +1093,7 @@ o en otro país o en aguas internacionales.</subregla></rule>
     </dataRules>
     <infoRules>
       <rule>El valor solo existe para el país México.</rule>
-      <rule>Para obtener un agrupado de los usos de suelo y vegetación ver el Anexo 3 y relacionar el campo  campo despeveg con usvserieI.&#13;
+      <rule>Para obtener un agrupado de los usos de suelo y vegetación "despecov", ver el Anexo 3 y relacionar el campo despeveg con usvserieI.&#13;
 &#13;
 https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
     </infoRules>
