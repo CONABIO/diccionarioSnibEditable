@@ -1539,9 +1539,9 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre las regiones marinas v&eacute;ase:&nbsp;</p>
 <p>&nbsp;</p>
-<p>CONABIO. 2017. Regiones marinas, modificado para el geoportal del SNIB. escala 1:250 000. edici&oacute;n: 1.<br>Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico.</p>
+<p>CONABIO. 2017. Regiones marinas, modificado para el geoportal del SNIB. escala 1:250 000. edici&oacute;n: 1. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Ciudad de M&eacute;xico, M&eacute;xico. ( en geoportal secci&oacute;n "Filtrar y Seleccionar")&nbsp;</p>
 <p>&nbsp;</p>]]></note>
-      <note><![CDATA[<p>Campo disponible solo en la descarga de ejemplares del SNIB MX en https://www.snib.mx/ejemplares/descarga/</p>]]></note>
+      <note><![CDATA[<p>Campo disponible solo en la descarga de ejemplares del SNIB MX en &nbsp; <a href="../ejemplares/descarga/" target="_blank" rel="noopener">https://www.snib.mx/ejemplares/descarga/</a></p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que las coordenadas de los ejemplares no se ubican en alguna región marina dentro de la zona económica exclusiva de México, Centroamérica, Colombia, El Caribe, Estados Unidos de América, o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
