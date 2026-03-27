@@ -1086,7 +1086,7 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre el uso de suelo y vegetaci&oacute;n serie I v&eacute;ase:</p>
 <p>INE - INEGI. 1997. Uso del suelo y vegetaci&oacute;n (INEGI-INE), serie I. Escala 1:250000. Instituto Nacional de Ecolog&iacute;a - Direcci&oacute;n de Ordenamiento Ecol&oacute;gico General e Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica. Digitalizaci&oacute;n de las cartas de uso del suelo y vegetaci&oacute;n elaboradas por INEGI entre los a&ntilde;os 1980-1991 con base en fotograf&iacute;as a&eacute;reas de 1968-1986. M&eacute;xico D. F.</p>
-<p>URL: http://geoportal.conabio.gob.mx/#!l=usv250kcs1agw:1@m=mixto</p>]]></note>
+<p>URL: &nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=usv250kcs1agw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=usv250kcs1agw:1@m=mixto</a></p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso del suelo y vegetación serie I del INE-INEGI.</rule>
@@ -1107,9 +1107,9 @@ el ejemplar no tiene registrado un dato de estado en el campo estado (ID: estado
       <key>6dbd78b34523f0ffff46a4244fb7889f</key>
     </ejemplar>
     <campos>
-      <campo>usvserieI</campo>
       <campo>longitud</campo>
       <campo>latitud</campo>
+      <campo>usvserieI</campo>
     </campos>
   </snibTerm>
   <snibTerm>
