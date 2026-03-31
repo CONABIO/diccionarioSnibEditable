@@ -3460,12 +3460,12 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
       <key>000189c5a7c7885a7bdac3a0607eb326</key>
       <key>0002ad4c106987e3da98b530c2a52ce0</key>
       <key>05a26f5257b3c726632cab3064717901</key>
-      <key>029f4078bd9915fbfefbfddf9d3c9b37</key>
+      <key>13bc52e1e99c31afbc10f87671304e5f</key>
     </ejemplar>
     <campos>
-      <campo>paiscoleccion</campo>
       <campo>coleccion</campo>
       <campo>institucion</campo>
+      <campo>paiscoleccion</campo>
     </campos>
   </snibTerm>
   <snibTerm>
