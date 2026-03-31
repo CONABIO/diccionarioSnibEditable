@@ -3113,8 +3113,8 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
     </ejemplar>
     <campos>
       <campo>especievalida</campo>
-      <campo>prioritaria</campo>
       <campo>nivelprioridad</campo>
+      <campo>prioritaria</campo>
     </campos>
   </snibTerm>
   <snibTerm>
