@@ -3135,9 +3135,14 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>&lt;p&gt;Para m&amp;aacute;s informaci&amp;oacute;n acerca de la lista de especies invasoras y ex&amp;oacute;ticas invasoras v&amp;eacute;ase:&lt;/p&gt;
-&lt;p&gt;CONABIO. 2023. Sistema de informaci&amp;oacute;n sobre especies invasoras&amp;nbsp; &lt;a href="https://www.biodiversidad.gob.mx/especies/Invasoras"&gt;https://www.biodiversidad.gob.mx/especies/Invasoras&lt;/a&gt;.Comisi&amp;oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Comisi&amp;oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Cd. de M&amp;eacute;xico.&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;</note>
+      <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n acerca de la lista de especies invasoras y ex&oacute;ticas invasoras v&eacute;ase:</p>
+<div class="OutlineElement Ltr SCXW157004091 BCX0">
+<p class="Paragraph SCXW157004091 BCX0"><span class="TextRun SCXW157004091 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW157004091 BCX0">CONABIO. 20</span><span class="NormalTextRun SCXW157004091 BCX0">2</span><span class="NormalTextRun SCXW157004091 BCX0">5</span><span class="NormalTextRun SCXW157004091 BCX0">.&nbsp;</span><span class="NormalTextRun SCXW157004091 BCX0">I</span><span class="NormalTextRun SCXW157004091 BCX0">nformaci&oacute;n sobre&nbsp;</span><span class="NormalTextRun SCXW157004091 BCX0">E</span><span class="NormalTextRun SCXW157004091 BCX0">species&nbsp;</span><span class="NormalTextRun SCXW157004091 BCX0">I</span><span class="NormalTextRun SCXW157004091 BCX0">nvasoras&nbsp;</span><span class="NormalTextRun SCXW157004091 BCX0">&nbsp;en el Sistema Nacional de Informaci&oacute;n sobre Biodiversidad</span><span class="NormalTextRun SCXW157004091 BCX0">. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. Comisi&oacute;n Nacional para el Conocimiento y Uso de la Biodiversidad. M&eacute;xico</span><span class="NormalTextRun SCXW157004091 BCX0">.</span><span class="NormalTextRun SCXW157004091 BCX0">&nbsp;</span><span class="NormalTextRun SCXW157004091 BCX0">&nbsp;</span></span><span class="EOP SCXW157004091 BCX0" data-ccp-props="{&quot;335551550&quot;:6,&quot;335551620&quot;:6,&quot;335559739&quot;:0}">&nbsp;</span></p>
+</div>
+<div class="OutlineElement Ltr SCXW157004091 BCX0">
+<p class="Paragraph SCXW157004091 BCX0"><span class="TextRun SCXW157004091 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW157004091 BCX0">URL:</span><span class="NormalTextRun SCXW157004091 BCX0">&nbsp;</span></span><a href="http://www.biodiversidad.gob.mx/invasoras" target="_blank" rel="noreferrer noopener"><span class="TextRun Underlined SCXW157004091 BCX0" lang="ES-MX" xml:lang="ES-MX" data-contrast="auto"><span class="NormalTextRun SCXW157004091 BCX0">http://www.biodiversidad.gob.mx/invasoras</span></span></a><span class="EOP SCXW157004091 BCX0" data-ccp-props="{&quot;469777462&quot;:[6165],&quot;469777927&quot;:[0],&quot;469777928&quot;:[1]}">&nbsp;</span></p>
+</div>
+<p>&nbsp;</p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por:<subregla>Exótica</subregla><subregla>Exótica-Invasora</subregla><subregla>Criptogénica</subregla><subregla>Criptogénica-Invasora</subregla></rule>
