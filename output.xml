@@ -3455,13 +3455,13 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
     </syntaxRules>
     <ejemplar>
       <key>000b6dadf1d989dee83e953af57055a4</key>
-      <key>000189c5a7c7885a7bdac3a0607eb326</key>
+      <key>14efa16da49d2f6b9964ee05d04e1f25</key>
       <key>05a26f5257b3c726632cab3064717901</key>
       <key>13bc52e1e99c31afbc10f87671304e5f</key>
     </ejemplar>
     <campos>
-      <campo>paiscoleccion</campo>
       <campo>coleccion</campo>
+      <campo>paiscoleccion</campo>
       <campo>procedenciaejemplar</campo>
     </campos>
   </snibTerm>
