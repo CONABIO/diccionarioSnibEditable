@@ -3463,8 +3463,9 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
       <key>13bc52e1e99c31afbc10f87671304e5f</key>
     </ejemplar>
     <campos>
-      <campo>paiscoleccion</campo>
       <campo>coleccion</campo>
+      <campo>paiscoleccion</campo>
+      <campo>procedenciaejemplar</campo>
     </campos>
   </snibTerm>
   <snibTerm>
