@@ -3402,16 +3402,11 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>Se escriben las siglas de la institución y el nombre de la institución, separadas por un espacio.</rule>
-      <rule>El dato se estandariza como está registrado en el catálogo de instituciones y colecciones de la CONABIO.</rule>
+      <rule>Se escriben las siglas y el nombre de la institución separadas por un espacio.</rule>
     </syntaxRules>
-    <infoRules>
-      <rule>El valor NO APLICA significa que el dato no es aplicable para el registro, ya que se trata de un ejemplar que está resguardado en una colección privada o la colección no está asociada con alguna institución.</rule>
-    </infoRules>
     <ejemplar>
       <key>0014b0693bc686d93bf5ad55bfdee7ce</key>
       <key>0024074001db941d06dba433fb36622d</key>
@@ -3420,8 +3415,8 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
       <key>0047cd54938c470c7243581a3545bd18</key>
     </ejemplar>
     <campos>
-      <campo>institucion</campo>
       <campo>coleccion</campo>
+      <campo>institucion</campo>
       <campo>procedenciaejemplar</campo>
     </campos>
   </snibTerm>
