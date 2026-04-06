@@ -187,10 +187,10 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <key>1931d37b096cc2b95139f0151908327d</key>
     </ejemplar>
     <campos>
-      <campo>latitud</campo>
       <campo>longitud</campo>
-      <campo>paisoriginal</campo>
+      <campo>latitud</campo>
       <campo>estadooriginal</campo>
+      <campo>estadomapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
