@@ -503,8 +503,8 @@ límite, del país registrado para el ejemplar. En este caso el dato es diferent
       <key>81aa987c65ef7c873df11f2b7c8ed8a0</key>
     </ejemplar>
     <campos>
-      <campo>paisoriginal</campo>
       <campo>estadooriginal</campo>
+      <campo>paisoriginal</campo>
     </campos>
   </snibTerm>
   <snibTerm>
