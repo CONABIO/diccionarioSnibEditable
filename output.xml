@@ -1020,9 +1020,9 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <key>2b6d826d90b42301b09b643509113b2e</key>
     </ejemplar>
     <campos>
+      <campo>incertidumbreXY</campo>
       <campo>longitud</campo>
       <campo>latitud</campo>
-      <campo>incertidumbreXY</campo>
     </campos>
   </snibTerm>
   <snibTerm>
