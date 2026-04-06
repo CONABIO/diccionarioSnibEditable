@@ -748,15 +748,14 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
     <ejemplar>
-      <key>bc9377c20bbc24ce985ef4c4e7b8cbbc</key>
-      <key>3eff5e1231a1960f30bfbe6d32eef1f1</key>
       <key>026aecd38043e4d00effbb98365cadf8</key>
       <key>81aa987c65ef7c873df11f2b7c8ed8a0</key>
+      <key>3eff5e1231a1960f30bfbe6d32eef1f1</key>
     </ejemplar>
     <campos>
-      <campo>paisoriginal</campo>
-      <campo>estadooriginal</campo>
       <campo>municipiooriginal</campo>
+      <campo>estadooriginal</campo>
+      <campo>paisoriginal</campo>
     </campos>
   </snibTerm>
   <snibTerm>
