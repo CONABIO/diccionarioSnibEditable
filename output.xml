@@ -3402,6 +3402,7 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
     <datatype>varchar (255)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
+      <rule>Los valores se estandarizan con el catálogo de colecciones e instituciones de la CONABIO.</rule>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
     <syntaxRules>
