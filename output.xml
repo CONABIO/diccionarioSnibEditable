@@ -3367,19 +3367,14 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
     <datatype>varchar (150)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor NO DISPONIBLE significa que el dato se desconoce.</rule>
+      <rule>Los valores se estandarizan de acuerdo con el catálogo de colecciones e instituciones de la CONABIO.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Se escriben las siglas y el nombre de la colección  separadas por un espacio.</rule>
-      <rule>Los valores se estandarizan de acuerdo con el catálogo de colecciones e instituciones de la CONABIO.</rule>
     </syntaxRules>
-    <infoRules>
-      <rule>El valor NO APLICA significa que el dato no es aplicable para el registro, ya que se trata de un ejemplar con procedencia observado o que no está resguardado en alguna colección.</rule>
-    </infoRules>
     <ejemplar>
       <key>01556c193c911035a63aaeca05f0e953</key>
       <key>000143b94829f4d66a1ce59fe5241868</key>
-      <key>0007d95ecec39083d8f50bf6474530be</key>
       <key>23402a66acef5221225c450c9f2e46d2</key>
       <key>6199aeca6523f586eaa06247f67537ca</key>
     </ejemplar>
