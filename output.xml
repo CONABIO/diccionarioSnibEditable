@@ -3488,6 +3488,7 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
       <campo>numcatalogo</campo>
       <campo>grupobio</campo>
       <campo>especievalida</campo>
+      <campo>procedenciaejemplar</campo>
     </campos>
   </snibTerm>
   <snibTerm>
