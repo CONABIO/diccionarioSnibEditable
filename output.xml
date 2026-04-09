@@ -1735,9 +1735,9 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
       <key>f71f50427d9147c893e4b8e6c1ddc3b4</key>
     </ejemplar>
     <campos>
-      <campo>grupobio</campo>
       <campo>subgrupobio</campo>
-      <campo>nombrevalidocatscat</campo>
+      <campo>grupobio</campo>
+      <campo>especievalida</campo>
     </campos>
   </snibTerm>
   <snibTerm>
