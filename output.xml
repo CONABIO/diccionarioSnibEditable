@@ -4079,6 +4079,7 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
     </ejemplar>
     <campos>
       <campo>fuente</campo>
+      <campo>proyecto</campo>
       <campo>formadecitar</campo>
     </campos>
   </snibTerm>
