@@ -3311,7 +3311,7 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
     <datatype>varchar (512)</datatype>
     <encoding>UTF-8</encoding>
     <dataRules>
-      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
+      <rule>El valor vacío significa que no existen inconsistencias detectadas.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Las observaciones se separan con punto y un espacio.</rule>
