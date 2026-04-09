@@ -999,8 +999,8 @@ o en otro país o en aguas internacionales.</subregla></rule>
     </ejemplar>
     <campos>
       <campo>incertidumbreXY</campo>
-      <campo>longitud</campo>
       <campo>latitud</campo>
+      <campo>longitud</campo>
       <campo>paisoriginal</campo>
     </campos>
   </snibTerm>
