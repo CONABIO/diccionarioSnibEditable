@@ -3525,7 +3525,8 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por:<subregla>HumanObservation</subregla><subregla>PreservedSpecimen</subregla><subregla>FossilSpecimen</subregla><subregla>MaterialCitation</subregla><subregla>Occurrence</subregla><subregla>MaterialSample</subregla><subregla>MachineObservation</subregla><subregla>LivingSpecimen</subregla><subregla>MaterialEntity</subregla></rule>
-      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.<subregla>Observado = HumanObservation</subregla><subregla>Colectado = PreservedSpecimen</subregla><subregla>Reportado = MaterialCitation</subregla></rule>
+      <rule>.....<subregla>Observado = HumanObservation</subregla><subregla>Colectado = PreservedSpecimen</subregla><subregla>Reportado = MaterialCitation</subregla></rule>
+      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
     <ejemplar>
       <key>4cddc58e6f8db7045d66194052e3a980</key>
