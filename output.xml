@@ -3738,8 +3738,8 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
       <key>498e5d597bc941694e47d1e8c8f4401b</key>
     </ejemplar>
     <campos>
-      <campo>especie</campo>
       <campo>calificadordeterminacion</campo>
+      <campo>especievalida</campo>
     </campos>
   </snibTerm>
   <snibTerm>
