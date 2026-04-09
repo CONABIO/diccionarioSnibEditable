@@ -989,7 +989,7 @@ o en otro país o en aguas internacionales.</subregla></rule>
 <p>URL: <a href="https://www.tandfonline.com/doi/abs/10.1080/13658810412331280211" target="_blank" rel="noopener">https://www.tandfonline.com/doi/abs/10.1080/13658810412331280211</a></p>]]></note>
     </notes>
     <dataRules>
-      <rule>El valor nulo significa que no se tiene el dato de la incertidumbre o no tiene coordenadas geográficas.</rule>
+      <rule>El valor vacío significa que no se tiene el dato de la incertidumbre o no tiene coordenadas geográficas.</rule>
       <rule>El valor proviene de:<subregla>Las coordenadas originales que tienen un valor de incertidumbre.</subregla><subregla>El cálculo basado en el método punto-radio usado en la georreferenciación de localidades en la CONABIO.</subregla><subregla>Asignado por la CONABIO en el caso de desconocimiento del DATUM original o para las coordenadas generalizadas (sólo para ejemplares de México).</subregla></rule>
     </dataRules>
     <ejemplar>
