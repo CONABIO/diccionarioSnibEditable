@@ -1508,20 +1508,19 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
       <rule>El valor se conforma por la jurisdicción del ANP “Internacional“, “International”, “Nacional“, “National”, “Federal“, “Estatal”, “Regional“, “Municipal”, ”Estatal y Municipal”, “Ejidal”, “Privado” y “Comunitaria“, seguido de comilla  angular derecha y un espacio “» ”, después la categoría de manejo, seguido de comilla angular simple de cierre y un espacio “› ”, posteriormente el nombre y al final se puede presentar la distancia a la ANP más cercana.</rule>
       <rule>Cuando la coordenada registrada para el ejemplar se ubica en más de un ANP  se concatena aplicando la regla 1 separando cada ANP con un pipe  “|” con un espacio antes y después.</rule>
       <rule>Se incluye entre llaves “{ }” la distancia en kilómetros a la que se encuentra la coordenada de la ANP.</rule>
-      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
+      <rule>Como parte del nombre de las ANP se pueden encontrar los siguientes caracteres especiales (),-&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;./–"[]'\_´ ̃ ̃:@#+?*!% ; `</rule>
       <rule>Las ANP que se comparten en más de un país se diferencian en el nombre por la abreviación del país alfa-2 de la ISO 3166.</rule>
     </syntaxRules>
     <ejemplar>
-      <key>3b2fcf40b7fbdb88abc78cb3da89388a</key>
-      <key>94b054c1af9083bf771df95fdd9b5dd1</key>
-      <key>09f933df3498699b921e0d63273bf1bd</key>
-      <key>db310bccaf9ab8c125b755b2d13761e9</key>
       <key>51212213e6a86c3aba53df6ffc9f7750</key>
+      <key>09f933df3498699b921e0d63273bf1bd</key>
+      <key>94b054c1af9083bf771df95fdd9b5dd1</key>
     </ejemplar>
     <campos>
-      <campo>longitud</campo>
-      <campo>latitud</campo>
       <campo>anp</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
+      <campo>paismapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
