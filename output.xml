@@ -555,6 +555,7 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <campo>paismapa</campo>
       <campo>latitud</campo>
       <campo>longitud</campo>
+      <campo>region</campo>
     </campos>
   </snibTerm>
   <snibTerm>
