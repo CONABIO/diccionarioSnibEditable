@@ -608,6 +608,8 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <campo>paismapa</campo>
       <campo>claveestadomapa</campo>
       <campo>estadomapa</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
     </campos>
   </snibTerm>
   <snibTerm>
