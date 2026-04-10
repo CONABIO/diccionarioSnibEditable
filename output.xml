@@ -1651,14 +1651,15 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
       <rule>El valor solo existe para el país México.</rule>
     </infoRules>
     <ejemplar>
-      <key>51212213e6a86c3aba53df6ffc9f7750</key>
       <key>6c650786a59c81a8bdeb97efbf3403a1</key>
+      <key>cc4e5a38f7e3856e34195bdc98250823</key>
       <key>0dae4e0c03c01615135d15bdba1b522c</key>
     </ejemplar>
     <campos>
-      <campo>longitud</campo>
-      <campo>latitud</campo>
       <campo>cuencahidrograficamapa</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
+      <campo>paismapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
