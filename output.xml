@@ -551,9 +551,8 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <key>94b054c1af9083bf771df95fdd9b5dd1</key>
     </ejemplar>
     <campos>
-      <campo>paismapa</campo>
-      <campo>claveestadomapa</campo>
       <campo>estadomapa</campo>
+      <campo>paismapa</campo>
       <campo>latitud</campo>
       <campo>longitud</campo>
     </campos>
