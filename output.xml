@@ -1061,6 +1061,7 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <campo>altitudmapa</campo>
       <campo>latitud</campo>
       <campo>longitud</campo>
+      <campo>paismapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
