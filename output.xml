@@ -1557,15 +1557,15 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
       <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
     </syntaxRules>
     <ejemplar>
+      <key>6c650786a59c81a8bdeb97efbf3403a1</key>
       <key>27c125c8191ba77847a9aec0d6280a84</key>
-      <key>989c0780beba678b063431aa1ee21804</key>
-      <key>15e09329471e2febb64741ce4a6a6b40</key>
+      <key>0dae4e0c03c01615135d15bdba1b522c</key>
     </ejemplar>
     <campos>
-      <campo>longitud</campo>
-      <campo>latitud</campo>
-      <campo>paismapa</campo>
       <campo>regionmarinamapa</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
+      <campo>paismapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
