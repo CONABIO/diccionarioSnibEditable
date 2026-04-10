@@ -457,6 +457,7 @@ límite, del país registrado para el ejemplar. En este caso el dato es diferent
       <campo>latitud</campo>
       <campo>longitud</campo>
       <campo>region</campo>
+      <campo>geovalidacion</campo>
     </campos>
   </snibTerm>
   <snibTerm>
