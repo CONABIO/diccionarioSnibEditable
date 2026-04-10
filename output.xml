@@ -453,10 +453,10 @@ límite, del país registrado para el ejemplar. En este caso el dato es diferent
       <key>94b054c1af9083bf771df95fdd9b5dd1</key>
     </ejemplar>
     <campos>
-      <campo>region</campo>
       <campo>paismapa</campo>
       <campo>latitud</campo>
       <campo>longitud</campo>
+      <campo>region</campo>
     </campos>
   </snibTerm>
   <snibTerm>
