@@ -4008,9 +4008,9 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original o que no se tiene la certeza de que el ejemplar corresponde a un fósil.</rule>
     </dataRules>
     <ejemplar>
-      <key>0cc02bfa3b68b5cf5628ef5e73d8145d</key>
       <key>08f6efb5860eb984ca17ac7ca645ec7b</key>
       <key>2636046156d53cfdcf37b2e9c194d13c</key>
+      <key>a26f65ec25d2fb55ad32a0cdcbd2fdc8</key>
     </ejemplar>
     <campos>
       <campo>ejemplarfosil</campo>
