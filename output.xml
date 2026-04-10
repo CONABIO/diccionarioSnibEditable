@@ -656,9 +656,13 @@ o en otro país o en aguas internacionales.</subregla></rule>
       <key>cc4e5a38f7e3856e34195bdc98250823</key>
     </ejemplar>
     <campos>
-      <campo>paismapa</campo>
-      <campo>mt24claveestadomapa</campo>
       <campo>mt24nombreestadomapa</campo>
+      <campo>estadomapa</campo>
+      <campo>municipiomapa</campo>
+      <campo>paismapa</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
+      <campo>region</campo>
     </campos>
   </snibTerm>
   <snibTerm>
