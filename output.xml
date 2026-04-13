@@ -1449,10 +1449,10 @@ https://www.snib.mx/editaDiccionario/index.php#anexo-3</rule>
       <key>6b741face88c34faa8b60a99ffccdf53</key>
     </ejemplar>
     <campos>
-      <campo>longitud</campo>
-      <campo>latitud</campo>
-      <campo>paismapa</campo>
       <campo>vegetacionserenanalcms</campo>
+      <campo>latitud</campo>
+      <campo>longitud</campo>
+      <campo>paismapa</campo>
     </campos>
   </snibTerm>
   <snibTerm>
