@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <snibDictionary>
   <metadata>
-    <titulo>Información de especímenes publicados en el Sistema Nacional de Información sobre Biodiversidad (SNIB) y en el Geoportal de la CONABIO.</titulo>
+    <titulo>Información de registros de presencia de especies, publicados en el Sistema Nacional de Información sobre Biodiversidad (SNIB) y en el Geoportal de la CONABIO.</titulo>
     <ultimaFechaActualizacion>2026-01-27</ultimaFechaActualizacion>
     <version>2025-12</version>
     <abstracto>El Sistema Nacional de Información sobre Biodiversidad (SNIB), a través del geoportal de CONABIO http://www.conabio.gob.mx/informacion/gis/ y su propia página web https://snib.mx/ , proporciona acceso abierto a datos sobre ejemplares biológicos provenientes de proyectos financiados, desarrollados o integrados por la CONABIO. &#13;
@@ -16,9 +16,9 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
     <anexo3>Tabla que contiene todos los usos de suelo y vegetación de las series del INEGI (usvserieI a usvserieVII) para obtener un agrupado de los usos de suelo y vegetación. &#13;
  </anexo3>
     <creador>
-      <nombre/>
-      <sitioWeb/>
-      <portalSNIB/>
+      <nombre></nombre>
+      <sitioWeb></sitioWeb>
+      <portalSNIB></portalSNIB>
     </creador>
   </metadata>
   <snibTerm>
