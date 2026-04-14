@@ -1416,10 +1416,10 @@ https://www.snib.mx/diccionarioSNIB/#anexo-3</rule>
     <ordenTabla>
       <after>usvserieVII</after>
     </ordenTabla>
-    <fieldName>Cobertura de suelo para otros países </fieldName>
+    <fieldName>Cobertura del suelo para otros países </fieldName>
     <fieldid>vegetacionserenanalcms</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>Cobertura de suelo para los países de Centroamérica, Colombia y El Caribe.</description>
+    <description>Cobertura del suelo para los países de Centroamérica, Colombia y El Caribe.</description>
     <datatype>varchar (70).</datatype>
     <encoding>UTF-8</encoding>
     <notes>
