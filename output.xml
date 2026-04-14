@@ -1429,7 +1429,7 @@ https://www.snib.mx/diccionarioSNIB/#anexo-3</rule>
 <p>URL: &nbsp;<a href="https://www.biodiversidad.gob.mx/monitoreo/cobertura-suelo/baja-resolucion/SERENA" target="_blank" rel="noopener">https://www.biodiversidad.gob.mx/monitoreo/cobertura-suelo/baja-resolucion/SERENA</a></p>]]></note>
     </notes>
     <dataRules>
-      <rule>El dominio de los valores permitidos está dado por la cobertura de suelo, según el mapa de La Red Latinoamericana de Seguimiento y Estudio de los Recursos Naturales (SERENA).</rule>
+      <rule>El dominio de los valores permitidos está dado por la cobertura del suelo, según el mapa de La Red Latinoamericana de Seguimiento y Estudio de los Recursos Naturales (SERENA).</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
     <infoRules>
