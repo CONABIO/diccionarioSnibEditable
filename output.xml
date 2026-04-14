@@ -1416,10 +1416,10 @@ https://www.snib.mx/diccionarioSNIB/#anexo-3</rule>
     <ordenTabla>
       <after>usvserieVII</after>
     </ordenTabla>
-    <fieldName>Vegetación para otros países </fieldName>
+    <fieldName>Cobertura de suelo para otros países </fieldName>
     <fieldid>vegetacionserenanalcms</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>Vegetación para otros países diferentes de México.</description>
+    <description>Cobertura de suelo para los países de Centroamérica, Colombia y El Caribe.</description>
     <datatype>varchar (70).</datatype>
     <encoding>UTF-8</encoding>
     <notes>
@@ -1433,7 +1433,7 @@ https://www.snib.mx/diccionarioSNIB/#anexo-3</rule>
       <rule>El valor vacío significa que el ejemplar tiene coordenadas ubicadas fuera del área representada por el mapa o no se pudo asignar un dato por no tener coordenadas geográficas.</rule>
     </dataRules>
     <infoRules>
-      <rule>El valor sólo existe para Centroamérica, Colombia, El Caribe y Estados Unidos de América.</rule>
+      <rule>El valor sólo existe para Centroamérica, Colombia y El Caribe.</rule>
     </infoRules>
     <ejemplar>
       <key>94b054c1af9083bf771df95fdd9b5dd1</key>
