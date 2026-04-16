@@ -119,7 +119,7 @@ Información sobre Biodiversidad (SNIB), versión 2025-12 México.</formaDeCitar
       <rule>El valor está en el intervalo de -180 a 180.</rule>
       <rule>Cuando las coordenadas originales están en grados, minutos y segundos o en sistema UTM, se realiza una conversión a grados decimales; si se desconoce el valor de los segundos se asignan 30’’ para no sesgar el dato desconocido hacia los extremos (0 - 59).</rule>
       <rule>Cuando las coordenadas originales están en un datum diferente a WGS84, se transforma a WGS84.</rule>
-      <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
+      <rule>El valor nulo significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
     <syntaxRules>
       <rule>El número máximo de decimales es siete.</rule>
