@@ -1119,7 +1119,10 @@ https://www.snib.mx/diccionarioSNIB/#anexo-3</rule>
       <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre el uso de suelo y vegetaci&oacute;n serie II v&eacute;ase:</p>
 <p>INEGI. 2001. Conjunto de datos vectoriales de la carta de uso del suelo y vegetaci&oacute;n. Escala 1:250000. Serie II (continuo nacional). Direcci&oacute;n General de Geograf&iacute;a. Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica. Aguascalientes Ags. M&eacute;xico.</p>
-<p>URL: &nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=usv250ks2gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=usv250ks2gw:1@m=mixto</a></p>]]></note>
+<p>URL: &nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=usv250ks2gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=usv250ks2gw:1@m=mixto</a></p>
+<p>&nbsp;</p>
+<p>INEGI. Gu&iacute;a para la interpretaci&oacute;n de cartograf&iacute;a uso del suelo y vegetaci&oacute;n : Escala 1:250 000 : Serie I y Serie II. Instituto<br>Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico. 2005. 87 p.</p>
+<p>URL: <a href="https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/historicos/1329/702825231798/702825231798_1.pdf" target="_blank" rel="noopener">https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/historicos/1329/702825231798/702825231798_1.pdf</a></p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso del suelo y vegetación serie II del INEGI.</rule>
