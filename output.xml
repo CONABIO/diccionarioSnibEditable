@@ -1380,6 +1380,8 @@ https://www.snib.mx/diccionarioSNIB/#anexo-3</rule>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre el uso de suelo y vegetaci&oacute;n serie VII v&eacute;ase:</p>
 <p>INEGI. 2021. Conjunto de Datos Vectoriales de Uso de Suelo y Vegetaci&oacute;n. Escala 1:250 000, Serie VII. Conjunto Nacional., escala: 1:250 000. edici&oacute;n: 1. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. Aguascalientes, M&eacute;xico.</p>
 <p>URL: &nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=usv250s7gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=usv250s7gw:1@m=mixto</a></p>]]></note>
+      <note><![CDATA[<p>INEGI. Gu&iacute;a para la interpretaci&oacute;n de cartograf&iacute;a : uso del suelo y vegetaci&oacute;n : escala 1:250 000 : serie VII. INEGI, c2021. vii, 268 p.&nbsp;</p>
+<p>URL: https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/889463902836.pdf</p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie VII del INEGI.</rule>
