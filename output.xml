@@ -45,10 +45,10 @@ En la columna clasesusvseries se presenta una clasificación más general, con e
     <syntaxRules>
       <rule>Los nombres de los países están escritos en español.</rule>
       <rule>Los datos están escritos en mayúsculas y sin acentos.</rule>
-      <rule>Este campo se conforma con la concatenación de los valores de los campos país, estado y municipio.</rule>
+      <rule>Este campo se conforma a partir de la concatenación de los valores de los campos país, estado y municipio.</rule>
       <rule>Cada dato de la división política se separa con un pipe entre espacios "|" .</rule>
-      <rule>Si no se cuenta con el dato de alguna de las regiones, se indica como "NO DISPONIBLE".</rule>
-      <rule>En el caso de que el sitio de recolecta u observación del ejemplar se ubique en más de una región, los valores se separan con una coma ",".</rule>
+      <rule>Si no se cuenta con el dato de alguna de las divisiones políticas, se indica como "NO DISPONIBLE".</rule>
+      <rule>En el caso de que el sitio de recolecta u observación del ejemplar se ubique en más de una división política, los valores se separan con una coma ",".</rule>
     </syntaxRules>
     <ejemplar>
       <key>d2d26f3bc8a7741448336dd76c61086a</key>
