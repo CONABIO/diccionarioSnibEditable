@@ -1220,7 +1220,11 @@ https://www.snib.mx/diccionarioSNIB/#anexo-3</rule>
       <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre el uso de suelo y vegetaci&oacute;n serie IV v&eacute;ase:</p>
 <p>INEGI. 2009. Conjunto de datos vectoriales de la carta de uso del suelo y vegetaci&oacute;n. Escala 1:250000. Serie IV (continuo nacional). Instituto Nacional de Estad&iacute;stica, Geograf&iacute;a e Inform&aacute;tica. Aguascalientes Ags. M&eacute;xico.</p>
-<p>URL: &nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=usv250ks4gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=usv250ks4gw:1@m=mixto</a></p>]]></note>
+<p>URL: &nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=usv250ks4gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=usv250ks4gw:1@m=mixto</a></p>
+<p>&nbsp;</p>
+<p>INEGI. Gu&iacute;a para la interpretaci&oacute;n de cartograf&iacute;a : Uso del suelo y vegetaci&oacute;n : Escala 1:250, 000 : Serie IV.&nbsp;INEGI, c2012.126 p.</p>
+<p>URL: <a href="https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/geografia/publicaciones/guias-carto/sueloyveg/1_250_IV/1_250_IV.pdf" target="_blank" rel="noopener">https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/geografia/publicaciones/guias-carto/sueloyveg/1_250_IV/1_250_IV.pdf</a></p>
+<p>&nbsp;</p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso del suelo y vegetación serie IV del INEGI.</rule>
