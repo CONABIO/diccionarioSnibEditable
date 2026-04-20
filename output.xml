@@ -468,7 +468,7 @@ límite, del país registrado para el ejemplar. En este caso el dato es diferent
     <datatype>varchar (55)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO</p>]]></note>
+      <note><![CDATA[<p>Conabio realiz&oacute; un proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n a la informaci&oacute;n en este campo.</p>]]></note>
       <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en&nbsp; &nbsp;<a href="../ejemplares/descarga/" target="_blank" rel="noopener">https://www.snib.mx/ejemplares/descarga/</a></p>]]></note>
     </notes>
     <dataRules>
@@ -478,7 +478,7 @@ límite, del país registrado para el ejemplar. En este caso el dato es diferent
       <rule>El dato está escrito en mayúsculas y sin acentos.</rule>
     </syntaxRules>
     <infoRules>
-      <rule>El campo puede contener valores que no corresponden a un estado o división política equivalente.</rule>
+      <rule>Dado que la información de este campo corresponde a la reportada por el recolector u observador, puede contener valores que no corresponden a un estado o división política equivalente.</rule>
     </infoRules>
     <ejemplar>
       <key>3eff5e1231a1960f30bfbe6d32eef1f1</key>
