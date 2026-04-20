@@ -464,7 +464,7 @@ límite, del país registrado para el ejemplar. En este caso el dato es diferent
     <fieldName>Estado</fieldName>
     <fieldid>estadooriginal</fieldid>
     <dwcField>Incluido en stateProvince</dwcField>
-    <description>Nombre del estado o división política equivalente, en la que el ejemplar fue recolectado u observado.</description>
+    <description>Nombre del estado o división política equivalente, en donde el ejemplar fue recolectado u observado .</description>
     <datatype>varchar (55)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
@@ -475,7 +475,7 @@ límite, del país registrado para el ejemplar. En este caso el dato es diferent
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
+      <rule>El dato está escrito en mayúsculas y sin acentos.</rule>
     </syntaxRules>
     <infoRules>
       <rule>El campo puede contener valores que no corresponden a un estado o división política equivalente.</rule>
