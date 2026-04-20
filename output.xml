@@ -1325,7 +1325,10 @@ https://www.snib.mx/diccionarioSNIB/#anexo-3</rule>
       <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
       <note><![CDATA[<p>Para m&aacute;s informaci&oacute;n sobre el uso de suelo y vegetaci&oacute;n serie VI v&eacute;ase:</p>
 <p>INEGI. 2016. Uso de suelo y vegetaci&oacute;n, escala 1:250000, serie VI (continuo nacional), escala 1:250000. Instituto Nacional de Estad&iacute;stica y Geograf&iacute;a. M&eacute;xico.</p>
-<p>URL: &nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=usv250s6gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=usv250s6gw:1@m=mixto</a></p>]]></note>
+<p>URL: &nbsp;<a href="http://geoportal.conabio.gob.mx/#!l=usv250s6gw:1@m=mixto" target="_blank" rel="noopener">http://geoportal.conabio.gob.mx/#!l=usv250s6gw:1@m=mixto</a></p>
+<p>&nbsp;</p>
+<p>INEGI. Gu&iacute;a para la interpretaci&oacute;n de cartograf&iacute;a : uso del suelo y vegetaci&oacute;n : escala 1:250, 000 : serie VI.&nbsp;INEGI, c2017. vii, 204 p.</p>
+<p>URL: https://www.inegi.org.mx/contenidos/productos/prod_serv/contenidos/espanol/bvinegi/productos/nueva_estruc/702825092030.pdf</p>]]></note>
     </notes>
     <dataRules>
       <rule>El dominio de los valores permitidos está dado por los tipos de vegetación y uso del suelo, según el mapa uso de suelo y vegetación serie VI del INEGI.</rule>
