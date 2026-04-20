@@ -365,18 +365,18 @@ En la columna clasesusvseries se presenta una clasificación más general, con e
     <fieldName>País</fieldName>
     <fieldid>paisoriginal</fieldid>
     <dwcField>Incluido en country</dwcField>
-    <description>Nombre del país donde se ubica la localidad en la que el ejemplar fue recolectado u observado.</description>
+    <description>Nombre del país donde el ejemplar fue recolectado u observado.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note><![CDATA[<p>Campo resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
+      <note><![CDATA[<p>Este campo es resultado del proceso de limpieza, estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
       <note><![CDATA[<p>Disponible solo en la descarga de ejemplares del SNIB MX en&nbsp; &nbsp;<a href="../ejemplares/descarga/" target="_blank" rel="noopener">https://www.snib.mx/ejemplares/descarga/</a></p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que el dato no fue proporcionado en la base de datos original.</rule>
     </dataRules>
     <syntaxRules>
-      <rule>El dato está escrito en mayúsculas y sin utilizar acentos.</rule>
+      <rule>El dato está escrito en mayúsculas y sin acentos.</rule>
     </syntaxRules>
     <ejemplar>
       <key>bc9377c20bbc24ce985ef4c4e7b8cbbc</key>
