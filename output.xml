@@ -759,7 +759,7 @@ o en otro país o en aguas internacionales.</subregla></rule>
     </ordenTabla>
     <fieldName>Municipio validado</fieldName>
     <fieldid>municipiomapa</fieldid>
-    <dwcField>Incluido en county</dwcField>
+    <dwcField>county</dwcField>
     <description>Nombre del municipio o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
     <datatype>varchar (80)</datatype>
     <encoding>UTF-8</encoding>
