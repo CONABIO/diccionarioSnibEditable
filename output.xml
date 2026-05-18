@@ -461,7 +461,7 @@ límite, del país registrado para el ejemplar. En este caso el dato es diferent
     </ordenTabla>
     <fieldName>Estado</fieldName>
     <fieldid>estadooriginal</fieldid>
-    <dwcField>Incluido en stateProvince</dwcField>
+    <dwcField>Sin equivalencia</dwcField>
     <description>Nombre del estado o división política equivalente, en donde el ejemplar fue recolectado u observado .</description>
     <datatype>varchar (55)</datatype>
     <encoding>UTF-8</encoding>
