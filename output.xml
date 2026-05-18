@@ -364,7 +364,7 @@ En la columna clasesusvseries se presenta una clasificación más general, con e
     </ordenTabla>
     <fieldName>País</fieldName>
     <fieldid>paisoriginal</fieldid>
-    <dwcField>Incluido en country</dwcField>
+    <dwcField>country</dwcField>
     <description>Nombre del país donde el ejemplar fue recolectado u observado.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
