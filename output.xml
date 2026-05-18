@@ -402,7 +402,7 @@ En la columna clasesusvseries se presenta una clasificación más general, con e
     </ordenTabla>
     <fieldName>País validado</fieldName>
     <fieldid>paismapa</fieldid>
-    <dwcField>Incluido en country</dwcField>
+    <dwcField>country</dwcField>
     <description>Nombre del país donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política -incluyendo la zona económica exclusiva- utilizados para la validación geográfica realizada por la CONABIO.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
