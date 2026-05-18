@@ -721,7 +721,7 @@ o en otro país o en aguas internacionales.</subregla></rule>
     </ordenTabla>
     <fieldName>Municipio</fieldName>
     <fieldid>municipiooriginal</fieldid>
-    <dwcField>Incluido en county</dwcField>
+    <dwcField>Sin equivalencia</dwcField>
     <description>Nombre del municipio o división política equivalente en el que el ejemplar fue recolectado u observado.</description>
     <datatype>varchar (80)</datatype>
     <encoding>UTF-8</encoding>
