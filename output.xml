@@ -429,7 +429,6 @@ En la columna clasesusvseries se presenta una clasificación más general, con e
       <rule>Si el ejemplar no tiene coordenada geográfica no se asigna valor.</rule>
       <rule>Si el ejemplar tiene coordenada geográfica:<subregla>Se asigna el mismo país del campo país original cuando la coordenada se ubica dentro de los límites&#13;
 del país registrado para el ejemplar o a una distancia menor a 2 km del límite.</subregla><subregla>Se asigna el país donde se ubica la coordenada geográfica cuando está afuera, a más de 2 km del&#13;
-&#13;
 límite, del país registrado para el ejemplar. En este caso el dato es diferente al del campo país original.</subregla><subregla>Se asigna el país donde se ubica la coordenada geográfica cuando el ejemplar no tiene registrado un dato de país en el campo país original.</subregla><subregla>No se asigna valor, si se ubican en otro país o en aguas internacionales.</subregla></rule>
     </dataRules>
     <syntaxRules>
