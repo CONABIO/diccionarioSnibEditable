@@ -501,7 +501,7 @@ límite, del país registrado para el ejemplar. En este caso el dato es diferent
     </ordenTabla>
     <fieldName>Estado validado</fieldName>
     <fieldid>estadomapa</fieldid>
-    <dwcField>Incluido en stateProvince</dwcField>
+    <dwcField>stateProvince</dwcField>
     <description>Nombre del estado o división política equivalente donde se ubica la coordenada geográfica registrada para el ejemplar, respecto a los mapas de división política utilizados para la validación geográfica realizada por la CONABIO.</description>
     <datatype>varchar (50)</datatype>
     <encoding>UTF-8</encoding>
