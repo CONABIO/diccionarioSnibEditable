@@ -2910,11 +2910,11 @@ https://www.snib.mx/diccionarioSNIB/#anexo-3</rule>
     <fieldName>Nombre común</fieldName>
     <fieldid>nombrecomun</fieldid>
     <dwcField>vernacularName</dwcField>
-    <description>Nombres comunes reconocidos para el taxón el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO.</description>
+    <description>Nombres comunes reconocidos para el taxón en el Catálogo Taxonómico de la Biota en México (CAT) de la CONABIO.</description>
     <datatype>text</datatype>
     <encoding>UTF-8</encoding>
     <notes>
-      <note>&lt;p&gt;En la CONABIO hemos decidido dar preferencia a los datos de nombre com&amp;uacute;n clasificados en idioma espa&amp;ntilde;ol (tipificados as&amp;iacute; desde la base de datos origen). Pueden existir nombres comunes en otras lenguas.&lt;/p&gt;</note>
+      <note><![CDATA[<p>En la CONABIO hemos decidido dar preferencia a los datos de nombre com&uacute;n clasificados en idioma espa&ntilde;ol (tipificados as&iacute; desde la base de datos origen). Pueden existir nombres comunes en otras lenguas.</p>]]></note>
     </notes>
     <dataRules>
       <rule>El valor vacío significa que no se cuenta con información de nombre común para el taxón.</rule>
