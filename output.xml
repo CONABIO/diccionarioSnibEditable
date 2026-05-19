@@ -1595,7 +1595,7 @@ https://www.snib.mx/diccionarioSNIB/#anexo-3</rule>
     <fieldName>Ecorregiones terrestres</fieldName>
     <fieldid>ecorregionterrestremapa</fieldid>
     <dwcField>Sin equivalencia</dwcField>
-    <description>Ecorregión terretre donde se ubica la coordenada geográfica.</description>
+    <description>Ecorregión terrestre donde se ubica la coordenada geográfica.</description>
     <datatype>varchar (200)</datatype>
     <encoding>UTF-8</encoding>
     <notes>
