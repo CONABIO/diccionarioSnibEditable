@@ -1748,7 +1748,7 @@ https://www.snib.mx/diccionarioSNIB/#anexo-3</rule>
       <note><![CDATA[<p>Campo resultado del proceso de estandarizaci&oacute;n y compleci&oacute;n realizado por la CONABIO.</p>]]></note>
     </notes>
     <dataRules>
-      <rule>El valor NO DISPONIBLE significa que no se cuenta con la información taxonómica suficiente para asignar el subgrupo biológico. Por lo anterior, no existen valores vacíos o nulos.</rule>
+      <rule>El valor NO DISPONIBLE significa que no se cuenta con la información taxonómica suficiente para asignar el subgrupo biológico. No existen valores vacíos o nulos.</rule>
     </dataRules>
     <syntaxRules>
       <rule>Los valores se separan por una coma ",".</rule>
